@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      grape_soda_0: -440452212476269645
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

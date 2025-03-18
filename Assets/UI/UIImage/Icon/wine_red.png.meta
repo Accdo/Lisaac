@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      wine_red_0: -1494218211758518558
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
