@@ -166,221 +166,221 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Gut_0
+      name: Enemy- Gut_0
       rect:
         serializedVersion: 2
-        x: 4
-        y: 63
-        width: 24
-        height: 22
+        x: 0
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 56af379d00105b5a0800000000000000
-      internalID: -6506292983506929051
+      spriteID: 33923bd750c61b14d84c455b00f0d6b4
+      internalID: -634767941
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Gut_1
+      name: Enemy- Gut_1
       rect:
         serializedVersion: 2
-        x: 36
-        y: 63
-        width: 23
-        height: 21
+        x: 32
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d232b421a4a957a60800000000000000
-      internalID: 7671207183220679469
+      spriteID: 303e7bf5a11e3dc4ab04323bf57f42cc
+      internalID: 432988312
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Gut_2
+      name: Enemy- Gut_2
       rect:
         serializedVersion: 2
-        x: 69
-        y: 63
-        width: 21
-        height: 19
+        x: 64
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 76f0c2cea2985abb0800000000000000
-      internalID: -4925379800015827097
+      spriteID: cb528cff40282164d806f6f6df672053
+      internalID: -927552932
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Gut_3
+      name: Enemy- Gut_3
       rect:
         serializedVersion: 2
-        x: 102
-        y: 63
-        width: 20
-        height: 17
+        x: 96
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0f9861e7de082d970800000000000000
-      internalID: 8778220381209528816
+      spriteID: e49fa249d5343ad4b9422bb28d5783d2
+      internalID: -313691140
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Gut_4
+      name: Enemy- Gut_4
       rect:
         serializedVersion: 2
-        x: 7
-        y: 31
-        width: 19
-        height: 15
+        x: 0
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d64106bab3478ace0800000000000000
-      internalID: -1393736285044075411
+      spriteID: 25d7a53fe0451b3479788092e6a2b904
+      internalID: 1050313097
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Gut_5
+      name: Enemy- Gut_5
       rect:
         serializedVersion: 2
-        x: 40
-        y: 31
-        width: 16
-        height: 14
+        x: 32
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 70b82d4b539d896d0800000000000000
-      internalID: -2983395928442762489
+      spriteID: 3316f590cde28144abfb03489ac580df
+      internalID: -1066219304
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Gut_6
+      name: Enemy- Gut_6
       rect:
         serializedVersion: 2
-        x: 73
-        y: 31
-        width: 14
-        height: 14
+        x: 64
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 30ff3fe7e6b5da950800000000000000
-      internalID: 6461921570480979715
+      spriteID: fad94a0774fc84e448d8a9b6599408db
+      internalID: -197261691
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Gut_7
+      name: Enemy- Gut_7
       rect:
         serializedVersion: 2
-        x: 106
-        y: 31
-        width: 12
-        height: 12
+        x: 96
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d2053aa560f4c5720800000000000000
-      internalID: 2836228754045620269
+      spriteID: d91a7ea23ab41284a827f1824ad48296
+      internalID: -981151972
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Gut_8
+      name: Enemy- Gut_8
       rect:
         serializedVersion: 2
-        x: 11
+        x: 0
         y: 0
-        width: 11
-        height: 9
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1ff9dcebc6517dd90800000000000000
-      internalID: -7073161132960276495
+      spriteID: a6c19dec62958b14c8b070426066b04b
+      internalID: -1268844642
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Gut_9
+      name: Enemy- Gut_9
       rect:
         serializedVersion: 2
-        x: 43
+        x: 32
         y: 0
-        width: 9
-        height: 7
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ebd5f6792e5f98700800000000000000
-      internalID: 543235583626927550
+      spriteID: df66995b735ffa643bd9cd99bd5d998d
+      internalID: 1335361722
       vertices: []
       indices: 
       edges: []
@@ -389,7 +389,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: d54a86a7346dded44b6cd2f39362326f
     internalID: 0
     vertices: []
     indices: 
@@ -399,16 +399,16 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      PC Computer - The Binding of Isaac Rebirth - Gut_0: -6506292983506929051
-      PC Computer - The Binding of Isaac Rebirth - Gut_1: 7671207183220679469
-      PC Computer - The Binding of Isaac Rebirth - Gut_2: -4925379800015827097
-      PC Computer - The Binding of Isaac Rebirth - Gut_3: 8778220381209528816
-      PC Computer - The Binding of Isaac Rebirth - Gut_4: -1393736285044075411
-      PC Computer - The Binding of Isaac Rebirth - Gut_5: -2983395928442762489
-      PC Computer - The Binding of Isaac Rebirth - Gut_6: 6461921570480979715
-      PC Computer - The Binding of Isaac Rebirth - Gut_7: 2836228754045620269
-      PC Computer - The Binding of Isaac Rebirth - Gut_8: -7073161132960276495
-      PC Computer - The Binding of Isaac Rebirth - Gut_9: 543235583626927550
+      Enemy- Gut_0: -634767941
+      Enemy- Gut_1: 432988312
+      Enemy- Gut_2: -927552932
+      Enemy- Gut_3: -313691140
+      Enemy- Gut_4: 1050313097
+      Enemy- Gut_5: -1066219304
+      Enemy- Gut_6: -197261691
+      Enemy- Gut_7: -981151972
+      Enemy- Gut_8: -1268844642
+      Enemy- Gut_9: 1335361722
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
