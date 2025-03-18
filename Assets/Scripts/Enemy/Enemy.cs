@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public float speed = 2f;
+    public float attackSpeed = 2f;
     public GameObject bullet;
     public Transform pos;
     public float fireDelay = 2;

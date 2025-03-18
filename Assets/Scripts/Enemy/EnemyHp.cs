@@ -6,11 +6,13 @@ public class EnemyHp : MonoBehaviour
     public int maxHp = 1;
     public int currentHp;
     [SerializeField] private GameObject[] dorpItems;
+    private EnemyShrink enemyShrink;
 
 
     void Start()
     {
         currentHp = maxHp;
+        enemyShrink = GetComponent<EnemyShrink>();
     }
     void OnTriggerEnter2D(Collider2D collision)
     {
@@ -28,6 +30,13 @@ public class EnemyHp : MonoBehaviour
         {
             currentHp = 0;
             Die();
+        }
+        else
+        {
+            if (enemyShrink != null)
+            {
+                enemyShrink.UpdateSprite(maxHp - currentHp);
+            }
         }
 
     }
