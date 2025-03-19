@@ -198,7 +198,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PC Computer - The Binding of Isaac Rebirth - Wall Hugger_0: 1031834803242500376
+      PC Computer - The Binding of Isaac Rebirth - Wall Hugger_1: -1449092610078330713
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
