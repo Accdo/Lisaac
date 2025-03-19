@@ -46,9 +46,20 @@ public class PlayerHP : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Enemy") || collision.CompareTag("Boss"))
+
+        if (collision.CompareTag("EnemyBullet"))
+        {
+            int damage = collision.gameObject.GetComponent<EnemyBullet>().damage;
+            TakeDamage(damage);
+        }
+    }
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Enemy") || collision.gameObject.CompareTag("Boss"))
         {
             TakeDamage(1);
         }
     }
+
+
 }

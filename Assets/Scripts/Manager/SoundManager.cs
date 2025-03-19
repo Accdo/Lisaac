@@ -16,6 +16,8 @@ public class SoundManager : MonoBehaviour
     [SerializeField] private AudioClip pickupCoin;
     [SerializeField] private AudioClip step;
     [SerializeField] private AudioClip playerHurt;
+    [SerializeField] private AudioClip playerChargingBulletShoot;
+    [SerializeField] private AudioClip bloodHit;
 
 
 
@@ -87,5 +89,16 @@ public class SoundManager : MonoBehaviour
     {
         myAudio.PlayOneShot(playerHurt);
     }
+    public void PlayerChargingBulletShoot()
+    {
+        myAudio.PlayOneShot(playerChargingBulletShoot);
+    }
+
+    public void BloodHit()
+    {
+        myAudio.PlayOneShot(bloodHit);
+
+    }
+
 
 }
