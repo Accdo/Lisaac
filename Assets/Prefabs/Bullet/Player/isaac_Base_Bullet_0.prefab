@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 4004585996356586805}
   - component: {fileID: 720645205609528110}
   - component: {fileID: 4567171611890014110}
-  - component: {fileID: 1805913735932118077}
+  - component: {fileID: -6778109571391578693}
   m_Layer: 0
-  m_Name: isaacBullet_0
+  m_Name: isaac_Base_Bullet_0
   m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -153,7 +153,7 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.1171875
---- !u!114 &1805913735932118077
+--- !u!114 &-6778109571391578693
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -162,9 +162,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 6888087663480581437}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d09706649b550854f959257d69d0e6c5, type: 3}
+  m_Script: {fileID: 11500000, guid: 23a1c0cbd43e723429400815e2076991, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 8
   damage: 1
+  speed: 5
   dieBulletAnim: {fileID: 6824521092220517441, guid: 5b4b34d43d5669047ac98a5ae38a67fb, type: 3}

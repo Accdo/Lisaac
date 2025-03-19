@@ -11,6 +11,8 @@ public class PlayerAnimation : MonoBehaviour
     private readonly int attackX = Animator.StringToHash("AttackX");
     private readonly int attackY = Animator.StringToHash("AttackY");
     private readonly int attacking = Animator.StringToHash("Attack");
+    private readonly int charging = Animator.StringToHash("Charging");
+    private readonly int chargingShoot = Animator.StringToHash("ChargingShoot");
 
     private Animator bodyAnimator;
     private Animator headAnimator;
@@ -29,7 +31,7 @@ public class PlayerAnimation : MonoBehaviour
     public void SetMoveBoolTransition(bool value)
     {
         bodyAnimator.SetBool(moving, value);
-        headAnimator.SetBool(moving, value);
+        // headAnimator.SetBool(moving, value);
     }
 
     public void SetMoveAnimation(Vector2 dir)
@@ -49,6 +51,17 @@ public class PlayerAnimation : MonoBehaviour
         headAnimator.SetFloat(attackY, dir.y);
 
     }
+
+    public void SetBoolChargingTransition(bool value)
+    {
+        headAnimator.SetBool(charging, value);
+    }
+    public void SetBoolChargingShoot(bool value)
+    {
+        headAnimator.SetBool(chargingShoot, value);
+    }
+
+
 
 
     public void ResetPlayer()
