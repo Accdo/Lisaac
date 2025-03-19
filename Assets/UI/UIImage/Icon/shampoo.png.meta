@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      shampoo_0: 2306597075769305942
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
