@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      aluminum_foil_0: 819332239516582316
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
