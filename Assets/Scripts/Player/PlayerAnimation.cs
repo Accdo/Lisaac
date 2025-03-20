@@ -56,9 +56,9 @@ public class PlayerAnimation : MonoBehaviour
     {
         headAnimator.SetBool(charging, value);
     }
-    public void SetBoolChargingShoot(bool value)
+    public void SetBoolChargingShoot()
     {
-        headAnimator.SetBool(chargingShoot, value);
+        headAnimator.SetTrigger(chargingShoot);
     }
 
 

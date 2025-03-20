@@ -201,7 +201,7 @@ public class PlayerAttack : MonoBehaviour
             {
                 FireBullet();
                 Debug.Log("발사 ");
-                playerAnimation.SetBoolChargingShoot(true);
+                playerAnimation.SetBoolChargingShoot();
                 Debug.Log("발사 애니메이션 출력");
                 StartCoroutine(ResetChargingShootAnimation());
 
@@ -221,7 +221,7 @@ public class PlayerAttack : MonoBehaviour
     IEnumerator ResetChargingShootAnimation()
     {
         yield return new WaitForSeconds(2.0f); // 차징샷 발사 후 2초 후 자동으로 끄기
-        playerAnimation.SetBoolChargingShoot(false);
+
     }
 
 
