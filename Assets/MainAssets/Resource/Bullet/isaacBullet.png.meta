@@ -823,7 +823,34 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      isaacBullet_0: 7996458414157136203
+      isaacBullet_1: -8024572031627896428
+      isaacBullet_10: 450902400749464615
+      isaacBullet_11: -338588034423317778
+      isaacBullet_12: -5793538546698198910
+      isaacBullet_13: -1826348276603632976
+      isaacBullet_14: 7418143967919367520
+      isaacBullet_15: 2611873553303251974
+      isaacBullet_16: 5633677583680556449
+      isaacBullet_17: -6750846064165438183
+      isaacBullet_18: -7782599113790788240
+      isaacBullet_19: 4857196931424072373
+      isaacBullet_2: -4890504714813090391
+      isaacBullet_20: -7225142377093082017
+      isaacBullet_21: 6423271878481448184
+      isaacBullet_22: 7403161188174498142
+      isaacBullet_23: -5656086204343787914
+      isaacBullet_24: 5662506299178450922
+      isaacBullet_25: 5708586950119744936
+      isaacBullet_26: -5639278922205901767
+      isaacBullet_3: -8092032307703406289
+      isaacBullet_4: -7730929462231363362
+      isaacBullet_5: 644851271771608858
+      isaacBullet_6: -6908439361452294747
+      isaacBullet_7: 7227902645566998858
+      isaacBullet_8: -2596267062980931996
+      isaacBullet_9: 6516917550301819018
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

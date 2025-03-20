@@ -823,7 +823,34 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      enemyBullet_0: -3080481381580708672
+      enemyBullet_1: 4435682618385739268
+      enemyBullet_10: -6853283097096461904
+      enemyBullet_11: -1704347792664962441
+      enemyBullet_12: 617921144807792982
+      enemyBullet_13: -357345113161678668
+      enemyBullet_14: 2363370322677178496
+      enemyBullet_15: -8161716795365657283
+      enemyBullet_16: -7093312675602375611
+      enemyBullet_17: 145596690592228274
+      enemyBullet_18: 7452812496666220034
+      enemyBullet_19: -2594669405014896103
+      enemyBullet_2: 7532806992649474496
+      enemyBullet_20: -4710667054568700794
+      enemyBullet_21: 1788039574344210213
+      enemyBullet_22: 1122247635605736065
+      enemyBullet_23: -6669119701117581285
+      enemyBullet_24: 574969183407823204
+      enemyBullet_25: -3919216298220462311
+      enemyBullet_26: 6177377149540260522
+      enemyBullet_3: 242354821666810844
+      enemyBullet_4: -6948354236819413822
+      enemyBullet_5: -223160691709884193
+      enemyBullet_6: -4453596537569178345
+      enemyBullet_7: -4553844349759980690
+      enemyBullet_8: 2065344341215902388
+      enemyBullet_9: 3489909075767810397
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

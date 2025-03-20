@@ -398,7 +398,17 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Enemy- Gut_0: 2912625516576397483
+      Enemy- Gut_1: -3247836507066048726
+      Enemy- Gut_2: -8612717881823601347
+      Enemy- Gut_3: 3903672147476340349
+      Enemy- Gut_4: 7338048156051558025
+      Enemy- Gut_5: -6003911060873663954
+      Enemy- Gut_6: 4640984865159097876
+      Enemy- Gut_7: 4004542262449451313
+      Enemy- Gut_8: -1778839742595669302
+      Enemy- Gut_9: -7559657513000480010
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
