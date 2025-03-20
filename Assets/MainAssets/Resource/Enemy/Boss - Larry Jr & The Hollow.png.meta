@@ -1,0 +1,1156 @@
+fileFormatVersion: 2
+guid: 65c9e67697374fb419a372256ad55c59
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6615783280667476869
+    second: Boss - Larry Jr & The Hollow_0
+  - first:
+      213: 1847741825083298163
+    second: Boss - Larry Jr & The Hollow_1
+  - first:
+      213: -8434509097076593297
+    second: Boss - Larry Jr & The Hollow_2
+  - first:
+      213: -7869420147776070957
+    second: Boss - Larry Jr & The Hollow_3
+  - first:
+      213: -9117040848563682575
+    second: Boss - Larry Jr & The Hollow_4
+  - first:
+      213: 7951016363491622195
+    second: Boss - Larry Jr & The Hollow_5
+  - first:
+      213: 3976295777405664479
+    second: Boss - Larry Jr & The Hollow_6
+  - first:
+      213: 695434671707427101
+    second: Boss - Larry Jr & The Hollow_7
+  - first:
+      213: 5725793641419198167
+    second: Boss - Larry Jr & The Hollow_8
+  - first:
+      213: -3476599954604198731
+    second: Boss - Larry Jr & The Hollow_9
+  - first:
+      213: -9123644479313343438
+    second: Boss - Larry Jr & The Hollow_10
+  - first:
+      213: 1949009091673960365
+    second: Boss - Larry Jr & The Hollow_11
+  - first:
+      213: -9082086863678125568
+    second: Boss - Larry Jr & The Hollow_12
+  - first:
+      213: 6423509009966740963
+    second: Boss - Larry Jr & The Hollow_13
+  - first:
+      213: 2798900406670817962
+    second: Boss - Larry Jr & The Hollow_14
+  - first:
+      213: -6631713835967949687
+    second: Boss - Larry Jr & The Hollow_15
+  - first:
+      213: 5090150860166499906
+    second: Boss - Larry Jr & The Hollow_16
+  - first:
+      213: 8871945651950120881
+    second: Boss - Larry Jr & The Hollow_17
+  - first:
+      213: -357889447863977017
+    second: Boss - Larry Jr & The Hollow_18
+  - first:
+      213: 9155421568073978206
+    second: Boss - Larry Jr & The Hollow_19
+  - first:
+      213: 800402588027228456
+    second: Boss - Larry Jr & The Hollow_20
+  - first:
+      213: -4218844945701479846
+    second: Boss - Larry Jr & The Hollow_21
+  - first:
+      213: 6375104887547093104
+    second: Boss - Larry Jr & The Hollow_22
+  - first:
+      213: -500776189811140118
+    second: Boss - Larry Jr & The Hollow_23
+  - first:
+      213: -8543913802979802830
+    second: Boss - Larry Jr & The Hollow_24
+  - first:
+      213: 2485320120853247658
+    second: Boss - Larry Jr & The Hollow_25
+  - first:
+      213: -655031266790438271
+    second: Boss - Larry Jr & The Hollow_26
+  - first:
+      213: -5154702662270935882
+    second: Boss - Larry Jr & The Hollow_27
+  - first:
+      213: -4749354352490817611
+    second: Boss - Larry Jr & The Hollow_28
+  - first:
+      213: 410454450217436001
+    second: Boss - Larry Jr & The Hollow_29
+  - first:
+      213: 4837647769386098263
+    second: Boss - Larry Jr & The Hollow_30
+  - first:
+      213: 4069052117945617374
+    second: Boss - Larry Jr & The Hollow_31
+  - first:
+      213: -2730424636106415485
+    second: Boss - Larry Jr & The Hollow_32
+  - first:
+      213: -8161256520582590873
+    second: Boss - Larry Jr & The Hollow_33
+  - first:
+      213: 1530736137618019433
+    second: Boss - Larry Jr & The Hollow_34
+  - first:
+      213: 8732450296008599560
+    second: Boss - Larry Jr & The Hollow_35
+  - first:
+      213: -6419521480598923364
+    second: Boss - Larry Jr & The Hollow_36
+  - first:
+      213: 683394451515127197
+    second: Boss - Larry Jr & The Hollow_37
+  - first:
+      213: -7563872824125050397
+    second: Boss - Larry Jr & The Hollow_38
+  - first:
+      213: -4134090865490013366
+    second: Boss - Larry Jr & The Hollow_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Boss - Larry Jr & The Hollow_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 477
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 583472387dbffcb50800000000000000
+      internalID: 6615783280667476869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss - Larry Jr & The Hollow_1
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 477
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 371d8b0766f74a910800000000000000
+      internalID: 1847741825083298163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss - Larry Jr & The Hollow_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 477
+        width: 39
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6de2f50aaa92fa80800000000000000
+      internalID: -8434509097076593297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss - Larry Jr & The Hollow_3
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 474
+        width: 37
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3da518fc1143ac290800000000000000
+      internalID: -7869420147776070957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss - Larry Jr & The Hollow_4
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 474
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f2c2a207a3c97180800000000000000
+      internalID: -9117040848563682575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss - Larry Jr & The Hollow_5
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 477
+        width: 39
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33d7c3d914fa75e60800000000000000
+      internalID: 7951016363491622195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss - Larry Jr & The Hollow_6
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 429
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdc762631f3ae2730800000000000000
+      internalID: 3976295777405664479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss - Larry Jr & The Hollow_7
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 429
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d119c9b362ea6a900800000000000000
+      internalID: 695434671707427101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss - Larry Jr & The Hollow_8
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 429
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7de4bf5fafa167f40800000000000000
+      internalID: 5725793641419198167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss - Larry Jr & The Hollow_9
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 426
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b47da7d2c2a0cfc0800000000000000
+      internalID: -3476599954604198731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss - Larry Jr & The Hollow_10
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 426
+        width: 37
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23c03996fad426180800000000000000
+      internalID: -9123644479313343438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss - Larry Jr & The Hollow_11
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 429
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dafab3d41754c0b10800000000000000
+      internalID: 1949009091673960365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss - Larry Jr & The Hollow_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 395
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00a493fcd12f5f180800000000000000
+      internalID: -9082086863678125568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss - Larry Jr & The Hollow_13
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 395
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e5b69e4963e42950800000000000000
+      internalID: 6423509009966740963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss - Larry Jr & The Hollow_14
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 395
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaa7f453711b7d620800000000000000
+      internalID: 2798900406670817962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss - Larry Jr & The Hollow_15
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 395
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 984561b076b67f3a0800000000000000
+      internalID: -6631713835967949687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss - Larry Jr & The Hollow_16
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 395
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24e8f511d39d3a640800000000000000
+      internalID: 5090150860166499906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss - Larry Jr & The Hollow_17
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 395
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bfee0b909b7f1b70800000000000000
+      internalID: 8871945651950120881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss - Larry Jr & The Hollow_18
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 395
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cbf43f7175880bf0800000000000000
+      internalID: -357889447863977017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss - Larry Jr & The Hollow_19
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 395
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e51dffd98679e0f70800000000000000
+      internalID: 9155421568073978206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss - Larry Jr & The Hollow_20
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 363
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8219aa0c9e99b1b00800000000000000
+      internalID: 800402588027228456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss - Larry Jr & The Hollow_21
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 363
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5ad201dfd6a375c0800000000000000
+      internalID: -4218844945701479846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss - Larry Jr & The Hollow_22
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 363
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 070e9145e1ce87850800000000000000
+      internalID: 6375104887547093104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss - Larry Jr & The Hollow_23
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 363
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae9555665b2ec09f0800000000000000
+      internalID: -500776189811140118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss - Larry Jr & The Hollow_24
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 363
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23105dde9abed6980800000000000000
+      internalID: -8543913802979802830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss - Larry Jr & The Hollow_25
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 363
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa6b69c6b71ad7220800000000000000
+      internalID: 2485320120853247658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss - Larry Jr & The Hollow_26
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 363
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18a8e2a888cd8e6f0800000000000000
+      internalID: -655031266790438271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss - Larry Jr & The Hollow_27
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 363
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bc949c4d31d678b0800000000000000
+      internalID: -5154702662270935882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss - Larry Jr & The Hollow_28
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 204
+        width: 116
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b7545b2167e61eb0800000000000000
+      internalID: -4749354352490817611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss - Larry Jr & The Hollow_29
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 250
+        width: 67
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16340b5d52a32b500800000000000000
+      internalID: 410454450217436001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss - Larry Jr & The Hollow_30
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 249
+        width: 83
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75e18bae307c22340800000000000000
+      internalID: 4837647769386098263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss - Larry Jr & The Hollow_31
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 255
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edb03bea75d287830800000000000000
+      internalID: 4069052117945617374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss - Larry Jr & The Hollow_32
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 252
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 382e6e682459b1ad0800000000000000
+      internalID: -2730424636106415485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss - Larry Jr & The Hollow_33
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 258
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76e85d94f646dbe80800000000000000
+      internalID: -8161256520582590873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss - Larry Jr & The Hollow_34
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 207
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 964539f28644e3510800000000000000
+      internalID: 1530736137618019433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss - Larry Jr & The Hollow_35
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 27
+        width: 125
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 808e8581745ef2970800000000000000
+      internalID: 8732450296008599560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss - Larry Jr & The Hollow_36
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 73
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9759e8b93749e6a0800000000000000
+      internalID: -6419521480598923364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss - Larry Jr & The Hollow_37
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 100
+        width: 31
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d95380402a7eb7900800000000000000
+      internalID: 683394451515127197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss - Larry Jr & The Hollow_38
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 77
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e1bbc7ddb9b70790800000000000000
+      internalID: -7563872824125050397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss - Larry Jr & The Hollow_39
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 72
+        width: 79
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a43d74dd242c0a6c0800000000000000
+      internalID: -4134090865490013366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
