@@ -8,10 +8,9 @@ public class PlayerHP : MonoBehaviour
     private HealthUI healthUI;
 
     SpriteRenderer body_sprite;
-    public SpriteRenderer head_sprite;
+    SpriteRenderer head_sprite;
 
     Vector3 BeforePos;
-    Rigidbody2D rb;
 
     void Start()
     {
@@ -20,7 +19,7 @@ public class PlayerHP : MonoBehaviour
         healthUI.UpdateHearts(currentHp, maxHp);
 
         body_sprite = GetComponent<SpriteRenderer>();
-        rb = GetComponent<Rigidbody2D>();
+        head_sprite = transform.GetChild(0).GetComponent<SpriteRenderer>();
 
         StartCoroutine(SavePosition());
     }
@@ -96,7 +95,6 @@ public class PlayerHP : MonoBehaviour
 
     IEnumerator FlickPlayer()
     {
-        rb.constraints = RigidbodyConstraints2D.FreezePosition;
         for (int i = 0; i < 3; i++)
         {
             body_sprite.color = new Color(1, 1, 1, 0);
@@ -106,8 +104,6 @@ public class PlayerHP : MonoBehaviour
             head_sprite.color = new Color(1, 1, 1, 1);
             yield return new WaitForSeconds(0.1f);
         }
-        rb.constraints = RigidbodyConstraints2D.None;
-        rb.constraints = RigidbodyConstraints2D.FreezeRotation;
     }
 
 

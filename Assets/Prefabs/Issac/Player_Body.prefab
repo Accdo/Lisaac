@@ -252,7 +252,7 @@ Animator:
   m_GameObject: {fileID: 3289666899660453751}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8419ec43037ff4e4eb2ab41336df2f04, type: 2}
+  m_Controller: {fileID: 9100000, guid: 60188c38f5083904aaa4c3c30b3dd6ef, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -276,18 +276,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ae2e810e4599da4ea6ec522b56f1065, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 6888087663480581437, guid: f2d637872a8140841bba89273d82d125, type: 3}
   playerAnimation: {fileID: 8148250342914051161}
   attackPositions:
   - {fileID: 3021650562139650820}
   - {fileID: 6755786497357797857}
   - {fileID: 7654705192060980775}
   - {fileID: 1994439277982240144}
-  playerBullet:
-  - {fileID: -6778109571391578693, guid: 34d387bc9ebe69f4e9c9e53b0d3dcfe5, type: 3}
-  - {fileID: 7288951339153280229, guid: ac84b5b875ea4404682e5e83fdac5af4, type: 3}
   fireRate: 0.2
   maxChargeTime: 1
-  currentBulletIndex: 1
   currentAttckPosition: {fileID: 0}
   chargeTime: 0
   chargeItemIndex: 1
@@ -576,6 +573,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHp: 15
   currentHp: 0
+  head_sprite: {fileID: 0}
 --- !u!114 &8482517757583541278
 MonoBehaviour:
   m_ObjectHideFlags: 0
