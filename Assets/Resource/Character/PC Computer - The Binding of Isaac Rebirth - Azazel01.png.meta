@@ -1225,7 +1225,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_36
+      name: 8
       rect:
         serializedVersion: 2
         x: 775
@@ -1247,7 +1247,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_37
+      name: 7
       rect:
         serializedVersion: 2
         x: 809
@@ -1269,7 +1269,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_38
+      name: 6
       rect:
         serializedVersion: 2
         x: 841
@@ -1291,7 +1291,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_39
+      name: 5
       rect:
         serializedVersion: 2
         x: 872
@@ -1313,7 +1313,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_40
+      name: 4
       rect:
         serializedVersion: 2
         x: 904
@@ -1335,7 +1335,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_41
+      name: 3
       rect:
         serializedVersion: 2
         x: 937
@@ -1357,7 +1357,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_42
+      name: 2
       rect:
         serializedVersion: 2
         x: 969
@@ -1379,7 +1379,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_43
+      name: 1
       rect:
         serializedVersion: 2
         x: 1000
@@ -1445,7 +1445,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_46
+      name: 10
       rect:
         serializedVersion: 2
         x: 967
@@ -1467,7 +1467,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_47
+      name: 9
       rect:
         serializedVersion: 2
         x: 999
@@ -2690,6 +2690,16 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      1: 6618006661106733350
+      10: 1184816703249734533
+      2: -9024688615253591409
+      3: -8073747007203297188
+      4: -953138706764850739
+      5: -1181113536566081759
+      6: 4384783087096793003
+      7: -3048082685205683249
+      8: 2173473704435927509
+      9: -773725087761680582
       PC Computer - The Binding of Isaac Rebirth - Azazel01_0: -4149340273107812855
       PC Computer - The Binding of Isaac Rebirth - Azazel01_1: 4545356995164326939
       PC Computer - The Binding of Isaac Rebirth - Azazel01_10: 6530925693813708026
@@ -2722,19 +2732,9 @@ TextureImporter:
       PC Computer - The Binding of Isaac Rebirth - Azazel01_33: -5432590273011564959
       PC Computer - The Binding of Isaac Rebirth - Azazel01_34: 7581086242140212799
       PC Computer - The Binding of Isaac Rebirth - Azazel01_35: 4349935711777495439
-      PC Computer - The Binding of Isaac Rebirth - Azazel01_36: 2173473704435927509
-      PC Computer - The Binding of Isaac Rebirth - Azazel01_37: -3048082685205683249
-      PC Computer - The Binding of Isaac Rebirth - Azazel01_38: 4384783087096793003
-      PC Computer - The Binding of Isaac Rebirth - Azazel01_39: -1181113536566081759
       PC Computer - The Binding of Isaac Rebirth - Azazel01_4: 8505831907384354923
-      PC Computer - The Binding of Isaac Rebirth - Azazel01_40: -953138706764850739
-      PC Computer - The Binding of Isaac Rebirth - Azazel01_41: -8073747007203297188
-      PC Computer - The Binding of Isaac Rebirth - Azazel01_42: -9024688615253591409
-      PC Computer - The Binding of Isaac Rebirth - Azazel01_43: 6618006661106733350
       PC Computer - The Binding of Isaac Rebirth - Azazel01_44: -2508227012141011573
       PC Computer - The Binding of Isaac Rebirth - Azazel01_45: -9191355903769900427
-      PC Computer - The Binding of Isaac Rebirth - Azazel01_46: 1184816703249734533
-      PC Computer - The Binding of Isaac Rebirth - Azazel01_47: -773725087761680582
       PC Computer - The Binding of Isaac Rebirth - Azazel01_48: 2995248373394063884
       PC Computer - The Binding of Isaac Rebirth - Azazel01_49: 5864759482876026372
       PC Computer - The Binding of Isaac Rebirth - Azazel01_50: -6114349193460422126

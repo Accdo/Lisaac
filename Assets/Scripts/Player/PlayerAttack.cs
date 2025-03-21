@@ -177,12 +177,11 @@ public class PlayerAttack : MonoBehaviour
     {
         if (currentShotType == ShotType.Charged)
         {
-            if (!isCharging)
-            {
-                isCharging = true;
-                chargeTime = 0f;
-                playerAnimation.SetBoolChargingTransition(true);
-            }
+
+            isCharging = true;
+            chargeTime = 0f;
+            playerAnimation.SetBoolChargingTransition(true);
+
 
         }
         else
@@ -199,6 +198,7 @@ public class PlayerAttack : MonoBehaviour
             Debug.Log("챠징중중");
             if (isCharging && chargeTime >= maxChargeTime)
             {
+
                 FireBullet();
                 Debug.Log("발사 ");
                 playerAnimation.SetBoolChargingShoot();
@@ -221,6 +221,7 @@ public class PlayerAttack : MonoBehaviour
     IEnumerator ResetChargingShootAnimation()
     {
         yield return new WaitForSeconds(2.0f); // 차징샷 발사 후 2초 후 자동으로 끄기
+
 
     }
 
