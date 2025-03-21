@@ -10,9 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2857457389673121812}
   - component: {fileID: 5910167332825399989}
-  - component: {fileID: 3333247604359870077}
   - component: {fileID: 3656879604811092789}
-  - component: {fileID: 6699565637636593003}
+  - component: {fileID: 5375906000886459153}
   m_Layer: 0
   m_Name: DoorRight
   m_TagString: Untagged
@@ -79,7 +78,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 4744073622485524861, guid: a9215b68fa00dfb48b4b92e0c1af2aa6, type: 3}
+  m_Sprite: {fileID: 2506073802342575783, guid: a9215b68fa00dfb48b4b92e0c1af2aa6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -90,28 +89,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &3333247604359870077
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5290434903491868530}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 4462c2b3d5e1d1e4c8b470e535c8e860, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!61 &3656879604811092789
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -158,7 +135,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.63897645, y: 0.5614446}
   m_EdgeRadius: 0
---- !u!114 &6699565637636593003
+--- !u!114 &5375906000886459153
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -167,7 +144,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 5290434903491868530}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab144e60ec0f8e041a95eccb2faef16e, type: 3}
+  m_Script: {fileID: 11500000, guid: 17698dd6ded1c6549b12779ba5cfc3c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  doorLocation: 3
+  openDoor: {fileID: 2506073802342575783, guid: a9215b68fa00dfb48b4b92e0c1af2aa6, type: 3}
+  closeDoor: {fileID: 4744073622485524861, guid: a9215b68fa00dfb48b4b92e0c1af2aa6, type: 3}
