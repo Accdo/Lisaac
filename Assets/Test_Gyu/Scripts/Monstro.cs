@@ -1,11 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
-using Unity.VisualScripting;
 
 public class Monstro : MonoBehaviour
 {
     public GameObject player;
     public GameObject bullet;
+    public Transform body;
 
     private SpriteRenderer sr;
     private Animator ani;
@@ -15,14 +15,14 @@ public class Monstro : MonoBehaviour
 
     void Start()
     {
-        sr = GetComponent<SpriteRenderer>();
-        ani = GetComponent<Animator>();
+        sr = body.GetComponent<SpriteRenderer>();
+        ani = body.GetComponent<Animator>();
         originalColor = sr.color;
 
         StartCoroutine(BossRoutine());
     }
 
-    // 피격 상태
+    // 피격 상태 (단일)
     void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Bullet") && !isFlashing)
@@ -31,6 +31,7 @@ public class Monstro : MonoBehaviour
         }
     }
 
+    // 피격 상태(지속)
     void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.CompareTag("Bullet") && !isFlashing)
@@ -39,6 +40,7 @@ public class Monstro : MonoBehaviour
         }
     }
 
+    // 색상 변경 코루틴
     IEnumerator FlashColor(Color flashColor, float duration)
     {
         // 피격 상태에서 색상 변경
@@ -49,13 +51,13 @@ public class Monstro : MonoBehaviour
         isFlashing = false;
     }
 
-    // 랜덤 공격
+    // 랜덤 모션 코루틴
     IEnumerator BossRoutine()
     {
         while (true)
         {
             player = GameObject.FindGameObjectWithTag("Player"); // 플레이어 찾기
-            yield return new WaitForSeconds(1);
+            yield return new WaitForSeconds(1f);
 
             int rand = Random.Range(1, 4);
             switch (rand)
@@ -63,26 +65,31 @@ public class Monstro : MonoBehaviour
                 case 1:
                     Debug.Log("보스 이동");
                     ani.SetTrigger("Move"); // 트리거 설정
+                    StartCoroutine(Move());
                     break;
                 case 2:
                     Debug.Log("보스 공격");
                     ani.SetTrigger("Attack"); // 트리거 설정
+                    StartCoroutine(Attack());
                     break;
                 case 3:
                     Debug.Log("보스 점프");
                     ani.SetTrigger("Jump"); // 트리거 설정
                     break;
             }
+
+            yield return new WaitForSeconds(1f);
         }
     }
 
     // 공격 코루틴
     IEnumerator Attack()
     {
-        ani.speed = 0; // 애니메이션 정지
+        yield return new WaitForSeconds(.5f);
+
+        ani.speed = 0f; // 애니메이션 정지
 
         Vector2 dirToPlayer = (player.transform.position - transform.position).normalized; // 방향 찾기
-
         float centerAngle = Mathf.Atan2(dirToPlayer.y, dirToPlayer.x) * Mathf.Rad2Deg; // 각도로 변환
 
         int bulletCount = Random.Range(6, 9); // 6~8발
@@ -113,13 +120,14 @@ public class Monstro : MonoBehaviour
             yield return new WaitForSeconds(0.1f);
         }
 
-        ani.speed = 1; // 애니메이션 시작
+        ani.speed = 1f; // 애니메이션 시작
     }
 
     // 이동 코루틴
     IEnumerator Move()
     {
-        float duration = ani.GetCurrentAnimatorStateInfo(0).length;
+        float duration = ani.GetCurrentAnimatorStateInfo(0).length; // 애니메이션 길이
+
         if (duration <= 0f) duration = 1.0f;
 
         float timer = 0f;
@@ -128,6 +136,8 @@ public class Monstro : MonoBehaviour
         float yOffsetBase = -0.1f; // 시작·끝의 Y 오프셋
         float amplitude = (jumpHeight - yOffsetBase); // 진폭
 
+        Vector2 originPos = body.localPosition; // 원래 위치 저장
+
         while (timer < duration)
         {
             if (player != null)
@@ -135,17 +145,14 @@ public class Monstro : MonoBehaviour
                 Vector2 direction = (player.transform.position - transform.position).normalized;
 
                 // 좌우 반전 처리
-                sr.flipX = direction.x >= 0;
+                sr.flipX = direction.x >= 0f;
 
                 // Sin 곡선 기반 Y 오프셋
                 float t = timer / duration; // [0 ~ 1]
                 float yOffset = Mathf.Sin(t * Mathf.PI) * amplitude + yOffsetBase;
 
                 // 최종 이동 방향 + Y 보간
-                Vector2 moveDirection = direction + new Vector2(0f, yOffset);
-                moveDirection.Normalize();
-
-                transform.Translate(moveDirection * Time.deltaTime);
+                body.transform.position += new Vector3(0f, yOffset); // 오직 시각적 Y 오프셋만
             }
 
             timer += Time.deltaTime;
