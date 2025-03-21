@@ -77,7 +77,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1792211575
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: -3080481381580708672, guid: eeeab331135603048b0210ab81f17e78, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -168,4 +168,4 @@ MonoBehaviour:
   player: {fileID: 0}
   speed: 3
   damage: 1
-  dieBulletAnim: {fileID: 3683216375324272939, guid: d81f57bd5cc21a24485c3ec38d90aff9, type: 3}
+  dieBulletAnim: {fileID: 3683216375324272939, guid: 0226e3e52622bb043bdc78f13443f0ab, type: 3}

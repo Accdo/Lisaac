@@ -16,4 +16,4 @@ MonoBehaviour:
   bodyAnimatorController: {fileID: 9100000, guid: 94c48aa36bd6f5547a0e33c1cd9aa045, type: 2}
   headAnimatorController: {fileID: 9100000, guid: 386671da571feca48914b3f6f7996430, type: 2}
   shotType: 1
-  bulletPrefab: {fileID: 284194779369177988, guid: ac84b5b875ea4404682e5e83fdac5af4, type: 3}
+  bulletPrefab: {fileID: 284194779369177988, guid: 7d03ffb3fc864fb45a1be12300d80b12, type: 3}
