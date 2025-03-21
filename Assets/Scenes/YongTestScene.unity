@@ -169,7 +169,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ae2e810e4599da4ea6ec522b56f1065, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 6888087663480581437, guid: 34d387bc9ebe69f4e9c9e53b0d3dcfe5, type: 3}
+  bulletPrefab: {fileID: 6888087663480581437, guid: f2d637872a8140841bba89273d82d125, type: 3}
   playerAnimation: {fileID: 88101060}
   attackPositions:
   - {fileID: 868340660}
@@ -1362,7 +1362,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5e68244443d2f443a3f33dd0c3133b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  heartPrefab: {fileID: 618502857349430084, guid: 6adc48600f6c49e4cb38bafa3b1c0fbd, type: 3}
+  heartPrefab: {fileID: 618502857349430084, guid: 643e5bf614ea83840a95be11a14e1973, type: 3}
   heartContainer: {fileID: 273747335}
   fullHeart: {fileID: 346351666, guid: 4fa98175aeb636645b528f73279c23f5, type: 3}
   halfHeart: {fileID: 455900294, guid: 4fa98175aeb636645b528f73279c23f5, type: 3}
