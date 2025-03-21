@@ -1,30 +1,21 @@
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class Door : MonoBehaviour
+public abstract class Door : MonoBehaviour
 {
-    [SerializeField]
-    private Sprite openDoor;
+	protected const float PADDINGX = 100;
+	protected const float PADDINGY = 100;
+
 	[SerializeField]
-	private Sprite closeDoor;
+    protected Sprite openDoor;
+	[SerializeField]
+	protected Sprite closeDoor;
 
-	private bool isOpen = false;
-    private BoxCollider2D col;
-    private SpriteRenderer spRender;
+	protected bool isOpen = false;
+	protected BoxCollider2D col;
+	protected SpriteRenderer spRender;
 
-    void Start()
-    {
-        col = GetComponent<BoxCollider2D>();
-		spRender = GetComponent<SpriteRenderer>();
-    }
-
-    void Update()
-    {
-        RoomManager.Instance.CheckMonster();
-        DoorCheck();
-	}
-
-    private void DoorCheck()
+	protected void DoorCheck()
     {
         isOpen = RoomManager.Instance.nonMonster;
 
@@ -39,4 +30,6 @@ public class Door : MonoBehaviour
 			spRender.sprite = closeDoor;
         }
     }
+
+    protected abstract void DoorCol(GameObject player);
 }
