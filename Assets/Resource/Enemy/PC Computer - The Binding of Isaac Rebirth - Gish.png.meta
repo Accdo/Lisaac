@@ -1,0 +1,988 @@
+fileFormatVersion: 2
+guid: 4b00892f2b7349b4b8a88d4f000af5ad
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 890781002494437552
+    second: PC Computer - The Binding of Isaac Rebirth - Gish_0
+  - first:
+      213: -2460347458477524100
+    second: PC Computer - The Binding of Isaac Rebirth - Gish_1
+  - first:
+      213: 8744873590663854698
+    second: PC Computer - The Binding of Isaac Rebirth - Gish_2
+  - first:
+      213: 7555355224575399310
+    second: PC Computer - The Binding of Isaac Rebirth - Gish_3
+  - first:
+      213: -4322914198092666349
+    second: PC Computer - The Binding of Isaac Rebirth - Gish_4
+  - first:
+      213: 2579811289038417427
+    second: PC Computer - The Binding of Isaac Rebirth - Gish_5
+  - first:
+      213: -1429057579858547599
+    second: PC Computer - The Binding of Isaac Rebirth - Gish_6
+  - first:
+      213: 4813698404170562469
+    second: PC Computer - The Binding of Isaac Rebirth - Gish_7
+  - first:
+      213: -5674844897499293274
+    second: PC Computer - The Binding of Isaac Rebirth - Gish_8
+  - first:
+      213: -6734155930779136402
+    second: PC Computer - The Binding of Isaac Rebirth - Gish_9
+  - first:
+      213: 3731022563805107233
+    second: PC Computer - The Binding of Isaac Rebirth - Gish_10
+  - first:
+      213: -5970643567544702528
+    second: PC Computer - The Binding of Isaac Rebirth - Gish_11
+  - first:
+      213: -7831717563207179083
+    second: PC Computer - The Binding of Isaac Rebirth - Gish_12
+  - first:
+      213: 4594934316945427668
+    second: PC Computer - The Binding of Isaac Rebirth - Gish_13
+  - first:
+      213: -7293967313094464232
+    second: PC Computer - The Binding of Isaac Rebirth - Gish_14
+  - first:
+      213: 291973557472356819
+    second: PC Computer - The Binding of Isaac Rebirth - Gish_15
+  - first:
+      213: -7863039363262571018
+    second: PC Computer - The Binding of Isaac Rebirth - Gish_16
+  - first:
+      213: 6768284832181146307
+    second: PC Computer - The Binding of Isaac Rebirth - Gish_17
+  - first:
+      213: 1137293291027184826
+    second: PC Computer - The Binding of Isaac Rebirth - Gish_18
+  - first:
+      213: -135858123745517266
+    second: PC Computer - The Binding of Isaac Rebirth - Gish_19
+  - first:
+      213: 1508331441127994423
+    second: PC Computer - The Binding of Isaac Rebirth - Gish_20
+  - first:
+      213: -4648575036581043466
+    second: PC Computer - The Binding of Isaac Rebirth - Gish_21
+  - first:
+      213: -620517170223692851
+    second: PC Computer - The Binding of Isaac Rebirth - Gish_22
+  - first:
+      213: -6540938185820364730
+    second: PC Computer - The Binding of Isaac Rebirth - Gish_23
+  - first:
+      213: -2431146152532088316
+    second: PC Computer - The Binding of Isaac Rebirth - Gish_24
+  - first:
+      213: -7444039900914994904
+    second: PC Computer - The Binding of Isaac Rebirth - Gish_25
+  - first:
+      213: -7721708255789087040
+    second: PC Computer - The Binding of Isaac Rebirth - Gish_26
+  - first:
+      213: 5868713022361533284
+    second: PC Computer - The Binding of Isaac Rebirth - Gish_27
+  - first:
+      213: -3408218326186609104
+    second: PC Computer - The Binding of Isaac Rebirth - Gish_28
+  - first:
+      213: 5256678012428898235
+    second: PC Computer - The Binding of Isaac Rebirth - Gish_29
+  - first:
+      213: 3493710001278906623
+    second: PC Computer - The Binding of Isaac Rebirth - Gish_30
+  - first:
+      213: 3109144916215685539
+    second: PC Computer - The Binding of Isaac Rebirth - Gish_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gish_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 260
+        width: 69
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b8e85a2a90bc5c00800000000000000
+      internalID: 890781002494437552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gish_1
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 260
+        width: 71
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7b7961a5071bddd0800000000000000
+      internalID: -2460347458477524100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gish_2
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 260
+        width: 68
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6ab639c2380c5970800000000000000
+      internalID: 8744873590663854698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gish_3
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 260
+        width: 69
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8555b8fb830ad860800000000000000
+      internalID: 7555355224575399310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gish_4
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 260
+        width: 67
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31aa13cc07ce104c0800000000000000
+      internalID: -4322914198092666349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gish_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 149
+        width: 80
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31e6daee2b45dc320800000000000000
+      internalID: 2579811289038417427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gish_6
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 148
+        width: 67
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17ca3fcd3b7fa2ce0800000000000000
+      internalID: -1429057579858547599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gish_7
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 148
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ab737cc131bdc240800000000000000
+      internalID: 4813698404170562469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gish_8
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 148
+        width: 68
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a9dd11e1a6ee31b0800000000000000
+      internalID: -5674844897499293274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gish_9
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 148
+        width: 69
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6ec1db2cd87b82a0800000000000000
+      internalID: -6734155930779136402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gish_10
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 18
+        width: 147
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1241294014147c330800000000000000
+      internalID: 3731022563805107233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gish_11
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 95
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c9e6042f43042da0800000000000000
+      internalID: -5970643567544702528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gish_12
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 119
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b429d7de56205390800000000000000
+      internalID: -7831717563207179083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gish_13
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 92
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dcc8cf8a6c74cf30800000000000000
+      internalID: 4594934316945427668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gish_14
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 96
+        width: 8
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81da1b3bf5f96ca90800000000000000
+      internalID: -7293967313094464232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gish_15
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 20
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d962f0576c4d0400800000000000000
+      internalID: 291973557472356819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gish_16
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 18
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fd12d9fb5fd0e290800000000000000
+      internalID: -7863039363262571018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gish_17
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 18
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c252d8e137cded50800000000000000
+      internalID: 6768284832181146307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gish_18
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 20
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abc3c19f83a78cf00800000000000000
+      internalID: 1137293291027184826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gish_19
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 20
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e212c4a91c55d1ef0800000000000000
+      internalID: -135858123745517266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gish_20
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 20
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 734bcf7447baee410800000000000000
+      internalID: 1508331441127994423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gish_21
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 18
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f2a6d822a1fc7fb0800000000000000
+      internalID: -4648575036581043466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gish_22
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 2
+        width: 44
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc349cbdbea7367f0800000000000000
+      internalID: -620517170223692851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gish_23
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 6
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 640a368106be935a0800000000000000
+      internalID: -6540938185820364730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gish_24
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 6
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40a644d7475d24ed0800000000000000
+      internalID: -2431146152532088316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gish_25
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 4
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 821b02c762571b890800000000000000
+      internalID: -7444039900914994904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gish_26
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 6
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c68d72b04bf6d490800000000000000
+      internalID: -7721708255789087040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gish_27
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 6
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46b719a666bd17150800000000000000
+      internalID: 5868713022361533284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gish_28
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 6
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 036bba66d7393b0d0800000000000000
+      internalID: -3408218326186609104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gish_29
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 6
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbf4e6d1dc873f840800000000000000
+      internalID: 5256678012428898235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gish_30
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 6
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff075765cb62c7030800000000000000
+      internalID: 3493710001278906623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gish_31
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 6
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a16f3e04d6e52b20800000000000000
+      internalID: 3109144916215685539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PC Computer - The Binding of Isaac Rebirth - Gish_0: 890781002494437552
+      PC Computer - The Binding of Isaac Rebirth - Gish_1: -2460347458477524100
+      PC Computer - The Binding of Isaac Rebirth - Gish_10: 3731022563805107233
+      PC Computer - The Binding of Isaac Rebirth - Gish_11: -5970643567544702528
+      PC Computer - The Binding of Isaac Rebirth - Gish_12: -7831717563207179083
+      PC Computer - The Binding of Isaac Rebirth - Gish_13: 4594934316945427668
+      PC Computer - The Binding of Isaac Rebirth - Gish_14: -7293967313094464232
+      PC Computer - The Binding of Isaac Rebirth - Gish_15: 291973557472356819
+      PC Computer - The Binding of Isaac Rebirth - Gish_16: -7863039363262571018
+      PC Computer - The Binding of Isaac Rebirth - Gish_17: 6768284832181146307
+      PC Computer - The Binding of Isaac Rebirth - Gish_18: 1137293291027184826
+      PC Computer - The Binding of Isaac Rebirth - Gish_19: -135858123745517266
+      PC Computer - The Binding of Isaac Rebirth - Gish_2: 8744873590663854698
+      PC Computer - The Binding of Isaac Rebirth - Gish_20: 1508331441127994423
+      PC Computer - The Binding of Isaac Rebirth - Gish_21: -4648575036581043466
+      PC Computer - The Binding of Isaac Rebirth - Gish_22: -620517170223692851
+      PC Computer - The Binding of Isaac Rebirth - Gish_23: -6540938185820364730
+      PC Computer - The Binding of Isaac Rebirth - Gish_24: -2431146152532088316
+      PC Computer - The Binding of Isaac Rebirth - Gish_25: -7444039900914994904
+      PC Computer - The Binding of Isaac Rebirth - Gish_26: -7721708255789087040
+      PC Computer - The Binding of Isaac Rebirth - Gish_27: 5868713022361533284
+      PC Computer - The Binding of Isaac Rebirth - Gish_28: -3408218326186609104
+      PC Computer - The Binding of Isaac Rebirth - Gish_29: 5256678012428898235
+      PC Computer - The Binding of Isaac Rebirth - Gish_3: 7555355224575399310
+      PC Computer - The Binding of Isaac Rebirth - Gish_30: 3493710001278906623
+      PC Computer - The Binding of Isaac Rebirth - Gish_31: 3109144916215685539
+      PC Computer - The Binding of Isaac Rebirth - Gish_4: -4322914198092666349
+      PC Computer - The Binding of Isaac Rebirth - Gish_5: 2579811289038417427
+      PC Computer - The Binding of Isaac Rebirth - Gish_6: -1429057579858547599
+      PC Computer - The Binding of Isaac Rebirth - Gish_7: 4813698404170562469
+      PC Computer - The Binding of Isaac Rebirth - Gish_8: -5674844897499293274
+      PC Computer - The Binding of Isaac Rebirth - Gish_9: -6734155930779136402
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
