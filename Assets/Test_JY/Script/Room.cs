@@ -14,6 +14,8 @@ public class Room : MonoBehaviour
     public GameObject[] spanwPos;
     public int[] enemyType;
 
+    private bool isSpawn = false;
+
 
     public void Setup(bool[] doorStates)
     {
@@ -32,17 +34,22 @@ public class Room : MonoBehaviour
     }
     private void SpanwEnemy()
     {
-        for (int i = 0; i < spanwPos.Length; i++)
+        if(!isSpawn)
         {
-            switch (enemyType[i])
+            for (int i = 0; i < spanwPos.Length; i++)
             {
-                case WORM:
-                    SpawnManager.Instance.SpawnWorm(spanwPos[i].transform.position);
-                    break;
-                case GUT:
-                    SpawnManager.Instance.SpawnGut(spanwPos[i].transform.position);
-                    break;
+                switch (enemyType[i])
+                {
+                    case WORM:
+                        SpawnManager.Instance.SpawnWorm(spanwPos[i].transform.position);
+                        break;
+                    case GUT:
+                        SpawnManager.Instance.SpawnGut(spanwPos[i].transform.position);
+                        break;
+                }
             }
+
+            isSpawn = true;
         }
     }
 
