@@ -45,7 +45,7 @@ GameObject:
   - component: {fileID: 8798247434743416395}
   - component: {fileID: 1882840106943106524}
   - component: {fileID: 5198912743884068105}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Enemy - Gut
   m_TagString: Enemy
   m_Icon: {fileID: 0}

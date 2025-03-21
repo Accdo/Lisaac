@@ -49,7 +49,7 @@ public class Obj_TrapBox : MonoBehaviour
             yield return new WaitForSeconds(move_turnDelay);
         }
 
-        sprite.sprite = null;
+        sprite.sprite = SafeBox;
     }
 
     void Update()
