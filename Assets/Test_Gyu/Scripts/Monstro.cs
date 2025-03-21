@@ -54,32 +54,30 @@ public class Monstro : MonoBehaviour
     {
         while (true)
         {
+            player = GameObject.FindGameObjectWithTag("Player"); // 플레이어 찾기
             yield return new WaitForSeconds(1);
 
-            int rand = Random.Range(1, 2);
+            int rand = Random.Range(1, 4);
             switch (rand)
             {
                 case 1:
+                    Debug.Log("보스 이동");
+                    ani.SetTrigger("Move"); // 트리거 설정
+                    break;
+                case 2:
                     Debug.Log("보스 공격");
                     ani.SetTrigger("Attack"); // 트리거 설정
                     break;
+                case 3:
+                    Debug.Log("보스 점프");
+                    ani.SetTrigger("Jump"); // 트리거 설정
+                    break;
             }
-
-            yield return new WaitForSeconds(1); // 대기
         }
     }
 
-    void Attack()
-    {
-        player = GameObject.FindGameObjectWithTag("Player"); // 플레이어 찾기
-
-        if (player != null)
-        {
-            StartCoroutine(FireBulletsWithDelay());
-        }
-    }
-
-    IEnumerator FireBulletsWithDelay()
+    // 공격 코루틴
+    IEnumerator Attack()
     {
         ani.speed = 0; // 애니메이션 정지
 
@@ -112,9 +110,56 @@ public class Monstro : MonoBehaviour
                 rb.linearVelocity = direction.normalized * randomSpeed;
             }
 
-            yield return new WaitForSeconds(0.1f); // 대기
+            yield return new WaitForSeconds(0.1f);
         }
 
         ani.speed = 1; // 애니메이션 시작
+    }
+
+    // 이동 코루틴
+    IEnumerator Move()
+    {
+        float duration = ani.GetCurrentAnimatorStateInfo(0).length;
+        float timer = 0f;
+
+        while (timer < duration)
+        {
+            if (player != null)
+            {
+                Vector2 direction = (player.transform.position - transform.position).normalized;
+
+                // 좌우 반전 처리
+                sr.flipX = direction.x >= 0;
+
+                // 부드러운 Y 오프셋 계산 (키프레임 기반)
+                float yOffset = 0f;
+
+                if (timer < 0.5f)
+                {
+                    yOffset = Mathf.Lerp(0f, -0.1f, timer / 0.5f);
+                }
+                else if (timer < 1.5f)
+                {
+                    yOffset = Mathf.Lerp(-0.1f, 1f, (timer - 0.5f) / 1.0f);
+                }
+                else if (timer < 2.5f)
+                {
+                    yOffset = Mathf.Lerp(1f, -0.1f, (timer - 1.5f) / 1.0f);
+                }
+                else
+                {
+                    yOffset = Mathf.Lerp(-0.1f, 0f, (timer - 2.5f) / (duration - 2.5f));
+                }
+
+                // Y 오프셋 적용한 이동
+                Vector2 moveDirection = direction + new Vector2(0f, yOffset);
+                moveDirection.Normalize();
+
+                transform.Translate(moveDirection * Time.deltaTime);
+            }
+
+            timer += Time.deltaTime;
+            yield return null;
+        }
     }
 }
