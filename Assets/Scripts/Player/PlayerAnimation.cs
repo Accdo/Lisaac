@@ -59,6 +59,7 @@ public class PlayerAnimation : MonoBehaviour
     public void SetBoolChargingShoot()
     {
         headAnimator.SetTrigger(chargingShoot);
+        Debug.Log(" ChargingShoot 트리거 발동");
     }
 
 
