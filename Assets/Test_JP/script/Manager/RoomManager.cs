@@ -3,15 +3,15 @@ using UnityEngine;
 public class RoomManager : MonoBehaviour
 {
     private static RoomManager instance;
+    public static RoomManager Instance { get { return instance; } }
 
     public bool nonMonster { get; private set; }
-    public static RoomManager Instance { get { return instance; } }
 
 	private void Awake()
 	{
 		if(instance == null)
         {
-            instance = gameObject.GetComponent<RoomManager>();
+            instance = this;
             DontDestroyOnLoad(gameObject);
         }
         else

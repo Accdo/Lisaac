@@ -4,8 +4,8 @@ using UnityEngine;
 public abstract class Door : MonoBehaviour
 {
     //메인카메라 이동거리
-	protected const float PADDINGX = 100;
-	protected const float PADDINGY = 100;
+	protected const float PADDINGX = 18;
+	protected const float PADDINGY = 10;
 
 	[SerializeField]
     protected Sprite openDoor;
@@ -33,5 +33,5 @@ public abstract class Door : MonoBehaviour
         }
     }
 
-    protected abstract void DoorCol(GameObject player);
+    protected abstract void MapMove(GameObject player);
 }
