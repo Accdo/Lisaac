@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class UpDoor : Door
 {
+	//플레이어 이동거리
 	private const float PLAYERSTARTX = 0;  
 	private const float PLAYERSTARTY = 10;  
 
@@ -22,12 +23,14 @@ public class UpDoor : Door
 
 	private void OnTriggerEnter2D(Collider2D collision)
 	{
+		//문이 열린상태에서 플레이어와 접촉하면 실행
 		if(collision.CompareTag("Player") && isOpen)
 		{
 			DoorCol(collision.gameObject);
 		}
 	}
 
+	//카메라 플레이어 맵이동
 	protected override void DoorCol(GameObject player)
 	{
 		mainCam.transform.position += new Vector3(0, PADDINGY, 0);

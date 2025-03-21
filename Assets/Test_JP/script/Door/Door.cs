@@ -3,6 +3,7 @@ using UnityEngine;
 
 public abstract class Door : MonoBehaviour
 {
+    //메인카메라 이동거리
 	protected const float PADDINGX = 100;
 	protected const float PADDINGY = 100;
 
@@ -15,6 +16,7 @@ public abstract class Door : MonoBehaviour
 	protected BoxCollider2D col;
 	protected SpriteRenderer spRender;
 
+    //몬스터유무 체크해서 문열린상태 체크
 	protected void DoorCheck()
     {
         isOpen = RoomManager.Instance.nonMonster;
