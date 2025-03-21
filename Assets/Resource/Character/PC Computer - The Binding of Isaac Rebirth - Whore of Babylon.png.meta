@@ -1,0 +1,1092 @@
+fileFormatVersion: 2
+guid: 9dabffc137e51394dbc3c55ef4ee323f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5439091386917614085
+    second: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_0
+  - first:
+      213: -7040946670136740587
+    second: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_1
+  - first:
+      213: -6844229518154211657
+    second: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_2
+  - first:
+      213: 3181728733247367957
+    second: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_3
+  - first:
+      213: 174560083296420361
+    second: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_4
+  - first:
+      213: 9132032321896927281
+    second: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_5
+  - first:
+      213: -1059953196256330248
+    second: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_6
+  - first:
+      213: 3646949288437223194
+    second: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_7
+  - first:
+      213: 7708377165457867659
+    second: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_8
+  - first:
+      213: -901670362206491840
+    second: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_9
+  - first:
+      213: 2390153456229100822
+    second: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_10
+  - first:
+      213: -6247719496421770019
+    second: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_11
+  - first:
+      213: -8848753395474158159
+    second: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_12
+  - first:
+      213: -4570127281964841959
+    second: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_13
+  - first:
+      213: 5030089670378967420
+    second: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_14
+  - first:
+      213: 6684057822119304626
+    second: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_15
+  - first:
+      213: 6400462044366675607
+    second: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_16
+  - first:
+      213: 6320358818360999058
+    second: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_17
+  - first:
+      213: 6076286028394573852
+    second: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_18
+  - first:
+      213: -5026366921495498720
+    second: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_19
+  - first:
+      213: 7317975265623590851
+    second: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_20
+  - first:
+      213: -2872100460452962173
+    second: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_21
+  - first:
+      213: 5740269281586320659
+    second: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_22
+  - first:
+      213: -3003022000673428788
+    second: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_23
+  - first:
+      213: -7620812164994279724
+    second: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_24
+  - first:
+      213: -5363391356238271229
+    second: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_25
+  - first:
+      213: 2036795718103913023
+    second: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_26
+  - first:
+      213: 456059487803929726
+    second: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_27
+  - first:
+      213: 8127493904397385893
+    second: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_28
+  - first:
+      213: 913159834740969551
+    second: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_29
+  - first:
+      213: 6000497646734277885
+    second: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_30
+  - first:
+      213: 7969893185643820977
+    second: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_31
+  - first:
+      213: 4879106332972264031
+    second: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_32
+  - first:
+      213: 2749098794673622216
+    second: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_33
+  - first:
+      213: 7074678807918171325
+    second: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_34
+  - first:
+      213: -2797575407637015444
+    second: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_0
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 481
+        width: 189
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5027c128cc88b7b40800000000000000
+      internalID: 5439091386917614085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_1
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 481
+        width: 189
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 515b70cde48894e90800000000000000
+      internalID: -7040946670136740587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_2
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 481
+        width: 189
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bedc29f3896401a0800000000000000
+      internalID: -6844229518154211657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_3
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 481
+        width: 189
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51becd4ec65c72c20800000000000000
+      internalID: 3181728733247367957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_4
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 321
+        width: 189
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90288dc88792c6200800000000000000
+      internalID: 174560083296420361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_5
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 321
+        width: 189
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1305d00630f7bbe70800000000000000
+      internalID: 9132032321896927281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_6
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 321
+        width: 189
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fdf9921f2a4a41f0800000000000000
+      internalID: -1059953196256330248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_7
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 321
+        width: 189
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1f0a233e019c9230800000000000000
+      internalID: 3646949288437223194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_8
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 161
+        width: 189
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8349d5f038a9fa60800000000000000
+      internalID: 7708377165457867659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_9
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 32
+        width: 258
+        height: 258
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04b2f24359f9c73f0800000000000000
+      internalID: -901670362206491840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_10
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 83
+        width: 52
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61d2535a7e78b2120800000000000000
+      internalID: 2390153456229100822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_11
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 82
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddc7f774834ab49a0800000000000000
+      internalID: -6247719496421770019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_12
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 83
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bd2bb56ba9e23580800000000000000
+      internalID: -8848753395474158159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_13
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 82
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9140a2c5375a390c0800000000000000
+      internalID: -4570127281964841959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_14
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 83
+        width: 52
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c71dc4797e77ec540800000000000000
+      internalID: 5030089670378967420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_15
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 82
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bd9791fc2b82cc50800000000000000
+      internalID: 6684057822119304626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_16
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 83
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79e98d8715203d850800000000000000
+      internalID: 6400462044366675607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_17
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 82
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29c3a6dcbdc66b750800000000000000
+      internalID: 6320358818360999058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 36
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c10b02403fd435450800000000000000
+      internalID: 6076286028394573852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_19
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 46
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 020bc7d6ae1ce3ab0800000000000000
+      internalID: -5026366921495498720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_20
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 44
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c7c6965bbbae8560800000000000000
+      internalID: 7317975265623590851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_21
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 44
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 380277729df3428d0800000000000000
+      internalID: -2872100460452962173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_22
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 46
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3151a049f7889af40800000000000000
+      internalID: 5740269281586320659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_23
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 46
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cca6d2da66f1356d0800000000000000
+      internalID: -3003022000673428788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_24
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 46
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d65a8576bf6d3690800000000000000
+      internalID: -7620812164994279724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_25
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 44
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30d640c5af76195b0800000000000000
+      internalID: -5363391356238271229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_26
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 31
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f32de990ae6244c10800000000000000
+      internalID: 2036795718103913023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_27
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 32
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e74fff610bf345600800000000000000
+      internalID: 456059487803929726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_28
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 32
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a042cd05a8aac070800000000000000
+      internalID: 8127493904397385893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_29
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 30
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f40d3e418023cac00800000000000000
+      internalID: 913159834740969551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_30
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 32
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfcf92551dc064350800000000000000
+      internalID: 6000497646734277885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_31
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 32
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b73b1440afba9e60800000000000000
+      internalID: 7969893185643820977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_32
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 32
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5aab26fb5116b340800000000000000
+      internalID: 4879106332972264031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_33
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 32
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ccc9f4d9c2c62620800000000000000
+      internalID: 2749098794673622216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_34
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 32
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db452fd74ee4e2260800000000000000
+      internalID: 7074678807918171325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_35
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 32
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c645d6b2df30d29d0800000000000000
+      internalID: -2797575407637015444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f5f1889b58575c34db9ac083bd90b0d5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      1: 6076286028394573852
+      PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_0: 5439091386917614085
+      PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_1: -7040946670136740587
+      PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_10: 2390153456229100822
+      PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_11: -6247719496421770019
+      PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_12: -8848753395474158159
+      PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_13: -4570127281964841959
+      PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_14: 5030089670378967420
+      PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_15: 6684057822119304626
+      PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_16: 6400462044366675607
+      PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_17: 6320358818360999058
+      PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_19: -5026366921495498720
+      PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_2: -6844229518154211657
+      PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_20: 7317975265623590851
+      PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_21: -2872100460452962173
+      PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_22: 5740269281586320659
+      PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_23: -3003022000673428788
+      PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_24: -7620812164994279724
+      PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_25: -5363391356238271229
+      PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_26: 2036795718103913023
+      PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_27: 456059487803929726
+      PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_28: 8127493904397385893
+      PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_29: 913159834740969551
+      PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_3: 3181728733247367957
+      PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_30: 6000497646734277885
+      PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_31: 7969893185643820977
+      PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_32: 4879106332972264031
+      PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_33: 2749098794673622216
+      PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_34: 7074678807918171325
+      PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_35: -2797575407637015444
+      PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_4: 174560083296420361
+      PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_5: 9132032321896927281
+      PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_6: -1059953196256330248
+      PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_7: 3646949288437223194
+      PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_8: 7708377165457867659
+      PC Computer - The Binding of Isaac Rebirth - Whore of Babylon_9: -901670362206491840
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

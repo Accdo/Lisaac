@@ -1,0 +1,2800 @@
+fileFormatVersion: 2
+guid: 72366fc6473b1034ab14fad9f9874740
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4149340273107812855
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_0
+  - first:
+      213: 4545356995164326939
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_1
+  - first:
+      213: -1143498904532767881
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_2
+  - first:
+      213: 4974504771093361011
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_3
+  - first:
+      213: 8505831907384354923
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_4
+  - first:
+      213: 8804755953066156482
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_5
+  - first:
+      213: -576423355585452950
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_6
+  - first:
+      213: -6614774248722921374
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_7
+  - first:
+      213: -2802008468956608780
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_8
+  - first:
+      213: -344399502618470276
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_9
+  - first:
+      213: 6530925693813708026
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_10
+  - first:
+      213: -2802411175870967906
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_11
+  - first:
+      213: -7257315861842615443
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_12
+  - first:
+      213: -2232718210264872337
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_13
+  - first:
+      213: -6358944307881413590
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_14
+  - first:
+      213: -7948073319122906418
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_15
+  - first:
+      213: 4900068652508214085
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_16
+  - first:
+      213: -2086916899325659394
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_17
+  - first:
+      213: 8992815530616785393
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_18
+  - first:
+      213: -8990490648311274014
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_19
+  - first:
+      213: -2844933757927789599
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_20
+  - first:
+      213: 1856532913358227156
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_21
+  - first:
+      213: -2671313456235750373
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_22
+  - first:
+      213: -749370721780027004
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_23
+  - first:
+      213: 7181150199744227034
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_24
+  - first:
+      213: -6609900862774595403
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_25
+  - first:
+      213: 117112431283407232
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_26
+  - first:
+      213: -6609750806437662195
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_27
+  - first:
+      213: 8137247095185331463
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_28
+  - first:
+      213: -3345176453553847246
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_29
+  - first:
+      213: 7901061662842690074
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_30
+  - first:
+      213: -5483018345895088328
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_31
+  - first:
+      213: 3871534849430325975
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_32
+  - first:
+      213: -5432590273011564959
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_33
+  - first:
+      213: 7581086242140212799
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_34
+  - first:
+      213: 4349935711777495439
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_35
+  - first:
+      213: 2173473704435927509
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_36
+  - first:
+      213: -3048082685205683249
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_37
+  - first:
+      213: 4384783087096793003
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_38
+  - first:
+      213: -1181113536566081759
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_39
+  - first:
+      213: -953138706764850739
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_40
+  - first:
+      213: -8073747007203297188
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_41
+  - first:
+      213: -9024688615253591409
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_42
+  - first:
+      213: 6618006661106733350
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_43
+  - first:
+      213: -2508227012141011573
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_44
+  - first:
+      213: -9191355903769900427
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_45
+  - first:
+      213: 1184816703249734533
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_46
+  - first:
+      213: -773725087761680582
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_47
+  - first:
+      213: 2995248373394063884
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_48
+  - first:
+      213: 5864759482876026372
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_49
+  - first:
+      213: -6114349193460422126
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_50
+  - first:
+      213: 5610167259390159573
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_51
+  - first:
+      213: -9139992666189280330
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_52
+  - first:
+      213: -8828702772768223868
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_53
+  - first:
+      213: -3231156209323063166
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_54
+  - first:
+      213: -7202326073183627615
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_55
+  - first:
+      213: 992078616401739881
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_56
+  - first:
+      213: 8844612610585524474
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_57
+  - first:
+      213: -2506917189013636530
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_58
+  - first:
+      213: -6172957841708613352
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_59
+  - first:
+      213: 4006416366083490579
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_60
+  - first:
+      213: 8513674122267608547
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_61
+  - first:
+      213: 8768538176231211381
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_62
+  - first:
+      213: 1528989845398665365
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_63
+  - first:
+      213: -4553953512647398153
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_64
+  - first:
+      213: 8517608641600340749
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_65
+  - first:
+      213: 7270670312049485026
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_66
+  - first:
+      213: -5292484647143079008
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_67
+  - first:
+      213: -5247364730469554459
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_68
+  - first:
+      213: 4197025510368365683
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_69
+  - first:
+      213: 1848262165903275902
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_70
+  - first:
+      213: 8944162802022560905
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_71
+  - first:
+      213: -800993345894554107
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_72
+  - first:
+      213: -6246042910349003109
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_73
+  - first:
+      213: -9163100928326178928
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_74
+  - first:
+      213: -7920251894973887127
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_75
+  - first:
+      213: -5496025374561631603
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_76
+  - first:
+      213: 5233808474949541737
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_77
+  - first:
+      213: 7632215819951190202
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_78
+  - first:
+      213: -6581601600570624195
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_79
+  - first:
+      213: -7482032326678145423
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_80
+  - first:
+      213: 5457956199377956281
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_81
+  - first:
+      213: 201781672482949216
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_82
+  - first:
+      213: 7692505435370287004
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_83
+  - first:
+      213: -4174376459694216923
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_84
+  - first:
+      213: -4200749753591132625
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_85
+  - first:
+      213: -5722083718451534896
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_86
+  - first:
+      213: 4641168999138954485
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_87
+  - first:
+      213: -6137246377586681342
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_88
+  - first:
+      213: 2923576272362506549
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_89
+  - first:
+      213: 3911724778029526708
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_90
+  - first:
+      213: 7815086780569989167
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_91
+  - first:
+      213: 2155490449384864846
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_92
+  - first:
+      213: 6433222595761394908
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_93
+  - first:
+      213: 4334033790488602874
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_94
+  - first:
+      213: 8952665870531355381
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_95
+  - first:
+      213: -4979996073968555721
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_96
+  - first:
+      213: 181332150849235957
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_97
+  - first:
+      213: -8494461176728869454
+    second: PC Computer - The Binding of Isaac Rebirth - Azazel01_98
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 38
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_0
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 467
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90ebf2971059a66c0800000000000000
+      internalID: -4149340273107812855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_1
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 467
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1c4b12da1a541f30800000000000000
+      internalID: 4545356995164326939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_2
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 468
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77ba64a0ec97120f0800000000000000
+      internalID: -1143498904532767881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_3
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 470
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3717186bbbdf80540800000000000000
+      internalID: 4974504771093361011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_4
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 470
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b68e3decd09ca0670800000000000000
+      internalID: 8505831907384354923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_31b
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 406
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c1a384c3e6c03a70800000000000000
+      internalID: 8804755953066156482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_6
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 485
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a64271a13022008f0800000000000000
+      internalID: -576423355585452950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_7
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 486
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 268087b0ed99334a0800000000000000
+      internalID: -6614774248722921374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_8
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 485
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f68436a4244d19d0800000000000000
+      internalID: -2802008468956608780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_9
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 484
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c78da912a72783bf0800000000000000
+      internalID: -344399502618470276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_10
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 485
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af4dc32f05282aa50800000000000000
+      internalID: 6530925693813708026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_11
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 484
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9f40a322e5db19d0800000000000000
+      internalID: -2802411175870967906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_12
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 485
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d632010bca5d84b90800000000000000
+      internalID: -7257315861842615443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_13
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 484
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6acd910e9ac301e0800000000000000
+      internalID: -2232718210264872337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_14
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 485
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a247c36d7dd70c7a0800000000000000
+      internalID: -6358944307881413590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_15
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 455
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec25bec4d65c2b190800000000000000
+      internalID: -7948073319122906418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_16
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 455
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54377cf4a7a800440800000000000000
+      internalID: 4900068652508214085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_17
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 455
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef63fe31328c903e0800000000000000
+      internalID: -2086916899325659394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_18
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 455
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f987014416eccc70800000000000000
+      internalID: 8992815530616785393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_19
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 455
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e56fe6936c5b3380800000000000000
+      internalID: -8990490648311274014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_20
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 455
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eb623df1d3c488d0800000000000000
+      internalID: -2844933757927789599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_21
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 455
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d6c98e29dab3c910800000000000000
+      internalID: 1856532913358227156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_22
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 454
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1cd85590969dead0800000000000000
+      internalID: -2671313456235750373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_23
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 453
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48139338c43b995f0800000000000000
+      internalID: -749370721780027004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_24
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 455
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad6ea7e2f0298a360800000000000000
+      internalID: 7181150199744227034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_25
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 455
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b0b5c1af2ae444a0800000000000000
+      internalID: -6609900862774595403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_26
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 455
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0890e61c22110a100800000000000000
+      internalID: 117112431283407232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_31g
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 404
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d027e6859a27544a0800000000000000
+      internalID: -6609750806437662195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_31f
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 404
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 705d91ebe1f4de070800000000000000
+      internalID: 8137247095185331463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_31e
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 405
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2340cee2dbb8391d0800000000000000
+      internalID: -3345176453553847246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_31d
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 405
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1a123288b536ad60800000000000000
+      internalID: 7901061662842690074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_31c
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 406
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83f29fb5dd768e3b0800000000000000
+      internalID: -5483018345895088328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_32
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 423
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7da07dbee647ab530800000000000000
+      internalID: 3871534849430325975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_33
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 423
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16e37e60eef8b94b0800000000000000
+      internalID: -5432590273011564959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_34
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 423
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3e4e5a55cd653960800000000000000
+      internalID: 7581086242140212799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_35
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 423
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f899840ab731e5c30800000000000000
+      internalID: 4349935711777495439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 423
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d94e8191dab92e10800000000000000
+      internalID: 2173473704435927509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 423
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc3eb4e72f803b5d0800000000000000
+      internalID: -3048082685205683249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 423
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba78b837cf0e9dc30800000000000000
+      internalID: 4384783087096793003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 423
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 127c29d0f77db9fe0800000000000000
+      internalID: -1181113536566081759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 423
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc91b996565c5c2f0800000000000000
+      internalID: -953138706764850739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 423
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c58364d9fd944ff80800000000000000
+      internalID: -8073747007203297188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 423
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8a3c4fe48dd1c280800000000000000
+      internalID: -9024688615253591409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 423
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6219f6c9ef1e7db50800000000000000
+      internalID: 6618006661106733350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_44
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 391
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8dab4552dcf03dd0800000000000000
+      internalID: -2508227012141011573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_45
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 391
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57a0b9fd08eb17080800000000000000
+      internalID: -9191355903769900427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 391
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58b5621a380517010800000000000000
+      internalID: 1184816703249734533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 391
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a37382ec12d2345f0800000000000000
+      internalID: -773725087761680582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_48
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 340
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c02483ea682419920800000000000000
+      internalID: 2995248373394063884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_49
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 340
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40edde54dafc36150800000000000000
+      internalID: 5864759482876026372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_50
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 340
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21a6813cdc7752ba0800000000000000
+      internalID: -6114349193460422126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_51
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 342
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5da2a7206615bdd40800000000000000
+      internalID: 5610167259390159573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_52
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 342
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bbcc1a8819382180800000000000000
+      internalID: -9139992666189280330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_53
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 325
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48dc4a9ca952a7580800000000000000
+      internalID: -8828702772768223868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_54
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 325
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28840890c80a823d0800000000000000
+      internalID: -3231156209323063166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_55
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 341
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a61b5398923c0c90800000000000000
+      internalID: -7202326073183627615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_56
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 322
+        width: 44
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96003efce3294cd00800000000000000
+      internalID: 992078616401739881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_57
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 327
+        width: 58
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af8f3edfe406eba70800000000000000
+      internalID: 8844612610585524474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_58
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 327
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4a758b4914a53dd0800000000000000
+      internalID: -2506917189013636530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_59
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 327
+        width: 58
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8110f777c8f355aa0800000000000000
+      internalID: -6172957841708613352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_60
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 280
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 313c7b24576a99730800000000000000
+      internalID: 4006416366083490579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_61
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 267
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e5423fb185a62670800000000000000
+      internalID: 8513674122267608547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_62
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 267
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57186b9730b10b970800000000000000
+      internalID: 8768538176231211381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_63
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 261
+        width: 39
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 598ba28d920183510800000000000000
+      internalID: 1528989845398665365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_64
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 265
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fc620b786b1dc0c0800000000000000
+      internalID: -4553953512647398153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_65
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 263
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d03c26a6eef943670800000000000000
+      internalID: 8517608641600340749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_66
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 263
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e420bc802c96e460800000000000000
+      internalID: 7270670312049485026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_67c
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 214
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a304d311415d86b0800000000000000
+      internalID: -5292484647143079008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_68
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 201
+        width: 58
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e6e271549d9d27b0800000000000000
+      internalID: -5247364730469554459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_69
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 200
+        width: 52
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37c42c20774de3a30800000000000000
+      internalID: 4197025510368365683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_70
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 202
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e77757ab5a856a910800000000000000
+      internalID: 1848262165903275902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_71
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 199
+        width: 58
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98431d32eac002c70800000000000000
+      internalID: 8944162802022560905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_72
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 152
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 506e086bbcc42e4f0800000000000000
+      internalID: -800993345894554107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_73
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 75
+        width: 14
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b96fcc4e0199159a0800000000000000
+      internalID: -6246042910349003109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_74
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 149
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 097e01ef04026d080800000000000000
+      internalID: -9163100928326178928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_75
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 149
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96d87746ddc951290800000000000000
+      internalID: -7920251894973887127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_76
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 149
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8288b08a023ab3b0800000000000000
+      internalID: -5496025374561631603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_77
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 114
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96fdbcbf31932a840800000000000000
+      internalID: 5233808474949541737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_78
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 117
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab0be4dd9d31be960800000000000000
+      internalID: 7632215819951190202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_79
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 133
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3778d0173479a4a0800000000000000
+      internalID: -6581601600570624195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_80
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 128
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1761c5a8d3b7a2890800000000000000
+      internalID: -7482032326678145423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_81
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 133
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bd609fee3e8ebb40800000000000000
+      internalID: 5457956199377956281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_82
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 112
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 068c78eac5fdcc200800000000000000
+      internalID: 201781672482949216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_83
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 98
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9fe104dfe441ca60800000000000000
+      internalID: 7692505435370287004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_84
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 65
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5296c290ab2a116c0800000000000000
+      internalID: -4174376459694216923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_85
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 80
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2e04ea0b50f3b5c0800000000000000
+      internalID: -4200749753591132625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_86
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 34
+        width: 38
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d366aacc231790b0800000000000000
+      internalID: -5722083718451534896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_87
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 34
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fc8b306d9eb86040800000000000000
+      internalID: 4641168999138954485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_88
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 34
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20a94e4afee14daa0800000000000000
+      internalID: -6137246377586681342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_89
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 34
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5398de34121a29820800000000000000
+      internalID: 2923576272362506549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_90
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 4
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4be2b8dd5fc394630800000000000000
+      internalID: 3911724778029526708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_91
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 4
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f20b9b45504c47c60800000000000000
+      internalID: 7815086780569989167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_92
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 4
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4cf458b427d9ed10800000000000000
+      internalID: 2155490449384864846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_93
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 4
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd4df5dbdd5674950800000000000000
+      internalID: 6433222595761394908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_94
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 4
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af8ec9e05c4952c30800000000000000
+      internalID: 4334033790488602874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_95
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 4
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f2e8cd0d224e3c70800000000000000
+      internalID: 8952665870531355381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_96
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 4
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 739a344b4ff73eab0800000000000000
+      internalID: -4979996073968555721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_97
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 4
+        width: 38
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fbe9b561a8348200800000000000000
+      internalID: 181332150849235957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_98
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 4
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b5aabab09c9d1a80800000000000000
+      internalID: -8494461176728869454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_31a
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 406
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 685dc4e1a4c54e647b9aab9d4c160c03
+      internalID: -558047133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_67b
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 214
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7465f2e201ec4f41ae772eb6ef272ec
+      internalID: 532019904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Azazel01_67a
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 214
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e3d06dddd6f9a43880100404393057
+      internalID: 1536112364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 530b5aa784dc6c745bb869bbad1a697f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      1: 6618006661106733350
+      10: 1184816703249734533
+      2: -9024688615253591409
+      3: -8073747007203297188
+      4: -953138706764850739
+      5: -1181113536566081759
+      6: 4384783087096793003
+      7: -3048082685205683249
+      8: 2173473704435927509
+      9: -773725087761680582
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_0: -4149340273107812855
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_1: 4545356995164326939
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_10: 6530925693813708026
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_11: -2802411175870967906
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_12: -7257315861842615443
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_13: -2232718210264872337
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_14: -6358944307881413590
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_15: -7948073319122906418
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_16: 4900068652508214085
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_17: -2086916899325659394
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_18: 8992815530616785393
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_19: -8990490648311274014
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_2: -1143498904532767881
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_20: -2844933757927789599
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_21: 1856532913358227156
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_22: -2671313456235750373
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_23: -749370721780027004
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_24: 7181150199744227034
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_25: -6609900862774595403
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_26: 117112431283407232
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_3: 4974504771093361011
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_31a: -558047133
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_31b: 8804755953066156482
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_31c: -5483018345895088328
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_31d: 7901061662842690074
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_31e: -3345176453553847246
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_31f: 8137247095185331463
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_31g: -6609750806437662195
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_32: 3871534849430325975
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_33: -5432590273011564959
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_34: 7581086242140212799
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_35: 4349935711777495439
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_4: 8505831907384354923
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_44: -2508227012141011573
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_45: -9191355903769900427
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_48: 2995248373394063884
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_49: 5864759482876026372
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_50: -6114349193460422126
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_51: 5610167259390159573
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_52: -9139992666189280330
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_53: -8828702772768223868
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_54: -3231156209323063166
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_55: -7202326073183627615
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_56: 992078616401739881
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_57: 8844612610585524474
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_58: -2506917189013636530
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_59: -6172957841708613352
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_6: -576423355585452950
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_60: 4006416366083490579
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_61: 8513674122267608547
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_62: 8768538176231211381
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_63: 1528989845398665365
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_64: -4553953512647398153
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_65: 8517608641600340749
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_66: 7270670312049485026
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_67a: 1536112364
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_67b: 532019904
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_67c: -5292484647143079008
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_68: -5247364730469554459
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_69: 4197025510368365683
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_7: -6614774248722921374
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_70: 1848262165903275902
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_71: 8944162802022560905
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_72: -800993345894554107
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_73: -6246042910349003109
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_74: -9163100928326178928
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_75: -7920251894973887127
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_76: -5496025374561631603
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_77: 5233808474949541737
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_78: 7632215819951190202
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_79: -6581601600570624195
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_8: -2802008468956608780
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_80: -7482032326678145423
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_81: 5457956199377956281
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_82: 201781672482949216
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_83: 7692505435370287004
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_84: -4174376459694216923
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_85: -4200749753591132625
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_86: -5722083718451534896
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_87: 4641168999138954485
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_88: -6137246377586681342
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_89: 2923576272362506549
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_9: -344399502618470276
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_90: 3911724778029526708
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_91: 7815086780569989167
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_92: 2155490449384864846
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_93: 6433222595761394908
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_94: 4334033790488602874
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_95: 8952665870531355381
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_96: -4979996073968555721
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_97: 181332150849235957
+      PC Computer - The Binding of Isaac Rebirth - Azazel01_98: -8494461176728869454
+      cPC Computer - The Binding of Isaac Rebirth - Azazel01_67: -5292484647143079008
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

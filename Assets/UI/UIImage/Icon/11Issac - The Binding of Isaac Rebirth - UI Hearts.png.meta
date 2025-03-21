@@ -1,0 +1,803 @@
+fileFormatVersion: 2
+guid: 4fa98175aeb636645b528f73279c23f5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8584722662322888451
+    second: PC Computer - The Binding of Isaac Rebirth - UI Hearts_0
+  - first:
+      213: -8853231572215759871
+    second: PC Computer - The Binding of Isaac Rebirth - UI Hearts_1
+  - first:
+      213: 2681047801217688544
+    second: PC Computer - The Binding of Isaac Rebirth - UI Hearts_2
+  - first:
+      213: -3996968316519419501
+    second: PC Computer - The Binding of Isaac Rebirth - UI Hearts_3
+  - first:
+      213: -7309065099324967749
+    second: PC Computer - The Binding of Isaac Rebirth - UI Hearts_4
+  - first:
+      213: -5400433863557161774
+    second: PC Computer - The Binding of Isaac Rebirth - UI Hearts_5
+  - first:
+      213: 3818741758040989011
+    second: PC Computer - The Binding of Isaac Rebirth - UI Hearts_6
+  - first:
+      213: 653238959855280354
+    second: PC Computer - The Binding of Isaac Rebirth - UI Hearts_7
+  - first:
+      213: -6808668793693092690
+    second: PC Computer - The Binding of Isaac Rebirth - UI Hearts_8
+  - first:
+      213: -8628773386752202567
+    second: PC Computer - The Binding of Isaac Rebirth - UI Hearts_9
+  - first:
+      213: 7920478974884081994
+    second: PC Computer - The Binding of Isaac Rebirth - UI Hearts_10
+  - first:
+      213: 3777476061178811661
+    second: PC Computer - The Binding of Isaac Rebirth - UI Hearts_11
+  - first:
+      213: -783114290586708517
+    second: PC Computer - The Binding of Isaac Rebirth - UI Hearts_12
+  - first:
+      213: -6658079526494128660
+    second: PC Computer - The Binding of Isaac Rebirth - UI Hearts_13
+  - first:
+      213: 4992168119633720799
+    second: PC Computer - The Binding of Isaac Rebirth - UI Hearts_14
+  - first:
+      213: -7025065727172798681
+    second: PC Computer - The Binding of Isaac Rebirth - UI Hearts_15
+  - first:
+      213: -7263557807054622507
+    second: PC Computer - The Binding of Isaac Rebirth - UI Hearts_16
+  - first:
+      213: 8240523925428812650
+    second: PC Computer - The Binding of Isaac Rebirth - UI Hearts_17
+  - first:
+      213: 5672537551317238136
+    second: PC Computer - The Binding of Isaac Rebirth - UI Hearts_18
+  - first:
+      213: -5001792821005930595
+    second: PC Computer - The Binding of Isaac Rebirth - UI Hearts_19
+  - first:
+      213: 8493058161628284082
+    second: PC Computer - The Binding of Isaac Rebirth - UI Hearts_20
+  - first:
+      213: -8640201692415926745
+    second: PC Computer - The Binding of Isaac Rebirth - UI Hearts_21
+  - first:
+      213: -1940089307768106958
+    second: PC Computer - The Binding of Isaac Rebirth - UI Hearts_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 11Issac - The Binding of Isaac Rebirth - UI Hearts_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de29591926772924ca62776e55aaaf61
+      internalID: 346351666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11Issac - The Binding of Isaac Rebirth - UI Hearts_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7672b26e76a82d449b05e03e2c647b9
+      internalID: 455900294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11Issac - The Binding of Isaac Rebirth - UI Hearts_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f389ef627561eb14981d5b4f9701fde3
+      internalID: -180515456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11Issac - The Binding of Isaac Rebirth - UI Hearts_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a1bf7571caf71c41843f92247b958ca
+      internalID: -979670155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11Issac - The Binding of Isaac Rebirth - UI Hearts_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aef74406fa53e44b95e4458c60581cd
+      internalID: -1656245988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11Issac - The Binding of Isaac Rebirth - UI Hearts_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1be8a5d441224fc4facf596940bb5e84
+      internalID: 1790701110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11Issac - The Binding of Isaac Rebirth - UI Hearts_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4106ff6c22af63439d9a4588b8a0465
+      internalID: -1249054539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11Issac - The Binding of Isaac Rebirth - UI Hearts_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a033c66f0055c44795d7048308ffe5e
+      internalID: -1385014041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11Issac - The Binding of Isaac Rebirth - UI Hearts_8
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f003204b6411be40adad2195ce00e3e
+      internalID: 1358662508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11Issac - The Binding of Isaac Rebirth - UI Hearts_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 442befa98d9f3f74abf5904faf7a81e1
+      internalID: -384211020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11Issac - The Binding of Isaac Rebirth - UI Hearts_10
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b77ad7ab6c94eaa429ded017e6d93fda
+      internalID: -1982644699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11Issac - The Binding of Isaac Rebirth - UI Hearts_11
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8de7a90e176c8e449b2f7e44411de9ed
+      internalID: 1095133512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11Issac - The Binding of Isaac Rebirth - UI Hearts_12
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e1cb34edc1de4f448039df3aed79ac4
+      internalID: -1925364659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11Issac - The Binding of Isaac Rebirth - UI Hearts_13
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b7487345712b1840b937686e2390c37
+      internalID: -453820021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11Issac - The Binding of Isaac Rebirth - UI Hearts_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972ad48a1ae6e8b4496dee69d8137607
+      internalID: -364527955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11Issac - The Binding of Isaac Rebirth - UI Hearts_16
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69964f687a31ab34da6c6dc3add34e84
+      internalID: -1279147022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11Issac - The Binding of Isaac Rebirth - UI Hearts_17
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e749bc5fe198a4abe890ffeacc1b4c
+      internalID: -2009046395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11Issac - The Binding of Isaac Rebirth - UI Hearts_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc46d26a789a544ba41a30918594df4
+      internalID: -1639655303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11Issac - The Binding of Isaac Rebirth - UI Hearts_19
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfef8bee7860d734ba2ed177a6ece8c0
+      internalID: 731106302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11Issac - The Binding of Isaac Rebirth - UI Hearts_20
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37090ec63b8ca2e4eab1dc9e84289923
+      internalID: 304296890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11Issac - The Binding of Isaac Rebirth - UI Hearts_23
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e53f7529a9b1f254186ed984296c4e1b
+      internalID: -401331621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11Issac - The Binding of Isaac Rebirth - UI Hearts_24
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff85f2a640de0b4fbed1eeae6e6a93e
+      internalID: 1170092363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11Issac - The Binding of Isaac Rebirth - UI Hearts_25
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 811ef0b0f6974cb448d2e95701b27b0f
+      internalID: -1024848077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11Issac - The Binding of Isaac Rebirth - UI Hearts_26
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a849a393e1030d47a8a555ed79513c3
+      internalID: 52339925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11Issac - The Binding of Isaac Rebirth - UI Hearts_27
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdefd8f08bc742b4183004aa99580756
+      internalID: -1353700309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f41372bd0254eb0439907bf5606f777a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      11Issac - The Binding of Isaac Rebirth - UI Hearts_0: 346351666
+      11Issac - The Binding of Isaac Rebirth - UI Hearts_1: 455900294
+      11Issac - The Binding of Isaac Rebirth - UI Hearts_10: -1982644699
+      11Issac - The Binding of Isaac Rebirth - UI Hearts_11: 1095133512
+      11Issac - The Binding of Isaac Rebirth - UI Hearts_12: -1925364659
+      11Issac - The Binding of Isaac Rebirth - UI Hearts_13: -453820021
+      11Issac - The Binding of Isaac Rebirth - UI Hearts_14: -364527955
+      11Issac - The Binding of Isaac Rebirth - UI Hearts_15: 2034754673
+      11Issac - The Binding of Isaac Rebirth - UI Hearts_16: -1279147022
+      11Issac - The Binding of Isaac Rebirth - UI Hearts_17: -2009046395
+      11Issac - The Binding of Isaac Rebirth - UI Hearts_18: -1639655303
+      11Issac - The Binding of Isaac Rebirth - UI Hearts_19: 731106302
+      11Issac - The Binding of Isaac Rebirth - UI Hearts_2: -180515456
+      11Issac - The Binding of Isaac Rebirth - UI Hearts_20: 304296890
+      11Issac - The Binding of Isaac Rebirth - UI Hearts_21: 323021507
+      11Issac - The Binding of Isaac Rebirth - UI Hearts_22: -1642257400
+      11Issac - The Binding of Isaac Rebirth - UI Hearts_23: -401331621
+      11Issac - The Binding of Isaac Rebirth - UI Hearts_24: 1170092363
+      11Issac - The Binding of Isaac Rebirth - UI Hearts_25: -1024848077
+      11Issac - The Binding of Isaac Rebirth - UI Hearts_26: 52339925
+      11Issac - The Binding of Isaac Rebirth - UI Hearts_27: -1353700309
+      11Issac - The Binding of Isaac Rebirth - UI Hearts_3: -979670155
+      11Issac - The Binding of Isaac Rebirth - UI Hearts_4: -1656245988
+      11Issac - The Binding of Isaac Rebirth - UI Hearts_5: 1790701110
+      11Issac - The Binding of Isaac Rebirth - UI Hearts_6: -1249054539
+      11Issac - The Binding of Isaac Rebirth - UI Hearts_7: -1385014041
+      11Issac - The Binding of Isaac Rebirth - UI Hearts_8: 1358662508
+      11Issac - The Binding of Isaac Rebirth - UI Hearts_9: -384211020
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
