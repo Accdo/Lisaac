@@ -120,7 +120,13 @@ public class Monstro : MonoBehaviour
     IEnumerator Move()
     {
         float duration = ani.GetCurrentAnimatorStateInfo(0).length;
+        if (duration <= 0f) duration = 1.0f;
+
         float timer = 0f;
+
+        float jumpHeight = 1.0f; // 최고점 높이
+        float yOffsetBase = -0.1f; // 시작·끝의 Y 오프셋
+        float amplitude = (jumpHeight - yOffsetBase); // 진폭
 
         while (timer < duration)
         {
@@ -131,27 +137,11 @@ public class Monstro : MonoBehaviour
                 // 좌우 반전 처리
                 sr.flipX = direction.x >= 0;
 
-                // 부드러운 Y 오프셋 계산 (키프레임 기반)
-                float yOffset = 0f;
+                // Sin 곡선 기반 Y 오프셋
+                float t = timer / duration; // [0 ~ 1]
+                float yOffset = Mathf.Sin(t * Mathf.PI) * amplitude + yOffsetBase;
 
-                if (timer < 0.5f)
-                {
-                    yOffset = Mathf.Lerp(0f, -0.1f, timer / 0.5f);
-                }
-                else if (timer < 1.5f)
-                {
-                    yOffset = Mathf.Lerp(-0.1f, 1f, (timer - 0.5f) / 1.0f);
-                }
-                else if (timer < 2.5f)
-                {
-                    yOffset = Mathf.Lerp(1f, -0.1f, (timer - 1.5f) / 1.0f);
-                }
-                else
-                {
-                    yOffset = Mathf.Lerp(-0.1f, 0f, (timer - 2.5f) / (duration - 2.5f));
-                }
-
-                // Y 오프셋 적용한 이동
+                // 최종 이동 방향 + Y 보간
                 Vector2 moveDirection = direction + new Vector2(0f, yOffset);
                 moveDirection.Normalize();
 
