@@ -1,28 +1,32 @@
 ﻿using UnityEngine;
 using System.Collections;
-using Unity.VisualScripting;
 using System.Linq;
-using static UnityEditor.ShaderGraph.Internal.KeywordDependentCollection;
+using UnityEngine.UI;
 
 public class Monstro : MonoBehaviour
 {
+    // 외부 객체
     public GameObject player;
     public GameObject bullet;
-    public Transform body;
 
+    // 하위 객체
+    public Transform body;
+    public Image healthFill;
+    private Color originColor;
+
+    // 컴포넌트
     private SpriteRenderer sr;
     private Animator ani;
     private Rigidbody2D rb;
 
     // 콜라이더 가져오기
-    Collider2D myCollider;
-    Collider2D bodyCollider;
-    GameObject[] bullets;
+    private Collider2D bodyCollider;
+    private Collider2D myCollider;
 
-    private Color originColor;
+    // 내부 변수
     private bool hitting = false;
-
-    private int health;
+    private int maxHP;
+    private int currentHP;
     Vector3 direction;
 
     void Start()
@@ -41,7 +45,9 @@ public class Monstro : MonoBehaviour
         if (body == null) Destroy(gameObject);
 
         // 체력
-        health = body.GetComponent<EnemyHp>().currentHp;
+        maxHP = body.GetComponent<EnemyHp>().maxHp;
+        currentHP = body.GetComponent<EnemyHp>().currentHp;
+        healthFill.fillAmount = (float)currentHP / maxHP;
 
         // 콜라이더
         myCollider = GetComponent<Collider2D>();
@@ -69,30 +75,40 @@ public class Monstro : MonoBehaviour
     // 피격 상태 (단일)
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Bullet") && !hitting && bodyCollider.bounds.Intersects(myCollider.bounds))
+        if (collision.CompareTag("Bullet"))
         {
-            StartCoroutine(FlashColor(0.1f));
+            StartCoroutine(FlashColor());
         }
     }
 
     // 피격 상태 (지속)
     void OnTriggerStay2D(Collider2D collision)
     {
-        if (collision.CompareTag("Bullet") && !hitting && bodyCollider.bounds.Intersects(myCollider.bounds))
+        if (collision.CompareTag("Bullet"))
         {
-            StartCoroutine(FlashColor(1f));
+            StartCoroutine(FlashColor());
         }
     }
 
     // 색상 변경 코루틴
-    IEnumerator FlashColor(float duration)
+    IEnumerator FlashColor()
     {
-        // 피격 상태에서 색상 변경
-        hitting = true;
-        sr.color = new Color(1f, 0.5f, 0.5f); // 피격 색상
-        yield return new WaitForSeconds(duration);
-        sr.color = originColor; // 원래 색상
-        hitting = false;
+        if (!hitting && bodyCollider.bounds.Intersects(myCollider.bounds))
+        {
+            hitting = true;
+
+            // 피격 색상
+            sr.color = new Color(1f, 0.5f, 0.5f);
+            healthFill.color = new Color(1f, 0.5f, 0.5f);
+
+            yield return new WaitForSeconds(0.1f);
+
+            // 원래 색상
+            sr.color = originColor;
+            healthFill.color = new Color(1f, 0f, 0f);
+
+            hitting = false;
+        }
     }
 
     // 랜덤 모션 코루틴
@@ -101,7 +117,7 @@ public class Monstro : MonoBehaviour
         while (true)
         {
             // 행동 확률적 선택
-            int rand = Random.Range(0, 8 + (health < 50 ? 2 : 0));
+            int rand = Random.Range(0, 8 + (currentHP < 50 ? 2 : 0));
 
             if (rand < 4)
             {
