@@ -1,162 +1,261 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Linq;
+using UnityEngine.UI;
 
 public class Monstro : MonoBehaviour
 {
+    // 외부 객체
     public GameObject player;
     public GameObject bullet;
-    public Transform body;
 
+    // 하위 객체
+    public Transform body;
+    public Image healthFill;
+
+    // 컴포넌트
     private SpriteRenderer sr;
     private Animator ani;
+    private Rigidbody2D rb;
+    private Collider2D bodyCollider;
+    private Collider2D myCollider;
 
-    private Color originalColor;
-    private bool isFlashing = false;
+    // 내부 상태
+    private Color originColor;
+    private bool hitting = false;
+    private int maxHP;
+    private int currentHP;
+    private Vector3 direction;
 
     void Start()
     {
+        // 컴포넌트
         sr = body.GetComponent<SpriteRenderer>();
         ani = body.GetComponent<Animator>();
-        originalColor = sr.color;
+        rb = GetComponent<Rigidbody2D>();
+
+        originColor = sr.color;
 
         StartCoroutine(BossRoutine());
+    }
+
+    void Update()
+    {
+        if (body == null) { Destroy(gameObject); return; }
+
+        // 체력
+        maxHP = body.GetComponent<EnemyHp>().maxHp;
+        currentHP = body.GetComponent<EnemyHp>().currentHp;
+        healthFill.fillAmount = (float)currentHP / maxHP;
+
+        // 콜라이더
+        myCollider = GetComponent<Collider2D>();
+        bodyCollider = body.GetComponent<Collider2D>();
+
+        // 플레이어 찾기
+        player = GameObject.FindGameObjectsWithTag("Player")
+            .FirstOrDefault(p => p.GetComponent<Collider2D>() != null);
+
+        // 방향 설정 및 시각 반전
+        if (player != null)
+        {
+            direction = player.transform.position - transform.position;
+            sr.flipX = direction.x >= 0f;
+        }
+    }
+
+    // 플레이어와 충돌 시 밀림 방지
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            rb.constraints = RigidbodyConstraints2D.FreezeAll;
+        }
     }
 
     // 피격 상태 (단일)
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Bullet") && !isFlashing)
+        if (collision.CompareTag("Bullet"))
         {
-            StartCoroutine(FlashColor(new Color(1f, 0.5f, 0.5f), 0.1f));
+            StartCoroutine(FlashColor());
         }
     }
 
-    // 피격 상태(지속)
+    // 피격 상태 (지속)
     void OnTriggerStay2D(Collider2D collision)
     {
-        if (collision.CompareTag("Bullet") && !isFlashing)
+        if (collision.CompareTag("Bullet"))
         {
-            StartCoroutine(FlashColor(new Color(1f, 0.5f, 0.5f), 1f));
+            StartCoroutine(FlashColor());
         }
     }
 
     // 색상 변경 코루틴
-    IEnumerator FlashColor(Color flashColor, float duration)
+    IEnumerator FlashColor()
     {
-        // 피격 상태에서 색상 변경
-        isFlashing = true;
-        sr.color = flashColor;
-        yield return new WaitForSeconds(duration);
-        sr.color = originalColor;
-        isFlashing = false;
+        if (!hitting && bodyCollider.bounds.Intersects(myCollider.bounds))
+        {
+            hitting = true;
+
+            // 피격 색상
+            sr.color = new Color(1f, 0.5f, 0.5f);
+            healthFill.color = new Color(1f, 0.5f, 0.5f);
+
+            yield return new WaitForSeconds(0.1f);
+
+            // 원래 색상
+            sr.color = originColor;
+            healthFill.color = new Color(1f, 0f, 0f);
+
+            hitting = false;
+        }
     }
 
     // 랜덤 모션 코루틴
     IEnumerator BossRoutine()
     {
+        yield return new WaitForSeconds(1f);
+
         while (true)
         {
-            player = GameObject.FindGameObjectWithTag("Player"); // 플레이어 찾기
-            yield return new WaitForSeconds(1f);
+            // 행동 확률적 선택
+            int rand = Random.Range(0, 101);
 
-            int rand = Random.Range(1, 4);
-            switch (rand)
+            if (currentHP < maxHP / 5) rand = 101;
+
+            if (rand < 30)
             {
-                case 1:
-                    Debug.Log("보스 이동");
-                    ani.SetTrigger("Move"); // 트리거 설정
-                    StartCoroutine(Move());
-                    break;
-                case 2:
-                    Debug.Log("보스 공격");
-                    ani.SetTrigger("Attack"); // 트리거 설정
-                    StartCoroutine(Attack());
-                    break;
-                case 3:
-                    Debug.Log("보스 점프");
-                    ani.SetTrigger("Jump"); // 트리거 설정
-                    break;
+                ani.SetTrigger("Move");
+                StartCoroutine(Move(2));
+            }
+            else if (rand < 70)
+            {
+                ani.SetTrigger("Attack");
+                StartCoroutine(Attack());
+            }
+            else if (rand < 101)
+            {
+                ani.SetTrigger("Attack");
+                StartCoroutine(Shock());
+            }
+            else
+            {
+                ani.SetTrigger("Jump");
+                StartCoroutine(Jump());
             }
 
-            yield return new WaitForSeconds(1f);
+            yield return new WaitForSeconds(3f);
         }
     }
 
-    // 공격 코루틴
+    // 이동 코루틴
+    IEnumerator Move(float DISTANCE)
+    {
+        rb.constraints = RigidbodyConstraints2D.FreezeRotation;
+
+        if (player == null) yield break;
+
+        float time = 0f;
+        float duration = ani.GetCurrentAnimatorStateInfo(0).length;
+
+        Vector3 start = transform.position;
+        Vector3 end = start + direction.normalized * DISTANCE;
+
+        while (time < duration)
+        {
+            // 본체 이동
+            Vector3 nextPos = Vector3.Lerp(start, end, time / duration);
+            rb.MovePosition(nextPos);
+
+            // 점프 유무
+            if (!myCollider.bounds.Intersects(bodyCollider.bounds))
+            {
+                // 겹치지 않으면 충돌 무시
+                myCollider.enabled = false;
+                bodyCollider.enabled = false;
+            }
+
+            time += Time.deltaTime;
+            yield return null;
+        }
+
+        rb.MovePosition(end);
+
+        // 이동 후 충돌 무시 해제
+        myCollider.enabled = true;
+        bodyCollider.enabled = true;
+    }
+
+    // 점프 코루틴
+    IEnumerator Jump()
+    {
+        StartCoroutine(Move(direction.magnitude)); // 이동
+
+        yield return new WaitForSeconds(1f); // 점프 후 대기
+
+        StartCoroutine(Shock()); // 전방위 공격
+    }
+
+    // 전방(부채꼴) 공격 코루틴
     IEnumerator Attack()
     {
-        yield return new WaitForSeconds(.5f);
+        yield return new WaitForSeconds(0.6f);
 
         ani.speed = 0f; // 애니메이션 정지
 
-        Vector2 dirToPlayer = (player.transform.position - transform.position).normalized; // 방향 찾기
-        float centerAngle = Mathf.Atan2(dirToPlayer.y, dirToPlayer.x) * Mathf.Rad2Deg; // 각도로 변환
+        float centerAngle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg; // 각도로 변환
 
-        int bulletCount = Random.Range(6, 9); // 6~8발
-        float coneAngle = 90f; // 각도 범위
+        int count = Random.Range(6, 9); // 발사체 개수
+        float angleRange = 90f; // 발사 각도 범위
 
-        for (int i = 0; i < bulletCount; i++)
+        for (int i = 0; i < count; i++)
         {
             // 발사각 설정
-            float randomOffset = Random.Range(-coneAngle / 2f, coneAngle / 2f);
-            float shootAngle = centerAngle + randomOffset;
+            float offsetAngle = Random.Range(-angleRange / 2f, angleRange / 2f);
+            float shootAngle = centerAngle + offsetAngle;
             float rad = shootAngle * Mathf.Deg2Rad;
+            Vector2 shoot = new Vector2(Mathf.Cos(rad), Mathf.Sin(rad)); // 발사 방향
 
-            Vector2 direction = new Vector2(Mathf.Cos(rad), Mathf.Sin(rad)); // 발사 방향
-
-            float randomSpeed = Random.Range(0.2f, 1.5f); // 총알 속도 랜덤
-            float randomScale = Random.Range(1f, 2f); // 총알 크기 랜덤
+            float speed = Random.Range(0.2f, 1.5f); // 총알 속도
+            float scale = Random.Range(1f, 2f); // 총알 크기
 
             GameObject go = Instantiate(bullet, transform.position, Quaternion.identity); // 총알 생성
-            go.transform.localScale = Vector3.one * randomScale; // 총알 크기 조절
+            go.transform.localScale = Vector3.one * scale; // 총알 크기 적용
 
             // 총알 속도 적용
-            Rigidbody2D rb = go.GetComponent<Rigidbody2D>();
-            if (rb != null)
-            {
-                rb.linearVelocity = direction.normalized * randomSpeed;
-            }
+            Rigidbody2D bulletRb = go.GetComponent<Rigidbody2D>();
+            if (bulletRb != null) bulletRb.linearVelocity = shoot.normalized * speed;
 
             yield return new WaitForSeconds(0.1f);
         }
 
-        ani.speed = 1f; // 애니메이션 시작
+        ani.speed = 1f;  // 애니메이션 시작
     }
 
-    // 이동 코루틴
-    IEnumerator Move()
+    // 전방위(원형) 공격 코루틴
+    IEnumerator Shock()
     {
-        float duration = ani.GetCurrentAnimatorStateInfo(0).length; // 애니메이션 길이
+        yield return new WaitForSeconds(0.6f);
 
-        if (duration <= 0f) duration = 1.0f;
+        int count = Random.Range(15, 21); // 발사체 개수
+        float intervalAngle = 360 / count; // 발사체 사이각
+        float angle = 0;
 
-        float timer = 0f;
-
-        float jumpHeight = 1.0f; // 최고점 높이
-        float yOffsetBase = -0.1f; // 시작·끝의 Y 오프셋
-        float amplitude = (jumpHeight - yOffsetBase); // 진폭
-
-        Vector2 originPos = body.localPosition; // 원래 위치 저장
-
-        while (timer < duration)
+        for (int i = 0; i < count * 2; i++)
         {
-            if (player != null)
-            {
-                Vector2 direction = (player.transform.position - transform.position).normalized;
+            angle += intervalAngle * Mathf.Deg2Rad;
 
-                // 좌우 반전 처리
-                sr.flipX = direction.x >= 0f;
+            Vector3 shoot = new Vector3(Mathf.Cos(angle), Mathf.Sin(angle)); // 발사 방향
 
-                // Sin 곡선 기반 Y 오프셋
-                float t = timer / duration; // [0 ~ 1]
-                float yOffset = Mathf.Sin(t * Mathf.PI) * amplitude + yOffsetBase;
+            GameObject go = Instantiate(bullet, transform.position, Quaternion.identity); // 총알 생성
+            go.transform.localScale = Vector3.one * 2; // 총알 크기 2배
 
-                // 최종 이동 방향 + Y 보간
-                body.transform.position += new Vector3(0f, yOffset); // 오직 시각적 Y 오프셋만
-            }
-
-            timer += Time.deltaTime;
-            yield return null;
+            // 총알 속도 적용
+            Rigidbody2D bulletRb = go.GetComponent<Rigidbody2D>();
+            if (bulletRb != null) bulletRb.linearVelocity = shoot - 3 * direction.normalized;
         }
+
+        yield return null;
     }
 }
