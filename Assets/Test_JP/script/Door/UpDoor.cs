@@ -2,35 +2,34 @@ using UnityEngine;
 
 public class UpDoor : Door
 {
-	//ÇÃ·¹ÀÌ¾î ÀÌµ¿°Å¸®
-	private const float PLAYERSTARTX = 0;  
-	private const float PLAYERSTARTY = 3.5f;  
+	// í”Œë ˆì´ì–´ê°€ ìœ„ìª½ë°©ìœ¼ë¡œ ì´ë™í•  ë•Œì˜ ì‹œì‘ ìœ„ì¹˜
+	private const float PLAYERSTARTX = 0;
+	private const float PLAYERSTARTY = 3.5f;
 
 	private Camera mainCam;
 
-    void Start()
-    {
+	void Start()
+	{
 		col = GetComponent<BoxCollider2D>();
 		spRender = GetComponent<SpriteRenderer>();
 		mainCam = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
 	}
 
-    void Update()
-    {
+	void Update()
+	{
 		RoomManager.Instance.CheckMonster();
 		DoorCheck();
 	}
 
 	private void OnTriggerEnter2D(Collider2D collision)
 	{
-		//¹®ÀÌ ¿­¸°»óÅÂ¿¡¼­ ÇÃ·¹ÀÌ¾î¿Í Á¢ÃËÇÏ¸é ½ÇÇà
-		if(collision.CompareTag("Player") && isOpen)
+		if (collision.CompareTag("Player") && isOpen)
 		{
 			MapMove(collision.gameObject);
 		}
 	}
 
-	//Ä«¸Ş¶ó ÇÃ·¹ÀÌ¾î ¸ÊÀÌµ¿
+	// ë§µ ìœ„ìª½ìœ¼ë¡œ ì´ë™
 	protected override void MapMove(GameObject player)
 	{
 		mainCam.transform.position += new Vector3(0, PADDINGY, 0);

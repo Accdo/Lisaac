@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class LeftDoor : Door
 {
-	//ÇÃ·¹ÀÌ¾î ÀÌµ¿°Å¸®
+	// í”Œë ˆì´ì–´ê°€ ì™¼ìª½ë°©ìœ¼ë¡œ ì´ë™í•  ë•Œì˜ ì‹œì‘ ìœ„ì¹˜
 	private const float PLAYERSTARTX = -5.5f;
 	private const float PLAYERSTARTY = 0;
 
@@ -24,14 +24,13 @@ public class LeftDoor : Door
 
 	private void OnTriggerEnter2D(Collider2D collision)
 	{
-		//¹®ÀÌ ¿­¸°»óÅÂ¿¡¼­ ÇÃ·¹ÀÌ¾î¿Í Á¢ÃËÇÏ¸é ½ÇÇà
 		if (collision.CompareTag("Player") && isOpen)
 		{
 			MapMove(collision.gameObject);
 		}
 	}
 
-	//Ä«¸Ş¶ó ÇÃ·¹ÀÌ¾î ¸ÊÀÌµ¿
+	// ë§µ ì™¼ìª½ìœ¼ë¡œ ì´ë™
 	protected override void MapMove(GameObject player)
 	{
 		mainCam.transform.position += new Vector3(-PADDINGX, 0, 0);
