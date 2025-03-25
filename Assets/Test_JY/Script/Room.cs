@@ -32,6 +32,7 @@ public class Room : MonoBehaviour
             SpanwEnemy();
         }
     }
+
     private void SpanwEnemy()
     {
         if(!isSpawn)
