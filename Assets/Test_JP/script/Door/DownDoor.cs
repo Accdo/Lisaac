@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class DownDoor : Door
 {
-	//ÇÃ·¹ÀÌ¾î ÀÌµ¿°Å¸®
+	// í”Œë ˆì´ì–´ê°€ ì•„ë˜ë°©ìœ¼ë¡œ ì´ë™í•  ë•Œì˜ ì‹œì‘ ìœ„ì¹˜
 	private const float PLAYERSTARTX = 0;
 	private const float PLAYERSTARTY = -3.5f;
 
@@ -10,6 +10,7 @@ public class DownDoor : Door
 
 	void Start()
 	{
+		// í•„ìš”í•œ ì»´í¬ë„ŒíŠ¸ ê°€ì ¸ì˜¤ê¸°
 		col = GetComponent<BoxCollider2D>();
 		spRender = GetComponent<SpriteRenderer>();
 		mainCam = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
@@ -17,23 +18,23 @@ public class DownDoor : Door
 
 	void Update()
 	{
-		RoomManager.Instance.CheckMonster();
-		DoorCheck();
+		RoomManager.Instance.CheckMonster(); // ëª¬ìŠ¤í„° ìœ ë¬´ í™•ì¸
+		DoorCheck();                         // ë¬¸ ìƒíƒœ í™•ì¸
 	}
 
 	private void OnTriggerEnter2D(Collider2D collision)
-	{      
-		//¹®ÀÌ ¿­¸°»óÅÂ¿¡¼­ ÇÃ·¹ÀÌ¾î¿Í Á¢ÃËÇÏ¸é ½ÇÇà
+	{
+		// ë¬¸ì´ ì—´ë ¸ê³ , í”Œë ˆì´ì–´ê°€ ë‹¿ì•˜ì„ ë•Œ ì´ë™
 		if (collision.CompareTag("Player") && isOpen)
 		{
 			MapMove(collision.gameObject);
 		}
 	}
 
-	//Ä«¸Ş¶ó ÇÃ·¹ÀÌ¾î ¸ÊÀÌµ¿
+	// ë§µ ì•„ë˜ë¡œ ì´ë™
 	protected override void MapMove(GameObject player)
 	{
-		mainCam.transform.position += new Vector3(0, -PADDINGY, 0);
-		player.transform.position += new Vector3(PLAYERSTARTX, PLAYERSTARTY, 0);
+		mainCam.transform.position += new Vector3(0, -PADDINGY, 0); // ì¹´ë©”ë¼ ì´ë™
+		player.transform.position += new Vector3(PLAYERSTARTX, PLAYERSTARTY, 0); // í”Œë ˆì´ì–´ ìœ„ì¹˜ ì´ë™
 	}
 }

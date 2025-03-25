@@ -3,20 +3,18 @@ using UnityEngine;
 using System.Collections.Generic;
 using Unity.VisualScripting.Dependencies.Sqlite;
 
-
 public class Room : MonoBehaviour
 {
+    private const int WORM = 1; // 벌레 몬스터
+    private const int GUT = 2;  // 장기 몬스터
 
-    private const int WORM = 1;
-    private const int GUT = 2;
+    public GameObject[] doorObjects; // 0:위 1:아래 2:왼쪽 3:오른쪽
+    public GameObject[] spanwPos;    // 적 스폰 위치들
+    public int[] enemyType;          // 적 타입 정보
 
-    public GameObject[] doorObjects; // �����¿� 4���� �� ������
-    public GameObject[] spanwPos;
-    public int[] enemyType;
+    private bool isSpawn = false;    // 적 스폰 여부
 
-    private bool isSpawn = false;
-
-
+    // 방에 연결된 문 열기 설정
     public void Setup(bool[] doorStates)
     {
         for (int i = 0; i < doorObjects.Length; i++)
@@ -27,14 +25,16 @@ public class Room : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        // 플레이어가 방에 들어오면 적 스폰
         if (collision.gameObject.CompareTag("Player"))
         {
             SpanwEnemy();
         }
     }
+
     private void SpanwEnemy()
     {
-        if(!isSpawn)
+        if (!isSpawn)
         {
             for (int i = 0; i < spanwPos.Length; i++)
             {
@@ -52,5 +52,4 @@ public class Room : MonoBehaviour
             isSpawn = true;
         }
     }
-
 }
