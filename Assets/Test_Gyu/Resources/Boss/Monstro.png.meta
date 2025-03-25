@@ -1,0 +1,1092 @@
+fileFormatVersion: 2
+guid: 3918b36e7c5af7d4697e3d8ff58cc27a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8042676963276130131
+    second: Monstro_0
+  - first:
+      213: 8428497959961654260
+    second: Monstro_1
+  - first:
+      213: -6294285629809578950
+    second: Monstro_2
+  - first:
+      213: 5073831967306734484
+    second: Monstro_3
+  - first:
+      213: -9203418764056373769
+    second: Monstro_4
+  - first:
+      213: -6102563880436435690
+    second: Monstro_5
+  - first:
+      213: -8503854676255429204
+    second: Monstro_6
+  - first:
+      213: 4389804573800089084
+    second: Monstro_7
+  - first:
+      213: 3881560474275356440
+    second: Monstro_8
+  - first:
+      213: 8736586940223176329
+    second: Monstro_9
+  - first:
+      213: -6076562765559978114
+    second: Monstro_10
+  - first:
+      213: 9117117831385028684
+    second: Monstro_11
+  - first:
+      213: 2952548184600521497
+    second: Monstro_12
+  - first:
+      213: 475635472375209898
+    second: Monstro_13
+  - first:
+      213: 5964728987422231584
+    second: Monstro_14
+  - first:
+      213: 3083532615708577099
+    second: Monstro_15
+  - first:
+      213: 6346334131289045194
+    second: Monstro_16
+  - first:
+      213: -5190396635582432686
+    second: Monstro_17
+  - first:
+      213: 5687870000941757160
+    second: Monstro_18
+  - first:
+      213: 944726131099824170
+    second: Monstro_19
+  - first:
+      213: 5421090320772603463
+    second: Monstro_20
+  - first:
+      213: -5127443592049489031
+    second: Monstro_21
+  - first:
+      213: 6798527189078273613
+    second: Monstro_22
+  - first:
+      213: 2826602784884531004
+    second: Monstro_23
+  - first:
+      213: 6756448863349443748
+    second: Monstro_24
+  - first:
+      213: -7158922169565411778
+    second: Monstro_25
+  - first:
+      213: -5540990654300369656
+    second: Monstro_26
+  - first:
+      213: 1440496120515950429
+    second: Monstro_27
+  - first:
+      213: 9219975507090635772
+    second: Monstro_28
+  - first:
+      213: -6438138561983038006
+    second: Monstro_29
+  - first:
+      213: 315235291645942447
+    second: Monstro_30
+  - first:
+      213: 2071980311330075935
+    second: Monstro_31
+  - first:
+      213: 4479258998499597927
+    second: Monstro_32
+  - first:
+      213: -5158188261171941920
+    second: Monstro_33
+  - first:
+      213: -5618423960305448921
+    second: Monstro_34
+  - first:
+      213: -415720858993753766
+    second: Monstro_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Monstro_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 260
+        width: 69
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da875b0f9eba26090800000000000000
+      internalID: -8042676963276130131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstro_1
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 260
+        width: 69
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f37e9d0d3a08f470800000000000000
+      internalID: 8428497959961654260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstro_2
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 260
+        width: 69
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3caa58719436a8a0800000000000000
+      internalID: -6294285629809578950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstro_3
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 260
+        width: 69
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49bd65dba4fd96640800000000000000
+      internalID: 5073831967306734484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstro_4
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 260
+        width: 68
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f551495563e64080800000000000000
+      internalID: -9203418764056373769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstro_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 148
+        width: 80
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 615f477cb765f4ba0800000000000000
+      internalID: -6102563880436435690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstro_6
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 148
+        width: 67
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cad20403a3d3cf980800000000000000
+      internalID: -8503854676255429204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstro_7
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 148
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf54dbe6008bbec30800000000000000
+      internalID: 4389804573800089084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstro_8
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 148
+        width: 69
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81f116b9fa21ed530800000000000000
+      internalID: 3881560474275356440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstro_9
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 17
+        width: 134
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98eb151a8879e3970800000000000000
+      internalID: 8736586940223176329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstro_10
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 94
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e77ae671c56bbaba0800000000000000
+      internalID: -6076562765559978114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstro_11
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 101
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c489513fc52868e70800000000000000
+      internalID: 9117117831385028684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstro_12
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 100
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91ba65d3eee89f820800000000000000
+      internalID: 2952548184600521497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstro_13
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 100
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aafdf7d21fbc99600800000000000000
+      internalID: 475635472375209898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstro_14
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 98
+        width: 35
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02c07cc5969f6c250800000000000000
+      internalID: 5964728987422231584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstro_15
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 100
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4d04a4a398eaca20800000000000000
+      internalID: 3083532615708577099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstro_16
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 99
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac8bb61a445b21850800000000000000
+      internalID: 6346334131289045194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstro_17
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 98
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25af9b482c108f7b0800000000000000
+      internalID: -5190396635582432686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstro_18
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 92
+        width: 62
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e2fbb651af5fee40800000000000000
+      internalID: 5687870000941757160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstro_19
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 20
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a20fb3e29675c1d00800000000000000
+      internalID: 944726131099824170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstro_20
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 18
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74e95f0bce49b3b40800000000000000
+      internalID: 5421090320772603463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstro_21
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 18
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97b890a2839a7d8b0800000000000000
+      internalID: -5127443592049489031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstro_22
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 20
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4e68d45578395e50800000000000000
+      internalID: 6798527189078273613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstro_23
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 20
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3f1c22c14c1a3720800000000000000
+      internalID: 2826602784884531004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstro_24
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 20
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ac090ba17ab3cd50800000000000000
+      internalID: 6756448863349443748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstro_25
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 18
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e368264673666ac90800000000000000
+      internalID: -7158922169565411778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstro_26
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 2
+        width: 44
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80dcaaa7b527a13b0800000000000000
+      internalID: -5540990654300369656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstro_27
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 6
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d577eabe69badf310800000000000000
+      internalID: 1440496120515950429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstro_28
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 6
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfb70f9cfdee3ff70800000000000000
+      internalID: 9219975507090635772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstro_29
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 4
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acdb14ea61327a6a0800000000000000
+      internalID: -6438138561983038006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstro_30
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 6
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faa193bd3d0ff5400800000000000000
+      internalID: 315235291645942447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstro_31
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 6
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f15be668d1721cc10800000000000000
+      internalID: 2071980311330075935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstro_32
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 6
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76e5a86b356892e30800000000000000
+      internalID: 4479258998499597927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstro_33
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 6
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eda1401b1f6a68b0800000000000000
+      internalID: -5158188261171941920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstro_34
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 6
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72843700d295702b0800000000000000
+      internalID: -5618423960305448921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstro_35
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 6
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5105f1d4101b3af0800000000000000
+      internalID: -415720858993753766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Monstro_0: -8042676963276130131
+      Monstro_1: 8428497959961654260
+      Monstro_10: -6076562765559978114
+      Monstro_11: 9117117831385028684
+      Monstro_12: 2952548184600521497
+      Monstro_13: 475635472375209898
+      Monstro_14: 5964728987422231584
+      Monstro_15: 3083532615708577099
+      Monstro_16: 6346334131289045194
+      Monstro_17: -5190396635582432686
+      Monstro_18: 5687870000941757160
+      Monstro_19: 944726131099824170
+      Monstro_2: -6294285629809578950
+      Monstro_20: 5421090320772603463
+      Monstro_21: -5127443592049489031
+      Monstro_22: 6798527189078273613
+      Monstro_23: 2826602784884531004
+      Monstro_24: 6756448863349443748
+      Monstro_25: -7158922169565411778
+      Monstro_26: -5540990654300369656
+      Monstro_27: 1440496120515950429
+      Monstro_28: 9219975507090635772
+      Monstro_29: -6438138561983038006
+      Monstro_3: 5073831967306734484
+      Monstro_30: 315235291645942447
+      Monstro_31: 2071980311330075935
+      Monstro_32: 4479258998499597927
+      Monstro_33: -5158188261171941920
+      Monstro_34: -5618423960305448921
+      Monstro_35: -415720858993753766
+      Monstro_4: -9203418764056373769
+      Monstro_5: -6102563880436435690
+      Monstro_6: -8503854676255429204
+      Monstro_7: 4389804573800089084
+      Monstro_8: 3881560474275356440
+      Monstro_9: 8736586940223176329
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
