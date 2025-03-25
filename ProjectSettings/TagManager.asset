@@ -58,6 +58,9 @@ TagManager:
   - name: Player
     uniqueID: 4114808179
     locked: 0
+  - name: Boss
+    uniqueID: 716712867
+    locked: 0
   - name: Bullet
     uniqueID: 1792211575
     locked: 0
