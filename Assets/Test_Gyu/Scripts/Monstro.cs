@@ -8,6 +8,7 @@ public class Monstro : MonoBehaviour
     // 외부 객체
     public GameObject player;
     public GameObject bullet;
+    public GameObject[] pBullets;
 
     // 하위 객체
     public Transform body;
@@ -41,7 +42,13 @@ public class Monstro : MonoBehaviour
 
     void Update()
     {
-        if (body == null) { Destroy(gameObject); return; }
+        if (body == null)
+        {
+            Destroy(gameObject);
+            foreach (GameObject go in GameObject.FindGameObjectsWithTag("EnemyBullet"))
+                Destroy(go);
+            return;
+        }
 
         // 체력
         maxHP = body.GetComponent<EnemyHp>().maxHp;
@@ -51,14 +58,15 @@ public class Monstro : MonoBehaviour
         // 콜라이더
         myCollider = GetComponent<Collider2D>();
         bodyCollider = body.GetComponent<Collider2D>();
+        pBullets = GameObject.FindGameObjectsWithTag("Bullet");
 
         // 플레이어 찾기
         player = GameObject.FindGameObjectsWithTag("Player")
             .FirstOrDefault(p => p.GetComponent<Collider2D>() != null);
 
-        // 방향 설정 및 시각 반전
         if (player != null)
         {
+            // 방향 설정 및 시각 반전
             direction = player.transform.position - transform.position;
             sr.flipX = direction.x >= 0f;
         }
@@ -117,29 +125,28 @@ public class Monstro : MonoBehaviour
     {
         yield return new WaitForSeconds(1f);
 
-        while (true)
+        while (body != null && player != null)
         {
             // 행동 확률적 선택
-            int rand = Random.Range(0, 101);
-
-            if (currentHP < maxHP / 5) rand = 101;
+            int rand = Random.Range(0, 100);
 
             if (rand < 30)
             {
                 ani.SetTrigger("Move");
-                StartCoroutine(Move(2));
+                StartCoroutine(Move(2, .8f));
             }
-            else if (rand < 70)
+            else if (rand < 80)
             {
                 ani.SetTrigger("Attack");
                 StartCoroutine(Attack());
             }
-            else if (rand < 101)
+            else if (rand < 100)
             {
                 ani.SetTrigger("Attack");
                 StartCoroutine(Shock());
             }
-            else
+
+            if (currentHP < maxHP / 4)
             {
                 ani.SetTrigger("Jump");
                 StartCoroutine(Jump());
@@ -150,30 +157,36 @@ public class Monstro : MonoBehaviour
     }
 
     // 이동 코루틴
-    IEnumerator Move(float DISTANCE)
+    IEnumerator Move(float DISTANCE, float DURATION)
     {
         rb.constraints = RigidbodyConstraints2D.FreezeRotation;
 
         if (player == null) yield break;
 
         float time = 0f;
-        float duration = ani.GetCurrentAnimatorStateInfo(0).length;
+        bool jumping = false;
 
         Vector3 start = transform.position;
         Vector3 end = start + direction.normalized * DISTANCE;
 
-        while (time < duration)
+        while (time < DURATION)
         {
             // 본체 이동
-            Vector3 nextPos = Vector3.Lerp(start, end, time / duration);
+            Vector3 nextPos = Vector3.Lerp(start, end, time / DURATION);
             rb.MovePosition(nextPos);
 
             // 점프 유무
-            if (!myCollider.bounds.Intersects(bodyCollider.bounds))
+            jumping = !bodyCollider.bounds.Intersects(myCollider.bounds);
+
+            // 충돌 활성화/비활성화
+            Physics2D.IgnoreCollision(myCollider, player.GetComponent<Collider2D>(), jumping);
+            Physics2D.IgnoreCollision(bodyCollider, player.GetComponent<Collider2D>(), jumping);
+            foreach (GameObject bullet in pBullets)
             {
-                // 겹치지 않으면 충돌 무시
-                myCollider.enabled = false;
-                bodyCollider.enabled = false;
+                if (bullet.GetComponent<Collider2D>() != null)
+                {
+                    Physics2D.IgnoreCollision(bodyCollider, bullet.GetComponent<Collider2D>(), jumping);
+                }
             }
 
             time += Time.deltaTime;
@@ -181,16 +194,13 @@ public class Monstro : MonoBehaviour
         }
 
         rb.MovePosition(end);
-
-        // 이동 후 충돌 무시 해제
-        myCollider.enabled = true;
-        bodyCollider.enabled = true;
+        yield return null;
     }
 
     // 점프 코루틴
     IEnumerator Jump()
     {
-        StartCoroutine(Move(direction.magnitude)); // 이동
+        StartCoroutine(Move(direction.magnitude, 1.6f)); // 이동
 
         yield return new WaitForSeconds(1f); // 점프 후 대기
 
@@ -242,7 +252,7 @@ public class Monstro : MonoBehaviour
         float intervalAngle = 360 / count; // 발사체 사이각
         float angle = 0;
 
-        for (int i = 0; i < count * 2; i++)
+        for (int i = 0; i < count; i++)
         {
             angle += intervalAngle * Mathf.Deg2Rad;
 
@@ -250,6 +260,9 @@ public class Monstro : MonoBehaviour
 
             GameObject go = Instantiate(bullet, transform.position, Quaternion.identity); // 총알 생성
             go.transform.localScale = Vector3.one * 2; // 총알 크기 2배
+
+            // 총알 데미지 2배
+            go.GetComponent<EnemyBullet>().damage = 2;
 
             // 총알 속도 적용
             Rigidbody2D bulletRb = go.GetComponent<Rigidbody2D>();
