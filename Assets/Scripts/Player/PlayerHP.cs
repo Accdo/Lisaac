@@ -75,9 +75,11 @@ public class PlayerHP : MonoBehaviour
         {
             TakeDamage(1);
             StartCoroutine(FlickPlayer());
+
             transform.position = BeforePos;
         }
     }
+
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Enemy") || collision.gameObject.CompareTag("Boss"))
@@ -90,7 +92,6 @@ public class PlayerHP : MonoBehaviour
             TakeDamage(1);
             StartCoroutine(FlickPlayer());
         }
-
     }
 
     IEnumerator FlickPlayer()
@@ -105,6 +106,4 @@ public class PlayerHP : MonoBehaviour
             yield return new WaitForSeconds(0.1f);
         }
     }
-
-
 }
