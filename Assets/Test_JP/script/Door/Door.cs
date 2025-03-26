@@ -1,5 +1,6 @@
 using Unity.VisualScripting;
 using UnityEngine;
+using static RoomType;
 
 public abstract class Door : MonoBehaviour
 {
@@ -7,30 +8,78 @@ public abstract class Door : MonoBehaviour
     protected const float PADDINGX = 18;
     protected const float PADDINGY = 10;
 
-    [SerializeField] protected Sprite openDoor;  // 문이 열렸을 때의 스프라이트
-    [SerializeField] protected Sprite closeDoor; // 문이 닫혔을 때의 스프라이트
+	[SerializeField]
+    protected Sprite normalOpenDoor; // 일반방 문이 열렸을 때의 스프라이트
+	[SerializeField]
+	protected Sprite normalCloseDoor; // 일반방 문이 닫혔을 때의 스프라이트
+    [SerializeField]
+    protected Sprite itemOpenDoor; // 아이템방 문이 열렸을 때의 스프라이트
+    [SerializeField]
+    protected Sprite itemCloseDoor; // 아이템방 문이 닫혔을 때의 스프라이트
+    [SerializeField]
+    protected Sprite bossOpenDoor; // 보스방 문이 열렸렸을 때의 스프라이트
+    [SerializeField]
+    protected Sprite bossCloseDoor; // 보스방 문이 닫혔을 때의 스프라이트
 
-    protected bool isOpen = false;               // 문 열림 여부
-    protected BoxCollider2D col;                 // 충돌 판정
-    protected SpriteRenderer spRender;           // 스프라이트 렌더러
+    protected bool isOpen = false;
+	protected BoxCollider2D col;
+	protected SpriteRenderer spRender;
+
+    protected RoomTypeEnum doorType;
 
     // 방에 몬스터가 없으면 문을 연다
     protected void DoorCheck()
     {
         isOpen = RoomManager.Instance.nonMonster;
 
-        if (isOpen)
+        if(doorType == RoomTypeEnum.Item)
         {
-            col.enabled = true;
-            spRender.sprite = openDoor;
+            // �� Ÿ���� �������ϰ��
+            if (isOpen)
+            {
+                col.enabled = true;
+                spRender.sprite = itemOpenDoor;
+            }
+            else
+            {
+                col.enabled = false;
+                spRender.sprite = itemCloseDoor;
+            }
+        }
+        else if (doorType == RoomTypeEnum.Boss)
+        {
+            // �� Ÿ���� �����ϰ��
+            if (isOpen)
+            {
+                col.enabled = true;
+                spRender.sprite = bossOpenDoor;
+            }
+            else
+            {
+                col.enabled = false;
+                spRender.sprite = bossCloseDoor;
+            }
         }
         else
         {
-            col.enabled = false;
-            spRender.sprite = closeDoor;
+            // �� Ÿ���� �������� �̰ų� �븻�� ���
+            if (isOpen)
+            {
+                col.enabled = true;
+                spRender.sprite = normalOpenDoor;
+            }
+            else
+            {
+                col.enabled = false;
+                spRender.sprite = normalCloseDoor;
+            }
         }
     }
 
-    // 플레이어가 문과 충돌했을 때 호출될 맵 이동 추상 메서드
+    public void DoorTypeSelect(RoomTypeEnum inputDoorType)
+    {
+        doorType = inputDoorType;
+    }
+
     protected abstract void MapMove(GameObject player);
 }
