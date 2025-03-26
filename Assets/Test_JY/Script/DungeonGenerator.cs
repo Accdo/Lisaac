@@ -8,17 +8,17 @@ using static RoomType;
 
 public class DungeonGenerator : MonoBehaviour
 {
-    // ÃÖ´ë ¹æ °³¼ö
+    // ï¿½Ö´ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
     public int maxRooms = 10;
-    // ½ÃÀÛ ¹æ ÇÁ¸®ÆÕ
+    // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
     public GameObject startRoomPrefabs;
-    // ÀÏ¹İ ¹æ ÇÁ¸®ÆÕ
+    // ï¿½Ï¹ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
     public GameObject[] normalRoomPrefabs;
-    // ¾ÆÀÌÅÛ ¹æ ÇÁ¸®ÆÕ
+    // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
     public GameObject[] itemRoomPrefabs;
-    // º¸½º ¹æ ÇÁ¸®ÆÕ
+    // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
     public GameObject[] bossRoomPrefabs;
-    // ¹æ »çÀÌ °£°İ
+    // ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
     public float roomSpacingX = 18f;
     public float roomSpacingY = 10f;
 
@@ -27,16 +27,16 @@ public class DungeonGenerator : MonoBehaviour
     private Dictionary<Vector2Int, RoomData> rooms = new Dictionary<Vector2Int, RoomData>();
     private List<Vector2Int> directions = new List<Vector2Int>
     {
-        Vector2Int.up,
-        Vector2Int.down,
-        Vector2Int.left,
-        Vector2Int.right
+        Vector2Int.up, // ìœ„ìª½
+        Vector2Int.down, // ì•„ë˜ìª½
+        Vector2Int.left, // ì™¼ìª½
+        Vector2Int.right // ì˜¤ë¥¸ìª½
     };
     private List<Vector2Int> endRoomList = new List<Vector2Int>();
 
     void Start()
     {
-        // ¸Ê »ı¼º ·çÇÁ (¿£µå·ë 2°³ ÀÌÇÏÀÎ °æ¿ì ´Ù½Ã »ı¼º)
+        // ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ (ï¿½ï¿½ï¿½ï¿½ï¿½ 2ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Ù½ï¿½ ï¿½ï¿½ï¿½ï¿½)
         while(!isMapCreateDone)
         {
             GenerateDungeon();
@@ -45,22 +45,22 @@ public class DungeonGenerator : MonoBehaviour
 
     void GenerateDungeon()
     {
-        rooms.Clear();
+        rooms.Clear(); // ê¸°ì¡´ ë°© ë°ì´í„° ì´ˆê¸°í™”
 
-        // ½ÃÀÛ ¹æ (0, 0)
+        // ì‹œì‘ ìœ„ì¹˜ (0, 0)
         Vector2Int startPos = Vector2Int.zero;
         RoomData startRoom = new RoomData(startPos);
         startRoom.roomType = RoomType.RoomTypeEnum.Start;
         rooms.Add(startPos, startRoom);
 
-        // »ı¼º ÈÄº¸ ¸®½ºÆ®
+        // ë°© ìœ„ì¹˜ ë¦¬ìŠ¤íŠ¸ ìƒì„±
         List<Vector2Int> roomPositions = new List<Vector2Int> { startPos };
 
         int tryCount = 0;
         bool failTrigger = false;
         while (rooms.Count < maxRooms)
         {
-            // ½Ãµµ È½¼ö°¡ ³Ê¹« ¸¹À¸¸é Äµ½½
+            // ï¿½Ãµï¿½ È½ï¿½ï¿½ï¿½ï¿½ ï¿½Ê¹ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Äµï¿½ï¿½
             tryCount++;
             if (tryCount > maxRooms * 5)
             {
@@ -68,21 +68,21 @@ public class DungeonGenerator : MonoBehaviour
                 break;
             }
 
-            // ·£´ıÀ¸·Î ±âÁ¸ ¹æ ÇÏ³ª ¼±ÅÃ
+            // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ï³ï¿½ ï¿½ï¿½ï¿½ï¿½
             Vector2Int currentPos = roomPositions[Random.Range(0, roomPositions.Count)];
 
-            // ·£´ı ¹æÇâ ¼±ÅÃ (up down left right)
+            // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ (up down left right)
             int dirRandomValue = Random.Range(0, 4);
             Vector2Int randomDir = directions[dirRandomValue];
             Vector2Int newPos = currentPos + randomDir;
 
-            // Áßº¹ ½Ã ÄÁÆ¼´º
+            // ì¤‘ë³µ ë°© ìƒì„± ë°©ì§€
             if (rooms.ContainsKey(newPos))
             {
                 continue;
             }
 
-            // »ı¼ºÇÒ ¹æÇâ¿¡ ÀÎÁ¢ÇÑ ¹æ °¹¼ö È®ÀÎ
+            // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½â¿¡ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ È®ï¿½ï¿½
             int nearRoomCount = 0;
             nearRoomCount = rooms.ContainsKey(newPos + Vector2Int.up) ? nearRoomCount + 1 : nearRoomCount;
             nearRoomCount = rooms.ContainsKey(newPos + Vector2Int.down) ? nearRoomCount + 1 : nearRoomCount;
@@ -94,41 +94,41 @@ public class DungeonGenerator : MonoBehaviour
                 continue;
             }
 
-            // ÄÚ³Ê(¤¤ÀÚ) ¹æÀÌ »ı¼ºµÉ °æ¿ì, ´ë°¢¼±¿¡ ¹æÀÌ ÀÖ´ÂÁö Ã¼Å©ÇÏ¿© ¹æ »ı¼º ¹æÁö
+            // ï¿½Ú³ï¿½(ï¿½ï¿½ï¿½ï¿½) ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½, ï¿½ë°¢ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ö´ï¿½ï¿½ï¿½ Ã¼Å©ï¿½Ï¿ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
             bool hasLeft = rooms.ContainsKey(newPos + Vector2Int.left);
             bool hasRight = rooms.ContainsKey(newPos + Vector2Int.right);
             bool hasUp = rooms.ContainsKey(newPos + Vector2Int.up);
             bool hasDown = rooms.ContainsKey(newPos + Vector2Int.down);
 
-            // ÁÂ-À§(¢Ø) ÄÚ³Ê ¹æÀÌ¸é ´ë°¢¼±(ÁÂÀ§ ´ë°¢ ¢Ø)¿¡ ¹æÀÌ ÀÖÀ¸¸é »ı¼º X
+            // ï¿½ï¿½-ï¿½ï¿½(ï¿½ï¿½) ï¿½Ú³ï¿½ ï¿½ï¿½ï¿½Ì¸ï¿½ ï¿½ë°¢ï¿½ï¿½(ï¿½ï¿½ï¿½ï¿½ ï¿½ë°¢ ï¿½ï¿½)ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ X
             if (hasLeft && hasUp && rooms.ContainsKey(newPos + Vector2Int.left + Vector2Int.up))
             {
                 continue;
             }
 
-            // ¿ì-À§(¢Ö) ÄÚ³Ê ¹æÀÌ¸é ´ë°¢¼±(¿ìÀ§ ´ë°¢ ¢Ö)¿¡ ¹æÀÌ ÀÖÀ¸¸é »ı¼º X
+            // ï¿½ï¿½-ï¿½ï¿½(ï¿½ï¿½) ï¿½Ú³ï¿½ ï¿½ï¿½ï¿½Ì¸ï¿½ ï¿½ë°¢ï¿½ï¿½(ï¿½ï¿½ï¿½ï¿½ ï¿½ë°¢ ï¿½ï¿½)ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ X
             if (hasRight && hasUp && rooms.ContainsKey(newPos + Vector2Int.right + Vector2Int.up))
             {
                 continue;
             }
 
-            // ÁÂ-¾Æ·¡(¢×) ÄÚ³Ê ¹æÀÌ¸é ´ë°¢¼±(ÁÂ¾Æ·¡ ´ë°¢ ¢×)¿¡ ¹æÀÌ ÀÖÀ¸¸é »ı¼º X
+            // ï¿½ï¿½-ï¿½Æ·ï¿½(ï¿½ï¿½) ï¿½Ú³ï¿½ ï¿½ï¿½ï¿½Ì¸ï¿½ ï¿½ë°¢ï¿½ï¿½(ï¿½Â¾Æ·ï¿½ ï¿½ë°¢ ï¿½ï¿½)ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ X
             if (hasLeft && hasDown && rooms.ContainsKey(newPos + Vector2Int.left + Vector2Int.down))
             {
                 continue;
             }
 
-            // ¿ì-¾Æ·¡(¢Ù) ÄÚ³Ê ¹æÀÌ¸é ´ë°¢¼±(¿ì¾Æ·¡ ´ë°¢ ¢Ù)¿¡ ¹æÀÌ ÀÖÀ¸¸é »ı¼º X
+            // ï¿½ï¿½-ï¿½Æ·ï¿½(ï¿½ï¿½) ï¿½Ú³ï¿½ ï¿½ï¿½ï¿½Ì¸ï¿½ ï¿½ë°¢ï¿½ï¿½(ï¿½ï¿½Æ·ï¿½ ï¿½ë°¢ ï¿½ï¿½)ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ X
             if (hasRight && hasDown && rooms.ContainsKey(newPos + Vector2Int.right + Vector2Int.down))
             {
                 continue;
             }
 
-            // »õ·Î¿î ¹æ »ı¼º
+            // ï¿½ï¿½ï¿½Î¿ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
             RoomData newRoom = new RoomData(newPos);
             newRoom.roomType = RoomType.RoomTypeEnum.Normal;
 
-            // ¹® ¿¬°á
+            // ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
             switch (dirRandomValue)
             {
                 case 0:
@@ -149,7 +149,7 @@ public class DungeonGenerator : MonoBehaviour
                     break;
             }
 
-            // ¸®½ºÆ® Ãß°¡
+            // ë°© ë¦¬ìŠ¤íŠ¸ì— ì¶”ê°€
             rooms.Add(newPos, newRoom);
             roomPositions.Add(newPos);
         }
@@ -161,7 +161,7 @@ public class DungeonGenerator : MonoBehaviour
 
         // int counting1 = 0;
 
-        // ¹® ¿¬°á
+        // ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
         foreach (var i in rooms)
         {
             // int counting2 = 0;
@@ -169,7 +169,7 @@ public class DungeonGenerator : MonoBehaviour
             {
                 // Debug.Log(counting1 + " : " + counting2 + "    |    " + i.Key.x + " : " + i.Key.y + "    |    " + j.Key.x + " : " + j.Key.y);
 
-                // i¶û j°¡ °°Àº ·ëÀÎÁö °Ë»ç
+                // iï¿½ï¿½ jï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ë»ï¿½
                 if (i.Key.x == j.Key.x && i.Key.y == j.Key.y)
                 {
                     // counting2++;
@@ -177,38 +177,38 @@ public class DungeonGenerator : MonoBehaviour
                 }
                 else if (i.Key.x == j.Key.x && IsDifferenceOne(i.Key.y, j.Key.y))
                 {
-                    // X ÁÂÇ¥´Â °°°í YÁÂÇ¥°¡ 1 Â÷ÀÌ³¯¶§ (À§ ¾Æ·¡ or ¾Æ·¡ À§ ¹®¿¬°á)
+                    // X ï¿½ï¿½Ç¥ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ Yï¿½ï¿½Ç¥ï¿½ï¿½ 1 ï¿½ï¿½ï¿½Ì³ï¿½ï¿½ï¿½ (ï¿½ï¿½ ï¿½Æ·ï¿½ or ï¿½Æ·ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)
                     if (i.Key.y < j.Key.y)
                     {
-                        i.Value.doors[0] = true;
-                        j.Value.doors[1] = true;
+                        i.Value.doors[0] = true; // ìœ„ìª½ ë¬¸ ì—´ê¸°
+                        j.Value.doors[1] = true; // ì•„ë˜ìª½ ë¬¸ ì—´ê¸°
                     }
                     else if (i.Key.y > j.Key.y)
                     {
-                        i.Value.doors[1] = true;
-                        j.Value.doors[0] = true;
+                        i.Value.doors[1] = true; // ì•„ë˜ìª½ ë¬¸ ì—´ê¸°
+                        j.Value.doors[0] = true; // ìœ„ìª½ ë¬¸ ì—´ê¸°
                     }
                     else
                     {
-                        Debug.LogError($"1ÀÖÀ»¼ö ¾ø´Â ÀÏ! : {i.Key.y} | {j.Key.y}");
+                        Debug.LogError($"1ì¹¸ ì°¨ì´ ì˜¤ë¥˜! : {i.Key.y} | {j.Key.y}");
                     }
                 }
                 else if (i.Key.y == j.Key.y && IsDifferenceOne(i.Key.x, j.Key.x))
                 {
-                    // Y ÁÂÇ¥´Â °°°í XÁÂÇ¥°¡ 1 Â÷ÀÌ³¯¶§ (¿À¸¥ÂÊ ¿ŞÂÊ or ¿ŞÂÊ ¿À¸¥ÂÊ ¹®¿¬°á)
+                    // ê°™ì€ Yì¢Œí‘œì—ì„œ Xì¢Œí‘œê°€ 1 ì°¨ì´ì¼ ê²½ìš° (ì™¼ìª½ ë˜ëŠ” ì˜¤ë¥¸ìª½ ì—°ê²°)
                     if (i.Key.x < j.Key.x)
                     {
-                        i.Value.doors[3] = true;
-                        j.Value.doors[2] = true;
+                        i.Value.doors[3] = true; // ì˜¤ë¥¸ìª½ ë¬¸ ì—´ê¸°
+                        j.Value.doors[2] = true; // ì™¼ìª½ ë¬¸ ì—´ê¸°
                     }
                     else if (i.Key.x > j.Key.x)
                     {
-                        i.Value.doors[2] = true;
-                        j.Value.doors[3] = true;
+                        i.Value.doors[2] = true; // ì™¼ìª½ ë¬¸ ì—´ê¸°
+                        j.Value.doors[3] = true; // ì˜¤ë¥¸ìª½ ë¬¸ ì—´ê¸°
                     }
                     else
                     {
-                        Debug.LogError($"2ÀÖÀ»¼ö ¾ø´Â ÀÏ! : {i.Key.x} | {j.Key.x}");
+                        Debug.LogError($"2ì¹¸ ì°¨ì´ ì˜¤ë¥˜! : {i.Key.x} | {j.Key.x}");
                     }
                 }
                 // counting2++;
@@ -217,16 +217,16 @@ public class DungeonGenerator : MonoBehaviour
             // counting1++;
         }
 
-        // ¿£µå·ë °ü·Ã
+        // ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
         EndRoomSelect();
 
         if (endRoomList.Count < 2)
         {
-            // ¸·´Ù¸¥ ¹æ 2°³ ÀÌÇÏÀÎ °æ¿ì ´Ù½Ã »ı¼º
+            // ï¿½ï¿½ï¿½Ù¸ï¿½ ï¿½ï¿½ 2ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Ù½ï¿½ ï¿½ï¿½ï¿½ï¿½
             return;
         }
 
-        //º¸½º¹æ ¹× ¾ÆÀÌÅÛ¹æ ¼±Á¤
+        //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Û¹ï¿½ ï¿½ï¿½ï¿½ï¿½
         BossRoomAndItemRoomSelect();
 
         /*foreach (var room in rooms)
@@ -236,7 +236,6 @@ public class DungeonGenerator : MonoBehaviour
 
         foreach (var roomPair in rooms)
         {
-            // ·ë ÇÁ¸®ÆÕ °ÔÀÓ¿¡ »ı¼º
             SpawnRoom(roomPair.Value);
         } 
 
@@ -245,10 +244,10 @@ public class DungeonGenerator : MonoBehaviour
 
     void SpawnRoom(RoomData data)
     {
-        // ¹æ »ı¼º º¤ÅÍ
+        // ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
         Vector3 worldPos = new Vector3(data.position.x * roomSpacingX, data.position.y * roomSpacingY, 0);
 
-        // ¹æ Å¸ÀÔ¿¡ µû¸¥ ÇÁ¸®ÆÕ ÂüÁ¶
+        // ï¿½ï¿½ Å¸ï¿½Ô¿ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
         GameObject roomObj = null;
         switch(data.roomType)
         {
@@ -267,11 +266,11 @@ public class DungeonGenerator : MonoBehaviour
         }
         Vector2Int tempVec = Vector2Int.zero;
 
-        // ¹® È°¼ºÈ­ ¹× ºñ È°¼ºÈ­
+        // ë°© í™œì„±í™” ë° ë¬¸ ì„¤ì •
         Room room = roomObj.GetComponent<Room>();
         room.Setup(data.doors, data.roomType);
 
-        // ÁÖº¯ ¹æ Æ¯¼ö ¹æÀÏ °æ¿ì ¹® º¯°æ
+        // ï¿½Öºï¿½ ï¿½ï¿½ Æ¯ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
         for (int i = 0; i < data.doors.Length; i++)
         {
             if (data.doors[i])
@@ -303,26 +302,25 @@ public class DungeonGenerator : MonoBehaviour
     }
     bool IsDifferenceOne(int num1, int num2)
     {
-        // µÎ ¼ö°¡ 1 Â÷ÀÌ³ª´ÂÁö Àı´ë°ª °Ë»ç
+        // ë‘ ê°’ì˜ ì°¨ì´ê°€ 1ì¸ì§€ í™•ì¸
         return Mathf.Abs(num1 - num2) == 1;
     }
 
     int AddAbsoluteValue(int num1, int num2)
     {
-        // µÎ ¼öÀÇ Àı´ë°ª ´õÇÏ±â
+        // ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ë°ª ï¿½ï¿½ï¿½Ï±ï¿½
         return Mathf.Abs(num1) + Mathf.Abs(num2);
     }
 
     public RoomData RoomInfo(Vector2Int location)
     {
-
         return rooms[location];
     }
 
     void EndRoomSelect()
     {
         endRoomList.Clear();
-        Debug.Log("¿£µå·ë ½ÇÇà");
+        Debug.Log("ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
         foreach (var room in rooms)
         {
             int doorCount = 0;
@@ -376,14 +374,13 @@ public class DungeonGenerator : MonoBehaviour
 
     private void OnDrawGizmos()
     {
-        // ¸Ê »ı¼º ¼ø¼­ Ç¥½Ã
+        // ë˜ì „ êµ¬ì¡°ë¥¼ ê¸°ì¦ˆëª¨ë¡œ ì‹œê°ì ìœ¼ë¡œ í‘œì‹œ
 
         if (rooms == null) return;
 
         int index = 0;
         foreach(var kvp in rooms)
         {
-
             Vector2Int poss = kvp.Key;
             RoomData room = kvp.Value;
             float xy = ((roomSpacingX + roomSpacingY) / 2);

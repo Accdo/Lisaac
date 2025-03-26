@@ -4,22 +4,22 @@ using static RoomType;
 
 public abstract class Door : MonoBehaviour
 {
-    //¸ŞÀÎÄ«¸Ş¶ó ÀÌµ¿°Å¸®
-	protected const float PADDINGX = 18;
-	protected const float PADDINGY = 10;
+    // ë©”ì¸ ì¹´ë©”ë¼ ì´ë™ ê±°ë¦¬ (ê°€ë¡œ, ì„¸ë¡œ)
+    protected const float PADDINGX = 18;
+    protected const float PADDINGY = 10;
 
 	[SerializeField]
-    protected Sprite normalOpenDoor;
+    protected Sprite normalOpenDoor; // ì¼ë°˜ë°© ë¬¸ì´ ì—´ë ¸ì„ ë•Œì˜ ìŠ¤í”„ë¼ì´íŠ¸
 	[SerializeField]
-	protected Sprite normalCloseDoor;
+	protected Sprite normalCloseDoor; // ì¼ë°˜ë°© ë¬¸ì´ ë‹«í˜”ì„ ë•Œì˜ ìŠ¤í”„ë¼ì´íŠ¸
     [SerializeField]
-    protected Sprite itemOpenDoor;
+    protected Sprite itemOpenDoor; // ì•„ì´í…œë°© ë¬¸ì´ ì—´ë ¸ì„ ë•Œì˜ ìŠ¤í”„ë¼ì´íŠ¸
     [SerializeField]
-    protected Sprite itemCloseDoor;
+    protected Sprite itemCloseDoor; // ì•„ì´í…œë°© ë¬¸ì´ ë‹«í˜”ì„ ë•Œì˜ ìŠ¤í”„ë¼ì´íŠ¸
     [SerializeField]
-    protected Sprite bossOpenDoor;
+    protected Sprite bossOpenDoor; // ë³´ìŠ¤ë°© ë¬¸ì´ ì—´ë ¸ë ¸ì„ ë•Œì˜ ìŠ¤í”„ë¼ì´íŠ¸
     [SerializeField]
-    protected Sprite bossCloseDoor;
+    protected Sprite bossCloseDoor; // ë³´ìŠ¤ë°© ë¬¸ì´ ë‹«í˜”ì„ ë•Œì˜ ìŠ¤í”„ë¼ì´íŠ¸
 
     protected bool isOpen = false;
 	protected BoxCollider2D col;
@@ -27,14 +27,14 @@ public abstract class Door : MonoBehaviour
 
     protected RoomTypeEnum doorType;
 
-    //¸ó½ºÅÍÀ¯¹« Ã¼Å©ÇØ¼­ ¹®¿­¸°»óÅÂ Ã¼Å©
+    // ë°©ì— ëª¬ìŠ¤í„°ê°€ ì—†ìœ¼ë©´ ë¬¸ì„ ì—°ë‹¤
     protected void DoorCheck()
     {
         isOpen = RoomManager.Instance.nonMonster;
 
         if(doorType == RoomTypeEnum.Item)
         {
-            // ¹® Å¸ÀÔÀÌ ¾ÆÀÌÅÛÀÏ°æ¿ì
+            // ï¿½ï¿½ Å¸ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï°ï¿½ï¿½
             if (isOpen)
             {
                 col.enabled = true;
@@ -48,7 +48,7 @@ public abstract class Door : MonoBehaviour
         }
         else if (doorType == RoomTypeEnum.Boss)
         {
-            // ¹® Å¸ÀÔÀÌ º¸½ºÀÏ°æ¿ì
+            // ï¿½ï¿½ Å¸ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï°ï¿½ï¿½
             if (isOpen)
             {
                 col.enabled = true;
@@ -62,7 +62,7 @@ public abstract class Door : MonoBehaviour
         }
         else
         {
-            // ¹® Å¸ÀÔÀÌ ½ÃÀÛÁöÁ¡ ÀÌ°Å³ª ³ë¸»ÀÏ °æ¿ì
+            // ï¿½ï¿½ Å¸ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ì°Å³ï¿½ ï¿½ë¸»ï¿½ï¿½ ï¿½ï¿½ï¿½
             if (isOpen)
             {
                 col.enabled = true;
