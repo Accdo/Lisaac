@@ -25,6 +25,11 @@ public class DungeonGenerator : MonoBehaviour
         GenerateDungeon(); // 던전 생성 시작
     }
 
+    public Dictionary<Vector2Int, RoomData> GetRooms()
+    {
+        return rooms;
+    }
+
     void GenerateDungeon()
     {
         rooms.Clear(); // 기존 방 데이터 초기화
