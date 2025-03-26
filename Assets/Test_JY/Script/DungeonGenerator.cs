@@ -8,17 +8,17 @@ using static RoomType;
 
 public class DungeonGenerator : MonoBehaviour
 {
-    // �ִ� �� ����
+    // 최대 방 개수
     public int maxRooms = 10;
-    // ���� �� ������
+    // 시작 방 프리팹
     public GameObject startRoomPrefabs;
-    // �Ϲ� �� ������
+    // 일반 방 프리팹
     public GameObject[] normalRoomPrefabs;
-    // ������ �� ������
+    // 아이템 방 프리팹
     public GameObject[] itemRoomPrefabs;
-    // ���� �� ������
+    // 보스 방 프리팹
     public GameObject[] bossRoomPrefabs;
-    // �� ���� ����
+    // 방 사이 간격
     public float roomSpacingX = 18f;
     public float roomSpacingY = 10f;
 
@@ -36,8 +36,8 @@ public class DungeonGenerator : MonoBehaviour
 
     void Start()
     {
-        // �� ���� ���� (����� 2�� ������ ��� �ٽ� ����)
-        while(!isMapCreateDone)
+        // 맵 생성 루프 (엔드룸 2개 이하인 경우 다시 생성)
+        while (!isMapCreateDone)
         {
             GenerateDungeon();
         }
@@ -60,7 +60,7 @@ public class DungeonGenerator : MonoBehaviour
         bool failTrigger = false;
         while (rooms.Count < maxRooms)
         {
-            // �õ� Ƚ���� �ʹ� ������ ĵ��
+            // 시도 횟수가 너무 많으면 캔슬
             tryCount++;
             if (tryCount > maxRooms * 5)
             {
@@ -68,10 +68,10 @@ public class DungeonGenerator : MonoBehaviour
                 break;
             }
 
-            // �������� ���� �� �ϳ� ����
+            // 랜덤으로 기존 방 하나 선택
             Vector2Int currentPos = roomPositions[Random.Range(0, roomPositions.Count)];
 
-            // ���� ���� ���� (up down left right)
+            // 랜덤 방향 선택 (up down left right)
             int dirRandomValue = Random.Range(0, 4);
             Vector2Int randomDir = directions[dirRandomValue];
             Vector2Int newPos = currentPos + randomDir;
@@ -82,7 +82,7 @@ public class DungeonGenerator : MonoBehaviour
                 continue;
             }
 
-            // ������ ���⿡ ������ �� ���� Ȯ��
+            // 생성할 방향에 인접한 방 갯수 확인
             int nearRoomCount = 0;
             nearRoomCount = rooms.ContainsKey(newPos + Vector2Int.up) ? nearRoomCount + 1 : nearRoomCount;
             nearRoomCount = rooms.ContainsKey(newPos + Vector2Int.down) ? nearRoomCount + 1 : nearRoomCount;
@@ -94,41 +94,41 @@ public class DungeonGenerator : MonoBehaviour
                 continue;
             }
 
-            // �ڳ�(����) ���� ������ ���, �밢���� ���� �ִ��� üũ�Ͽ� �� ���� ����
+            // 코너(ㄴ자) 방이 생성될 경우, 대각선에 방이 있는지 체크하여 방 생성 방지
             bool hasLeft = rooms.ContainsKey(newPos + Vector2Int.left);
             bool hasRight = rooms.ContainsKey(newPos + Vector2Int.right);
             bool hasUp = rooms.ContainsKey(newPos + Vector2Int.up);
             bool hasDown = rooms.ContainsKey(newPos + Vector2Int.down);
 
-            // ��-��(��) �ڳ� ���̸� �밢��(���� �밢 ��)�� ���� ������ ���� X
+            // 좌-위(↖) 코너 방이면 대각선(좌위 대각 ↖)에 방이 있으면 생성 X
             if (hasLeft && hasUp && rooms.ContainsKey(newPos + Vector2Int.left + Vector2Int.up))
             {
                 continue;
             }
 
-            // ��-��(��) �ڳ� ���̸� �밢��(���� �밢 ��)�� ���� ������ ���� X
+            // 우-위(↗) 코너 방이면 대각선(우위 대각 ↗)에 방이 있으면 생성 X
             if (hasRight && hasUp && rooms.ContainsKey(newPos + Vector2Int.right + Vector2Int.up))
             {
                 continue;
             }
 
-            // ��-�Ʒ�(��) �ڳ� ���̸� �밢��(�¾Ʒ� �밢 ��)�� ���� ������ ���� X
+            // 좌-아래(↙) 코너 방이면 대각선(좌아래 대각 ↙)에 방이 있으면 생성 X
             if (hasLeft && hasDown && rooms.ContainsKey(newPos + Vector2Int.left + Vector2Int.down))
             {
                 continue;
             }
 
-            // ��-�Ʒ�(��) �ڳ� ���̸� �밢��(��Ʒ� �밢 ��)�� ���� ������ ���� X
+            // 우-아래(↘) 코너 방이면 대각선(우아래 대각 ↘)에 방이 있으면 생성 X
             if (hasRight && hasDown && rooms.ContainsKey(newPos + Vector2Int.right + Vector2Int.down))
             {
                 continue;
             }
 
-            // ���ο� �� ����
+            // 새로운 방 생성
             RoomData newRoom = new RoomData(newPos);
             newRoom.roomType = RoomType.RoomTypeEnum.Normal;
 
-            // �� ����
+            // 문 연결
             switch (dirRandomValue)
             {
                 case 0:
@@ -161,7 +161,7 @@ public class DungeonGenerator : MonoBehaviour
 
         // int counting1 = 0;
 
-        // �� ����
+        // 문 연결
         foreach (var i in rooms)
         {
             // int counting2 = 0;
@@ -169,7 +169,7 @@ public class DungeonGenerator : MonoBehaviour
             {
                 // Debug.Log(counting1 + " : " + counting2 + "    |    " + i.Key.x + " : " + i.Key.y + "    |    " + j.Key.x + " : " + j.Key.y);
 
-                // i�� j�� ���� ������ �˻�
+                // i랑 j가 같은 룸인지 검사
                 if (i.Key.x == j.Key.x && i.Key.y == j.Key.y)
                 {
                     // counting2++;
@@ -177,7 +177,7 @@ public class DungeonGenerator : MonoBehaviour
                 }
                 else if (i.Key.x == j.Key.x && IsDifferenceOne(i.Key.y, j.Key.y))
                 {
-                    // X ��ǥ�� ���� Y��ǥ�� 1 ���̳��� (�� �Ʒ� or �Ʒ� �� ������)
+                    // X 좌표는 같고 Y좌표가 1 차이날때 (위 아래 or 아래 위 문연결)
                     if (i.Key.y < j.Key.y)
                     {
                         i.Value.doors[0] = true; // 위쪽 문 열기
@@ -217,7 +217,7 @@ public class DungeonGenerator : MonoBehaviour
             // counting1++;
         }
 
-        // ����� ����
+        // 엔드룸 관련
         EndRoomSelect();
 
         if (endRoomList.Count < 2)
@@ -226,7 +226,7 @@ public class DungeonGenerator : MonoBehaviour
             return;
         }
 
-        //������ �� �����۹� ����
+        // 보스방 및 아이템방 선정
         BossRoomAndItemRoomSelect();
 
         /*foreach (var room in rooms)
@@ -244,10 +244,10 @@ public class DungeonGenerator : MonoBehaviour
 
     void SpawnRoom(RoomData data)
     {
-        // �� ���� ����
+        // 방 생성 벡터
         Vector3 worldPos = new Vector3(data.position.x * roomSpacingX, data.position.y * roomSpacingY, 0);
 
-        // �� Ÿ�Կ� ���� ������ ����
+        // 방 타입에 따른 프리팹 참조
         GameObject roomObj = null;
         switch(data.roomType)
         {
@@ -270,7 +270,7 @@ public class DungeonGenerator : MonoBehaviour
         Room room = roomObj.GetComponent<Room>();
         room.Setup(data.doors, data.roomType);
 
-        // �ֺ� �� Ư�� ���� ��� �� ����
+        // 주변 방 특수 방일 경우 문 변경
         for (int i = 0; i < data.doors.Length; i++)
         {
             if (data.doors[i])
@@ -308,7 +308,7 @@ public class DungeonGenerator : MonoBehaviour
 
     int AddAbsoluteValue(int num1, int num2)
     {
-        // �� ���� ���밪 ���ϱ�
+        // 두 수의 절대값 더하기
         return Mathf.Abs(num1) + Mathf.Abs(num2);
     }
 
@@ -386,6 +386,7 @@ public class DungeonGenerator : MonoBehaviour
             float xy = ((roomSpacingX + roomSpacingY) / 2);
             Vector3 pos = new Vector3(room.position.x * roomSpacingX, room.position.y * roomSpacingY, 0);
 
+            // 방 생성 순서 표시
             #if UNITY_EDITOR
             UnityEditor.Handles.color = Color.white;
             UnityEditor.Handles.Label(pos + Vector3.up * 0.5f, $"{index}");
