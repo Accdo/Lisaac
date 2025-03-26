@@ -6,12 +6,9 @@ using static RoomType;
 
 public class Room : MonoBehaviour
 {
-    private const int WORM = 1; // 벌레 몬스터
-    private const int GUT = 2;  // 장기 몬스터
-
     public GameObject[] doorObjects; // 0:위 1:아래 2:왼쪽 3:오른쪽
     public GameObject[] spanwPos;    // 적 스폰 위치들
-    public int[] enemyType;          // 적 타입 정보
+    public MonsterType[] enemyType;          // 적 타입 정보
 
     private bool isSpawn = false;    // 적 스폰 여부
     public bool isInPlayer = false;
@@ -59,10 +56,10 @@ public class Room : MonoBehaviour
             {
                 switch (enemyType[i])
                 {
-                    case WORM:
+                    case MonsterType.WORM:
                         SpawnManager.Instance.SpawnWorm(spanwPos[i].transform.position);
                         break;
-                    case GUT:
+                    case MonsterType.GUT:
                         SpawnManager.Instance.SpawnGut(spanwPos[i].transform.position);
                         break;
                 }

@@ -1,5 +1,11 @@
 using UnityEngine;
 
+public enum MonsterType
+{
+	WORM = 1,
+	GUT = 2
+}
+
 public class SpawnManager : MonoBehaviour
 {
 	// 싱글톤 인스턴스
