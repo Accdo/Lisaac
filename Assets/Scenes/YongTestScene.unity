@@ -169,7 +169,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ae2e810e4599da4ea6ec522b56f1065, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 6888087663480581437, guid: 34d387bc9ebe69f4e9c9e53b0d3dcfe5, type: 3}
+  bulletPrefab: {fileID: 6888087663480581437, guid: f2d637872a8140841bba89273d82d125, type: 3}
   playerAnimation: {fileID: 88101060}
   attackPositions:
   - {fileID: 868340660}
@@ -1362,7 +1362,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5e68244443d2f443a3f33dd0c3133b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  heartPrefab: {fileID: 618502857349430084, guid: 6adc48600f6c49e4cb38bafa3b1c0fbd, type: 3}
+  heartPrefab: {fileID: 618502857349430084, guid: 643e5bf614ea83840a95be11a14e1973, type: 3}
   heartContainer: {fileID: 273747335}
   fullHeart: {fileID: 346351666, guid: 4fa98175aeb636645b528f73279c23f5, type: 3}
   halfHeart: {fileID: 455900294, guid: 4fa98175aeb636645b528f73279c23f5, type: 3}
@@ -1685,7 +1685,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxRooms: 10
-  roomPrefab: {fileID: 252745540419202163, guid: 15bcbb2de6037e147ba9ce7fdffe73de, type: 3}
+  startRoomPrefabs: {fileID: 252745540419202163, guid: 15bcbb2de6037e147ba9ce7fdffe73de, type: 3}
+  normalRoomPrefabs:
+  - {fileID: 252745540419202163, guid: 15bcbb2de6037e147ba9ce7fdffe73de, type: 3}
+  - {fileID: 5942908635402571265, guid: 760bd27f19f7bc94e85b677db1d505be, type: 3}
+  - {fileID: 8622914540168168358, guid: 3d8f925a663a2554e960a2089475c40c, type: 3}
+  - {fileID: 8635685064507765808, guid: f53ae9e9cb4180e418417275ee1a51a9, type: 3}
+  itemRoomPrefabs:
+  - {fileID: 252745540419202163, guid: 15bcbb2de6037e147ba9ce7fdffe73de, type: 3}
+  bossRoomPrefabs:
+  - {fileID: 252745540419202163, guid: 15bcbb2de6037e147ba9ce7fdffe73de, type: 3}
   roomSpacingX: 18
   roomSpacingY: 10
 --- !u!114 &945701645

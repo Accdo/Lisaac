@@ -2,6 +2,7 @@ using TMPro;
 using UnityEngine;
 using System.Collections.Generic;
 using Unity.VisualScripting.Dependencies.Sqlite;
+using static RoomType;
 
 
 public class Room : MonoBehaviour
@@ -10,17 +11,23 @@ public class Room : MonoBehaviour
     private const int WORM = 1;
     private const int GUT = 2;
 
-    public GameObject[] doorObjects; // 상하좌우 4개의 문 프리팹
+    public GameObject[] doorObjects = null; // 상하좌우 4개의 문 프리팹
     public GameObject[] spanwPos;
     public int[] enemyType;
 
 
-    public void Setup(bool[] doorStates)
+    public void Setup(bool[] doorStates, RoomTypeEnum roomType)
     {
         for (int i = 0; i < doorObjects.Length; i++)
         {
+            doorObjects[i].GetComponent<Door>().DoorTypeSelect(roomType);
             doorObjects[i].SetActive(doorStates[i]);
         }
+    }
+
+    public void DoorChange(int doorDire, RoomTypeEnum doorType)
+    {
+        doorObjects[doorDire].GetComponent<Door>().DoorTypeSelect(doorType);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
