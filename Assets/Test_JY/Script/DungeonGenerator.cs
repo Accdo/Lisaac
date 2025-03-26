@@ -325,7 +325,7 @@ public class DungeonGenerator : MonoBehaviour
     void EndRoomSelect()
     {
         endRoomList.Clear();
-        Debug.Log("����� ����");
+        /*Debug.Log("엔드룸 실행");*/
         foreach (var room in rooms)
         {
             int doorCount = 0;
@@ -343,7 +343,7 @@ public class DungeonGenerator : MonoBehaviour
         }
         foreach(var endRoom in endRoomList)
         {
-            Debug.Log("End Room : " + endRoom);
+            /*Debug.Log("End Room : " + endRoom);*/
         }
     }
 
@@ -352,8 +352,8 @@ public class DungeonGenerator : MonoBehaviour
         Vector2Int farRoom = new Vector2Int(0,0);
         foreach (var endRoom in endRoomList)
         {
-            Debug.Log(endRoom);
-            Debug.Log(AddAbsoluteValue(endRoom.x, endRoom.y));
+            /*Debug.Log(endRoom);
+            Debug.Log(AddAbsoluteValue(endRoom.x, endRoom.y));*/
             if(AddAbsoluteValue(farRoom.x, farRoom.y) < AddAbsoluteValue(endRoom.x, endRoom.y))
             {
                 farRoom.x = endRoom.x;
@@ -368,7 +368,7 @@ public class DungeonGenerator : MonoBehaviour
                 }
             }
         }
-        Debug.Log("Far Room : " + farRoom);
+        /*Debug.Log("Far Room : " + farRoom);*/
         rooms[farRoom].roomType = RoomType.RoomTypeEnum.Boss;
         endRoomList.Remove(farRoom);
 
