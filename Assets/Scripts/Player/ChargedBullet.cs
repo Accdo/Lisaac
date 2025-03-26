@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class ChargedBullet : PlayerBullet
 {
-    [SerializeField] private float dotDamageInterval = 0.5f; // 도트 데미지 간격
+    [SerializeField] private float dotDamageInterval = 0.1f; // 도트 데미지 간격
     [SerializeField] private float animationDuration = 10f;
     private bool isDealingDamage = false;
     private Coroutine damageCoroutine;
@@ -37,7 +37,7 @@ public class ChargedBullet : PlayerBullet
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Enemy"))
+        if (collision.CompareTag("Enemy") || collision.CompareTag("Boss"))
         {
             if (!isDealingDamage)
             {
@@ -48,7 +48,7 @@ public class ChargedBullet : PlayerBullet
 
     void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.CompareTag("Enemy"))
+        if (collision.CompareTag("Enemy") || collision.CompareTag("Boss"))
         {
             if (damageCoroutine != null)
             {
