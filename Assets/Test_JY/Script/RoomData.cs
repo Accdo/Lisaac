@@ -8,8 +8,16 @@ public class RoomData
     public bool[] doors = new bool[4];
     public RoomTypeEnum roomType;
     
+	public bool isInPlayer = false;
+	public bool playerFirstIn = false;
 
-    public RoomData(Vector2Int pos)
+    public void SetRoomBool()
+    {
+        isInPlayer = roomObj.isInPlayer;
+        playerFirstIn = roomObj.playerFirstIn;
+    }
+
+	public RoomData(Vector2Int pos)
     {
         position = pos;
     }

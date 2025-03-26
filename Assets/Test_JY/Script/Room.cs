@@ -14,6 +14,8 @@ public class Room : MonoBehaviour
     public int[] enemyType;          // 적 타입 정보
 
     private bool isSpawn = false;    // 적 스폰 여부
+    public bool isInPlayer = false;
+    public bool playerFirstIn = false;
 
     // 방에 연결된 문 열기 설정
     public void Setup(bool[] doorStates, RoomTypeEnum roomType)
@@ -36,10 +38,20 @@ public class Room : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             SpanwEnemy();
+            isInPlayer = true;
+            playerFirstIn = true;
         }
     }
 
-    private void SpanwEnemy()
+	private void OnTriggerExit2D(Collider2D collision)
+	{
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            isInPlayer = false;
+        }	
+	}
+
+	private void SpanwEnemy()
     {
         if (!isSpawn)
         {
