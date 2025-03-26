@@ -1262,11 +1262,6 @@ MonoBehaviour:
   m_Spacing: {x: 0, y: 0}
   m_Constraint: 1
   m_ConstraintCount: 5
---- !u!4 &1027964085 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4848525383393867359, guid: 38e7f5f3337c81448852f2a76430b3c0, type: 3}
-  m_PrefabInstance: {fileID: 400932738274699344}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1088914349
 GameObject:
   m_ObjectHideFlags: 0
@@ -2231,17 +2226,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &2021611556 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6404990630740025643, guid: 38e7f5f3337c81448852f2a76430b3c0, type: 3}
-  m_PrefabInstance: {fileID: 400932738274699344}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &2131950931
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2359,25 +2343,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2466137145117354180, guid: 38e7f5f3337c81448852f2a76430b3c0, type: 3}
-      propertyPath: body
-      value: 
-      objectReference: {fileID: 1027964085}
-    - target: {fileID: 2466137145117354180, guid: 38e7f5f3337c81448852f2a76430b3c0, type: 3}
-      propertyPath: bullet
-      value: 
-      objectReference: {fileID: 6166244923773582448, guid: 04033b2bbca4e094b933ac7db2e22bcd, type: 3}
-    - target: {fileID: 2466137145117354180, guid: 38e7f5f3337c81448852f2a76430b3c0, type: 3}
-      propertyPath: healthFill
-      value: 
-      objectReference: {fileID: 2021611556}
     - target: {fileID: 6050311674857310996, guid: 38e7f5f3337c81448852f2a76430b3c0, type: 3}
       propertyPath: m_Name
       value: Monstro
-      objectReference: {fileID: 0}
-    - target: {fileID: 9204326641262018264, guid: 38e7f5f3337c81448852f2a76430b3c0, type: 3}
-      propertyPath: m_TagString
-      value: Enemy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

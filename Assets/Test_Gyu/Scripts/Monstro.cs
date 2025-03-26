@@ -24,8 +24,11 @@ public class Monstro : MonoBehaviour
     // 내부 상태
     private Color originColor;
     private bool hitting = false;
+
     private int maxHP;
     private int currentHP;
+
+    public float speed = 2f;
     private Vector3 direction;
 
     void Start()
@@ -129,11 +132,12 @@ public class Monstro : MonoBehaviour
         {
             // 행동 확률적 선택
             int rand = Random.Range(0, 100);
+            if (currentHP < maxHP / 4) rand = 100;
 
             if (rand < 30)
             {
                 ani.SetTrigger("Move");
-                StartCoroutine(Move(2, .8f));
+                StartCoroutine(Move(speed));
             }
             else if (rand < 80)
             {
@@ -145,8 +149,7 @@ public class Monstro : MonoBehaviour
                 ani.SetTrigger("Attack");
                 StartCoroutine(Shock());
             }
-
-            if (currentHP < maxHP / 4)
+            else
             {
                 ani.SetTrigger("Jump");
                 StartCoroutine(Jump());
@@ -157,22 +160,26 @@ public class Monstro : MonoBehaviour
     }
 
     // 이동 코루틴
-    IEnumerator Move(float DISTANCE, float DURATION)
+    IEnumerator Move(float DISTANCE)
     {
         rb.constraints = RigidbodyConstraints2D.FreezeRotation;
 
         if (player == null) yield break;
 
+        yield return new WaitForEndOfFrame();
+        float duration = ani.GetCurrentAnimatorStateInfo(0).length / ani.speed;
         float time = 0f;
+        Debug.Log(duration);
+
         bool jumping = false;
 
         Vector3 start = transform.position;
         Vector3 end = start + direction.normalized * DISTANCE;
 
-        while (time < DURATION)
+        while (time < duration)
         {
             // 본체 이동
-            Vector3 nextPos = Vector3.Lerp(start, end, time / DURATION);
+            Vector3 nextPos = Vector3.Lerp(start, end, time / duration);
             rb.MovePosition(nextPos);
 
             // 점프 유무
@@ -200,9 +207,10 @@ public class Monstro : MonoBehaviour
     // 점프 코루틴
     IEnumerator Jump()
     {
-        StartCoroutine(Move(direction.magnitude, 1.6f)); // 이동
+        StartCoroutine(Move(direction.magnitude)); // 이동
 
-        yield return new WaitForSeconds(1f); // 점프 후 대기
+        yield return new WaitForEndOfFrame();
+        yield return new WaitForSeconds(ani.GetCurrentAnimatorStateInfo(0).length / ani.speed - 0.6f); // 점프 후 대기
 
         StartCoroutine(Shock()); // 전방위 공격
     }
