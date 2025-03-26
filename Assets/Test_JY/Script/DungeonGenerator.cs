@@ -254,7 +254,8 @@ public class DungeonGenerator : MonoBehaviour
 
         // 방 타입에 따른 프리팹 참조
         GameObject roomObj = null;
-        switch(data.roomType)
+        roomObj = new GameObject();
+        switch (data.roomType)
         {
             case RoomTypeEnum.Start:
                 roomObj = Instantiate(startRoomPrefabs, worldPos, Quaternion.identity, transform);
