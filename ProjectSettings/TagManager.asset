@@ -12,6 +12,7 @@ TagManager:
   - EnemyBullet
   - Trap
   - Falling
+  - RoomManager
   layers:
   - Default
   - TransparentFX

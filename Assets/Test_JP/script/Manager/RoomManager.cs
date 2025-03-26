@@ -26,7 +26,7 @@ public class RoomManager : MonoBehaviour
     // 현재 방에 몬스터가 있는지 확인
     public void CheckMonster()
     {
-        if (GameObject.FindGameObjectWithTag("Enemy") == null)
+        if (GameObject.FindGameObjectWithTag("Enemy") == null && GameObject.FindGameObjectWithTag("Boss") == null)
         {
             nonMonster = true; // 몬스터가 없음
         }
