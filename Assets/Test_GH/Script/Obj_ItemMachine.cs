@@ -24,6 +24,7 @@ public class Obj_ItemMachine : MonoBehaviour
     SpriteRenderer ResultItem_2;
     SpriteRenderer ResultItem_3;
     public float Slot_Speed = 10;
+    public float ItemRollingTime = 1f;
 
     int Rand; // Random Value
 
@@ -115,7 +116,8 @@ public class Obj_ItemMachine : MonoBehaviour
     {
         if(collision.gameObject.CompareTag("Player"))
         {
-            StartCoroutine(ItemRolling());
+            
+            StartCoroutine(ItemRolling(ItemRollingTime));
         }
     }
 
