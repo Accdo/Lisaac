@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4162426950093370573}
   - component: {fileID: 3065919708172092100}
   m_Layer: 0
-  m_Name: DoorDown_Legacy
+  m_Name: DoorDown
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

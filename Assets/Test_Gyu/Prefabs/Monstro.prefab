@@ -353,7 +353,7 @@ GameObject:
   - component: {fileID: 5894601285551015730}
   - component: {fileID: 2466137145117354180}
   m_Layer: 0
-  m_Name: Monstro_Legacy
+  m_Name: Monstro
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

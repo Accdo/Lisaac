@@ -34,7 +34,6 @@ public abstract class Door : MonoBehaviour
 
         if(doorType == RoomTypeEnum.Item)
         {
-            // �� Ÿ���� �������ϰ��
             if (isOpen)
             {
                 col.enabled = true;
@@ -48,7 +47,6 @@ public abstract class Door : MonoBehaviour
         }
         else if (doorType == RoomTypeEnum.Boss)
         {
-            // �� Ÿ���� �����ϰ��
             if (isOpen)
             {
                 col.enabled = true;
@@ -62,7 +60,6 @@ public abstract class Door : MonoBehaviour
         }
         else
         {
-            // �� Ÿ���� �������� �̰ų� �븻�� ���
             if (isOpen)
             {
                 col.enabled = true;

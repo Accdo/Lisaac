@@ -613,7 +613,11 @@ GameObject:
   - component: {fileID: 8090354667766034126}
   - component: {fileID: 967823344269811532}
   - component: {fileID: 7725663542705389286}
+<<<<<<< HEAD:Assets/Prefabs/Environment/Room/BossRoom.prefab
   - component: {fileID: -8037873424249998846}
+=======
+  - component: {fileID: 79263130127357406}
+>>>>>>> main:Assets/Test_JY/Prefabs/NormalRoom3.prefab
   m_Layer: 0
   m_Name: BossRoom
   m_TagString: Untagged
@@ -635,11 +639,14 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6172491546221957021}
-  - {fileID: 4278079680974445507}
-  - {fileID: 7763510768602345182}
-  - {fileID: 4259256060842386607}
   - {fileID: 8437489404496740217}
+<<<<<<< HEAD:Assets/Prefabs/Environment/Room/BossRoom.prefab
   - {fileID: 6109217196657645911}
+=======
+  - {fileID: 4278079680974445507}
+  - {fileID: 4259256060842386607}
+  - {fileID: 7763510768602345182}
+>>>>>>> main:Assets/Test_JY/Prefabs/NormalRoom3.prefab
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &967823344269811532
@@ -714,12 +721,20 @@ MonoBehaviour:
   - {fileID: 8355468848257179797}
   - {fileID: 5325659135279713377}
   - {fileID: 392194912022139320}
+<<<<<<< HEAD:Assets/Prefabs/Environment/Room/BossRoom.prefab
   spanwPos:
   - {fileID: 7311340563168670069}
   enemyType: 01000000
   isInPlayer: 0
   playerFirstIn: 0
 --- !u!61 &-8037873424249998846
+=======
+  spanwPos: []
+  enemyType: 
+  isInPlayer: 0
+  playerFirstIn: 0
+--- !u!61 &79263130127357406
+>>>>>>> main:Assets/Test_JY/Prefabs/NormalRoom3.prefab
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
