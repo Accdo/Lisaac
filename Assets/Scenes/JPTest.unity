@@ -177,7 +177,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxRooms: 10
-  roomPrefab: {fileID: 252745540419202163, guid: 15bcbb2de6037e147ba9ce7fdffe73de, type: 3}
+  startRoomPrefabs: {fileID: 252745540419202163, guid: d5ab73c749c364d49a197d3c64fa462a, type: 3}
+  normalRoomPrefabs: []
+  itemRoomPrefabs: []
+  bossRoomPrefabs: []
   roomSpacingX: 18
   roomSpacingY: 10
 --- !u!1 &128495426
