@@ -1,43 +1,31 @@
 fileFormatVersion: 2
-guid: a9215b68fa00dfb48b4b92e0c1af2aa6
+guid: 99fe1cea76e1d8742932ccc9e218d566
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7341407202210888751
-    second: door_0
+      213: 7181159941968124712
+    second: ItemRoomDoor_0
   - first:
-      213: 6623719234781301212
-    second: door_1
+      213: -2841002405002603807
+    second: ItemRoomDoor_1
   - first:
-      213: 4744073622485524861
-    second: door_2
+      213: 9086044340234569793
+    second: ItemRoomDoor_2
   - first:
-      213: -8810169383252994586
-    second: door_3
+      213: 3596695870967146000
+    second: ItemRoomDoor_3
   - first:
-      213: -4935834299494285922
-    second: door_4
+      213: -9111190809603717848
+    second: ItemRoomDoor_4
   - first:
-      213: -8064736477851923831
-    second: door_5
+      213: -7036885189182280765
+    second: ItemRoomDoor_5
   - first:
-      213: 2506073802342575783
-    second: door_6
+      213: 6706296904523765146
+    second: ItemRoomDoor_6
   - first:
-      213: 6444909936247146198
-    second: door_7
-  - first:
-      213: -2080428299324191059
-    second: door_8
-  - first:
-      213: 6408732569623844768
-    second: door_9
-  - first:
-      213: -6866331653268886809
-    second: door_10
-  - first:
-      213: 6872449089210296006
-    second: door_11
+      213: 1062902654330669166
+    second: ItemRoomDoor_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -84,7 +72,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 60
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -172,177 +160,177 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: door_0
+      name: ItemRoomDoor_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 93
-        width: 92
-        height: 93
+        y: 54
+        width: 53
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1d3c9b8cb051e1a90800000000000000
-      internalID: -7341407202210888751
+      spriteID: 36fb414694ee13240a8c3815a005fce1
+      internalID: 542709972
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: door_1
+      name: ItemRoomDoor_1
       rect:
         serializedVersion: 2
-        x: 92
-        y: 93
-        width: 92
-        height: 93
+        x: 53
+        y: 54
+        width: 53
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: cd9cf01dc8d2ceb50800000000000000
-      internalID: 6623719234781301212
+      spriteID: a9d2ccb943f520648b26f639086e1caf
+      internalID: 1759968926
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: door_2
+      name: ItemRoomDoor_2
       rect:
         serializedVersion: 2
-        x: 184
-        y: 93
-        width: 92
-        height: 93
+        x: 106
+        y: 54
+        width: 53
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d71ec8013d556d140800000000000000
-      internalID: 4744073622485524861
+      spriteID: 506ed0cd58b269340bd240e571d15510
+      internalID: -1784507165
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: door_3
+      name: ItemRoomDoor_3
       rect:
         serializedVersion: 2
-        x: 276
-        y: 93
-        width: 92
-        height: 93
+        x: 159
+        y: 54
+        width: 53
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6e5de2ccf9dfbb580800000000000000
-      internalID: -8810169383252994586
+      spriteID: a3440d1435ef22a409ea10f41165ab59
+      internalID: -997764472
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: door_4
+      name: ItemRoomDoor_4
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 92
-        height: 93
+        y: 1
+        width: 53
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e9d34741bd4608bb0800000000000000
-      internalID: -4935834299494285922
+      spriteID: 23f2e1e82ba3dff44b8729f2dc3be1b8
+      internalID: -1038519119
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: door_5
+      name: ItemRoomDoor_5
       rect:
         serializedVersion: 2
-        x: 92
-        y: 0
-        width: 92
-        height: 93
+        x: 53
+        y: 1
+        width: 53
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 98a4086f6ec441090800000000000000
-      internalID: -8064736477851923831
+      spriteID: 34973a7b2c55b28439ec13bdc7615ead
+      internalID: 660189494
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: door_6
+      name: ItemRoomDoor_6
       rect:
         serializedVersion: 2
-        x: 184
-        y: 0
-        width: 92
-        height: 93
+        x: 106
+        y: 1
+        width: 53
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7aeaa8178dc57c220800000000000000
-      internalID: 2506073802342575783
+      spriteID: a27a486c482a55741926c64ae3ef0cbb
+      internalID: 1959449165
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: door_7
+      name: ItemRoomDoor_7
       rect:
         serializedVersion: 2
-        x: 276
-        y: 0
-        width: 92
-        height: 93
+        x: 159
+        y: 1
+        width: 53
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6d6856fb07be07950800000000000000
-      internalID: 6444909936247146198
+      spriteID: a5a56327c3d38644c82652539b9867f0
+      internalID: 8390443
       vertices: []
       indices: 
       edges: []
@@ -351,7 +339,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: d12d34b16ebc0d249af40960c21b2afc
+    spriteID: ed54265e85c78424b92b70d8128208b0
     internalID: 0
     vertices: []
     indices: 
@@ -361,14 +349,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      door_0: -7341407202210888751
-      door_1: 6623719234781301212
-      door_2: 4744073622485524861
-      door_3: -8810169383252994586
-      door_4: -4935834299494285922
-      door_5: -8064736477851923831
-      door_6: 2506073802342575783
-      door_7: 6444909936247146198
+      ItemRoomDoor_0: 542709972
+      ItemRoomDoor_1: 1759968926
+      ItemRoomDoor_2: -1784507165
+      ItemRoomDoor_3: -997764472
+      ItemRoomDoor_4: -1038519119
+      ItemRoomDoor_5: 660189494
+      ItemRoomDoor_6: 1959449165
+      ItemRoomDoor_7: 8390443
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

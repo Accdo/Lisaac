@@ -147,5 +147,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24de3c932cb83eb4ab3003dbc56cec06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  openDoor: {fileID: -4935834299494285922, guid: a9215b68fa00dfb48b4b92e0c1af2aa6, type: 3}
-  closeDoor: {fileID: -7341407202210888751, guid: a9215b68fa00dfb48b4b92e0c1af2aa6, type: 3}
+  normalOpenDoor: {fileID: -4935834299494285922, guid: a9215b68fa00dfb48b4b92e0c1af2aa6, type: 3}
+  normalCloseDoor: {fileID: -7341407202210888751, guid: a9215b68fa00dfb48b4b92e0c1af2aa6, type: 3}
+  itemOpenDoor: {fileID: -1038519119, guid: 99fe1cea76e1d8742932ccc9e218d566, type: 3}
+  itemCloseDoor: {fileID: 542709972, guid: 99fe1cea76e1d8742932ccc9e218d566, type: 3}
+  bossOpenDoor: {fileID: -1465179441, guid: b0a5f4a9c0177ce4c84d4a74fecf07d4, type: 3}
+  bossCloseDoor: {fileID: -1219763858, guid: b0a5f4a9c0177ce4c84d4a74fecf07d4, type: 3}

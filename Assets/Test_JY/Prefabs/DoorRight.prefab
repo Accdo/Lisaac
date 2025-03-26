@@ -18,7 +18,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2857457389673121812
 Transform:
   m_ObjectHideFlags: 0
@@ -147,5 +147,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17698dd6ded1c6549b12779ba5cfc3c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  openDoor: {fileID: 2506073802342575783, guid: a9215b68fa00dfb48b4b92e0c1af2aa6, type: 3}
-  closeDoor: {fileID: 4744073622485524861, guid: a9215b68fa00dfb48b4b92e0c1af2aa6, type: 3}
+  normalOpenDoor: {fileID: 2506073802342575783, guid: a9215b68fa00dfb48b4b92e0c1af2aa6, type: 3}
+  normalCloseDoor: {fileID: 4744073622485524861, guid: a9215b68fa00dfb48b4b92e0c1af2aa6, type: 3}
+  itemOpenDoor: {fileID: 1959449165, guid: 99fe1cea76e1d8742932ccc9e218d566, type: 3}
+  itemCloseDoor: {fileID: -1784507165, guid: 99fe1cea76e1d8742932ccc9e218d566, type: 3}
+  bossOpenDoor: {fileID: 987357520, guid: b0a5f4a9c0177ce4c84d4a74fecf07d4, type: 3}
+  bossCloseDoor: {fileID: 500834159, guid: b0a5f4a9c0177ce4c84d4a74fecf07d4, type: 3}
