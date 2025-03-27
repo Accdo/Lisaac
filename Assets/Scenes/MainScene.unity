@@ -354,6 +354,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wormEnemy: {fileID: 6512216174106589255, guid: 7654cc14d6dff77438c0482335d1f8d9, type: 3}
   gutEnemy: {fileID: 8803327020739188247, guid: 12b4f669f10d27c4c9a1ab6917b037a2, type: 3}
+  Boss: {fileID: 6050311674857310996, guid: a459039a12dd30e4a9f1d5124130825f, type: 3}
 --- !u!1 &588635103
 GameObject:
   m_ObjectHideFlags: 0
