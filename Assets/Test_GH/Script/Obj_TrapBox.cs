@@ -56,6 +56,7 @@ public class Obj_TrapBox : MonoBehaviour
     {
         if(RoomManager.Instance.nonMonster)
         {
+            gameObject.tag = "Wall";
             IsFight = false;
         }
         else

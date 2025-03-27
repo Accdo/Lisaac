@@ -24,7 +24,10 @@ public class Obj_Stone : MonoBehaviour
             Attack();
             yield return new WaitForSeconds(2.0f);
             if(RoomManager.Instance.nonMonster)
+            {
+                gameObject.tag = "Wall";
                 IsFight = false;
+            }
         }
     }
 
