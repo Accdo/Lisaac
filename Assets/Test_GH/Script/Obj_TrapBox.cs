@@ -54,25 +54,34 @@ public class Obj_TrapBox : MonoBehaviour
 
     void Update()
     {
-        if(trapState == TrapState.Right)
+        if(RoomManager.Instance.nonMonster)
         {
-            transform.position = Vector2.MoveTowards(transform.position, 
+            gameObject.tag = "Wall";
+            IsFight = false;
+        }
+        else
+        {
+            if(trapState == TrapState.Right)
+            {
+                transform.position = Vector2.MoveTowards(transform.position, 
                 new Vector2(Startpos.x + move_horinozontal, transform.position.y), move_speed);
-        }
-        else if(trapState == TrapState.Down)
-        {
-            transform.position = Vector2.MoveTowards(transform.position, 
+            }
+            else if(trapState == TrapState.Down)
+            {
+                transform.position = Vector2.MoveTowards(transform.position, 
                 new Vector2(transform.position.x, Startpos.y - move_vertical), move_speed);
-        }
-        else if(trapState == TrapState.Left)
-        {
-            transform.position = Vector2.MoveTowards(transform.position, 
+            }
+            else if(trapState == TrapState.Left)
+            {
+                transform.position = Vector2.MoveTowards(transform.position, 
                 new Vector2(Startpos.x, transform.position.y), move_speed);
-        }
-        else if(trapState == TrapState.Up)
-        {
-            transform.position = Vector2.MoveTowards(transform.position, 
+            }
+            else if(trapState == TrapState.Up)
+            {
+                transform.position = Vector2.MoveTowards(transform.position, 
                 new Vector2(transform.position.x, Startpos.y), move_speed);
+            }
         }
+        
     }
 }
