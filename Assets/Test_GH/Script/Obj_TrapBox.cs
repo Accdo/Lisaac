@@ -48,7 +48,7 @@ public class Obj_TrapBox : MonoBehaviour
             trapState = TrapState.Up;
             yield return new WaitForSeconds(move_turnDelay);
         }
-
+        
         sprite.sprite = SafeBox;
     }
 
