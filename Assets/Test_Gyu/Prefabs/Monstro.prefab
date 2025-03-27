@@ -354,7 +354,7 @@ GameObject:
   - component: {fileID: 2466137145117354180}
   m_Layer: 0
   m_Name: Monstro
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -455,10 +455,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 0}
   bullet: {fileID: 6166244923773582448, guid: 04033b2bbca4e094b933ac7db2e22bcd, type: 3}
-  pBullets: []
   body: {fileID: 4848525383393867359}
   healthFill: {fileID: 6404990630740025643}
-  speed: 2
 --- !u!1 &9204326641262018264
 GameObject:
   m_ObjectHideFlags: 0
