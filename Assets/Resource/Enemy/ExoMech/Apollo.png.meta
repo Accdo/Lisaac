@@ -1,0 +1,2634 @@
+fileFormatVersion: 2
+guid: 0954c7fa230a90b468046420caef5abb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8357473427046903025
+    second: Apollo_0
+  - first:
+      213: 2742733655702653004
+    second: Apollo_1
+  - first:
+      213: -4044717947436596124
+    second: Apollo_2
+  - first:
+      213: -3889008600673689488
+    second: Apollo_3
+  - first:
+      213: -3186497847660536355
+    second: Apollo_4
+  - first:
+      213: -6888981615309597681
+    second: Apollo_5
+  - first:
+      213: 8451980371052705826
+    second: Apollo_6
+  - first:
+      213: -590000865871335495
+    second: Apollo_7
+  - first:
+      213: -6505835355701961230
+    second: Apollo_8
+  - first:
+      213: -5831367222703877200
+    second: Apollo_9
+  - first:
+      213: -3199671629069842995
+    second: Apollo_10
+  - first:
+      213: -8086429187712428319
+    second: Apollo_11
+  - first:
+      213: -4079309016273763855
+    second: Apollo_12
+  - first:
+      213: -6971547062904751637
+    second: Apollo_13
+  - first:
+      213: -9105680898420916258
+    second: Apollo_14
+  - first:
+      213: 5373894488101195288
+    second: Apollo_15
+  - first:
+      213: -333922540225636563
+    second: Apollo_16
+  - first:
+      213: -1462121608648682739
+    second: Apollo_17
+  - first:
+      213: 1116079861442529986
+    second: Apollo_18
+  - first:
+      213: 1471434140805687086
+    second: Apollo_19
+  - first:
+      213: 6753411177855042299
+    second: Apollo_20
+  - first:
+      213: 3642285493636480930
+    second: Apollo_21
+  - first:
+      213: -8844935118896131515
+    second: Apollo_22
+  - first:
+      213: -5497610760139667561
+    second: Apollo_23
+  - first:
+      213: -8859154444882217116
+    second: Apollo_24
+  - first:
+      213: 1696751636787752620
+    second: Apollo_25
+  - first:
+      213: 5115367349161088474
+    second: Apollo_26
+  - first:
+      213: 7548184986603027014
+    second: Apollo_27
+  - first:
+      213: 6519739215678050935
+    second: Apollo_28
+  - first:
+      213: 4916512754903861381
+    second: Apollo_29
+  - first:
+      213: -4659432024713841366
+    second: Apollo_30
+  - first:
+      213: -507165714715088024
+    second: Apollo_31
+  - first:
+      213: -7250987728434833081
+    second: Apollo_32
+  - first:
+      213: 1492945517604569649
+    second: Apollo_33
+  - first:
+      213: -366112331021401736
+    second: Apollo_34
+  - first:
+      213: 1770933322624285125
+    second: Apollo_35
+  - first:
+      213: -8134055772292581144
+    second: Apollo_36
+  - first:
+      213: -1378921037102703754
+    second: Apollo_37
+  - first:
+      213: -7910384712534200389
+    second: Apollo_38
+  - first:
+      213: -912725589913471958
+    second: Apollo_39
+  - first:
+      213: 2509408474059857619
+    second: Apollo_40
+  - first:
+      213: 6341972430099415632
+    second: Apollo_41
+  - first:
+      213: -8324374644983848791
+    second: Apollo_42
+  - first:
+      213: 6671168699270863652
+    second: Apollo_43
+  - first:
+      213: 1948260988807454649
+    second: Apollo_44
+  - first:
+      213: 8507663547662912475
+    second: Apollo_45
+  - first:
+      213: 190181539854543431
+    second: Apollo_46
+  - first:
+      213: -6853485727459978924
+    second: Apollo_47
+  - first:
+      213: 8471210531102983366
+    second: Apollo_48
+  - first:
+      213: 1620110961620044687
+    second: Apollo_49
+  - first:
+      213: -8962883030991531157
+    second: Apollo_50
+  - first:
+      213: -2975124324612735814
+    second: Apollo_51
+  - first:
+      213: -2537144192841662868
+    second: Apollo_52
+  - first:
+      213: -1064088757228112477
+    second: Apollo_53
+  - first:
+      213: -2298128227979787755
+    second: Apollo_54
+  - first:
+      213: -7303779919189675883
+    second: Apollo_55
+  - first:
+      213: -3486469828311930873
+    second: Apollo_56
+  - first:
+      213: 6185509155196589281
+    second: Apollo_57
+  - first:
+      213: -7443961942248617540
+    second: Apollo_58
+  - first:
+      213: -1726870143358424159
+    second: Apollo_59
+  - first:
+      213: 1107142527898961599
+    second: Apollo_60
+  - first:
+      213: -5644110224970552425
+    second: Apollo_61
+  - first:
+      213: -2097647044867824299
+    second: Apollo_62
+  - first:
+      213: 2377186248351607880
+    second: Apollo_63
+  - first:
+      213: 3207573553914122023
+    second: Apollo_64
+  - first:
+      213: -5186329583642736697
+    second: Apollo_65
+  - first:
+      213: -1859269846080717554
+    second: Apollo_66
+  - first:
+      213: 7998659542839499381
+    second: Apollo_67
+  - first:
+      213: 7347837806807164763
+    second: Apollo_68
+  - first:
+      213: -3104973479846827815
+    second: Apollo_69
+  - first:
+      213: -3578007802838317534
+    second: Apollo_70
+  - first:
+      213: -1307952929054162445
+    second: Apollo_71
+  - first:
+      213: 1628140735006104920
+    second: Apollo_72
+  - first:
+      213: 3760229863492714958
+    second: Apollo_73
+  - first:
+      213: 2806152340207636370
+    second: Apollo_74
+  - first:
+      213: 3855989207167188719
+    second: Apollo_75
+  - first:
+      213: 3520586873121921759
+    second: Apollo_76
+  - first:
+      213: -8104793213966248676
+    second: Apollo_77
+  - first:
+      213: 3007822216394713814
+    second: Apollo_78
+  - first:
+      213: -1335488121590643349
+    second: Apollo_79
+  - first:
+      213: 5474673917526832850
+    second: Apollo_80
+  - first:
+      213: 4251306405855836910
+    second: Apollo_81
+  - first:
+      213: -8282576409757226464
+    second: Apollo_82
+  - first:
+      213: -4611490910522899781
+    second: Apollo_83
+  - first:
+      213: 389124084116589045
+    second: Apollo_84
+  - first:
+      213: -2950032542413181617
+    second: Apollo_85
+  - first:
+      213: 3381387891951181282
+    second: Apollo_86
+  - first:
+      213: -5278776454691653872
+    second: Apollo_87
+  - first:
+      213: 55323055004952480
+    second: Apollo_88
+  - first:
+      213: -2764579316171582098
+    second: Apollo_89
+  - first:
+      213: -6569492361070931094
+    second: Apollo_90
+  - first:
+      213: 3620681213206568731
+    second: Apollo_91
+  - first:
+      213: 2434498981848895845
+    second: Apollo_92
+  - first:
+      213: 6558065293625360247
+    second: Apollo_93
+  - first:
+      213: -2714347247212585818
+    second: Apollo_94
+  - first:
+      213: -618755705869673643
+    second: Apollo_95
+  - first:
+      213: -519630821035107255
+    second: Apollo_96
+  - first:
+      213: -6888584790090879072
+    second: Apollo_97
+  - first:
+      213: -1063517112468772860
+    second: Apollo_98
+  - first:
+      213: -1450603197989000735
+    second: Apollo_99
+  - first:
+      213: 3148617628740379172
+    second: Apollo_100
+  - first:
+      213: -4022397487849900495
+    second: Apollo_101
+  - first:
+      213: -8854197726139350639
+    second: Apollo_102
+  - first:
+      213: -1252015600884272951
+    second: Apollo_103
+  - first:
+      213: -2905946306689131045
+    second: Apollo_104
+  - first:
+      213: 4905520477713014644
+    second: Apollo_105
+  - first:
+      213: 8476184050144460763
+    second: Apollo_106
+  - first:
+      213: 8393089374470689591
+    second: Apollo_107
+  - first:
+      213: 8109411087545323744
+    second: Apollo_108
+  - first:
+      213: -8917326421807057743
+    second: Apollo_109
+  - first:
+      213: 4701031337183815838
+    second: Apollo_110
+  - first:
+      213: 281220929780809887
+    second: Apollo_111
+  - first:
+      213: 8495475344408133847
+    second: Apollo_112
+  - first:
+      213: -1367634139041355436
+    second: Apollo_113
+  - first:
+      213: -7907374945864525362
+    second: Apollo_114
+  - first:
+      213: 5594513195259479083
+    second: Apollo_115
+  - first:
+      213: 728414497822474285
+    second: Apollo_116
+  - first:
+      213: -3797906341296498698
+    second: Apollo_117
+  - first:
+      213: 3761842909312191462
+    second: Apollo_118
+  - first:
+      213: -1820571473002979752
+    second: Apollo_119
+  - first:
+      213: -5353214271548086618
+    second: Apollo_120
+  - first:
+      213: 3804578443292220313
+    second: Apollo_121
+  - first:
+      213: 5945283118808338917
+    second: Apollo_122
+  - first:
+      213: 427933415921814900
+    second: Apollo_123
+  - first:
+      213: -7948752843457662122
+    second: Apollo_124
+  - first:
+      213: 1810824982178175240
+    second: Apollo_125
+  - first:
+      213: 7002906277167077663
+    second: Apollo_126
+  - first:
+      213: -8916115779573949023
+    second: Apollo_127
+  - first:
+      213: 6491598881235953326
+    second: Apollo_128
+  - first:
+      213: -5848352209216331970
+    second: Apollo_129
+  - first:
+      213: -5998553695166105786
+    second: Apollo_130
+  - first:
+      213: 7802453825843008347
+    second: Apollo_131
+  - first:
+      213: -3959037739579990109
+    second: Apollo_132
+  - first:
+      213: -2321755927479487501
+    second: Apollo_133
+  - first:
+      213: -253053176049927779
+    second: Apollo_134
+  - first:
+      213: 2869792288594583326
+    second: Apollo_135
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 80
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Apollo_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1808
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25ee7fb98df70154a8ebd76ffc69d552
+      internalID: 556134927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_1
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1808
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc675c4ca15b6142bff746313e91a96
+      internalID: 59940175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_2
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1808
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 279f250cf622a904cac9fac182cd9ef6
+      internalID: 2033174849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_3
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1808
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d61e47e2a50b2a46b1750ca855f8f19
+      internalID: -1874932455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_4
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1808
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f1a2acc6472ba4aa2020ea838f24a0
+      internalID: 1320600722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_5
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1808
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b7e893887ff4c349a9688958199e728
+      internalID: -418171687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_6
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 1808
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f47aab271f2e3a340a4c9fb5f71d3868
+      internalID: -1985059299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_7
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 1808
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d4614c0f2d14a4a832acc1f2e8f0ca
+      internalID: 1042273879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_8
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1808
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0516f54ec9cf214abe1ad524be98cb5
+      internalID: 482917571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_9
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 1808
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a232541abe64704089d0c704edd8139
+      internalID: -439778160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1582
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e298293219a522479274a0302264c49
+      internalID: -1795101915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_11
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1582
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef0c8b7813e99741ba2d8cb44380ba1
+      internalID: -822051658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_12
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1582
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1f777565d450ea45a6cb3976630958d
+      internalID: -1729474010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_13
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1582
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 489299520bf5bf648910204c805769e7
+      internalID: -1381194060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_14
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1582
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ea02738a8f9e5140b8bf22fb0ece44e
+      internalID: 727251918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_15
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1582
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb8eaf7e6fc18ea488c5bb096e0a582d
+      internalID: 927787539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_16
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 1582
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e85b4dff2d6a34b4598771a41d13a05f
+      internalID: -1479509924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_17
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 1582
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa9d383895d192846bd6a7395f7fe0f2
+      internalID: 117622657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_18
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1582
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d53b225c66d70649bfc4cf296fdc212
+      internalID: -348757497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_19
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 1582
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8faaed3c66aa0554e8789c1c989734b0
+      internalID: 865560257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1356
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 678ff37bf3dd3984182e9d009c5b4b5a
+      internalID: -214218347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_21
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1356
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd71d73d3d4cae7498f55d13eb1e5f8f
+      internalID: -1385774580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_22
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1356
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe1c95f173800124a9c823feb0a1646d
+      internalID: 1415192717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_23
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1356
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 648b0905f86919e448473d34ed0f6317
+      internalID: -209874901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_24
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1356
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dbb0b436b9425348b4745300d47b139
+      internalID: -1172369229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_25
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1356
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e63492ba94d02e74db48438f70fc1ca9
+      internalID: -294373231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_26
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 1356
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b100ff56d37dc4c9691ca9312b29f5
+      internalID: -1716923232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_27
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 1356
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c206ef76fcfb8647a7b5b2874ddd687
+      internalID: -1398800726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_28
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1356
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2735fe65fc1e53846a010f107a1de84b
+      internalID: 2010181916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_29
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 1356
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a823d4f448f64b46902d79bc4b52a40
+      internalID: -946332714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1130
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f3a64bc1273e74ea09d36e90449cc1
+      internalID: -518143315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_31
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1130
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9765172c67c219c4b9c50c0e86e72549
+      internalID: 285450452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_32
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1130
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7abc0b8f14c07c747a9ed8f2a209cc75
+      internalID: -1805833605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_33
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1130
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd093f4b47b7ee64cb14f04120750280
+      internalID: -1343022637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_34
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1130
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 320c2320d5ea8334d8b19d58ed69efe6
+      internalID: 879218189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_35
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1130
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c836abb4f2f76a748908c9d10152560e
+      internalID: 489714387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_36
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 1130
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 697d20c2f8202bf49948b21ff2edfb62
+      internalID: 874223835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_37
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 1130
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ee0acdce1ad08f4c8e96a0bed1222df
+      internalID: -30106003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_38
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1130
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d78ca72786a0fa94ea483af8c0ecb367
+      internalID: -881062341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_39
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 1130
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d3248c398cc72343880d3c42579767d
+      internalID: 986472368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 904
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ebbba89fdb26124f991939f57aaa45d
+      internalID: 1090977043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_41
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 904
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ef9acbd71594d48b4036f9034fbe2d
+      internalID: 28861907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_42
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 904
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b1503231bd3cb7439d97e938cf7f94d
+      internalID: -1247690805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_43
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 904
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c115f2dd6281e8f4db413842cd839944
+      internalID: -2119312849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_44
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 904
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3371668701b3a7243a929776eaf5ed60
+      internalID: -1152024650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_45
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 904
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a103e836bf8604ebde57a23279effa
+      internalID: -1428387722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_46
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 904
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 177e5f08755ec004f9e03cca351b9f16
+      internalID: -1633522678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_47
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 904
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 497cb200737f50b46b6dceb8f9ba7c56
+      internalID: 213818034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_48
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 904
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fcd099d05f72d145b699b53e5f5a3bf
+      internalID: -1674879485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_49
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 904
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b2d5baacfa643c4484ca7eb170d248f
+      internalID: 578054332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 678
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbcc3c9e3acdcaa42a0ba9dc7b2989a9
+      internalID: 402851194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_51
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 678
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fdf1a8a3fd78194196b09886d492bff
+      internalID: -1349703339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_52
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 678
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 681785b25d2c74e408edc866e8f5c513
+      internalID: 1797734365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_53
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 678
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf3f9146b7fb06f44b41ad4914d23b7b
+      internalID: 566366337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_54
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 678
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4667eb4ab121734b9c52a97ac3964b8
+      internalID: -1169286744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_55
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 678
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12c0285e398e64d4c91bc3d2b47e2727
+      internalID: -149762375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_56
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 678
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1a267c3f26e4a447b4c2e4e3076ad4c
+      internalID: -1705262829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_57
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 678
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea0d0099d5d67a9488268b8e68ac8c4d
+      internalID: -573480611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_58
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 678
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 965c487df1c027f4ca6cbf41691b395d
+      internalID: -1307102592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_59
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 678
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cd5fa568914678468fe497ad8c21922
+      internalID: -521877579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 452
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82435a075cc869647ba4bf6a63d46df7
+      internalID: 1945148400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_61
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 452
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c81d7682b198e47baeca10970b4516
+      internalID: 798886370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_62
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 452
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbd1f2f7fc8ac9543bc6cb00aaa64157
+      internalID: -185504563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_63
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 452
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b39df4c3721cd2459d429dfacf9187f
+      internalID: -1510839892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_64
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 452
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82bf329418d2ad342aeeb2b6f178d9a6
+      internalID: -1039120268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_65
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 452
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b1ef0eadf35b94aaa824ed95d6f115
+      internalID: -570556402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_66
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 452
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8de7082a12b0fb94db607586bd94b648
+      internalID: 1961549315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_67
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 452
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea987f4f1892cb4f92f68f7993c3e02
+      internalID: 996721125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_68
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 452
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a479a9a180431064084f788c507fad71
+      internalID: -1362728481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_69
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 452
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 791ca5d18d036664abe10a5e629e9cb4
+      internalID: -33162449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 226
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f456a26bce64bba4c88533b9ba223144
+      internalID: 2015496904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_71
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 226
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b607932eb6be24844861fdc1737ef95b
+      internalID: -1025132217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_72
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 226
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c7211493b144042a80604e1a454cd3
+      internalID: 153729937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_73
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 226
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5159f946cba44742b30665ada6c5842
+      internalID: 30702397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_74
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 226
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5218af5895b2bcd418e9c088a90ff798
+      internalID: 271722399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_75
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 226
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f24534f1652415c4c8e15e30f9075fff
+      internalID: 1456332294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_76
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 226
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 820424c1e95b3c845875a556287a42df
+      internalID: -1598149027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_77
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 226
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41d16c5d8843bf34bb46451978be83ba
+      internalID: 1769329788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_78
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 226
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f1189b4562b24b4f80c6441b961f712
+      internalID: -986322047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_79
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 226
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91821e668945c0f48b1eb0e60157dd20
+      internalID: -1600947683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 350a28f26bbf4a448a664a8618dcd97c
+      internalID: 127011552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_81
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 0
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b28a577a39542df4a8eea3d100c7d017
+      internalID: -1270203954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_82
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 0
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af85734913760094c8b2fc9a75626b33
+      internalID: 522310520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_83
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 0
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44dd0c7e11a12324380522cec63b51a7
+      internalID: -1507869738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_84
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 0
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df410838c2132c499b0a5e8fe820e40
+      internalID: 181533364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_85
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 0
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c18c3e23ac93df840a43372f761d081e
+      internalID: 673643281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_86
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 0
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a7cb46034057a45ad0f190062c1fbe
+      internalID: 854596969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_87
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 0
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d7c93b00a11f44e95647d0d9319936
+      internalID: 269028616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_88
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 0
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e54768e711f282409f53fa08686e2e8
+      internalID: -315208748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apollo_89
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 0
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 069771464d92a3f4dadc5062f6ecd6bc
+      internalID: -365471590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f8a282aeffc9df642b2142846b33f348
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Apollo_0: 556134927
+      Apollo_1: 59940175
+      Apollo_10: -1795101915
+      Apollo_11: -822051658
+      Apollo_12: -1729474010
+      Apollo_13: -1381194060
+      Apollo_14: 727251918
+      Apollo_15: 927787539
+      Apollo_16: -1479509924
+      Apollo_17: 117622657
+      Apollo_18: -348757497
+      Apollo_19: 865560257
+      Apollo_2: 2033174849
+      Apollo_20: -214218347
+      Apollo_21: -1385774580
+      Apollo_22: 1415192717
+      Apollo_23: -209874901
+      Apollo_24: -1172369229
+      Apollo_25: -294373231
+      Apollo_26: -1716923232
+      Apollo_27: -1398800726
+      Apollo_28: 2010181916
+      Apollo_29: -946332714
+      Apollo_3: -1874932455
+      Apollo_30: -518143315
+      Apollo_31: 285450452
+      Apollo_32: -1805833605
+      Apollo_33: -1343022637
+      Apollo_34: 879218189
+      Apollo_35: 489714387
+      Apollo_36: 874223835
+      Apollo_37: -30106003
+      Apollo_38: -881062341
+      Apollo_39: 986472368
+      Apollo_4: 1320600722
+      Apollo_40: 1090977043
+      Apollo_41: 28861907
+      Apollo_42: -1247690805
+      Apollo_43: -2119312849
+      Apollo_44: -1152024650
+      Apollo_45: -1428387722
+      Apollo_46: -1633522678
+      Apollo_47: 213818034
+      Apollo_48: -1674879485
+      Apollo_49: 578054332
+      Apollo_5: -418171687
+      Apollo_50: 402851194
+      Apollo_51: -1349703339
+      Apollo_52: 1797734365
+      Apollo_53: 566366337
+      Apollo_54: -1169286744
+      Apollo_55: -149762375
+      Apollo_56: -1705262829
+      Apollo_57: -573480611
+      Apollo_58: -1307102592
+      Apollo_59: -521877579
+      Apollo_6: -1985059299
+      Apollo_60: 1945148400
+      Apollo_61: 798886370
+      Apollo_62: -185504563
+      Apollo_63: -1510839892
+      Apollo_64: -1039120268
+      Apollo_65: -570556402
+      Apollo_66: 1961549315
+      Apollo_67: 996721125
+      Apollo_68: -1362728481
+      Apollo_69: -33162449
+      Apollo_7: 1042273879
+      Apollo_70: 2015496904
+      Apollo_71: -1025132217
+      Apollo_72: 153729937
+      Apollo_73: 30702397
+      Apollo_74: 271722399
+      Apollo_75: 1456332294
+      Apollo_76: -1598149027
+      Apollo_77: 1769329788
+      Apollo_78: -986322047
+      Apollo_79: -1600947683
+      Apollo_8: 482917571
+      Apollo_80: 127011552
+      Apollo_81: -1270203954
+      Apollo_82: 522310520
+      Apollo_83: -1507869738
+      Apollo_84: 181533364
+      Apollo_85: 673643281
+      Apollo_86: 854596969
+      Apollo_87: 269028616
+      Apollo_88: -315208748
+      Apollo_89: -365471590
+      Apollo_9: -439778160
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
