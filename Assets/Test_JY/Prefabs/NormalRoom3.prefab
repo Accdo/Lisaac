@@ -268,6 +268,37 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!1 &4871258760512616471
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 857559955642395702}
+  m_Layer: 0
+  m_Name: gutPos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &857559955642395702
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4871258760512616471}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5.7699995, y: 0.048436277, z: 0}
+  m_LocalScale: {x: 1.4285713, y: 1.4285713, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8090354667766034126}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5733334538567463198
 GameObject:
   m_ObjectHideFlags: 0
@@ -402,6 +433,37 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!1 &7311340563168670069
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6109217196657645911}
+  m_Layer: 0
+  m_Name: wormPos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6109217196657645911
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7311340563168670069}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 5.7399993, y: 1.3999999, z: 0}
+  m_LocalScale: {x: 1.4285713, y: 1.4285713, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8090354667766034126}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8348287542902345290
 GameObject:
   m_ObjectHideFlags: 0
@@ -582,7 +644,7 @@ GameObject:
   - component: {fileID: 8090354667766034126}
   - component: {fileID: 967823344269811532}
   - component: {fileID: 7725663542705389286}
-  - component: {fileID: 79263130127357406}
+  - component: {fileID: -8037873424249998846}
   m_Layer: 0
   m_Name: NormalRoom3
   m_TagString: Untagged
@@ -604,10 +666,12 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6172491546221957021}
-  - {fileID: 8437489404496740217}
   - {fileID: 4278079680974445507}
-  - {fileID: 4259256060842386607}
   - {fileID: 7763510768602345182}
+  - {fileID: 4259256060842386607}
+  - {fileID: 8437489404496740217}
+  - {fileID: 6109217196657645911}
+  - {fileID: 857559955642395702}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &967823344269811532
@@ -682,11 +746,13 @@ MonoBehaviour:
   - {fileID: 8355468848257179797}
   - {fileID: 5325659135279713377}
   - {fileID: 392194912022139320}
-  spanwPos: []
-  enemyType: 
+  spanwPos:
+  - {fileID: 7311340563168670069}
+  - {fileID: 4871258760512616471}
+  enemyType: 0100000002000000
   isInPlayer: 0
   playerFirstIn: 0
---- !u!61 &79263130127357406
+--- !u!61 &-8037873424249998846
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -743,6 +809,10 @@ PrefabInstance:
     - target: {fileID: 6479980701656021773, guid: ef440ce821bf1794a9b93023d9bb3165, type: 3}
       propertyPath: m_Name
       value: DoorUp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6479980701656021773, guid: ef440ce821bf1794a9b93023d9bb3165, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9038106890070091062, guid: ef440ce821bf1794a9b93023d9bb3165, type: 3}
       propertyPath: m_LocalScale.x
@@ -879,6 +949,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DoorDown
       objectReference: {fileID: 0}
+    - target: {fileID: 5133361831395305726, guid: 16d8a419dbb02644980dbaa70ef5f3bd, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -958,6 +1032,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DoorRight
       objectReference: {fileID: 0}
+    - target: {fileID: 5290434903491868530, guid: cc29c046b4bc7ef48a80f156f22e70b9, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6699565637636593003, guid: cc29c046b4bc7ef48a80f156f22e70b9, type: 3}
       propertyPath: doorLocation
       value: 3
@@ -988,6 +1066,10 @@ PrefabInstance:
     - target: {fileID: 4015945004592210272, guid: e9eab9e15d3c4de42801acdb0a5770c7, type: 3}
       propertyPath: m_Name
       value: DoorLeft
+      objectReference: {fileID: 0}
+    - target: {fileID: 4015945004592210272, guid: e9eab9e15d3c4de42801acdb0a5770c7, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4992487174216665518, guid: e9eab9e15d3c4de42801acdb0a5770c7, type: 3}
       propertyPath: m_LocalScale.x
