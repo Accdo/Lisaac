@@ -179,14 +179,14 @@ MonoBehaviour:
   maxRooms: 10
   startRoomPrefabs: {fileID: 252745540419202163, guid: d5ab73c749c364d49a197d3c64fa462a, type: 3}
   normalRoomPrefabs:
-  - {fileID: 252745540419202163, guid: d5ab73c749c364d49a197d3c64fa462a, type: 3}
-  - {fileID: 5942908635402571265, guid: 78131df517fea79488a9125612175b7d, type: 3}
-  - {fileID: 8622914540168168358, guid: c0743d5775e599e49be60b4b1fa736e8, type: 3}
-  - {fileID: 8635685064507765808, guid: 24abefab01af79b47a25c9175f0c4aec, type: 3}
+  - {fileID: 252745540419202163, guid: 19f575140f934cc4daa8a8da64ac9709, type: 3}
+  - {fileID: 5942908635402571265, guid: 134a49bc4bf5f8240a1ef2b9b0e64715, type: 3}
+  - {fileID: 252745540419202163, guid: a8acbe930648d464da122727dcdd5bb6, type: 3}
+  - {fileID: 252745540419202163, guid: 0d09d1a64231157458731de434c36dee, type: 3}
   itemRoomPrefabs:
   - {fileID: 8635685064507765808, guid: 24abefab01af79b47a25c9175f0c4aec, type: 3}
   bossRoomPrefabs:
-  - {fileID: 8622914540168168358, guid: c0743d5775e599e49be60b4b1fa736e8, type: 3}
+  - {fileID: 8622914540168168358, guid: f65ebe096454f4647ba8ef1d6c92569a, type: 3}
   roomSpacingX: 18
   roomSpacingY: 10
 --- !u!1 &128495426

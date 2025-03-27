@@ -414,7 +414,7 @@ GameObject:
   m_Layer: 0
   m_Name: BossPos
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -427,7 +427,7 @@ Transform:
   m_GameObject: {fileID: 7311340563168670069}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.7399993, y: 1.3999999, z: 0}
+  m_LocalPosition: {x: 0, y: 0.12, z: 0}
   m_LocalScale: {x: 1.4285713, y: 1.4285713, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -613,11 +613,7 @@ GameObject:
   - component: {fileID: 8090354667766034126}
   - component: {fileID: 967823344269811532}
   - component: {fileID: 7725663542705389286}
-<<<<<<< HEAD:Assets/Prefabs/Environment/Room/BossRoom.prefab
   - component: {fileID: -8037873424249998846}
-=======
-  - component: {fileID: 79263130127357406}
->>>>>>> main:Assets/Test_JY/Prefabs/NormalRoom3.prefab
   m_Layer: 0
   m_Name: BossRoom
   m_TagString: Untagged
@@ -639,14 +635,12 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6172491546221957021}
-  - {fileID: 8437489404496740217}
-<<<<<<< HEAD:Assets/Prefabs/Environment/Room/BossRoom.prefab
-  - {fileID: 6109217196657645911}
-=======
   - {fileID: 4278079680974445507}
-  - {fileID: 4259256060842386607}
   - {fileID: 7763510768602345182}
->>>>>>> main:Assets/Test_JY/Prefabs/NormalRoom3.prefab
+  - {fileID: 4259256060842386607}
+  - {fileID: 8437489404496740217}
+  - {fileID: 6109217196657645911}
+  - {fileID: 2937670857506294251}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &967823344269811532
@@ -721,20 +715,12 @@ MonoBehaviour:
   - {fileID: 8355468848257179797}
   - {fileID: 5325659135279713377}
   - {fileID: 392194912022139320}
-<<<<<<< HEAD:Assets/Prefabs/Environment/Room/BossRoom.prefab
   spanwPos:
   - {fileID: 7311340563168670069}
-  enemyType: 01000000
+  enemyType: 00000000
   isInPlayer: 0
   playerFirstIn: 0
 --- !u!61 &-8037873424249998846
-=======
-  spanwPos: []
-  enemyType: 
-  isInPlayer: 0
-  playerFirstIn: 0
---- !u!61 &79263130127357406
->>>>>>> main:Assets/Test_JY/Prefabs/NormalRoom3.prefab
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -949,6 +935,80 @@ Transform:
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5133361831395305726, guid: 16d8a419dbb02644980dbaa70ef5f3bd, type: 3}
   m_PrefabInstance: {fileID: 3803795414640724075}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4514632975505020686
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8090354667766034126}
+    m_Modifications:
+    - target: {fileID: 1613281324080291557, guid: a459039a12dd30e4a9f1d5124130825f, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1613281324080291557, guid: a459039a12dd30e4a9f1d5124130825f, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1613281324080291557, guid: a459039a12dd30e4a9f1d5124130825f, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1613281324080291557, guid: a459039a12dd30e4a9f1d5124130825f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1613281324080291557, guid: a459039a12dd30e4a9f1d5124130825f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1613281324080291557, guid: a459039a12dd30e4a9f1d5124130825f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1613281324080291557, guid: a459039a12dd30e4a9f1d5124130825f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1613281324080291557, guid: a459039a12dd30e4a9f1d5124130825f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1613281324080291557, guid: a459039a12dd30e4a9f1d5124130825f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1613281324080291557, guid: a459039a12dd30e4a9f1d5124130825f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1613281324080291557, guid: a459039a12dd30e4a9f1d5124130825f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1613281324080291557, guid: a459039a12dd30e4a9f1d5124130825f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1613281324080291557, guid: a459039a12dd30e4a9f1d5124130825f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6050311674857310996, guid: a459039a12dd30e4a9f1d5124130825f, type: 3}
+      propertyPath: m_Name
+      value: Monstro
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a459039a12dd30e4a9f1d5124130825f, type: 3}
+--- !u!4 &2937670857506294251 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1613281324080291557, guid: a459039a12dd30e4a9f1d5124130825f, type: 3}
+  m_PrefabInstance: {fileID: 4514632975505020686}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5483763331061671626
 PrefabInstance:

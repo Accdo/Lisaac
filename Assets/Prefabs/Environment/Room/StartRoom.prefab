@@ -248,10 +248,8 @@ MonoBehaviour:
   - {fileID: 6349199218637984626}
   - {fileID: 5281297941387300578}
   - {fileID: 5814617590286552726}
-  spanwPos:
-  - {fileID: 6445347181237193192}
-  - {fileID: 3728241326172359052}
-  enemyType: 0100000002000000
+  spanwPos: []
+  enemyType: 
   isInPlayer: 0
   playerFirstIn: 0
 --- !u!61 &8062650258526661375
