@@ -71,13 +71,13 @@ public class PlayerHP : MonoBehaviour
             TakeDamage(damage);
         }
 
-        if(collision.gameObject.CompareTag("Falling"))
-        {
-            TakeDamage(1);
-            StartCoroutine(FlickPlayer());
+        // if(collision.gameObject.CompareTag("Falling"))
+        // {
+        //     TakeDamage(1);
+        //     StartCoroutine(FlickPlayer());
 
-            transform.position = BeforePos;
-        }
+        //     transform.position = BeforePos;
+        // }
     }
 
     void OnCollisionEnter2D(Collision2D collision)
