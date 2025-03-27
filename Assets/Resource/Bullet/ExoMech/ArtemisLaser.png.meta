@@ -273,7 +273,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ArtemisLaser_0: 7017946650882060485
+      ArtemisLaser_1: -4272998373310233048
+      ArtemisLaser_2: 2998431736103860161
+      ArtemisLaser_3: -456111835297652384
+      ArtemisLaser_4: 2907215115880974329
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

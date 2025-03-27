@@ -3,7 +3,8 @@ using UnityEngine;
 public enum MonsterType
 {
 	WORM = 1,
-	GUT = 2
+	GUT = 2,
+	Boss = 3
 }
 
 public class SpawnManager : MonoBehaviour
@@ -13,8 +14,9 @@ public class SpawnManager : MonoBehaviour
 	public static SpawnManager Instance { get { return instance; } }
 
 	// 적 프리팹 (벌레, 장기)
-	public GameObject wormEnemy;
-	public GameObject gutEnemy;
+	[SerializeField] private GameObject wormEnemy;
+	[SerializeField] private GameObject gutEnemy;
+	[SerializeField] private GameObject Boss;
 
 	private void Awake()
 	{
@@ -40,5 +42,10 @@ public class SpawnManager : MonoBehaviour
 	public void SpawnGut(Vector3 position)
 	{
 		Instantiate(gutEnemy, position, Quaternion.identity);
+	}
+
+	public void SpawnBoss(Vector3 position)
+	{
+		Instantiate(Boss, position, Quaternion.identity);
 	}
 }

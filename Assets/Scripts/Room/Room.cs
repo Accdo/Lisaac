@@ -62,6 +62,9 @@ public class Room : MonoBehaviour
                     case MonsterType.GUT:
                         SpawnManager.Instance.SpawnGut(spanwPos[i].transform.position);
                         break;
+                    case MonsterType.Boss:
+                        SpawnManager.Instance.SpawnBoss(spanwPos[i].transform.position);
+                        break;
                 }
             }
 

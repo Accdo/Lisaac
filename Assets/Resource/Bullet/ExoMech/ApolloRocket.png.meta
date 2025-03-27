@@ -273,7 +273,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ApolloRocket_0: -5868178506830384610
+      ApolloRocket_1: 7299542326797638247
+      ApolloRocket_2: 4646866179129710803
+      ApolloRocket_3: -5457136189494911095
+      ApolloRocket_4: 1751188334378405110
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
