@@ -264,10 +264,10 @@ public class DungeonGenerator : MonoBehaviour
                 roomObj = Instantiate(normalRoomPrefabs[Random.Range(0, normalRoomPrefabs.Length)], worldPos, Quaternion.identity, transform);
                 break;
             case RoomTypeEnum.Item:
-                roomObj = Instantiate(normalRoomPrefabs[Random.Range(0, itemRoomPrefabs.Length)], worldPos, Quaternion.identity, transform);
+                roomObj = Instantiate(itemRoomPrefabs[Random.Range(0, itemRoomPrefabs.Length)], worldPos, Quaternion.identity, transform);
                 break;
             case RoomTypeEnum.Boss:
-                roomObj = Instantiate(normalRoomPrefabs[Random.Range(0, bossRoomPrefabs.Length)], worldPos, Quaternion.identity, transform);
+                roomObj = Instantiate(bossRoomPrefabs[Random.Range(0, bossRoomPrefabs.Length)], worldPos, Quaternion.identity, transform);
                 break;
         }
         Vector2Int tempVec = Vector2Int.zero;
