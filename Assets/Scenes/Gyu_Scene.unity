@@ -2347,14 +2347,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monstro
       objectReference: {fileID: 0}
-    - target: {fileID: 6050311674857310996, guid: 38e7f5f3337c81448852f2a76430b3c0, type: 3}
-      propertyPath: m_TagString
-      value: Untagged
-      objectReference: {fileID: 0}
-    - target: {fileID: 9204326641262018264, guid: 38e7f5f3337c81448852f2a76430b3c0, type: 3}
-      propertyPath: m_TagString
-      value: Enemy
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
