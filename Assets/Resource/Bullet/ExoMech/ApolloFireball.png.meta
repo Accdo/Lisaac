@@ -823,7 +823,34 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ApolloFireball_0: -5153150530905948912
+      ApolloFireball_1: -7911169619056149213
+      ApolloFireball_10: 8191926545691790723
+      ApolloFireball_11: 6919708176287584316
+      ApolloFireball_12: 3543588096380853748
+      ApolloFireball_13: 7463891464599063629
+      ApolloFireball_14: -6040728707137901566
+      ApolloFireball_15: 2876197549796132103
+      ApolloFireball_16: -9182740736256358428
+      ApolloFireball_17: 6382598436557646161
+      ApolloFireball_18: 6843512539413368295
+      ApolloFireball_19: 6321051959023828649
+      ApolloFireball_2: -2332076280668219454
+      ApolloFireball_20: 6178617260419678935
+      ApolloFireball_21: -5358244418413015345
+      ApolloFireball_22: 6829557905952296586
+      ApolloFireball_23: -65853323549819163
+      ApolloFireball_24: -3131147436197586744
+      ApolloFireball_25: -2661931120986398689
+      ApolloFireball_26: 8430841966700205431
+      ApolloFireball_3: 1208683787557784275
+      ApolloFireball_4: -7405687983268515928
+      ApolloFireball_5: -5685494610974312223
+      ApolloFireball_6: -8915846176691559981
+      ApolloFireball_7: -8496386661025104607
+      ApolloFireball_8: -214517251664858944
+      ApolloFireball_9: 2064044297998725417
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
