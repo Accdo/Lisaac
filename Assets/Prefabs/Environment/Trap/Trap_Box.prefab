@@ -151,8 +151,10 @@ MonoBehaviour:
   SafeBox: {fileID: -1449092610078330713, guid: a0751ff7092ead849b064e6958bf55bc, type: 3}
   move_horinozontal: 3
   move_vertical: 3
-  move_speed: 0.05
-  move_turnDelay: 0.5
+  move_speed: 10
+  move_turnDelay: 1
+  startTrapState: 0
+  IsFight: 0
 --- !u!50 &7264985790339520271
 Rigidbody2D:
   serializedVersion: 5
