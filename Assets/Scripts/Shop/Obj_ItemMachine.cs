@@ -72,6 +72,7 @@ public class Obj_ItemMachine : MonoBehaviour
         animator.SetTrigger("Destroy");
 
         spriteRenderer.sprite = DestroyIM_sprite;
+        SoundManager.Instance.SlotExplosion();
 
         ItemSlot_1.BehindItem();
         ItemSlot_2.BehindItem();
@@ -85,6 +86,8 @@ public class Obj_ItemMachine : MonoBehaviour
     IEnumerator ItemRolling(float duration = 1f)
     {
         float time = 0.0f;
+
+        SoundManager.Instance.SlotTouch();
 
         IsRolling = true;
         animator.SetTrigger("ShutDown");
@@ -183,6 +186,8 @@ public class Obj_ItemMachine : MonoBehaviour
         ResultItem_1.enabled = true;
         ResultItem_2.enabled = true;  
         ResultItem_3.enabled = true;
+        
+        SoundManager.Instance.SlotSpawn();
 
         IsRolling = false;
     }
