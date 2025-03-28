@@ -5,7 +5,10 @@ public class PlayerHP : MonoBehaviour
 {
     [SerializeField] private int maxHp = 3;
     [SerializeField] private int currentHp;
+    [SerializeField] private float hitDelay = 1;
     private HealthUI healthUI;
+    private float currentTime = 0;
+    private float hitTime = 0;
 
     SpriteRenderer body_sprite;
     SpriteRenderer head_sprite;
@@ -15,7 +18,7 @@ public class PlayerHP : MonoBehaviour
     void Start()
     {
         currentHp = maxHp;
-        healthUI = FindAnyObjectByType<HealthUI>();
+		healthUI = FindAnyObjectByType<HealthUI>();
         healthUI.UpdateHearts(currentHp, maxHp);
 
         body_sprite = GetComponent<SpriteRenderer>();
@@ -35,18 +38,22 @@ public class PlayerHP : MonoBehaviour
 
     void Update()
     {
-
+        currentTime += Time.deltaTime;
     }
 
     public void TakeDamage(int damage)
     {
-        currentHp -= damage;
-        if (currentHp < 0)
+        if(currentTime - hitTime > hitDelay)
         {
-            currentHp = 0;
+            currentHp -= damage;
+            if (currentHp < 0)
+            {
+                currentHp = 0;
+            }
+            healthUI.UpdateHearts(currentHp, maxHp);
+            SoundManager.Instance.PlayerHert();
+            hitTime = currentTime;
         }
-        healthUI.UpdateHearts(currentHp, maxHp);
-        SoundManager.Instance.PlayerHert();
     }
 
     public void HealthUp(int value)
