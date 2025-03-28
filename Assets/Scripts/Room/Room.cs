@@ -12,7 +12,6 @@ public class Room : MonoBehaviour
 
     private bool isSpawn = false;    // 적 스폰 여부
     public bool isInPlayer = false;
-    public bool playerFirstIn = false;
 
     // 방에 연결된 문 열기 설정
     public void Setup(bool[] doorStates, RoomTypeEnum roomType)
@@ -36,7 +35,6 @@ public class Room : MonoBehaviour
         {
             SpanwEnemy();
             isInPlayer = true;
-            playerFirstIn = true;
         }
     }
 

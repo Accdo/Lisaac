@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -27,8 +28,8 @@ public class MiniMap : MonoBehaviour
     void Update()
     {
         KeyEvent();
-        FodOfWar();
-    }
+		FodOfWar();
+	}
 
     private void KeyEvent()
     {
@@ -58,19 +59,52 @@ public class MiniMap : MonoBehaviour
     {
         foreach(var roomUI in roomUIs)
         {
+            Vector2Int roomdataPos;
+
             roomUI.Key.SetRoomBool();
 
             if(!roomUI.Key.playerFirstIn)
             {
-			    roomUI.Value.GetComponent<Image>().color = new Color(1, 1, 1, 0.0f);        
+			    roomUI.Value.GetComponent<Image>().color = new Color(1, 1, 1, 0.0f);
+                roomUI.Value.GetComponent<RoomUI>().SetPlayerUI(roomUI.Key.roomType, roomUI.Key.isInPlayer, roomUI.Key.playerFirstIn);
             }
             else if(roomUI.Key.isInPlayer)
             {
 			    roomUI.Value.GetComponent<Image>().color = new Color(1, 1, 1, 1.0f);        
-            }
+                roomUI.Value.GetComponent<RoomUI>().SetPlayerUI(roomUI.Key.roomType, roomUI.Key.isInPlayer, roomUI.Key.playerFirstIn);
+
+				if (roomUI.Key.doors[0])
+                {
+					roomdataPos = new Vector2Int(roomUI.Key.position.x, roomUI.Key.position.y + 1);
+                    roomDatas[roomdataPos].playerFirstIn = true;
+					roomUIs[roomDatas[roomdataPos]].GetComponent<Image>().color = new Color(1, 1, 1, 0.3f);
+				}
+
+				if(roomUI.Key.doors[1])
+				{
+					roomdataPos = new Vector2Int(roomUI.Key.position.x, roomUI.Key.position.y - 1);
+                    roomDatas[roomdataPos].playerFirstIn = true;
+					roomUIs[roomDatas[roomdataPos]].GetComponent<Image>().color = new Color(1, 1, 1, 0.3f);
+				}
+
+                if (roomUI.Key.doors[2])
+				{
+					roomdataPos = new Vector2Int(roomUI.Key.position.x - 1, roomUI.Key.position.y);
+                    roomDatas[roomdataPos].playerFirstIn = true;
+					roomUIs[roomDatas[roomdataPos]].GetComponent<Image>().color = new Color(1, 1, 1, 0.3f);
+				}
+
+                if (roomUI.Key.doors[3])
+				{
+					roomdataPos = new Vector2Int(roomUI.Key.position.x + 1, roomUI.Key.position.y);
+                    roomDatas[roomdataPos].playerFirstIn = true;
+					roomUIs[roomDatas[roomdataPos]].GetComponent<Image>().color = new Color(1, 1, 1, 0.3f);
+				}
+			}
             else
             {
 			    roomUI.Value.GetComponent<Image>().color = new Color(1, 1, 1, 0.3f);        
+                roomUI.Value.GetComponent<RoomUI>().SetPlayerUI(roomUI.Key.roomType, roomUI.Key.isInPlayer, roomUI.Key.playerFirstIn);
             }
 
         }
