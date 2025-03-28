@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 3276364844038359980}
   - component: {fileID: 3259865607051146089}
   - component: {fileID: 1282737696610417629}
-  - component: {fileID: 7489085244774506708}
   - component: {fileID: 5813716637672363051}
+  - component: {fileID: 3342311852744321450}
   m_Layer: 0
   m_Name: FriendPooter
   m_TagString: Untagged
@@ -112,22 +112,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &7489085244774506708
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1168901744220633153}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a9571eff76a1fc548ba0cb31239af379, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  BlueBullet: {fileID: 6888087663480581437, guid: 3f5748e8af267de4cab77b8682851c63, type: 3}
-  rotateSpeed: 50
-  wingDuration: 3
-  shotDelay: 2
 --- !u!61 &5813716637672363051
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -174,3 +158,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.622918, y: 0.8397324}
   m_EdgeRadius: 0
+--- !u!114 &3342311852744321450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1168901744220633153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9571eff76a1fc548ba0cb31239af379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BlueBullet: {fileID: 6888087663480581437, guid: 3f5748e8af267de4cab77b8682851c63, type: 3}
+  rotateSpeed: 50
+  wingDuration: 3
+  shotDelay: 2
