@@ -1,7 +1,7 @@
-using TMPro;
+
 using UnityEngine;
-using System.Collections.Generic;
-using Unity.VisualScripting.Dependencies.Sqlite;
+
+
 using static RoomType;
 
 public class Room : MonoBehaviour
@@ -38,15 +38,15 @@ public class Room : MonoBehaviour
         }
     }
 
-	private void OnTriggerExit2D(Collider2D collision)
-	{
+    private void OnTriggerExit2D(Collider2D collision)
+    {
         if (collision.gameObject.CompareTag("Player"))
         {
             isInPlayer = false;
-        }	
-	}
+        }
+    }
 
-	private void SpanwEnemy()
+    private void SpanwEnemy()
     {
         if (!isSpawn)
         {

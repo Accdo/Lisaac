@@ -2,15 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
-using static UnityEditor.PlayerSettings;
+
 
 public class Fire : Item
 {
-    [Header("ÄÄÆ÷³ÍÆ®")]
+    [Header("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®")]
     private SpriteRenderer sr;
     private Animator ani;
 
-    [Header("³»ºÎ º¯¼ö")]
+    [Header("ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½")]
     private int color = 0;
     public float coolTime = 10f;
     public float lifeTime = 60f;
@@ -34,7 +34,7 @@ public class Fire : Item
     {
         if (!isBullet)
         {
-            // ¾ÆÀÌÅÛ È¹µæ
+            // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ È¹ï¿½ï¿½
             SoundManager.Instance.PickupItem();
             transform.SetParent(player.transform);
             transform.localPosition = new Vector3(0f, 1f, 0f);
@@ -68,27 +68,27 @@ public class Fire : Item
                 switch (ani.GetInteger("Color"))
                 {
                     case 1:
-                        Debug.Log("»¡°­");
+                        Debug.Log("ï¿½ï¿½ï¿½ï¿½");
                         RedFire();
                         break;
                     case 2:
-                        Debug.Log("ÆÄ¶û");
+                        Debug.Log("ï¿½Ä¶ï¿½");
                         StartCoroutine(BlueFire());
                         break;
                     case 3:
-                        Debug.Log("³²»ö");
+                        Debug.Log("ï¿½ï¿½ï¿½ï¿½");
                         StartCoroutine(NavyFire());
                         break;
                     case 4:
-                        Debug.Log("º¸¶ó");
+                        Debug.Log("ï¿½ï¿½ï¿½ï¿½");
                         StartCoroutine(PurpleFire());
                         break;
                     case 5:
-                        Debug.Log("ÇÏ¾ç");
+                        Debug.Log("ï¿½Ï¾ï¿½");
                         break;
                 }
 
-                // ÀÏ½Ã Á¤Áö
+                // ï¿½Ï½ï¿½ ï¿½ï¿½ï¿½ï¿½
                 int originColor = color;
                 color = 5;
                 ani.SetInteger("Color", color);
@@ -96,7 +96,7 @@ public class Fire : Item
 
                 yield return new WaitForSeconds(coolTime);
 
-                // ´Ù½Ã ½ÃÀÛ
+                // ï¿½Ù½ï¿½ ï¿½ï¿½ï¿½ï¿½
                 color = originColor;
                 ani.SetInteger("Color", color);
                 StartCoroutine(ChangeFire());
@@ -109,12 +109,12 @@ public class Fire : Item
 
     private void ChangeToBullet(GameObject FIRE, int COLOR, int DAMAGE, float SPEED, Vector3 DIRECTION, float LIFE)
     {
-        // ºÒ²É ¼³Á¤
+        // ï¿½Ò²ï¿½ ï¿½ï¿½ï¿½ï¿½
         FIRE.GetComponent<Fire>().isBullet = true;
         FIRE.GetComponent<Fire>().enabled = false;
         FIRE.GetComponent<Animator>().SetInteger("Color", COLOR);
 
-        // ÃÑ¾Ë ¼³Á¤
+        // ï¿½Ñ¾ï¿½ ï¿½ï¿½ï¿½ï¿½
         FIRE.tag = "Bullet";
         FIRE.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 1f);
         FIRE.GetComponent<SpriteRenderer>().sortingLayerName = "Bullet";
@@ -125,7 +125,7 @@ public class Fire : Item
         FIRE.GetComponent<FireBullet>().life = LIFE;
         FIRE.GetComponent<FireBullet>().Direction = DIRECTION;
 
-        // ¸®Áöµå ¹Ùµð
+        // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ùµï¿½
         Rigidbody2D rb = FIRE.GetComponent<Rigidbody2D>();
         if (rb == null)
         {
@@ -136,11 +136,11 @@ public class Fire : Item
 
     private void RedFire()
     {
-        int damage = 5; // µ¥¹ÌÁö
-        float speed = 3; // ¼Óµµ
-        float life = 2; // Áö¼Ó
-        int count = 8; // °³¼ö
-        float angleStep = 360 / count; // °¢µµ
+        int damage = 5; // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+        float speed = 3; // ï¿½Óµï¿½
+        float life = 2; // ï¿½ï¿½ï¿½ï¿½
+        int count = 8; // ï¿½ï¿½ï¿½ï¿½
+        float angleStep = 360 / count; // ï¿½ï¿½ï¿½ï¿½
 
         for (int i = 0; i < count; i++)
         {
@@ -155,10 +155,10 @@ public class Fire : Item
 
     private IEnumerator BlueFire()
     {
-        int damage = 5; // µ¥¹ÌÁö
-        float speed = 0; // ¼Óµµ
-        float life = 10; // Áö¼Ó
-        int count = 10; // °³¼ö
+        int damage = 5; // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+        float speed = 0; // ï¿½Óµï¿½
+        float life = 10; // ï¿½ï¿½ï¿½ï¿½
+        int count = 10; // ï¿½ï¿½ï¿½ï¿½
 
         Vector3 direction = pos;
 
@@ -179,12 +179,12 @@ public class Fire : Item
 
     private IEnumerator NavyFire()
     {
-        int damage = 5; // µ¥¹ÌÁö
-        float speed = 0; // ¼Óµµ
-        float life = 6; // Áö¼Ó
-        int count = 8; // °³¼ö
-        float angleStep = 360 / count; // °¢µµ
-        float distance = .8f; // °Å¸®
+        int damage = 5; // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+        float speed = 0; // ï¿½Óµï¿½
+        float life = 6; // ï¿½ï¿½ï¿½ï¿½
+        int count = 8; // ï¿½ï¿½ï¿½ï¿½
+        float angleStep = 360 / count; // ï¿½ï¿½ï¿½ï¿½
+        float distance = .8f; // ï¿½Å¸ï¿½
 
         List<GameObject> fires = new List<GameObject>();
 
@@ -235,15 +235,15 @@ public class Fire : Item
 
     private IEnumerator PurpleFire()
     {
-        int damage = 5; // µ¥¹ÌÁö
-        float speed = 2; // ¼Óµµ
-        float life = 10; // Áö¼Ó
-        int count = 8; // °³¼ö
+        int damage = 5; // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+        float speed = 2; // ï¿½Óµï¿½
+        float life = 10; // ï¿½ï¿½ï¿½ï¿½
+        int count = 8; // ï¿½ï¿½ï¿½ï¿½
 
-        // Rock ¿ÀºêÁ§Æ®ÀÇ ÄÝ¶óÀÌ´õ
+        // Rock ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½Ý¶ï¿½ï¿½Ì´ï¿½
         Collider2D[] rocks = FindObjectsOfType<Collider2D>().Where(c => c.gameObject.name.Contains("Rock")).ToArray();
 
-        // ÀûÀ» ´ë»óÀ¸·Î ¹ß»ç
+        // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ß»ï¿½
         foreach (GameObject enemy in GameObject.FindGameObjectsWithTag("Enemy"))
         {
             Vector3 direction = (enemy.transform.position - pos).normalized;
@@ -251,7 +251,7 @@ public class Fire : Item
             GameObject fire = Instantiate(gameObject, pos, Quaternion.identity);
             ChangeToBullet(fire, 4, damage, speed, direction, life);
 
-            // Rock°úÀÇ Ãæµ¹ ¹«½Ã
+            // Rockï¿½ï¿½ï¿½ï¿½ ï¿½æµ¹ ï¿½ï¿½ï¿½ï¿½
             foreach (Collider2D rock in rocks)
             {
                 Physics2D.IgnoreCollision(fire.GetComponent<Collider2D>(), rock, true);
@@ -262,11 +262,11 @@ public class Fire : Item
             if (--count <= 0) break;
         }
 
-        // º¸½º¸¦ ´ë»óÀ¸·Î ¹ß»ç
+        // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ß»ï¿½
         GameObject[] bosses = GameObject.FindGameObjectsWithTag("Boss");
         if (bosses.Length > 0)
         {
-            GameObject boss = bosses[0]; // Ã¹ ¹øÂ° º¸½º¸¸ Ã³¸®
+            GameObject boss = bosses[0]; // Ã¹ ï¿½ï¿½Â° ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Ã³ï¿½ï¿½
 
             if (boss != null)
             {
