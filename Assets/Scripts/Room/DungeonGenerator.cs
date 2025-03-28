@@ -329,6 +329,12 @@ public class DungeonGenerator : MonoBehaviour
         /*Debug.Log("엔드룸 실행");*/
         foreach (var room in rooms)
         {
+            if(room.Key == Vector2Int.zero)
+            {
+                // 시작방 제외
+                continue;
+            }
+
             int doorCount = 0;
             for(int i = 0; i < room.Value.doors.Length; i++)
             {

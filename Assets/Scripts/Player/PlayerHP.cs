@@ -5,7 +5,10 @@ public class PlayerHP : MonoBehaviour
 {
     [SerializeField] private int maxHp = 3;
     [SerializeField] private int currentHp;
+    [SerializeField] private float hitDelay = 1;
     private HealthUI healthUI;
+    private float currentTime = 0;
+    private float hitTime = 0;
 
     SpriteRenderer body_sprite;
     SpriteRenderer head_sprite;
@@ -15,7 +18,7 @@ public class PlayerHP : MonoBehaviour
     void Start()
     {
         currentHp = maxHp;
-        healthUI = FindAnyObjectByType<HealthUI>();
+		healthUI = FindAnyObjectByType<HealthUI>();
         healthUI.UpdateHearts(currentHp, maxHp);
 
         body_sprite = GetComponent<SpriteRenderer>();
@@ -35,18 +38,22 @@ public class PlayerHP : MonoBehaviour
 
     void Update()
     {
-
+        currentTime += Time.deltaTime;
     }
 
     public void TakeDamage(int damage)
     {
-        currentHp -= damage;
-        if (currentHp < 0)
+        if(currentTime - hitTime > hitDelay)
         {
-            currentHp = 0;
+            currentHp -= damage;
+            if (currentHp < 0)
+            {
+                currentHp = 0;
+            }
+            healthUI.UpdateHearts(currentHp, maxHp);
+            SoundManager.Instance.PlayerHert();
+            hitTime = currentTime;
         }
-        healthUI.UpdateHearts(currentHp, maxHp);
-        SoundManager.Instance.PlayerHert();
     }
 
     public void HealthUp(int value)
@@ -65,9 +72,27 @@ public class PlayerHP : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("EnemyBullet"))
+        int damage = 0;
+
+        // EnemyBullet 컴포넌트 가져오기
+        EnemyBullet enemyBullet = collision.gameObject.GetComponent<EnemyBullet>();
+        if(enemyBullet != null)
         {
-            int damage = collision.gameObject.GetComponent<EnemyBullet>().damage;
+            damage = enemyBullet.damage;
+        }
+        else
+        {
+            // EnemyBullet이 없으면 EnemyBulletCalc 컴포넌트 시도
+            EnemyBulletCalc enemyBulletCalc = collision.gameObject.GetComponent<EnemyBulletCalc>();
+            if (enemyBulletCalc != null)
+            {
+                damage = enemyBulletCalc.damage; // 다른 컴포넌트의 데미지 속성
+            }
+        }
+
+        // 데미지가 0보다 크면 피격 처리
+        if (damage > 0)
+        {
             TakeDamage(damage);
         }
 

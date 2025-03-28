@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 33efc47a371b99447a0ac89d665050bc
+guid: ede241905da7590498fa0f0da5b3b1c5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 176069005137235741
-    second: MonstroHealthBar_0
+      213: 5231741095805998609
+    second: ExoMechHealthBar_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -139,7 +139,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MonstroHealthBar_0
+      name: ExoMechHealthBar_0
       rect:
         serializedVersion: 2
         x: 0
@@ -154,8 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d1f492bc3d5817200800000000000000
-      internalID: 176069005137235741
+      spriteID: 1165454cec0ea9840800000000000000
+      internalID: 5231741095805998609
       vertices: []
       indices: 
       edges: []
@@ -164,7 +164,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 0fbb53a764c2b9e408bd7e5dd391957d
     internalID: 0
     vertices: []
     indices: 
@@ -174,7 +174,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      MonstroHealthBar_0: 176069005137235741
+      ExoMechHealthBar_0: 5231741095805998609
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
