@@ -10,6 +10,7 @@ public class Monstro : MonoBehaviour
     public GameObject player;
     public GameObject bullet;
     public GameObject[] pBullets;
+    public GameObject nextBoss;
 
     [Header("하위 객체")]
     [SerializeField] private Transform body;
@@ -62,6 +63,8 @@ public class Monstro : MonoBehaviour
             Destroy(gameObject);
             foreach (GameObject go in GameObject.FindGameObjectsWithTag("EnemyBullet"))
                 Destroy(go);
+
+            Instantiate(nextBoss, transform.position, Quaternion.identity);
             return;
         }
 

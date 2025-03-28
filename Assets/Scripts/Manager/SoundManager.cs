@@ -21,6 +21,8 @@ public class SoundManager : MonoBehaviour
     [SerializeField] private AudioClip bossMove;
     [SerializeField] private AudioClip bossAttack;
     [SerializeField] private AudioClip bossJump;
+    [SerializeField] private AudioClip fireOn;
+    [SerializeField] private AudioClip fireOff;
 
     void Awake()
     {
@@ -57,4 +59,7 @@ public class SoundManager : MonoBehaviour
     public void BossMove() { myAudio.PlayOneShot(bossMove); }
     public void BossAttack() { myAudio.PlayOneShot(bossAttack); }
     public void BossJump() { myAudio.PlayOneShot(bossJump); }
+
+    public void FireOn() { myAudio.PlayOneShot(fireOn); }
+    public void FireOff() { myAudio.PlayOneShot(fireOff); }
 }
