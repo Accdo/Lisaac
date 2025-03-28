@@ -125,7 +125,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coolTime: 10
-  lifeTime: 60
+  lifeTime: 120
 --- !u!58 &2270221553607416213
 CircleCollider2D:
   m_ObjectHideFlags: 0
