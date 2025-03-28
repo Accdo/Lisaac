@@ -1,88 +1,19 @@
 fileFormatVersion: 2
-guid: f9062e82f6cd0e64999e72851084483b
+guid: afcdff041c7ec99408ff8e516c03bfae
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5153150530905948912
-    second: ApolloFireball_0
+      213: 4565024988166417163
+    second: AresPlasmaBolt_0
   - first:
-      213: -7911169619056149213
-    second: ApolloFireball_1
+      213: 3347694724146586568
+    second: AresPlasmaBolt_1
   - first:
-      213: -2332076280668219454
-    second: ApolloFireball_2
+      213: -2285870772337875135
+    second: AresPlasmaBolt_2
   - first:
-      213: 1208683787557784275
-    second: ApolloFireball_3
-  - first:
-      213: -7405687983268515928
-    second: ApolloFireball_4
-  - first:
-      213: -5685494610974312223
-    second: ApolloFireball_5
-  - first:
-      213: -8915846176691559981
-    second: ApolloFireball_6
-  - first:
-      213: -8496386661025104607
-    second: ApolloFireball_7
-  - first:
-      213: -214517251664858944
-    second: ApolloFireball_8
-  - first:
-      213: 2064044297998725417
-    second: ApolloFireball_9
-  - first:
-      213: 8191926545691790723
-    second: ApolloFireball_10
-  - first:
-      213: 6919708176287584316
-    second: ApolloFireball_11
-  - first:
-      213: 3543588096380853748
-    second: ApolloFireball_12
-  - first:
-      213: 7463891464599063629
-    second: ApolloFireball_13
-  - first:
-      213: -6040728707137901566
-    second: ApolloFireball_14
-  - first:
-      213: 2876197549796132103
-    second: ApolloFireball_15
-  - first:
-      213: -9182740736256358428
-    second: ApolloFireball_16
-  - first:
-      213: 6382598436557646161
-    second: ApolloFireball_17
-  - first:
-      213: 6843512539413368295
-    second: ApolloFireball_18
-  - first:
-      213: 6321051959023828649
-    second: ApolloFireball_19
-  - first:
-      213: 6178617260419678935
-    second: ApolloFireball_20
-  - first:
-      213: -5358244418413015345
-    second: ApolloFireball_21
-  - first:
-      213: 6829557905952296586
-    second: ApolloFireball_22
-  - first:
-      213: -65853323549819163
-    second: ApolloFireball_23
-  - first:
-      213: -3131147436197586744
-    second: ApolloFireball_24
-  - first:
-      213: -2661931120986398689
-    second: ApolloFireball_25
-  - first:
-      213: 8430841966700205431
-    second: ApolloFireball_26
+      213: 6046577373752312965
+    second: AresPlasmaBolt_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -217,123 +148,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ApolloFireball_0
+      name: AresPlasmaBolt_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 480
-        width: 48
-        height: 96
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 01d3c3b05e45c78b0800000000000000
-      internalID: -5153150530905948912
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ApolloFireball_1
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 384
-        width: 48
-        height: 96
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 32dbb4a8521e53290800000000000000
-      internalID: -7911169619056149213
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ApolloFireball_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 288
-        width: 48
-        height: 96
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2c718a58afcc2afd0800000000000000
-      internalID: -2332076280668219454
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ApolloFireball_3
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 192
-        width: 48
-        height: 96
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3dac72b308b16c010800000000000000
-      internalID: 1208683787557784275
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ApolloFireball_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 96
-        width: 48
-        height: 96
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8afa6e72406b93990800000000000000
-      internalID: -7405687983268515928
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ApolloFireball_5
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 48
-        height: 96
+        y: 132
+        width: 18
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -342,8 +163,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b7ea4094c10b4246b7a9e78208d5be5
-      internalID: -5685494610974312223
+      spriteID: 986cee485d9498d46bd373f2000f8af5
+      internalID: 422234782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresPlasmaBolt_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 88
+        width: 18
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e1d569d42ca7e94d8f6589ee808a96d
+      internalID: 520425814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresPlasmaBolt_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 44
+        width: 18
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf6f79936de08f4591b4a1880158cf8
+      internalID: -1107280313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresPlasmaBolt_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 18
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db6fc3dae420b4d4e85de89f4671d294
+      internalID: 221732293
       vertices: []
       indices: 
       edges: []
@@ -352,7 +239,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: e09eba638b2be9846a6fb2defab64b40
+    spriteID: 8760aa0dd24ddcb498eeee1bbfc1be39
     internalID: 0
     vertices: []
     indices: 
@@ -362,12 +249,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ApolloFireball_0: -5153150530905948912
-      ApolloFireball_1: -7911169619056149213
-      ApolloFireball_2: -2332076280668219454
-      ApolloFireball_3: 1208683787557784275
-      ApolloFireball_4: -7405687983268515928
-      ApolloFireball_5: -5685494610974312223
+      AresPlasmaBolt_0: 422234782
+      AresPlasmaBolt_1: 520425814
+      AresPlasmaBolt_2: -1107280313
+      AresPlasmaBolt_3: 221732293
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

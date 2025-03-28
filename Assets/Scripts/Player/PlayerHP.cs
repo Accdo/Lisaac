@@ -65,9 +65,27 @@ public class PlayerHP : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("EnemyBullet"))
+        int damage = 0;
+
+        // EnemyBullet 컴포넌트 가져오기
+        EnemyBullet enemyBullet = collision.gameObject.GetComponent<EnemyBullet>();
+        if(enemyBullet != null)
         {
-            int damage = collision.gameObject.GetComponent<EnemyBullet>().damage;
+            damage = enemyBullet.damage;
+        }
+        else
+        {
+            // EnemyBullet이 없으면 EnemyBulletCalc 컴포넌트 시도
+            EnemyBulletCalc enemyBulletCalc = collision.gameObject.GetComponent<EnemyBulletCalc>();
+            if (enemyBulletCalc != null)
+            {
+                damage = enemyBulletCalc.damage; // 다른 컴포넌트의 데미지 속성
+            }
+        }
+
+        // 데미지가 0보다 크면 피격 처리
+        if (damage > 0)
+        {
             TakeDamage(damage);
         }
 
