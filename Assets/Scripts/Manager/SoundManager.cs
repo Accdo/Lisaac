@@ -21,6 +21,8 @@ public class SoundManager : MonoBehaviour
     [SerializeField] private AudioClip bossMove;
     [SerializeField] private AudioClip bossAttack;
     [SerializeField] private AudioClip bossJump;
+    [SerializeField] private AudioClip fireOn;
+    [SerializeField] private AudioClip fireOff;
 
     [SerializeField] private AudioClip fly_Buzz;
     [SerializeField] private AudioClip slotTouch;
@@ -74,4 +76,7 @@ public class SoundManager : MonoBehaviour
     public void SlotTouch() { myAudio.PlayOneShot(slotTouch); }
     public void SlotSpawn() { myAudio.PlayOneShot(slotSpawn); }
     public void SlotExplosion() { myAudio.PlayOneShot(slotExplosion); }
+
+    public void FireOn() { myAudio.PlayOneShot(fireOn); }
+    public void FireOff() { myAudio.PlayOneShot(fireOff); }
 }
