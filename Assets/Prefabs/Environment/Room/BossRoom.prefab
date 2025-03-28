@@ -716,10 +716,8 @@ MonoBehaviour:
   - {fileID: 392194912022139320}
   spanwPos:
   - {fileID: 7311340563168670069}
-  - {fileID: 7311340563168670069}
-  enemyType: 0300000003000000
+  enemyType: 03000000
   isInPlayer: 0
-  playerFirstIn: 0
 --- !u!61 &-8037873424249998846
 BoxCollider2D:
   m_ObjectHideFlags: 0

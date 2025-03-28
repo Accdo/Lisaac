@@ -276,6 +276,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fire
       objectReference: {fileID: 0}
+    - target: {fileID: 7224939214723333778, guid: 994279127ac6997469a758432894ab02, type: 3}
+      propertyPath: lifeTime
+      value: 120
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1848,9 +1852,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0095d921a2c17e439b5c4ce74f475d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHp: 15
+  maxHp: 20
   currentHp: 0
-  hitDelay: 1
+  hitDelay: 0.5
 --- !u!212 &1906244349033103718
 SpriteRenderer:
   m_ObjectHideFlags: 0
