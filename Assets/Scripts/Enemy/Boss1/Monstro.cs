@@ -2,43 +2,55 @@
 using System.Collections;
 using System.Linq;
 using UnityEngine.UI;
+using UnityEngine.Video;
 
 public class Monstro : MonoBehaviour
 {
-    // 외부 객체
+    [Header("외부 객체")]
     public GameObject player;
     public GameObject bullet;
     public GameObject[] pBullets;
 
-    // 하위 객체
-    public Transform body;
-    public Image healthFill;
+    [Header("하위 객체")]
+    [SerializeField] private Transform body;
+    [SerializeField] private RawImage intro;
+    [SerializeField] private Image healthFill;
 
-    // 컴포넌트
-    private SpriteRenderer sr;
+    [Header("컴포넌트")]
+    private SpriteRenderer sprite;
     private Animator ani;
-    private Rigidbody2D rb;
+    private Rigidbody2D rigid;
     private Collider2D bodyCollider;
     private Collider2D myCollider;
+    private AudioSource mainCamAudio;
+    [SerializeField] private VideoPlayer video;
 
-    // 내부 상태
+    [Header("내부 변수")]
     private Color originColor;
     private bool hitting = false;
-
     private int maxHP;
     private int currentHP;
-
-    public float speed = 2f;
+    [SerializeField] private float speed = 3f;
     private Vector3 direction;
 
     void Start()
     {
         // 컴포넌트
-        sr = body.GetComponent<SpriteRenderer>();
+        sprite = body.GetComponent<SpriteRenderer>();
         ani = body.GetComponent<Animator>();
-        rb = GetComponent<Rigidbody2D>();
+        rigid = GetComponent<Rigidbody2D>();
+        mainCamAudio = Camera.main?.GetComponent<AudioSource>();
 
-        originColor = sr.color;
+        originColor = sprite.color;
+
+        // 배경음 비활성화
+        mainCamAudio.enabled = false;
+
+        // 플레이어 찾기
+        player = GameObject.FindGameObjectsWithTag("Player")
+            .FirstOrDefault(p => p.GetComponent<Collider2D>() != null);
+
+        transform.position -= (player.transform.position - transform.position) * .8f;
 
         StartCoroutine(BossRoutine());
     }
@@ -71,7 +83,7 @@ public class Monstro : MonoBehaviour
         {
             // 방향 설정 및 시각 반전
             direction = player.transform.position - transform.position;
-            sr.flipX = direction.x >= 0f;
+            sprite.flipX = direction.x >= 0f;
         }
     }
 
@@ -80,7 +92,7 @@ public class Monstro : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            rb.constraints = RigidbodyConstraints2D.FreezeAll;
+            rigid.constraints = RigidbodyConstraints2D.FreezeAll;
         }
     }
 
@@ -110,13 +122,13 @@ public class Monstro : MonoBehaviour
             hitting = true;
 
             // 피격 색상
-            sr.color = new Color(1f, 0.5f, 0.5f);
+            sprite.color = new Color(1f, 0.5f, 0.5f);
             healthFill.color = new Color(1f, 0.5f, 0.5f);
 
             yield return new WaitForSeconds(0.1f);
 
             // 원래 색상
-            sr.color = originColor;
+            sprite.color = originColor;
             healthFill.color = new Color(1f, 0f, 0f);
 
             hitting = false;
@@ -126,51 +138,66 @@ public class Monstro : MonoBehaviour
     // 랜덤 모션 코루틴
     IEnumerator BossRoutine()
     {
-        yield return new WaitForSeconds(1f);
+        // 시간 정지 후 인트로 재생
+        Time.timeScale = 0;
+        yield return new WaitForSecondsRealtime(Mathf.Max((float)video.length, 0.1f));
+        intro.gameObject.SetActive(false);
+        Time.timeScale = 1;
+        yield return new WaitForSeconds(.2f);
+        mainCamAudio.enabled = true;
 
-        while (body != null && player != null)
+        while (body != null)
         {
             // 행동 확률적 선택
             int rand = Random.Range(0, 100);
-            if (currentHP < maxHP / 4) rand = 100;
 
-            if (rand < 30)
+            if (currentHP < maxHP / 4)
             {
+                Debug.Log("점프");
+                ani.SetTrigger("Jump");
+                StartCoroutine(Jump());
+                yield return new WaitForSeconds(2f);
+            }
+            else if (rand < 30)
+            {
+                Debug.Log("이동");
                 ani.SetTrigger("Move");
-                StartCoroutine(Move(speed));
+                StartCoroutine(Move(Mathf.Max(speed, direction.magnitude / 2)));
+                yield return new WaitForSeconds(.5f);
             }
             else if (rand < 80)
             {
+                Debug.Log("공격");
                 ani.SetTrigger("Attack");
                 StartCoroutine(Attack());
+                yield return new WaitForSeconds(1f);
             }
             else if (rand < 100)
             {
+                Debug.Log("스킬");
                 ani.SetTrigger("Attack");
                 StartCoroutine(Shock());
-            }
-            else
-            {
-                ani.SetTrigger("Jump");
-                StartCoroutine(Jump());
+                yield return new WaitForSeconds(1.5f);
             }
 
-            yield return new WaitForSeconds(3f);
+            if (currentHP <= 0) break;
+
+            yield return new WaitForSeconds(.5f);
         }
     }
 
     // 이동 코루틴
     IEnumerator Move(float DISTANCE)
     {
-        rb.constraints = RigidbodyConstraints2D.FreezeRotation;
+        rigid.constraints = RigidbodyConstraints2D.FreezeRotation;
 
         if (player == null) yield break;
 
-        yield return new WaitForEndOfFrame();
-        float duration = ani.GetCurrentAnimatorStateInfo(0).length / ani.speed;
-        float time = 0f;
-        Debug.Log(duration);
+        SoundManager.Instance.BossMove();
 
+        yield return new WaitForEndOfFrame();
+        float duration = ani.GetCurrentAnimatorStateInfo(0).length / Mathf.Max(ani.speed, 0.01f);
+        float time = 0f;
         bool jumping = false;
 
         Vector3 start = transform.position;
@@ -180,7 +207,7 @@ public class Monstro : MonoBehaviour
         {
             // 본체 이동
             Vector3 nextPos = Vector3.Lerp(start, end, time / duration);
-            rb.MovePosition(nextPos);
+            rigid.MovePosition(nextPos);
 
             // 점프 유무
             jumping = !bodyCollider.bounds.Intersects(myCollider.bounds);
@@ -190,18 +217,20 @@ public class Monstro : MonoBehaviour
             Physics2D.IgnoreCollision(bodyCollider, player.GetComponent<Collider2D>(), jumping);
             foreach (GameObject bullet in pBullets)
             {
-                if (bullet.GetComponent<Collider2D>() != null)
+                if (bullet != null && bullet.GetComponent<Collider2D>() != null)
                 {
+                    Physics2D.IgnoreCollision(myCollider, bullet.GetComponent<Collider2D>(), jumping);
                     Physics2D.IgnoreCollision(bodyCollider, bullet.GetComponent<Collider2D>(), jumping);
                 }
             }
 
             time += Time.deltaTime;
-            yield return null;
+            yield return new WaitForEndOfFrame();
         }
 
-        rb.MovePosition(end);
-        yield return null;
+        rigid.MovePosition(end);
+
+        yield return new WaitForEndOfFrame();
     }
 
     // 점프 코루틴
@@ -210,7 +239,9 @@ public class Monstro : MonoBehaviour
         StartCoroutine(Move(direction.magnitude)); // 이동
 
         yield return new WaitForEndOfFrame();
-        yield return new WaitForSeconds(ani.GetCurrentAnimatorStateInfo(0).length / ani.speed - 0.6f); // 점프 후 대기
+        yield return new WaitForSeconds(ani.GetCurrentAnimatorStateInfo(0).length / ani.speed - .7f); // 점프 후 대기
+
+        SoundManager.Instance.BossJump();
 
         StartCoroutine(Shock()); // 전방위 공격
     }
@@ -220,41 +251,50 @@ public class Monstro : MonoBehaviour
     {
         yield return new WaitForSeconds(0.6f);
 
-        ani.speed = 0f; // 애니메이션 정지
+        SoundManager.Instance.BossAttack();
 
-        float centerAngle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg; // 각도로 변환
-
-        int count = Random.Range(6, 9); // 발사체 개수
-        float angleRange = 90f; // 발사 각도 범위
-
-        for (int i = 0; i < count; i++)
+        try
         {
-            // 발사각 설정
-            float offsetAngle = Random.Range(-angleRange / 2f, angleRange / 2f);
-            float shootAngle = centerAngle + offsetAngle;
-            float rad = shootAngle * Mathf.Deg2Rad;
-            Vector2 shoot = new Vector2(Mathf.Cos(rad), Mathf.Sin(rad)); // 발사 방향
+            ani.speed = 0f; // 애니메이션 정지
 
-            float speed = Random.Range(0.2f, 1.5f); // 총알 속도
-            float scale = Random.Range(1f, 2f); // 총알 크기
+            float centerAngle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg; // 각도로 변환
 
-            GameObject go = Instantiate(bullet, transform.position, Quaternion.identity); // 총알 생성
-            go.transform.localScale = Vector3.one * scale; // 총알 크기 적용
+            int count = Random.Range(6, 9); // 발사체 개수
+            float angleRange = 90f; // 발사 각도 범위
 
-            // 총알 속도 적용
-            Rigidbody2D bulletRb = go.GetComponent<Rigidbody2D>();
-            if (bulletRb != null) bulletRb.linearVelocity = shoot.normalized * speed;
+            for (int i = 0; i < count; i++)
+            {
+                // 발사각 설정
+                float offsetAngle = Random.Range(-angleRange / 2f, angleRange / 2f);
+                float shootAngle = centerAngle + offsetAngle;
+                float rad = shootAngle * Mathf.Deg2Rad;
+                Vector2 shoot = new Vector2(Mathf.Cos(rad), Mathf.Sin(rad)); // 발사 방향
 
-            yield return new WaitForSeconds(0.1f);
+                float speed = Random.Range(0.2f, 1.5f); // 총알 속도
+                float scale = Random.Range(1f, 2f); // 총알 크기
+
+                GameObject go = Instantiate(bullet, transform.position, Quaternion.identity); // 총알 생성
+                go.transform.localScale = Vector3.one * scale; // 총알 크기 적용
+
+                // 총알 속도 적용
+                Rigidbody2D bulletRb = go.GetComponent<Rigidbody2D>();
+                if (bulletRb != null) bulletRb.linearVelocity = shoot.normalized * speed;
+            }
+        }
+        finally
+        {
+            ani.speed = 1f;  // 애니메이션 시작
         }
 
-        ani.speed = 1f;  // 애니메이션 시작
+        yield return new WaitForEndOfFrame();
     }
 
     // 전방위(원형) 공격 코루틴
     IEnumerator Shock()
     {
         yield return new WaitForSeconds(0.6f);
+
+        SoundManager.Instance.BossAttack();
 
         int count = Random.Range(15, 21); // 발사체 개수
         float intervalAngle = 360 / count; // 발사체 사이각
@@ -277,6 +317,6 @@ public class Monstro : MonoBehaviour
             if (bulletRb != null) bulletRb.linearVelocity = shoot - 3 * direction.normalized;
         }
 
-        yield return null;
+        yield return new WaitForSeconds(3f);
     }
 }
