@@ -13,8 +13,12 @@ public class RoomData
 
     public void SetRoomBool()
     {
+        if(roomType == RoomType.RoomTypeEnum.Start)
+        {
+            playerFirstIn = true;
+        }
+
         isInPlayer = roomObj.isInPlayer;
-        playerFirstIn = roomObj.playerFirstIn;
     }
 
 	public RoomData(Vector2Int pos)
