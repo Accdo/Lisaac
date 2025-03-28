@@ -664,6 +664,7 @@ MonoBehaviour:
   player: {fileID: 0}
   bullet: {fileID: 6166244923773582448, guid: 04033b2bbca4e094b933ac7db2e22bcd, type: 3}
   pBullets: []
+  nextBoss: {fileID: 4415825045801819066, guid: 4d01d12d5169bd84d92ce934bd31f114, type: 3}
   body: {fileID: 4848525383393867359}
   intro: {fileID: 772494854055125792}
   healthFill: {fileID: 6404990630740025643}
