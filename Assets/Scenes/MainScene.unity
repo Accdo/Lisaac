@@ -176,7 +176,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de601a144a035e246b778db9d4eb108a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxRooms: 10
+  maxRooms: 5
   startRoomPrefabs: {fileID: 252745540419202163, guid: d5ab73c749c364d49a197d3c64fa462a, type: 3}
   normalRoomPrefabs:
   - {fileID: 252745540419202163, guid: 19f575140f934cc4daa8a8da64ac9709, type: 3}
@@ -354,7 +354,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wormEnemy: {fileID: 6512216174106589255, guid: 7654cc14d6dff77438c0482335d1f8d9, type: 3}
   gutEnemy: {fileID: 8803327020739188247, guid: 12b4f669f10d27c4c9a1ab6917b037a2, type: 3}
-  Boss: {fileID: 6050311674857310996, guid: a459039a12dd30e4a9f1d5124130825f, type: 3}
+  Boss: {fileID: 6050311674857310996, guid: 38e7f5f3337c81448852f2a76430b3c0, type: 3}
 --- !u!1 &588635103
 GameObject:
   m_ObjectHideFlags: 0
@@ -1621,6 +1621,9 @@ MonoBehaviour:
   playerHurt: {fileID: 8300000, guid: 999315fd54942aa459a5deea1eec980b, type: 3}
   playerChargingBulletShoot: {fileID: 8300000, guid: 87e266f3e00f0b44681213cc22487a49, type: 3}
   bloodHit: {fileID: 8300000, guid: 7ddd5f95e3594ae428035b70fe2dcfd1, type: 3}
+  bossMove: {fileID: 8300000, guid: 632df67caa9df6b4985d45fb057201fd, type: 3}
+  bossAttack: {fileID: 8300000, guid: f607618df28f3ef4bb1432aadbcaabbf, type: 3}
+  bossJump: {fileID: 8300000, guid: 13685c1d11d79e04390f8d8eba4cf0f0, type: 3}
 --- !u!4 &2077275346
 Transform:
   m_ObjectHideFlags: 0
@@ -1924,7 +1927,7 @@ Transform:
   m_GameObject: {fileID: 8997598213773237347}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.826, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
