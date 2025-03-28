@@ -411,6 +411,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   apolloPrefab: {fileID: 7505821824133251241, guid: 32843c090afe00a4f8cdaa6b8a3d7e70, type: 3}
+  artemisPrefab: {fileID: 5112643794965079444, guid: 047a0374e1a5bea43b523066129b3db0, type: 3}
+  endingPortal: {fileID: 1001312068938778513, guid: c078b884a207faf42954ea0c2dea4026, type: 3}
   enemyHp: {fileID: 0}
   intro: {fileID: 4649805493333694700}
   healthFill: {fileID: 8655263163295724869}

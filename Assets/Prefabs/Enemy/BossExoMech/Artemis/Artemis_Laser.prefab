@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &7505821824133251241
+--- !u!1 &7949661118708494402
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,42 +8,40 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6591265145120794475}
-  - component: {fileID: 220036838681371030}
-  - component: {fileID: 6627949550002285844}
-  - component: {fileID: 825279052802896928}
-  - component: {fileID: 1271686600549439003}
-  - component: {fileID: 6635627028074605683}
+  - component: {fileID: 4534647445713693820}
+  - component: {fileID: 9167813429546642104}
+  - component: {fileID: 9179085752184531975}
+  - component: {fileID: 9129452263537707570}
+  - component: {fileID: 5785789448956878851}
   m_Layer: 0
-  m_Name: Boss_Apollo
-  m_TagString: Boss
+  m_Name: Artemis_Laser
+  m_TagString: EnemyBullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6591265145120794475
+--- !u!4 &4534647445713693820
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7505821824133251241}
+  m_GameObject: {fileID: 7949661118708494402}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 2.45, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1566705690753065115}
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &220036838681371030
+--- !u!212 &9167813429546642104
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7505821824133251241}
+  m_GameObject: {fileID: 7949661118708494402}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -80,29 +78,29 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
-  m_Sprite: {fileID: 556134927, guid: 0954c7fa230a90b468046420caef5abb, type: 3}
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 7017946650882060485, guid: 86002339c7f3b5b479f11ec2cb5a22d8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 2.55, y: 2.825}
+  m_Size: {x: 0.92, y: 0.22}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &6627949550002285844
+--- !u!95 &9179085752184531975
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7505821824133251241}
+  m_GameObject: {fileID: 7949661118708494402}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: b74742a76a7734a4482be3dcde2e39f2, type: 2}
+  m_Controller: {fileID: 9100000, guid: 090a16ff7f13445499e02fd4410f8cd3, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -114,32 +112,14 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &825279052802896928
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7505821824133251241}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fa35f8bb1a747942bd6a93d5dcb43b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fireBallshotDelay: 1
-  apolloMoveDelay: 2
-  apolloMoveSpeed: 3
-  fireBall: {fileID: 6444387721746909682, guid: 1c22009d7b08e5542ab3d11e7f2544b9, type: 3}
-  apolloMissile: {fileID: 5834637694906915421, guid: 923c093251c5f3b46809db40d8169d95, type: 3}
-  firePoint: {fileID: 1566705690753065115}
---- !u!50 &1271686600549439003
+--- !u!50 &9129452263537707570
 Rigidbody2D:
   serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7505821824133251241}
+  m_GameObject: {fileID: 7949661118708494402}
   m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
@@ -159,13 +139,13 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &6635627028074605683
+--- !u!61 &5785789448956878851
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7505821824133251241}
+  m_GameObject: {fileID: 7949661118708494402}
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
@@ -189,50 +169,19 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0.120933235}
+  m_Offset: {x: 0.03467667, y: 0.029539272}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.08, y: 4.52}
-    newSize: {x: 2.55, y: 2.825}
+    oldSize: {x: 1.2266667, y: 0.29333332}
+    newSize: {x: 0.92, y: 0.22}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 4.1298666, y: 2.94908}
+  m_Size: {x: 1.0802548, y: 0.21884301}
   m_EdgeRadius: 0
---- !u!1 &9145717324588577267
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1566705690753065115}
-  m_Layer: 0
-  m_Name: Apollo_FirePoint
-  m_TagString: Untagged
-  m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1566705690753065115
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9145717324588577267}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.3, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 6591265145120794475}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
