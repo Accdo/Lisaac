@@ -308,7 +308,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de601a144a035e246b778db9d4eb108a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxRooms: 5
+  maxRooms: 10
   startRoomPrefabs: {fileID: 252745540419202163, guid: d5ab73c749c364d49a197d3c64fa462a, type: 3}
   normalRoomPrefabs:
   - {fileID: 252745540419202163, guid: 19f575140f934cc4daa8a8da64ac9709, type: 3}
@@ -3948,67 +3948,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -0.0000019073, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1001 &2027108114
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 6591265145120794475, guid: 32843c090afe00a4f8cdaa6b8a3d7e70, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 3.66
-      objectReference: {fileID: 0}
-    - target: {fileID: 6591265145120794475, guid: 32843c090afe00a4f8cdaa6b8a3d7e70, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2.55
-      objectReference: {fileID: 0}
-    - target: {fileID: 6591265145120794475, guid: 32843c090afe00a4f8cdaa6b8a3d7e70, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6591265145120794475, guid: 32843c090afe00a4f8cdaa6b8a3d7e70, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6591265145120794475, guid: 32843c090afe00a4f8cdaa6b8a3d7e70, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6591265145120794475, guid: 32843c090afe00a4f8cdaa6b8a3d7e70, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6591265145120794475, guid: 32843c090afe00a4f8cdaa6b8a3d7e70, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6591265145120794475, guid: 32843c090afe00a4f8cdaa6b8a3d7e70, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6591265145120794475, guid: 32843c090afe00a4f8cdaa6b8a3d7e70, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6591265145120794475, guid: 32843c090afe00a4f8cdaa6b8a3d7e70, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7505821824133251241, guid: 32843c090afe00a4f8cdaa6b8a3d7e70, type: 3}
-      propertyPath: m_Name
-      value: Boss_Apollo
-      objectReference: {fileID: 0}
-    - target: {fileID: 7505821824133251241, guid: 32843c090afe00a4f8cdaa6b8a3d7e70, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 32843c090afe00a4f8cdaa6b8a3d7e70, type: 3}
 --- !u!1 &2077275343
 GameObject:
   m_ObjectHideFlags: 0
@@ -4470,9 +4409,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0095d921a2c17e439b5c4ce74f475d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHp: 15
+  maxHp: 20
   currentHp: 0
-  hitDelay: 1
+  hitDelay: 0.3
 --- !u!212 &1906244349033103718
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4873,4 +4812,3 @@ SceneRoots:
   - {fileID: 1255341211}
   - {fileID: 128495427}
   - {fileID: 2261200878292101166}
-  - {fileID: 2027108114}

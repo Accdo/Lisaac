@@ -45,6 +45,13 @@ public class GameManager : MonoBehaviour
                 if (bossHp != null)
                     bossHp.currentHp = 1;
             }
+
+            foreach (GameObject go in GameObject.FindGameObjectsWithTag("ExoMech"))
+            {
+                EnemyHp bossHp = go.GetComponent<EnemyHp>();
+                if (bossHp != null)
+                    bossHp.currentHp = 1;
+            }
         }
 
         if (Input.GetKey(KeyCode.R)) 
