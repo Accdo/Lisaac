@@ -2561,7 +2561,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Issac
+  m_text: L Issac
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5604a46e54a99a34c96e2f9445cf0437, type: 2}
   m_sharedMaterial: {fileID: -5920154114919826857, guid: 5604a46e54a99a34c96e2f9445cf0437, type: 2}

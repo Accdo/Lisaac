@@ -42,10 +42,10 @@ GameObject:
   - component: {fileID: 4222607949253917190}
   - component: {fileID: 2167198568360997670}
   - component: {fileID: 8049764816550838409}
+  - component: {fileID: -8621827063639070729}
   - component: {fileID: 8798247434743416395}
   - component: {fileID: 1882840106943106524}
   - component: {fileID: 5198912743884068105}
-  - component: {fileID: -8621827063639070729}
   m_Layer: 8
   m_Name: Enemy - Gut
   m_TagString: Enemy
@@ -170,6 +170,33 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.75, y: 0.6775367}
   m_EdgeRadius: 0
+--- !u!50 &-8621827063639070729
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8803327020739188247}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!114 &8798247434743416395
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -226,30 +253,3 @@ MonoBehaviour:
   - {fileID: -981151972, guid: 58491d14d8e249b4195eefefd2ca93bb, type: 3}
   - {fileID: -1268844642, guid: 58491d14d8e249b4195eefefd2ca93bb, type: 3}
   - {fileID: 1335361722, guid: 58491d14d8e249b4195eefefd2ca93bb, type: 3}
---- !u!50 &-8621827063639070729
-Rigidbody2D:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8803327020739188247}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0

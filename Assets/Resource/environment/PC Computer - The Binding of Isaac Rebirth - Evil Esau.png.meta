@@ -1,0 +1,3822 @@
+fileFormatVersion: 2
+guid: 2c75cc93a463c86458a7b4172ff01eab
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2948354451634344703
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_0
+  - first:
+      213: 7025692667039328985
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_1
+  - first:
+      213: -1159100103084230811
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_2
+  - first:
+      213: 8812930041842710190
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_3
+  - first:
+      213: 252896273359458649
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_4
+  - first:
+      213: -4881909274222759522
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_5
+  - first:
+      213: 2943228737667309044
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_6
+  - first:
+      213: -6377175862105838491
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_7
+  - first:
+      213: 8765827803104604385
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_8
+  - first:
+      213: -1723897169989282054
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_9
+  - first:
+      213: 1245078138071722537
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_10
+  - first:
+      213: 4019286673968881281
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_11
+  - first:
+      213: 4183239367589971411
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_12
+  - first:
+      213: -4517050912046717584
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_13
+  - first:
+      213: 4859444461564668582
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_14
+  - first:
+      213: 475332426063819962
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_15
+  - first:
+      213: -2860443818982274487
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_16
+  - first:
+      213: -150087076055845097
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_17
+  - first:
+      213: -6691550483215816884
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_18
+  - first:
+      213: -156781552204572319
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_19
+  - first:
+      213: -5629318856563834825
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_20
+  - first:
+      213: 3683197928361610514
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_21
+  - first:
+      213: 3348435022076620879
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_22
+  - first:
+      213: 8534723487625025310
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_23
+  - first:
+      213: 73544735296580237
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_24
+  - first:
+      213: 960494913380880518
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_25
+  - first:
+      213: -1044548493018207871
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_26
+  - first:
+      213: 3901843836413646728
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_27
+  - first:
+      213: 8117547761493108909
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_28
+  - first:
+      213: -482217193800851008
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_29
+  - first:
+      213: 4032103768647323551
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_30
+  - first:
+      213: -823937227492730994
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_31
+  - first:
+      213: 3142645100536599650
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_32
+  - first:
+      213: -1639908086299401204
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_33
+  - first:
+      213: 7604702365801564009
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_34
+  - first:
+      213: -1964733994548571959
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_35
+  - first:
+      213: 8715114600445356356
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_36
+  - first:
+      213: 1087307698136243660
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_37
+  - first:
+      213: -3180530448540065486
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_38
+  - first:
+      213: -2626382545516106827
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_39
+  - first:
+      213: -1662083564465663036
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_40
+  - first:
+      213: -3686626072694523153
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_41
+  - first:
+      213: 6852927175377073448
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_42
+  - first:
+      213: 1752393677310064093
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_43
+  - first:
+      213: 147460752623887102
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_44
+  - first:
+      213: 6718609382837040731
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_45
+  - first:
+      213: -3575894480090484880
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_46
+  - first:
+      213: -6593999759104280477
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_47
+  - first:
+      213: -7593837153827093945
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_48
+  - first:
+      213: 7262316357943357283
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_49
+  - first:
+      213: -2885599834387357255
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_50
+  - first:
+      213: -6368613026374531591
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_51
+  - first:
+      213: -7296082223070433424
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_52
+  - first:
+      213: -3359015999158065578
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_53
+  - first:
+      213: 7502816096069919924
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_54
+  - first:
+      213: 8395423336112582631
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_55
+  - first:
+      213: 7157780084275431629
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_56
+  - first:
+      213: 2920184919235851382
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_57
+  - first:
+      213: 2645767286021457614
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_58
+  - first:
+      213: 858436689100691144
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_59
+  - first:
+      213: 6114819956382475347
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_60
+  - first:
+      213: -6784343136149924491
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_61
+  - first:
+      213: -8504754219743941957
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_62
+  - first:
+      213: -8075916119087112098
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_63
+  - first:
+      213: -5041835808955702183
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_64
+  - first:
+      213: 4056298932269435231
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_65
+  - first:
+      213: -7836930755432378521
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_66
+  - first:
+      213: 8596745633309018437
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_67
+  - first:
+      213: 7408220418562715056
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_68
+  - first:
+      213: -2050241673261696094
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_69
+  - first:
+      213: -2800900842021152622
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_70
+  - first:
+      213: 7705251556366277180
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_71
+  - first:
+      213: 9200712980492668239
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_72
+  - first:
+      213: 8514088736325969884
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_73
+  - first:
+      213: 3000495998470889886
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_74
+  - first:
+      213: -5332062512483466670
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_75
+  - first:
+      213: 8437012860610425252
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_76
+  - first:
+      213: -7932156341267490196
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_77
+  - first:
+      213: 2117495592538174200
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_78
+  - first:
+      213: 4837376245363285852
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_79
+  - first:
+      213: -5207706248899273035
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_80
+  - first:
+      213: -6319175751679154559
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_81
+  - first:
+      213: 2716804072190919934
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_82
+  - first:
+      213: -8487211821004187840
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_83
+  - first:
+      213: 5258494328529292001
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_84
+  - first:
+      213: -2277894071476648084
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_85
+  - first:
+      213: -5396006661077535048
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_86
+  - first:
+      213: -4685773842525682041
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_87
+  - first:
+      213: 6944122987939801574
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_88
+  - first:
+      213: -5867419147869528982
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_89
+  - first:
+      213: 2989118734852653717
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_90
+  - first:
+      213: -3957425454503307347
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_91
+  - first:
+      213: -4005899523193895639
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_92
+  - first:
+      213: 479655198871903849
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_93
+  - first:
+      213: -3959199567310639765
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_94
+  - first:
+      213: -857272528911357892
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_95
+  - first:
+      213: 938007543029711635
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_96
+  - first:
+      213: -2297547119420846222
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_97
+  - first:
+      213: 8720023604412395303
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_98
+  - first:
+      213: 829710577059919126
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_99
+  - first:
+      213: -1440113507959026575
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_100
+  - first:
+      213: -3907860342002696578
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_101
+  - first:
+      213: 6506158489363555617
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_102
+  - first:
+      213: 5229359264622470655
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_103
+  - first:
+      213: -1539669258590626710
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_104
+  - first:
+      213: -6064652186784070258
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_105
+  - first:
+      213: -5658646965882416469
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_106
+  - first:
+      213: 4555016098997576771
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_107
+  - first:
+      213: -5068268020044951119
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_108
+  - first:
+      213: 4688710247416555126
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_109
+  - first:
+      213: 1560348579780043265
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_110
+  - first:
+      213: -3262726645438748466
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_111
+  - first:
+      213: 3390012196759487557
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_112
+  - first:
+      213: -3419050871463341168
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_113
+  - first:
+      213: -6999520378976639525
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_114
+  - first:
+      213: -2473065971098806812
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_115
+  - first:
+      213: 4036391031932185587
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_116
+  - first:
+      213: 1238137141961871449
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_117
+  - first:
+      213: -9087317507982533008
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_118
+  - first:
+      213: -7986204882852673848
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_119
+  - first:
+      213: 8911163312814634074
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_120
+  - first:
+      213: 1694534839143747602
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_121
+  - first:
+      213: 2018489169991699800
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_122
+  - first:
+      213: 385525518488264840
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_123
+  - first:
+      213: 3540568765689896025
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_124
+  - first:
+      213: 8600043544761075246
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_125
+  - first:
+      213: -2389782753698034591
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_126
+  - first:
+      213: 6284827684423301029
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_127
+  - first:
+      213: 4017404456039120613
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_128
+  - first:
+      213: -3234671693633861256
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_129
+  - first:
+      213: 1781879345339850911
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_130
+  - first:
+      213: -9193680116437367027
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_131
+  - first:
+      213: 4194925518730223522
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_132
+  - first:
+      213: 4314849987621642068
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_133
+  - first:
+      213: 4673357207749769899
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_134
+  - first:
+      213: -3367797500506653274
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_135
+  - first:
+      213: -6252997873458631315
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_136
+  - first:
+      213: 2024565740329028898
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_137
+  - first:
+      213: -5689793525018671053
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_138
+  - first:
+      213: 5160070887066242732
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_139
+  - first:
+      213: 3865663316371970400
+    second: PC Computer - The Binding of Isaac Rebirth - Evil Esau_140
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 503
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff25b91b0c8aae820800000000000000
+      internalID: 2948354451634344703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_1
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 513
+        width: 33
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9da22f7c146408160800000000000000
+      internalID: 7025692667039328985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_2
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 513
+        width: 35
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 567bb80f89c0aefe0800000000000000
+      internalID: -1159100103084230811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_3
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 513
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea6376e1e21dd4a70800000000000000
+      internalID: 8812930041842710190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_4
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 503
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9515c9a12d7728300800000000000000
+      internalID: 252896273359458649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_5
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 513
+        width: 33
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e91744c6169ff3cb0800000000000000
+      internalID: -4881909274222759522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_6
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 513
+        width: 35
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fd916961f278d820800000000000000
+      internalID: 2943228737667309044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_7
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 513
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56c6cf45758bf77a0800000000000000
+      internalID: -6377175862105838491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_8
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 482
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e0fa4e81f976a970800000000000000
+      internalID: 8765827803104604385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_9
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 475
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af6dc7158ac7318e0800000000000000
+      internalID: -1723897169989282054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_10
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 482
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92aae5948f7674110800000000000000
+      internalID: 1245078138071722537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_11
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 482
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18e50645fef57c730800000000000000
+      internalID: 4019286673968881281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_12
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 476
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d541a38a0add0a30800000000000000
+      internalID: 4183239367589971411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_13
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 482
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 075e91bb0263051c0800000000000000
+      internalID: -4517050912046717584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_14
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 471
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aa2d49cdf6307340800000000000000
+      internalID: 4859444461564668582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_15
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 486
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab432c5b258b89600800000000000000
+      internalID: 475332426063819962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_16
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 483
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94a899d7089ad48d0800000000000000
+      internalID: -2860443818982274487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_17
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 474
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 717705a7998caedf0800000000000000
+      internalID: -150087076055845097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_18
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 474
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c47e353f946d223a0800000000000000
+      internalID: -6691550483215816884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_19
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 482
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1691389420003ddf0800000000000000
+      internalID: -156781552204572319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_20
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 475
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 730ca1b4354a0e1b0800000000000000
+      internalID: -5629318856563834825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_21
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 482
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21dc27d50095d1330800000000000000
+      internalID: 3683197928361610514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_22
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 482
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f40ba5c69e7087e20800000000000000
+      internalID: 3348435022076620879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_23
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 476
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1792180bcd617670800000000000000
+      internalID: 8534723487625025310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_24
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 482
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8ae37e0c88450100800000000000000
+      internalID: 73544735296580237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_25
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 471
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68013a8e80d545d00800000000000000
+      internalID: 960494913380880518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_26
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 486
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 189eafa0ea40181f0800000000000000
+      internalID: -1044548493018207871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_27
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 483
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8879b7edb42262630800000000000000
+      internalID: 3901843836413646728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_28
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 474
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da860133ea257a070800000000000000
+      internalID: 8117547761493108909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_29
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 483
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c12ae26402de49f0800000000000000
+      internalID: -482217193800851008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_30
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 474
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9fccbbb309e4f730800000000000000
+      internalID: 4032103768647323551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_31
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 462
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e87531ef479c094f0800000000000000
+      internalID: -823937227492730994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_32
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 455
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2641b98811bec9b20800000000000000
+      internalID: 3142645100536599650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_33
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 462
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0465dbb840ed39e0800000000000000
+      internalID: -1639908086299401204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_34
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 462
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 967cc20a284598960800000000000000
+      internalID: 7604702365801564009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_35
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 456
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c05cc077dcdbb4e0800000000000000
+      internalID: -1964733994548571959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_36
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 462
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 449ad50fd8e42f870800000000000000
+      internalID: 8715114600445356356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_37
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 451
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccd55f43794e61f00800000000000000
+      internalID: 1087307698136243660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_38
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 466
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 231a471886c7cd3d0800000000000000
+      internalID: -3180530448540065486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_39
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 463
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bbe9327df63d8bd0800000000000000
+      internalID: -2626382545516106827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_40
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 454
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c35201edc71fe8e0800000000000000
+      internalID: -1662083564465663036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_41
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 454
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fea79559e1976dcc0800000000000000
+      internalID: -3686626072694523153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_42
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 462
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 825b8f725fc7a1f50800000000000000
+      internalID: 6852927175377073448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_43
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 455
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd5f4b2d3c0c15810800000000000000
+      internalID: 1752393677310064093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_44
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 462
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef26572f5c2eb0200800000000000000
+      internalID: 147460752623887102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_45
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 462
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b56bb9013ab4d3d50800000000000000
+      internalID: 6718609382837040731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_46
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 456
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07f2def8aeedf5ec0800000000000000
+      internalID: -3575894480090484880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_47
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 462
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 368f395d7286d74a0800000000000000
+      internalID: -6593999759104280477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_48
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 451
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74209fba7554d9690800000000000000
+      internalID: -7593837153827093945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_49
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 466
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36fe8b9004ee8c460800000000000000
+      internalID: 7262316357943357283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_50
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 463
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b16a6b3d3a44f7d0800000000000000
+      internalID: -2885599834387357255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_51
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 454
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f54503e1342e97a0800000000000000
+      internalID: -6368613026374531591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_52
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 463
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07f28d9dfdb1fba90800000000000000
+      internalID: -7296082223070433424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_53
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 454
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 656645fdeb06261d0800000000000000
+      internalID: -3359015999158065578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_54
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 442
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b4a45ddc7b5f1860800000000000000
+      internalID: 7502816096069919924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_55
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 435
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7efe3081b09828470800000000000000
+      internalID: 8395423336112582631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_56
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 442
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc84a97201b855360800000000000000
+      internalID: 7157780084275431629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_57
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 442
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 674718556b4968820800000000000000
+      internalID: 2920184919235851382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_58
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 436
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec688a92457a7b420800000000000000
+      internalID: 2645767286021457614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_59
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 442
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c6520cde97c9eb00800000000000000
+      internalID: 858436689100691144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_60
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 431
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 354a5a54a543cd450800000000000000
+      internalID: 6114819956382475347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_61
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 446
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5759c67dcdb29d1a0800000000000000
+      internalID: -6784343136149924491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_62
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 443
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bba6826e81b09f980800000000000000
+      internalID: -8504754219743941957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_63
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 434
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5026f5e3159cef80800000000000000
+      internalID: -8075916119087112098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_64
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 434
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 954e9576b0dc70ab0800000000000000
+      internalID: -5041835808955702183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_65
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 442
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5947b0436eda4830800000000000000
+      internalID: 4056298932269435231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_66
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 435
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76f8e11fff0ad3390800000000000000
+      internalID: -7836930755432378521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_67
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 442
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54946c12b96cd4770800000000000000
+      internalID: 8596745633309018437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_68
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 442
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bde93268394fc660800000000000000
+      internalID: 7408220418562715056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_69
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 436
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2abb8819f041c83e0800000000000000
+      internalID: -2050241673261696094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_70
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 442
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2989c3426833129d0800000000000000
+      internalID: -2800900842021152622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_71
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 431
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3adc32677d8eea60800000000000000
+      internalID: 7705251556366277180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_72
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 446
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4d479255bf7faf70800000000000000
+      internalID: 9200712980492668239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_73
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 443
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd72dda989e182670800000000000000
+      internalID: 8514088736325969884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_74
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 434
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e91a6da9637e3a920800000000000000
+      internalID: 3000495998470889886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_75
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 443
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2520f373565b006b0800000000000000
+      internalID: -5332062512483466670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_76
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 434
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a1361ade7a461570800000000000000
+      internalID: 8437012860610425252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_77
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 395
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6a93ef75d15be190800000000000000
+      internalID: -7932156341267490196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_78
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 405
+        width: 33
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f271beb50bd26d10800000000000000
+      internalID: 2117495592538174200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_79
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 395
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5f9acdc010d12340800000000000000
+      internalID: 4837376245363285852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_80
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 395
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bed6cb12c28ab7b0800000000000000
+      internalID: -5207706248899273035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_81
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 395
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 186e6ef5227cd48a0800000000000000
+      internalID: -6319175751679154559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_82
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 395
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef4464fc8e604b520800000000000000
+      internalID: 2716804072190919934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_83
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 405
+        width: 33
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0479c83e0dd573a80800000000000000
+      internalID: -8487211821004187840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_84
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 395
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ea05692bbce9f840800000000000000
+      internalID: 5258494328529292001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_85
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 395
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c678aa9296b4360e0800000000000000
+      internalID: -2277894071476648084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_86
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 395
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b6f4d0f7888d15b0800000000000000
+      internalID: -5396006661077535048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_87
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 347
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 786807a3489c8feb0800000000000000
+      internalID: -4685773842525682041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_88
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 357
+        width: 35
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e9a6c4e01b7e5060800000000000000
+      internalID: 6944122987939801574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_89
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 359
+        width: 35
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6c59e63f5db29ea0800000000000000
+      internalID: -5867419147869528982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_90
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 358
+        width: 35
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5928b5ef6ab7b7920800000000000000
+      internalID: 2989118734852653717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_91
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 347
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da7dd3734866419c0800000000000000
+      internalID: -3957425454503307347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_92
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 347
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9250f1a9b9f2868c0800000000000000
+      internalID: -4005899523193895639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_93
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 357
+        width: 35
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96edd6facd318a600800000000000000
+      internalID: 479655198871903849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_94
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 359
+        width: 35
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6da19368f81e09c0800000000000000
+      internalID: -3959199567310639765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_95
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 358
+        width: 35
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c38a98e4d2b5a14f0800000000000000
+      internalID: -857272528911357892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_96
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 347
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3134ceef3e8740d00800000000000000
+      internalID: 938007543029711635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_97
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 309
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27fc23c51197d10e0800000000000000
+      internalID: -2297547119420846222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_98
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 311
+        width: 35
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72fa50e744fb30970800000000000000
+      internalID: 8720023604412395303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_99
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 310
+        width: 35
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6157a04bf59b38b00800000000000000
+      internalID: 829710577059919126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_100
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 300
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17c4cd10560b30ce0800000000000000
+      internalID: -1440113507959026575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_101
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 309
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7eb71349bd74c9c0800000000000000
+      internalID: -3907860342002696578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_102
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 311
+        width: 35
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12528eacca48a4a50800000000000000
+      internalID: 6506158489363555617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_103
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 310
+        width: 35
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff568ba7b8a629840800000000000000
+      internalID: 5229359264622470655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_104
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 300
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6cdd1287fef1aae0800000000000000
+      internalID: -1539669258590626710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 240
+        width: 62
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e858070d7f606dba0800000000000000
+      internalID: -6064652186784070258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_106
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 240
+        width: 62
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba29c39b0927871b0800000000000000
+      internalID: -5658646965882416469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_107
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 240
+        width: 62
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 344afee220ba63f30800000000000000
+      internalID: 4555016098997576771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_108
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 240
+        width: 62
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b19fbea615e9a9b0800000000000000
+      internalID: -5068268020044951119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_109
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 240
+        width: 62
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6766fffc025a11140800000000000000
+      internalID: 4688710247416555126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_110
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 240
+        width: 62
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 102239724c877a510800000000000000
+      internalID: 1560348579780043265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 196
+        width: 53
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec8eb63176778b2d0800000000000000
+      internalID: -3262726645438748466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_112
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 196
+        width: 53
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5444714c12ebb0f20800000000000000
+      internalID: 3390012196759487557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_113
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 196
+        width: 53
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0931079e8571d80d0800000000000000
+      internalID: -3419050871463341168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_114
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 196
+        width: 53
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd56df4ec45bcde90800000000000000
+      internalID: -6999520378976639525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_115
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 196
+        width: 53
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e59c862a97edadd0800000000000000
+      internalID: -2473065971098806812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_116
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 196
+        width: 53
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fbe3e00244240830800000000000000
+      internalID: 4036391031932185587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 151
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 950dad1bb2fbe2110800000000000000
+      internalID: 1238137141961871449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_118
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 151
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07e53878fdc53e180800000000000000
+      internalID: -9087317507982533008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_119
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 151
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c68316c8fc4b2190800000000000000
+      internalID: -7986204882852673848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_120
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 151
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a543fc3d1dfcaab70800000000000000
+      internalID: 8911163312814634074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_121
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 151
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 210dfaa4572348710800000000000000
+      internalID: 1694534839143747602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_122
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 151
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85d0458a43d130c10800000000000000
+      internalID: 2018489169991699800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 106
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 880675d9a69a95500800000000000000
+      internalID: 385525518488264840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_124
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 106
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95c1acd9880a22130800000000000000
+      internalID: 3540568765689896025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_125
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 106
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e26006af90e795770800000000000000
+      internalID: 8600043544761075246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_126
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 106
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16c49734f39c5ded0800000000000000
+      internalID: -2389782753698034591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_127
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 106
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a777940b71383750800000000000000
+      internalID: 6284827684423301029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_128
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 106
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ee78415110b0c730800000000000000
+      internalID: 4017404456039120613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 57
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87941ff8b332c13d0800000000000000
+      internalID: -3234671693633861256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_130
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 57
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f906693e2d18ab810800000000000000
+      internalID: 1781879345339850911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_131
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 57
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d07cd21f4ac796080800000000000000
+      internalID: -9193680116437367027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_132
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 57
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2afd22b988e573a30800000000000000
+      internalID: 4194925518730223522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_133
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 57
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45f5943e33d61eb30800000000000000
+      internalID: 4314849987621642068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_134
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 57
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baabf64be991bd040800000000000000
+      internalID: 4673357207749769899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 13
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ad3ad2440e2341d0800000000000000
+      internalID: -3367797500506653274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_136
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 13
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6da93b5093e839a0800000000000000
+      internalID: -6252997873458631315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_137
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 13
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22dccb070d3b81c10800000000000000
+      internalID: 2024565740329028898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_138
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 13
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 338c1ff4feac901b0800000000000000
+      internalID: -5689793525018671053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_139
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 13
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cae0b6fe1214c9740800000000000000
+      internalID: 5160070887066242732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Evil Esau_140
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 13
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0691c991e4895a530800000000000000
+      internalID: 3865663316371970400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8cf4ea2e37976d4489e728c64dbd7454
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      1: -3367797500506653274
+      2: -3234671693633861256
+      3: 385525518488264840
+      4: 1238137141961871449
+      5: -3262726645438748466
+      6: -6064652186784070258
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_0: 2948354451634344703
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_1: 7025692667039328985
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_10: 1245078138071722537
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_100: -1440113507959026575
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_101: -3907860342002696578
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_102: 6506158489363555617
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_103: 5229359264622470655
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_104: -1539669258590626710
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_106: -5658646965882416469
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_107: 4555016098997576771
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_108: -5068268020044951119
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_109: 4688710247416555126
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_11: 4019286673968881281
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_110: 1560348579780043265
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_112: 3390012196759487557
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_113: -3419050871463341168
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_114: -6999520378976639525
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_115: -2473065971098806812
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_116: 4036391031932185587
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_118: -9087317507982533008
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_119: -7986204882852673848
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_12: 4183239367589971411
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_120: 8911163312814634074
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_121: 1694534839143747602
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_122: 2018489169991699800
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_124: 3540568765689896025
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_125: 8600043544761075246
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_126: -2389782753698034591
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_127: 6284827684423301029
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_128: 4017404456039120613
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_13: -4517050912046717584
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_130: 1781879345339850911
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_131: -9193680116437367027
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_132: 4194925518730223522
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_133: 4314849987621642068
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_134: 4673357207749769899
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_136: -6252997873458631315
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_137: 2024565740329028898
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_138: -5689793525018671053
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_139: 5160070887066242732
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_14: 4859444461564668582
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_140: 3865663316371970400
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_15: 475332426063819962
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_16: -2860443818982274487
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_17: -150087076055845097
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_18: -6691550483215816884
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_19: -156781552204572319
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_2: -1159100103084230811
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_20: -5629318856563834825
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_21: 3683197928361610514
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_22: 3348435022076620879
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_23: 8534723487625025310
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_24: 73544735296580237
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_25: 960494913380880518
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_26: -1044548493018207871
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_27: 3901843836413646728
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_28: 8117547761493108909
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_29: -482217193800851008
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_3: 8812930041842710190
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_30: 4032103768647323551
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_31: -823937227492730994
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_32: 3142645100536599650
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_33: -1639908086299401204
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_34: 7604702365801564009
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_35: -1964733994548571959
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_36: 8715114600445356356
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_37: 1087307698136243660
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_38: -3180530448540065486
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_39: -2626382545516106827
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_4: 252896273359458649
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_40: -1662083564465663036
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_41: -3686626072694523153
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_42: 6852927175377073448
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_43: 1752393677310064093
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_44: 147460752623887102
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_45: 6718609382837040731
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_46: -3575894480090484880
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_47: -6593999759104280477
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_48: -7593837153827093945
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_49: 7262316357943357283
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_5: -4881909274222759522
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_50: -2885599834387357255
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_51: -6368613026374531591
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_52: -7296082223070433424
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_53: -3359015999158065578
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_54: 7502816096069919924
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_55: 8395423336112582631
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_56: 7157780084275431629
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_57: 2920184919235851382
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_58: 2645767286021457614
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_59: 858436689100691144
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_6: 2943228737667309044
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_60: 6114819956382475347
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_61: -6784343136149924491
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_62: -8504754219743941957
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_63: -8075916119087112098
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_64: -5041835808955702183
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_65: 4056298932269435231
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_66: -7836930755432378521
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_67: 8596745633309018437
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_68: 7408220418562715056
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_69: -2050241673261696094
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_7: -6377175862105838491
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_70: -2800900842021152622
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_71: 7705251556366277180
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_72: 9200712980492668239
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_73: 8514088736325969884
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_74: 3000495998470889886
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_75: -5332062512483466670
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_76: 8437012860610425252
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_77: -7932156341267490196
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_78: 2117495592538174200
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_79: 4837376245363285852
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_8: 8765827803104604385
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_80: -5207706248899273035
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_81: -6319175751679154559
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_82: 2716804072190919934
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_83: -8487211821004187840
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_84: 5258494328529292001
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_85: -2277894071476648084
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_86: -5396006661077535048
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_87: -4685773842525682041
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_88: 6944122987939801574
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_89: -5867419147869528982
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_9: -1723897169989282054
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_90: 2989118734852653717
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_91: -3957425454503307347
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_92: -4005899523193895639
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_93: 479655198871903849
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_94: -3959199567310639765
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_95: -857272528911357892
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_96: 938007543029711635
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_97: -2297547119420846222
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_98: 8720023604412395303
+      PC Computer - The Binding of Isaac Rebirth - Evil Esau_99: 829710577059919126
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
