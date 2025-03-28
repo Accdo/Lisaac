@@ -181,7 +181,7 @@ public class Fire : Item
     {
         int damage = 5; // 데미지
         float speed = 0; // 속도
-        float life = 10; // 지속
+        float life = 6; // 지속
         int count = 8; // 개수
         float angleStep = 360 / count; // 각도
         float distance = .8f; // 거리
