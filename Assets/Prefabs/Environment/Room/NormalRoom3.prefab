@@ -1219,10 +1219,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7850869310246800061}
     m_Modifications:
-    - target: {fileID: 708972657806371261, guid: 16d8a419dbb02644980dbaa70ef5f3bd, type: 3}
-      propertyPath: doorLocation
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1123367779054375848, guid: 30d30eec5bacbd54ba87a43725d125c8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1269,6 +1265,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5133361831395305726, guid: 30d30eec5bacbd54ba87a43725d125c8, type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 708972657806371261, guid: 16d8a419dbb02644980dbaa70ef5f3bd, type: 3}
+      propertyPath: doorLocation
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1883,6 +1883,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7850869310246800061}
     m_Modifications:
+    - target: {fileID: 332443247547203609, guid: d0e12f6620c776a42af7fa5969604495, type: 3}
+      propertyPath: startTrapState
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 2748978472838019949, guid: d0e12f6620c776a42af7fa5969604495, type: 3}
       propertyPath: m_Name
       value: Trap_Box (1)
@@ -2611,6 +2615,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7850869310246800061}
     m_Modifications:
+    - target: {fileID: 332443247547203609, guid: d0e12f6620c776a42af7fa5969604495, type: 3}
+      propertyPath: startTrapState
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2748978472838019949, guid: d0e12f6620c776a42af7fa5969604495, type: 3}
       propertyPath: m_Name
       value: Trap_Box
@@ -2747,10 +2755,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7850869310246800061}
     m_Modifications:
-    - target: {fileID: 5867703202250116498, guid: e9eab9e15d3c4de42801acdb0a5770c7, type: 3}
-      propertyPath: doorLocation
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 4015945004592210272, guid: 5e189b1327396784eaca395c4ee36bf2, type: 3}
       propertyPath: m_Name
       value: DoorLeft
@@ -2798,6 +2802,10 @@ PrefabInstance:
     - target: {fileID: 4992487174216665518, guid: 5e189b1327396784eaca395c4ee36bf2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5867703202250116498, guid: e9eab9e15d3c4de42801acdb0a5770c7, type: 3}
+      propertyPath: doorLocation
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

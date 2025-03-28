@@ -24,6 +24,11 @@ public class SoundManager : MonoBehaviour
     [SerializeField] private AudioClip fireOn;
     [SerializeField] private AudioClip fireOff;
 
+    [SerializeField] private AudioClip fly_Buzz;
+    [SerializeField] private AudioClip slotTouch;
+    [SerializeField] private AudioClip slotSpawn;
+    [SerializeField] private AudioClip slotExplosion;
+
     void Awake()
     {
         if (Instance == null)
@@ -33,13 +38,21 @@ public class SoundManager : MonoBehaviour
         }
         else
         {
-            Destroy(gameObject);  // Áßº¹ »ý¼º ¹æÁö
+            Destroy(gameObject);  // ï¿½ßºï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
         }
     }
 
     void Start()
     {
         myAudio = GetComponent<AudioSource>();
+    }
+    public void SoundOnOff()
+    {
+        myAudio.mute = !myAudio.mute;
+    }
+    public void SetSoundVolume(float _vlome)
+    {
+        myAudio.volume = _vlome;
     }
 
     public void PlayerBullet() { myAudio.PlayOneShot(bulletSound); }
@@ -59,6 +72,10 @@ public class SoundManager : MonoBehaviour
     public void BossMove() { myAudio.PlayOneShot(bossMove); }
     public void BossAttack() { myAudio.PlayOneShot(bossAttack); }
     public void BossJump() { myAudio.PlayOneShot(bossJump); }
+    public void Fly_Buzz() { myAudio.PlayOneShot(fly_Buzz); }
+    public void SlotTouch() { myAudio.PlayOneShot(slotTouch); }
+    public void SlotSpawn() { myAudio.PlayOneShot(slotSpawn); }
+    public void SlotExplosion() { myAudio.PlayOneShot(slotExplosion); }
 
     public void FireOn() { myAudio.PlayOneShot(fireOn); }
     public void FireOff() { myAudio.PlayOneShot(fireOff); }

@@ -1140,10 +1140,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 3027846256201595582}
     m_Modifications:
-    - target: {fileID: 708972657806371261, guid: 16d8a419dbb02644980dbaa70ef5f3bd, type: 3}
-      propertyPath: doorLocation
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1123367779054375848, guid: 30d30eec5bacbd54ba87a43725d125c8, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.5
@@ -1202,6 +1198,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5133361831395305726, guid: 30d30eec5bacbd54ba87a43725d125c8, type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 708972657806371261, guid: 16d8a419dbb02644980dbaa70ef5f3bd, type: 3}
+      propertyPath: doorLocation
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -2291,10 +2291,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 3027846256201595582}
     m_Modifications:
-    - target: {fileID: 5867703202250116498, guid: e9eab9e15d3c4de42801acdb0a5770c7, type: 3}
-      propertyPath: doorLocation
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 4015945004592210272, guid: 5e189b1327396784eaca395c4ee36bf2, type: 3}
       propertyPath: m_Name
       value: DoorLeft
@@ -2354,6 +2350,10 @@ PrefabInstance:
     - target: {fileID: 4992487174216665518, guid: 5e189b1327396784eaca395c4ee36bf2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5867703202250116498, guid: e9eab9e15d3c4de42801acdb0a5770c7, type: 3}
+      propertyPath: doorLocation
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
