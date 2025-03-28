@@ -19,6 +19,11 @@ public class Apollo : MonoBehaviour
 
     private int attType;
     private int normalAttCount;
+    private GameObject exoMechManager;
+    private ExoMech exoMechComponet;
+    private EnemyHp exoMechHp;
+
+
 
     //아폴로
     void Start()
@@ -32,7 +37,11 @@ public class Apollo : MonoBehaviour
 
         attType = 1;
         normalAttCount = 0;
-    }
+
+        exoMechManager = GameObject.FindWithTag("ExoMech");
+        exoMechComponet = exoMechManager.GetComponent<ExoMech>();
+        exoMechHp = exoMechManager.GetComponent<EnemyHp>();
+}
 
     void Update()
     {
@@ -45,40 +54,46 @@ public class Apollo : MonoBehaviour
         if(!isShot)
         {
             shootTimer -= Time.deltaTime;
-        }
-
-        if (shootTimer <= 0)
-        {
-            if (attType == 1)
+            if (shootTimer <= 0)
             {
-                apolloAnimator.SetTrigger("FireballFire");
-                shootTimer = fireBallshotDelay;
-                isShot = true;
-                if (isPhase2)
+                Debug.Log("ShootDelay : " + fireBallshotDelay);
+                if (attType == 1)
                 {
-                    normalAttCount++;
-                    if (normalAttCount >= 5)
+                    apolloAnimator.SetTrigger("FireballFire");
+                    shootTimer = fireBallshotDelay;
+                    isShot = true;
+                    if (isPhase2)
                     {
-                        attType = 2;
-                        shootTimer += shootTimer;
+                        if (normalAttCount >= 4)
+                        {
+                            attType = 2;
+                            shootTimer = fireBallshotDelay * 2;
+                        }
                     }
+
+                }
+                else if (attType == 2)
+                {
+                    attType = 1;
+                    apolloAnimator.SetTrigger("MissileFire");
+                    shootTimer = fireBallshotDelay * 2;
+                    isShot = true;
                 }
 
-            }
-            else if(attType == 2)
-            {
-                apolloAnimator.SetTrigger("MissileFire");
-                shootTimer = fireBallshotDelay * 2;
-                isShot = true;
-            }
 
-            
+            }
         }
     }
 
     void FireBallShot()
     {
         GameObject missile = Instantiate(fireBall, firePoint.position, firePoint.rotation);
+
+        if (isPhase2)
+        {
+            normalAttCount++;
+            Debug.Log(normalAttCount);
+        }
 
         missile.GetComponent<ApolloFireBall>().SetDirection((playerLocation.position - firePoint.position).normalized);
     }
@@ -95,7 +110,6 @@ public class Apollo : MonoBehaviour
 
     void FireMissileEnd()
     {
-        attType = 1;
         isShot = false;
         normalAttCount = 0;
     }
@@ -104,10 +118,18 @@ public class Apollo : MonoBehaviour
     {
         if (collision.CompareTag("Bullet"))
         {
-            apolloAnimator.SetBool("IsPhase2", true);
-            isPhase2 = true;
-            isShot = false;
-            fireBallshotDelay = 0.5f;
+            PlayerBullet bullet = collision.GetComponent<PlayerBullet>();
+            exoMechComponet.ExoMechsOnHit(bullet.damage);
+
+            // Debug.Log(exoMechHp.currentHp);
+
+            if (exoMechHp.currentHp <= exoMechHp.maxHp / 2 && !isPhase2)
+            {
+                apolloAnimator.SetBool("IsPhase2", true);
+                isPhase2 = true;
+                isShot = false;
+                fireBallshotDelay = 0.5f;
+            }
         }
     }
 }
