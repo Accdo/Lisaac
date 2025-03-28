@@ -246,9 +246,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f559af2936814a42822b526047b2ec1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHp: 1
+  maxHp: 5
   currentHp: 0
   dorpItems:
   - {fileID: 6711713742334914851, guid: 7b3c25466f365934b94adcaea40855b8, type: 3}
   - {fileID: 5360458444269641072, guid: af3e48ed7aa7732449cff6b039b2bb59, type: 3}
-  - {fileID: 8044457168379955433, guid: a9672840a3e2f3d43aabff05aec0d1a4, type: 3}

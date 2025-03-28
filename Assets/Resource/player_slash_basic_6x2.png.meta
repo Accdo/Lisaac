@@ -2123,7 +2123,86 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      player_slash_basic_6x2_0: 7595795132692805150
+      player_slash_basic_6x2_1: 5395538245400571055
+      player_slash_basic_6x2_10: -3611516441840444386
+      player_slash_basic_6x2_11: -7924937173703420293
+      player_slash_basic_6x2_12: -6650425818444897451
+      player_slash_basic_6x2_13: 7287930428152443131
+      player_slash_basic_6x2_14: 4169457096055548600
+      player_slash_basic_6x2_15: -6242566349580721497
+      player_slash_basic_6x2_16: -8945675075918964875
+      player_slash_basic_6x2_17: 8307748703343591893
+      player_slash_basic_6x2_18: 6782584686965338557
+      player_slash_basic_6x2_19: 6389783274880905637
+      player_slash_basic_6x2_2: 8444740182027380182
+      player_slash_basic_6x2_20: -6173441063387218387
+      player_slash_basic_6x2_21: -6212664008549447094
+      player_slash_basic_6x2_22: -3287394691360074583
+      player_slash_basic_6x2_23: 2583534125549716559
+      player_slash_basic_6x2_24: -2198713901249110474
+      player_slash_basic_6x2_25: -8324919900373559737
+      player_slash_basic_6x2_26: 1872940965689967096
+      player_slash_basic_6x2_27: -1363450642023317755
+      player_slash_basic_6x2_28: 2589736717291811509
+      player_slash_basic_6x2_29: -4407072432043054787
+      player_slash_basic_6x2_3: 628880561053414364
+      player_slash_basic_6x2_30: 1383451231892957076
+      player_slash_basic_6x2_31: -272826600327160460
+      player_slash_basic_6x2_32: -1032834452634766693
+      player_slash_basic_6x2_33: 7180478835514752719
+      player_slash_basic_6x2_34: 138848056192864352
+      player_slash_basic_6x2_35: -96880986875413778
+      player_slash_basic_6x2_36: -8737259360316210795
+      player_slash_basic_6x2_37: -2884481893045383054
+      player_slash_basic_6x2_38: 4738716348396793685
+      player_slash_basic_6x2_39: 144835888712493211
+      player_slash_basic_6x2_4: -2894197701367577341
+      player_slash_basic_6x2_40: -7470346700462702549
+      player_slash_basic_6x2_41: -8532938227362016020
+      player_slash_basic_6x2_42: 1616170249671782333
+      player_slash_basic_6x2_43: -7618685457311438051
+      player_slash_basic_6x2_44: -5406131147692203599
+      player_slash_basic_6x2_45: 7470547486371931905
+      player_slash_basic_6x2_46: -4911824645492129336
+      player_slash_basic_6x2_47: -3090309534546278709
+      player_slash_basic_6x2_48: 7092177537505084459
+      player_slash_basic_6x2_49: -7057796593443232718
+      player_slash_basic_6x2_5: 5173726541405334446
+      player_slash_basic_6x2_50: -81927059306385041
+      player_slash_basic_6x2_51: -4251257954803194483
+      player_slash_basic_6x2_52: 528176899046580663
+      player_slash_basic_6x2_53: 4300044581109339024
+      player_slash_basic_6x2_54: 1354848430428190887
+      player_slash_basic_6x2_55: -272574358129769755
+      player_slash_basic_6x2_56: 327031370736414951
+      player_slash_basic_6x2_57: -8373491015294891137
+      player_slash_basic_6x2_58: 764531218524855649
+      player_slash_basic_6x2_59: 6590691400897419756
+      player_slash_basic_6x2_6: 1562021286413563936
+      player_slash_basic_6x2_60: -8433276615017094348
+      player_slash_basic_6x2_61: 5465508963897871656
+      player_slash_basic_6x2_62: 7670881907679506600
+      player_slash_basic_6x2_63: -7310551245282257583
+      player_slash_basic_6x2_64: 7612900445583967
+      player_slash_basic_6x2_65: -5059427076031221137
+      player_slash_basic_6x2_66: 6193122629294447245
+      player_slash_basic_6x2_67: 698918297689176425
+      player_slash_basic_6x2_68: -4466362795574809442
+      player_slash_basic_6x2_69: -3580586770817852982
+      player_slash_basic_6x2_7: -8467165910173233634
+      player_slash_basic_6x2_70: -4781305021084722523
+      player_slash_basic_6x2_71: -2129543862361165323
+      player_slash_basic_6x2_72: 8643991700192479995
+      player_slash_basic_6x2_73: 2513058517361788451
+      player_slash_basic_6x2_74: -4378752062590702772
+      player_slash_basic_6x2_75: -713182141330467230
+      player_slash_basic_6x2_76: 3374395378018545248
+      player_slash_basic_6x2_77: 6195820332417252223
+      player_slash_basic_6x2_78: -1695590048201742376
+      player_slash_basic_6x2_8: -5725880713607935040
+      player_slash_basic_6x2_9: -6742337605971229445
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
