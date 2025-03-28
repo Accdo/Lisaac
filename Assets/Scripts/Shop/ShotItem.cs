@@ -11,6 +11,8 @@ public class ShotItem : MonoBehaviour
 
         RandXpos += transform.position.x;
         RandYpos += transform.position.y;
+
+        Destroy(this, 2.5f);
     }
 
     void Update()
