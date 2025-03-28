@@ -19,4 +19,9 @@ public class SceneLoader : MonoBehaviour
     {
         SceneManager.LoadScene(scene);
     }
+
+    public void OnClickQuit()
+    {
+        Application.Quit();
+    }
 }

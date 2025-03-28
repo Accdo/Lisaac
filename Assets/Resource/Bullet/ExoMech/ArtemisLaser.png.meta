@@ -49,7 +49,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -63,7 +63,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 75
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -154,10 +154,10 @@ TextureImporter:
       name: ArtemisLaser_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 75
-        width: 6
-        height: 6
+        x: 0
+        y: 66
+        width: 92
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,10 +176,10 @@ TextureImporter:
       name: ArtemisLaser_1
       rect:
         serializedVersion: 2
-        x: 13
-        y: 71
-        width: 76
-        height: 16
+        x: 0
+        y: 44
+        width: 92
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -199,9 +199,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 51
+        y: 22
         width: 92
-        height: 12
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -220,9 +220,9 @@ TextureImporter:
       name: ArtemisLaser_3
       rect:
         serializedVersion: 2
-        x: 5
-        y: 23
-        width: 86
+        x: 0
+        y: 0
+        width: 92
         height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -238,33 +238,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: ArtemisLaser_4
-      rect:
-        serializedVersion: 2
-        x: 3
-        y: 5
-        width: 86
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9f74bbbaeb0885820800000000000000
-      internalID: 2907215115880974329
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: d9712eaceea6d3448a77ab847f10eb07
     internalID: 0
     vertices: []
     indices: 
@@ -278,7 +256,6 @@ TextureImporter:
       ArtemisLaser_1: -4272998373310233048
       ArtemisLaser_2: 2998431736103860161
       ArtemisLaser_3: -456111835297652384
-      ArtemisLaser_4: 2907215115880974329
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

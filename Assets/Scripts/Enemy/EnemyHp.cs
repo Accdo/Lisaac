@@ -45,7 +45,10 @@ public class EnemyHp : MonoBehaviour
     {
         SoundManager.Instance.DieSound();
         DropItem();
-        Destroy(gameObject);
+        if (!gameObject.CompareTag("ExoMech"))
+        {
+            Destroy(gameObject);
+        }
     }
 
     void DropItem()
