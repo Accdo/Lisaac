@@ -33,11 +33,5 @@ public class GameManager : MonoBehaviour
                     bossHp.currentHp = 1;
             }
         }
-
-        if (Input.GetKeyDown(KeyCode.P))
-        {
-            Time.timeScale = 1;
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        }
     }
 }
