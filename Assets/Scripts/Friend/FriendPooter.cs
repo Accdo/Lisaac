@@ -3,7 +3,17 @@ using UnityEngine;
 
 public class FriendPooter : MonoBehaviour
 {
+    private Animator animator;
+
+    // Shot Bullet
     public GameObject BlueBullet;
+    public Transform AttackPos;
+
+    [SerializeField] bool IsCrossShot = true;
+    Vector3[] dirArr;
+    Vector3[] dirCross = {  Vector3.up, Vector3.down, Vector3.left, Vector3.right   };
+    Vector3[] dirDiagonal = {  (Vector3.up + Vector3.right).normalized, (Vector3.down + Vector3.left).normalized, 
+                            (Vector3.up + Vector3.left).normalized, (Vector3.down + Vector3.right).normalized   };
 
     //Round
     Transform player_transform;
@@ -17,6 +27,8 @@ public class FriendPooter : MonoBehaviour
 
     void Start()
     {
+        animator = GetComponent<Animator>();
+
         StartCoroutine(SoundWing());
     }
 
@@ -40,11 +52,31 @@ public class FriendPooter : MonoBehaviour
 
     IEnumerator ShotStart()
     {
+        yield return new WaitForSeconds(3.0f);
         while(true){
-            Instantiate(BlueBullet, transform.position, Quaternion.identity);
+            animator.SetTrigger("Attack");
             
             yield return new WaitForSeconds(shotDelay);
         }
+    }
+
+    public void Attack()
+    {
+        GameObject bullet;
+
+        if(IsCrossShot)
+            dirArr = dirCross;
+        else
+            dirArr = dirDiagonal;
+
+
+        foreach(var dir in dirArr)
+        {
+            bullet = Instantiate(BlueBullet, AttackPos.position, Quaternion.identity);
+            bullet.GetComponent<PlayerBullet>().Direction = dir;
+        }
+
+        IsCrossShot = !IsCrossShot;
     }
 
     void OnTriggerEnter2D(Collider2D collision)

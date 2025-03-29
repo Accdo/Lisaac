@@ -10,6 +10,12 @@ enum Item_Enum
     Miss = 3
 }
 
+enum Destroy_Reward
+{
+    Fire = 0,
+    Bug
+}
+
 public class Obj_ItemMachine : MonoBehaviour
 {
     private SpriteRenderer spriteRenderer;
@@ -29,6 +35,8 @@ public class Obj_ItemMachine : MonoBehaviour
     SpriteRenderer ResultItem_1;
     SpriteRenderer ResultItem_2;
     SpriteRenderer ResultItem_3;
+    
+    [SerializeField] private Destroy_Reward destroy_Reward;
 
     // Random Value
     private int Rand;
@@ -83,6 +91,20 @@ public class Obj_ItemMachine : MonoBehaviour
         ResultItem_3.enabled = false;
     }
 
+    void Reward()
+    {
+        if(destroy_Reward == Destroy_Reward.Fire)
+        {
+            GameObject FireItem = Instantiate(Item[3], transform.position, Quaternion.identity);
+            FireItem.AddComponent<ShotItem>();
+        }
+        else if(destroy_Reward == Destroy_Reward.Bug)
+        {
+            GameObject BugItem = Instantiate(Item[1], transform.position, Quaternion.identity);
+            BugItem.AddComponent<ShotItem>();
+        }
+    }
+
     IEnumerator ItemRolling(float duration = 1f)
     {
         float time = 0.0f;
@@ -125,6 +147,7 @@ public class Obj_ItemMachine : MonoBehaviour
             {
                 IsDestory = true;
                 Instantiate(SmokeEffect, transform.position + new Vector3(0,0.25f,0), Quaternion.identity);
+                Reward();
                 Destroy_ItemMachine();
                 yield break;
             }

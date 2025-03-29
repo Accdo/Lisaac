@@ -1,11 +1,8 @@
 using UnityEngine;
 
-public class PooterBullet : MonoBehaviour
+public class PooterBullet : PlayerBullet
 {
     [SerializeField] private float speed;
-    
-    public int damage = 2;
-    Vector3 Direction;
 
     void Update()
     {
@@ -17,10 +14,12 @@ public class PooterBullet : MonoBehaviour
         if (collision.CompareTag("Wall") || collision.CompareTag("Enemy"))
         {
             SoundManager.Instance.HitDamage();
+            Destroy(gameObject);
         }
         if (collision.CompareTag("Boss"))
         {
             SoundManager.Instance.HitBoss();
+            Destroy(gameObject);
         }
     }
 }
