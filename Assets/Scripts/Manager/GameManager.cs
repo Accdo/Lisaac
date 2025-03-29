@@ -20,6 +20,7 @@ public class GameManager : MonoBehaviour
     {
         playerGold = FindAnyObjectByType<PlayerGold>();
 
+        
         StartCoroutine(FadeOut());
     }
 
