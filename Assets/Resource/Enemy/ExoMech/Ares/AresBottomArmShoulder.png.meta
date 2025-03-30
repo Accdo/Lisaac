@@ -373,7 +373,16 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      AresBottomArmShoulder_0: -8388927933398949144
+      AresBottomArmShoulder_1: -8356042205459248246
+      AresBottomArmShoulder_2: -6202062657386055484
+      AresBottomArmShoulder_3: -5873978649412725137
+      AresBottomArmShoulder_4: 1412438657433777153
+      AresBottomArmShoulder_5: -2670040938516946506
+      AresBottomArmShoulder_6: 6717333582376076575
+      AresBottomArmShoulder_7: -5392262036828099502
+      AresBottomArmShoulder_8: -8126535712953669611
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
