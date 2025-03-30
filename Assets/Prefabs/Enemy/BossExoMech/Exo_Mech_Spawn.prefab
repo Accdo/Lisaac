@@ -418,7 +418,7 @@ MonoBehaviour:
   intro: {fileID: 4649805493333694700}
   healthFill: {fileID: 8655263163295724869}
   video: {fileID: 6825375017691692755}
-  exoMechBgm: {fileID: 7387469652562212809}
+  exoMechBgm: {fileID: 8300000, guid: 81cb8b1fd74c63544aafa5e5239f18bf, type: 3}
 --- !u!114 &2188590642324059080
 MonoBehaviour:
   m_ObjectHideFlags: 0
