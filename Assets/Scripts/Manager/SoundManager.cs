@@ -29,6 +29,13 @@ public class SoundManager : MonoBehaviour
     [SerializeField] private AudioClip slotSpawn;
     [SerializeField] private AudioClip slotExplosion;
 
+    [SerializeField] private AudioClip exoMechTargetSelect;
+    [SerializeField] private AudioClip apolloMissileLaunch;
+    [SerializeField] private AudioClip artemisShotgunLaser;
+    [SerializeField] private AudioClip exoLaserShoot;
+    [SerializeField] private AudioClip exoPlasmaShoot;
+    [SerializeField] private AudioClip exoDeath;
+
     void Awake()
     {
         if (Instance == null)
@@ -76,6 +83,13 @@ public class SoundManager : MonoBehaviour
     public void SlotTouch() { myAudio.PlayOneShot(slotTouch); }
     public void SlotSpawn() { myAudio.PlayOneShot(slotSpawn); }
     public void SlotExplosion() { myAudio.PlayOneShot(slotExplosion); }
+
+    public void ExoMechTargetSelect() { myAudio.PlayOneShot(exoMechTargetSelect); }
+    public void ApolloMissileLaunch() { myAudio.PlayOneShot(apolloMissileLaunch); }
+    public void ArtemisShotgunLaser() { myAudio.PlayOneShot(artemisShotgunLaser); }
+    public void ExoLaserShoot() { myAudio.PlayOneShot(exoLaserShoot); }
+    public void ExoPlasmaShoot() { myAudio.PlayOneShot(exoPlasmaShoot); }
+    public void ExoDeath() { myAudio.PlayOneShot(exoDeath); }
 
     public void FireOn() { myAudio.PlayOneShot(fireOn); }
     public void FireOff() { myAudio.PlayOneShot(fireOff); }

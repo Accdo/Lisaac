@@ -1,31 +1,35 @@
-using System.Collections;
+ï»¿using System.Collections;
 using UnityEngine;
 
 public class Artemis : MonoBehaviour
 {
-    // º¸½º Á¤º¸
-    public float laserShotDelay = 1f;
-    public float artemisMoveDelay = 2f;
-    public float artemisMoveSpeed = 3f;
+    // ë³´ìŠ¤ ì •ë³´
+    public float laserShotDelay = 1f;    
+    public float artemisMoveSpeed = 7f;
+    public float laserShotDelayPhase2 = 0.5f;
+    public float artemisMoveSpeedPhase2 = 10f;
     public GameObject artemisLaser;
     public Transform firePoint;
 
-    // ÇÊ¿ä Á¤º¸
+    // í•„ìš” ì •ë³´
     private Transform playerLocation;
     private SpriteRenderer spriteRenderer;
     private Animator artemisAnimator;
+    private LineRenderer[] laserTrajectories;
+    private int trajectoryCount = 5;
 
-    // ½ºÅ×ÀÌÅÍ½º
+    // ìŠ¤í…Œì´í„°ìŠ¤
     private bool isShot;
     private bool isPhase2;
+    private bool isFreeze;
     private int attType;
     private int normalAttCount;
     private float shootTimer;
-    private float moveTimer;
     private Vector2 startPos;
     private Vector2 movePos;
+    
 
-    // »óÀ§ °ü¸®ÀÚ
+    // ìƒìœ„ ê´€ë¦¬ì
     private GameObject exoMechManager;
     private ExoMech exoMechComponet;
     private EnemyHp exoMechHp;
@@ -41,37 +45,223 @@ public class Artemis : MonoBehaviour
         exoMechHp = exoMechManager.GetComponent<EnemyHp>();
 
         shootTimer = laserShotDelay;
-        moveTimer = artemisMoveDelay;
 
         isShot = false;
         isPhase2 = false;
+        isFreeze = false;
         attType = 1;
         normalAttCount = 0;
         startPos = transform.position;
+
+        // ë ˆì´ì € ë°œì‚¬ ê¶¤ì  5ê°œ ìƒì„±
+        laserTrajectories = new LineRenderer[trajectoryCount];
+        for (int i = 0; i < trajectoryCount; i++)
+        {
+            GameObject laserObject = new GameObject("LaserTrajectory" + i);
+            laserObject.transform.parent = transform;
+            laserObject.transform.position = firePoint.position;
+
+            LineRenderer newLine = laserObject.AddComponent<LineRenderer>();
+            newLine.positionCount = 2;
+            newLine.startWidth = 0.05f;
+            newLine.endWidth = 0.05f;
+            newLine.material = new Material(Shader.Find("Sprites/Default"));
+            newLine.startColor = new Color(237 / 255f, 145 / 255f, 33 / 255f, 0.5f);
+            newLine.endColor = new Color(237 / 255f, 145 / 255f, 33 / 255f, 0.5f);
+            newLine.enabled = false;
+
+            laserTrajectories[i] = newLine;
+        }
     }
 
     void Update()
     {
-        Vector2 direction = (playerLocation.position - transform.position).normalized; // ÇÃ·¹ÀÌ¾î ¹æÇâ °è»ê
-        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg; // °¢µµ·Î º¯È¯
-
-        // ½Ã¼±ÀÌ À§ÂÊÀÌ¿©¼­ -90µµ¸¦ ÇÏ¿© ÇÃ·¹ÀÌ¾î¸¦ ¹Ù¶óº¸°ÔÇÔ
-        transform.rotation = Quaternion.Euler(0, 0, angle - 90);
-
-        moveTimer -= Time.deltaTime;
-
-        if (moveTimer <= 0)
+        if(!isFreeze)
         {
-            // ÀÌµ¿ÇÒ »õ·Î¿î À§Ä¡ ¼³Á¤ (ÇöÀç À§Ä¡ ±âÁØ -3.5 ~ +3.5 ·£´ı ÀÌµ¿)
-            float randomY = Random.Range(-3.5f, 3.5f);
-            movePos = new Vector2(startPos.x, startPos.y + randomY);
+            PlayerGaze();
 
-            // ÀÌµ¿ ½ÃÀÛ
-            StartCoroutine(MoveToPosition(movePos));
+            if (!isShot)
+            {
+                shootTimer -= Time.deltaTime;
+                if (shootTimer <= 0)
+                {
+                    if(attType == 1)
+                    {
+                        // ë ˆì´ì € ë°œì‚¬
+                        LaserShotReady();
 
-            // Å¸ÀÌ¸Ó ÃÊ±âÈ­
-            moveTimer = artemisMoveDelay;
+                        // ë”œë ˆì´ì£¼ê¸°
+                        shootTimer = laserShotDelay;
+                        if (isPhase2)
+                        {
+                            if (normalAttCount >= 4)
+                            {
+                                // ì¼ë°˜ê³µê²© 4ë²ˆ ì‹œì „ì‹œ íŠ¹ìˆ˜ê³µê²©ìœ¼ë¡œ ì „í™˜
+                                attType = 2;
+                                shootTimer = laserShotDelay * 2;
+                            }
+                        }
+
+                    }
+                    else if(attType == 2)
+                    {
+                        LaserContinuumShotReady();
+                    }
+                }
+            }
+
+            // ë ˆì´ì € ê¶¤ì  ê´€ë¦¬
+            if (isShot)
+            {
+                UpdateLaserTrajectories();
+            }
         }
+    }
+
+    void PlayerGaze()
+    {
+        Vector2 direction = (playerLocation.position - transform.position).normalized; // í”Œë ˆì´ì–´ ë°©í–¥ ê³„ì‚°
+        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg; // ê°ë„ë¡œ ë³€í™˜
+
+        // ì‹œì„ ì´ ìœ„ìª½ì´ì—¬ì„œ -90ë„ë¥¼ í•˜ì—¬ í”Œë ˆì´ì–´ë¥¼ ë°”ë¼ë³´ê²Œí•¨
+        transform.rotation = Quaternion.Euler(0, 0, angle - 90);
+    }
+
+    void LaserShotReady()
+    {
+        isShot = true;
+        artemisAnimator.SetTrigger("IsShot");
+
+        float laserLength = 20f;
+
+        // ë°©í–¥ ë³´ì •ì„ìœ„í•´ -90ë„ íšŒì „
+        Vector2 fireDirection = (playerLocation.position - firePoint.position).normalized;
+        Vector2 endPosition = (Vector2)firePoint.position + fireDirection * laserLength;
+
+        // ê¶¤ì  í‘œì‹œ
+        SetLaserTrajectory(1, true);
+
+        // ì´ë™í•  ìƒˆë¡œìš´ ìœ„ì¹˜ ì„¤ì • (í˜„ì¬ ìœ„ì¹˜ ê¸°ì¤€ -3.5 ~ +3.5 ëœë¤ ì´ë™)
+        float randomY = Random.Range(-3.5f, 3.5f);
+        movePos = new Vector2(startPos.x, startPos.y + randomY);
+
+        // ì´ë™ ì‹œì‘
+        StartCoroutine(MoveToPosition(movePos));
+    }
+
+    void LaserShot()
+    {
+        // ìœ„ì¹˜ ì¡°ì •
+        Vector2 fireDirection = (playerLocation.position - firePoint.position).normalized;
+
+        // ë ˆì´ì € ë°œì‚¬
+        float laserAngle = Mathf.Atan2(fireDirection.y, fireDirection.x) * Mathf.Rad2Deg;
+        GameObject missile = Instantiate(artemisLaser, firePoint.position, Quaternion.Euler(0, 0, laserAngle)); // ë³´ì •ê°ë„ ì¶”ê°€
+        missile.GetComponent<ArtemisLaser>().SetDirection(fireDirection);
+
+        SoundManager.Instance.ExoLaserShoot();
+
+        // ê¶¤ì  ìˆ¨ê¸°ê¸°
+        SetLaserTrajectory(1, false);
+
+        if (isPhase2)
+        {
+            normalAttCount++;
+        }
+    }
+
+    void LaserShotEnd()
+    {
+        isShot = false;
+    }
+
+    void LaserContinuumShotReady()
+    {
+        isShot = true;
+        Debug.Log("HEAR");
+        artemisAnimator.SetTrigger("IsContShot");
+
+        // ê¶¤ì  í‘œì‹œ
+        SetLaserTrajectory(2, true);
+
+        // ì´ë™í•  ìƒˆë¡œìš´ ìœ„ì¹˜ ì„¤ì • (í˜„ì¬ ìœ„ì¹˜ ê¸°ì¤€ -3.5 ~ +3.5 ëœë¤ ì´ë™)
+        float randomY = Random.Range(-3.5f, 3.5f);
+        movePos = new Vector2(startPos.x, startPos.y + randomY);
+
+        // ì´ë™ ì‹œì‘
+        StartCoroutine(MoveToPosition(movePos));
+    }
+
+    void LaserContinuumShot()
+    {
+        foreach(LineRenderer traj in laserTrajectories)
+        {
+            Vector3 startPoint = traj.GetPosition(0);
+            Vector3 endPoint = traj.GetPosition(1);
+            Vector3 fireDirection = (endPoint - startPoint).normalized;
+            float laserAngle = Mathf.Atan2(fireDirection.y, fireDirection.x) * Mathf.Rad2Deg;
+            GameObject missile = Instantiate(artemisLaser, startPoint, Quaternion.Euler(0, 0, laserAngle));
+            missile.GetComponent<ArtemisLaser>().SetDirection(fireDirection);
+        }
+
+        SoundManager.Instance.ArtemisShotgunLaser();
+
+        // ê¶¤ì  ìˆ¨ê¸°ê¸°
+        SetLaserTrajectory(2, false);
+    }
+
+    void LaserContinuumShotEnd()
+    {
+        isShot = false;
+        attType = 1;
+        normalAttCount = 0;
+        shootTimer = laserShotDelay * 2;
+    }
+
+    void SetLaserTrajectory(int attType, bool onOff)
+    {
+        switch (attType)
+        {
+            case 1:
+                laserTrajectories[0].enabled = onOff;
+                break;
+            case 2:
+                laserTrajectories[0].enabled = onOff;
+                laserTrajectories[1].enabled = onOff;
+                laserTrajectories[2].enabled = onOff;
+                laserTrajectories[3].enabled = onOff;
+                laserTrajectories[4].enabled = onOff;
+                break;
+        }
+    }
+
+    void UpdateLaserTrajectories()
+    {
+        Vector2 fireDirection = (playerLocation.position - firePoint.position).normalized;
+        float baseAngle = Mathf.Atan2(fireDirection.y, fireDirection.x) * Mathf.Rad2Deg;
+
+        // ì¤‘ì•™ ë ˆì´ì € ê°±ì‹ 
+        UpdateSingleTrajectory(0, fireDirection, baseAngle);
+
+        // ì™¼ìª½ -15ë„, -30ë„ ê°±ì‹ 
+        UpdateSingleTrajectory(1, fireDirection, baseAngle - 15);
+        UpdateSingleTrajectory(2, fireDirection, baseAngle - 30);
+
+        // ì˜¤ë¥¸ìª½ +15ë„, +30ë„ ê°±ì‹ 
+        UpdateSingleTrajectory(3, fireDirection, baseAngle + 15);
+        UpdateSingleTrajectory(4, fireDirection, baseAngle + 30);
+    }
+
+    void UpdateSingleTrajectory(int index, Vector2 direction, float angleOffset)
+    {
+        if (index < 0 || index >= trajectoryCount) return;
+
+        float laserAngle = angleOffset;
+        Vector2 newDirection = Quaternion.Euler(0, 0, laserAngle) * Vector2.right;
+        Vector2 endPosition = (Vector2)firePoint.position + newDirection * 20f;
+
+        laserTrajectories[index].SetPosition(0, firePoint.position);
+        laserTrajectories[index].SetPosition(1, endPosition);
     }
 
     private IEnumerator MoveToPosition(Vector2 targetPos)
@@ -83,30 +273,32 @@ public class Artemis : MonoBehaviour
         }
     }
 
-    public void PhaseChange()
+    public IEnumerator PhaseChange()
     {
         artemisAnimator.SetBool("IsPhase2", true);
         isPhase2 = true;
         isShot = false;
-        laserShotDelay = 0.5f;
+        isFreeze = true;
+        laserShotDelay = laserShotDelayPhase2;
+        artemisMoveSpeed = artemisMoveSpeedPhase2;
+        SetLaserTrajectory(1, false);
+        yield return null;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Bullet"))
         {
-            PlayerBullet bullet = collision.GetComponent<PlayerBullet>();
-            exoMechComponet.ExoMechsOnHit(bullet.damage);
-
-            // Debug.Log(exoMechHp.currentHp);
-
-            /*if (exoMechHp.currentHp <= exoMechHp.maxHp / 2 && !isPhase2)
+            if (!isFreeze)
             {
-                artemisAnimator.SetBool("IsPhase2", true);
-                isPhase2 = true;
-                isShot = false;
-                laserShotDelay = 0.5f;
-            }*/
+                PlayerBullet bullet = collision.GetComponent<PlayerBullet>();
+                exoMechComponet.ExoMechsOnHit(bullet.damage);
+            }
         }
+    }
+
+    private void PhaseChangeEnd()
+    {
+        isFreeze = false;
     }
 }
