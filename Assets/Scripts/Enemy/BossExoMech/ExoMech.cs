@@ -31,7 +31,7 @@ public class ExoMech : MonoBehaviour
     [SerializeField] private RawImage intro;
     [SerializeField] private Image healthFill;
     [SerializeField] private VideoPlayer video;
-    [SerializeField] private AudioSource exoMechBgm;
+    [SerializeField] private AudioClip exoMechBgm;
 
 
     void Start()
@@ -65,10 +65,12 @@ public class ExoMech : MonoBehaviour
         Time.timeScale = 1;
         yield return new WaitForSeconds(.2f);
 
-        // 배경음악 재생
-        exoMechBgm.Play();
+		// 배경음악 재생
+		mainCamAudio.enabled = true;
+		mainCamAudio.clip = exoMechBgm;
+		mainCamAudio.Play();
 
-        apollo = Instantiate(apolloPrefab, apolloSpacing, Quaternion.identity);
+		apollo = Instantiate(apolloPrefab, apolloSpacing, Quaternion.identity);
         artemis = Instantiate(artemisPrefab, artemisSpacing, Quaternion.identity);
     }
 
@@ -89,9 +91,9 @@ public class ExoMech : MonoBehaviour
             Destroy(apollo);
             Destroy(artemis);
             SoundManager.Instance.ExoDeath();
-            exoMechBgm.Stop();
-        }
-    }
+			mainCamAudio.enabled = false;
+		}
+	}
 
     private void EndingPortalCreate() {
         Vector3 camPosition = Camera.main.transform.position;
