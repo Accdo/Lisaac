@@ -2,24 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
-using static UnityEditor.PlayerSettings;
 
 public class Fire : Item
 {
     [Header("컴포넌트")]
-    private SpriteRenderer sr;
+    private SpriteRenderer sprite;
     private Animator ani;
 
     [Header("내부 변수")]
-    private int color = 0;
+    private int fireColor = 0;
     public float coolTime = 10f;
-    public float lifeTime = 60f;
+    public float lifeTime = 120f;
     private bool isBullet = false;
     Vector3 pos;
 
     void Start()
     {
-        sr = GetComponent<SpriteRenderer>();
+        sprite = GetComponent<SpriteRenderer>();
         ani = GetComponent<Animator>();
 
         Destroy(gameObject, lifeTime);
@@ -27,7 +26,9 @@ public class Fire : Item
 
     void Update()
     {
-        pos = transform.position + new Vector3(0, -.8f, 0);
+        pos = GameObject.FindGameObjectsWithTag("Player")
+            .FirstOrDefault(p => p.name == "Head")
+            .transform.position - new Vector3(0f, 0.12f, 0f);
     }
 
     public override void PickUpItem(GameObject player)
@@ -40,7 +41,7 @@ public class Fire : Item
             transform.localPosition = new Vector3(0f, 1f, 0f);
             transform.localScale *= .8f;
 
-            color = Random.Range(0, 4) + 1;
+            fireColor = Random.Range(0, 4) + 1;
             StartCoroutine(ChangeFire());
             StartCoroutine(FireAttack());
         }
@@ -48,10 +49,10 @@ public class Fire : Item
 
     IEnumerator ChangeFire()
     {
-        while (color != 5)
+        while (fireColor != 5)
         {
-            color = (color % 4) + 1;
-            ani.SetInteger("Color", color);
+            fireColor = (fireColor % 4) + 1;
+            ani.SetInteger("Color", fireColor);
 
             yield return new WaitForSeconds(1f);
         }
@@ -89,25 +90,25 @@ public class Fire : Item
                 }
 
                 // 일시 정지
-                int originColor = color;
-                color = 5;
-                ani.SetInteger("Color", color);
-                GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 0.5f);
+                int originColor = fireColor;
+                fireColor = 5;
+                ani.SetInteger("Color", fireColor);
+                sprite.color = new Color(1f, 1f, 1f, 0.7f);
 
                 yield return new WaitForSeconds(coolTime);
 
                 // 다시 시작
-                color = originColor;
-                ani.SetInteger("Color", color);
+                fireColor = originColor;
+                ani.SetInteger("Color", fireColor);
                 StartCoroutine(ChangeFire());
-                GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 1f);
+                sprite.color = new Color(1f, 1f, 1f, 1f);
             }
 
             yield return null;
         }
     }
 
-    private void ChangeToBullet(GameObject FIRE, int COLOR, int DAMAGE, float SPEED, Vector3 DIRECTION, float LIFE)
+    private void MakeBullet(GameObject FIRE, int COLOR, int DAMAGE, float SPEED, Vector3 DIRECTION, float LIFE)
     {
         // 불꽃 설정
         FIRE.GetComponent<Fire>().isBullet = true;
@@ -120,17 +121,11 @@ public class Fire : Item
         FIRE.GetComponent<SpriteRenderer>().sortingLayerName = "Bullet";
         FIRE.GetComponent<SpriteRenderer>().sortingOrder = 0;
         FIRE.AddComponent<FireBullet>();
-        FIRE.GetComponent<FireBullet>().damage = DAMAGE;
-        FIRE.GetComponent<FireBullet>().speed = SPEED;
-        FIRE.GetComponent<FireBullet>().life = LIFE;
-        FIRE.GetComponent<FireBullet>().Direction = DIRECTION;
+        FIRE.GetComponent<FireBullet>().Create(DAMAGE, SPEED, DIRECTION, LIFE);
 
         // 리지드 바디
         Rigidbody2D rb = FIRE.GetComponent<Rigidbody2D>();
-        if (rb == null)
-        {
-            rb = FIRE.AddComponent<Rigidbody2D>();
-        }
+        if (rb == null) rb = FIRE.AddComponent<Rigidbody2D>();
         rb.gravityScale = 0;
     }
 
@@ -138,7 +133,7 @@ public class Fire : Item
     {
         int damage = 5; // 데미지
         float speed = 3; // 속도
-        float life = 2; // 지속
+        float life = 3; // 지속
         int count = 8; // 개수
         float angleStep = 360 / count; // 각도
 
@@ -148,8 +143,7 @@ public class Fire : Item
             Vector3 direction = new Vector3(Mathf.Cos(angle * Mathf.Deg2Rad), Mathf.Sin(angle * Mathf.Deg2Rad), 0);
 
             GameObject fire = Instantiate(gameObject, pos, Quaternion.identity);
-
-            ChangeToBullet(fire, 1, damage, speed, direction, life);
+            MakeBullet(fire, 1, damage, speed, direction, life);
         }
     }
 
@@ -157,22 +151,20 @@ public class Fire : Item
     {
         int damage = 5; // 데미지
         float speed = 0; // 속도
-        float life = 10; // 지속
+        float life = 8; // 지속
         int count = 10; // 개수
 
         Vector3 direction = pos;
 
-        while (count-- > 0)
+        while (count > 0)
         {
             if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D))
             {
                 GameObject fire = Instantiate(gameObject, pos, Quaternion.identity);
+                MakeBullet(fire, 2, damage, speed, direction, life);
 
-                ChangeToBullet(fire, 2, damage, speed, direction, life);
-
-                pos = transform.position + new Vector3(0, -.8f, 0);
+                count--;
             }
-
             yield return new WaitForSeconds(0.2f);
         }
     }
@@ -181,7 +173,7 @@ public class Fire : Item
     {
         int damage = 5; // 데미지
         float speed = 0; // 속도
-        float life = 6; // 지속
+        float life = 10; // 지속
         int count = 8; // 개수
         float angleStep = 360 / count; // 각도
         float distance = .8f; // 거리
@@ -194,7 +186,8 @@ public class Fire : Item
             Vector3 direction = new Vector3(Mathf.Cos(angle * Mathf.Deg2Rad), Mathf.Sin(angle * Mathf.Deg2Rad), 0);
 
             GameObject fire = Instantiate(gameObject, pos + direction * distance, Quaternion.identity);
-            ChangeToBullet(fire, 3, damage, speed, direction, life);
+            MakeBullet(fire, 3, damage, speed, direction, life);
+
             foreach (GameObject wall in GameObject.FindGameObjectsWithTag("Wall"))
             {
                 if (wall != null && wall.GetComponent<Collider2D>() != null)
@@ -204,21 +197,20 @@ public class Fire : Item
             }
             fires.Add(fire);
 
-            StartCoroutine(FireMove(fire, direction, distance));
+            StartCoroutine(FireFollow(fire, direction, distance));
 
             yield return new WaitForSeconds(0.2f);
         }
-
-        yield return null;
     }
 
-    private IEnumerator FireMove(GameObject FIRE, Vector3 DIRECTION, float DISTANCE)
+    private IEnumerator FireFollow(GameObject FIRE, Vector3 DIRECTION, float DISTANCE)
     {
         while (FIRE != null)
         {
             FIRE.transform.position = pos + DIRECTION * DISTANCE;
 
             Collider2D[] hits = Physics2D.OverlapCircleAll(FIRE.transform.position, 0.5f);
+
             foreach (Collider2D hit in hits)
             {
                 if (hit.CompareTag("EnemyBullet"))
@@ -236,48 +228,66 @@ public class Fire : Item
     private IEnumerator PurpleFire()
     {
         int damage = 5; // 데미지
-        float speed = 2; // 속도
+        float speed = 1; // 속도
         float life = 10; // 지속
-        int count = 8; // 개수
+        int count = 5; // 개수
 
-        // Rock 오브젝트의 콜라이더
-        Collider2D[] rocks = FindObjectsOfType<Collider2D>().Where(c => c.gameObject.name.Contains("Rock")).ToArray();
+        // 타겟팅
+        GameObject[] targets = GameObject.FindGameObjectsWithTag("Enemy")
+            .Concat(GameObject.FindGameObjectsWithTag("Boss"))
+            .Where(b => b != null && b.GetComponent<EnemyHp>() != null || b.name.Contains("Boss"))
+            .OrderBy(b => Vector3.Distance(pos, b.transform.position))
+            .ToArray();
 
-        // 적을 대상으로 발사
-        foreach (GameObject enemy in GameObject.FindGameObjectsWithTag("Enemy"))
+        foreach (GameObject target in targets)
         {
-            Vector3 direction = (enemy.transform.position - pos).normalized;
+            if (target == null) continue;
 
-            GameObject fire = Instantiate(gameObject, pos, Quaternion.identity);
-            ChangeToBullet(fire, 4, damage, speed, direction, life);
+            count -= target.CompareTag("Boss") ? 3 : 1;
+            Vector3 direction = (target.transform.position - pos).normalized;
 
-            // Rock과의 충돌 무시
-            foreach (Collider2D rock in rocks)
+            GameObject fire = Instantiate(gameObject, pos + direction * .8f, Quaternion.identity);
+            MakeBullet(fire, 4, target.CompareTag("Boss") ? damage * 3 : damage, 0, direction, life);
+            fire.transform.localScale *= target.CompareTag("Boss") ? 2f : 1f;
+
+            foreach (GameObject wall in GameObject.FindGameObjectsWithTag("Wall").Where(w => !w.name.Contains("Wall")))
             {
-                Physics2D.IgnoreCollision(fire.GetComponent<Collider2D>(), rock, true);
+                if (wall != null && wall.GetComponent<Collider2D>() != null)
+                {
+                    Physics2D.IgnoreCollision(fire.GetComponent<Collider2D>(), wall.GetComponent<Collider2D>(), true);
+                }
             }
 
-            yield return new WaitForSeconds(0.2f);
+            StartCoroutine(FireMove(fire, target, targets, speed));
 
-            if (--count <= 0) break;
+            if (count <= 0) yield break;
+
+            yield return new WaitForSeconds(.1f);
         }
+    }
 
-        // 보스를 대상으로 발사
-        GameObject[] bosses = GameObject.FindGameObjectsWithTag("Boss");
-        if (bosses.Length > 0)
+    private IEnumerator FireMove(GameObject FIRE, GameObject TARGET, GameObject[] TARGETS, float SPEED)
+    {
+        while (FIRE != null)
         {
-            GameObject boss = bosses[0]; // 첫 번째 보스만 처리
-
-            if (boss != null)
+            if (TARGET == null)
             {
-                Vector3 direction = (boss.transform.position - pos).normalized;
+                TARGET = TARGETS.FirstOrDefault(t => t != null && t.activeInHierarchy);
 
-                GameObject fire = Instantiate(gameObject, pos, Quaternion.identity);
-                ChangeToBullet(fire, 4, damage * 3, speed * 1.5f, direction, life);
-                fire.transform.localScale *= 2f;
+                if (TARGET == null)
+                {
+                    SoundManager.Instance.FireOff();
+                    Destroy(FIRE);
+                    yield break;
+                }
+            }
+            else
+            {
+                Vector3 DIRECTION = (TARGET.transform.position - FIRE.transform.position).normalized;
+                FIRE.transform.position += DIRECTION * SPEED * Time.deltaTime;
             }
 
-            yield return new WaitForSeconds(0.2f);
+            yield return null;
         }
     }
 }

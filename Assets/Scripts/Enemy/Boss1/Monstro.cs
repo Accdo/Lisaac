@@ -64,6 +64,14 @@ public class Monstro : MonoBehaviour
             foreach (GameObject go in GameObject.FindGameObjectsWithTag("EnemyBullet"))
                 Destroy(go);
 
+            foreach (GameObject door in FindObjectsByType<GameObject>(FindObjectsSortMode.None).Where(d => d.name.Contains("Door")))
+            {
+                if (door != null && door.GetComponent<Collider2D>() != null)
+                {
+                    Physics2D.IgnoreCollision(player.GetComponent<Collider2D>(), door.GetComponent<Collider2D>(), true);
+                }
+            }
+
             Instantiate(nextBoss, transform.position, Quaternion.identity);
             return;
         }
