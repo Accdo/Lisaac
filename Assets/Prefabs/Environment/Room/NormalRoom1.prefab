@@ -293,7 +293,6 @@ MonoBehaviour:
   - {fileID: 6981220182795099104}
   enemyType: 02000000020000000200000002000000
   isInPlayer: 0
-  playerFirstIn: 0
 --- !u!61 &8062650258526661375
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -971,10 +970,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7850869310246800061}
     m_Modifications:
-    - target: {fileID: 6699565637636593003, guid: cc29c046b4bc7ef48a80f156f22e70b9, type: 3}
-      propertyPath: doorLocation
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 2857457389673121812, guid: 26964c310b7335e468b96007f6db6881, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10.2
@@ -1018,6 +1013,10 @@ PrefabInstance:
     - target: {fileID: 5290434903491868530, guid: 26964c310b7335e468b96007f6db6881, type: 3}
       propertyPath: m_Name
       value: DoorRight
+      objectReference: {fileID: 0}
+    - target: {fileID: 6699565637636593003, guid: cc29c046b4bc7ef48a80f156f22e70b9, type: 3}
+      propertyPath: doorLocation
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1312,17 +1311,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7850869310246800061}
     m_Modifications:
+    - target: {fileID: 332443247547203609, guid: d0e12f6620c776a42af7fa5969604495, type: 3}
+      propertyPath: startTrapState
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2748978472838019949, guid: d0e12f6620c776a42af7fa5969604495, type: 3}
       propertyPath: m_Name
       value: Trap_Box
       objectReference: {fileID: 0}
     - target: {fileID: 3889938484825463869, guid: d0e12f6620c776a42af7fa5969604495, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.61
+      value: -8.83
       objectReference: {fileID: 0}
     - target: {fileID: 3889938484825463869, guid: d0e12f6620c776a42af7fa5969604495, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.63
+      value: 4.5
       objectReference: {fileID: 0}
     - target: {fileID: 3889938484825463869, guid: d0e12f6620c776a42af7fa5969604495, type: 3}
       propertyPath: m_LocalPosition.z

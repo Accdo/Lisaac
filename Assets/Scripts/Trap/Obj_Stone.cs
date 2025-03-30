@@ -8,14 +8,29 @@ public class Obj_Stone : MonoBehaviour
     Animator anim;
 
     bool IsFight = false;
+    private bool TrapOn = true;
+    private Room room;
 
     void Start()
     {
         anim = GetComponent<Animator>();
+        room = GetComponentInParent<Room>();
 
         IsFight = true;
-        StartCoroutine(Fighting());
     }
+
+    private void Update() 
+    {
+        if (room.isInPlayer)
+        {
+            if (TrapOn)
+            {
+                StartCoroutine(Fighting());
+                TrapOn = false;
+            }
+        }
+    }
+
     IEnumerator Fighting()
     {
         yield return new WaitForSeconds(1.0f);
