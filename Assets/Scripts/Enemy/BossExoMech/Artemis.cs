@@ -13,7 +13,6 @@ public class Artemis : MonoBehaviour
 
     // 필요 정보
     private Transform playerLocation;
-    private SpriteRenderer spriteRenderer;
     private Animator artemisAnimator;
     private LineRenderer[] laserTrajectories;
     private int trajectoryCount = 5;
@@ -32,17 +31,14 @@ public class Artemis : MonoBehaviour
     // 상위 관리자
     private GameObject exoMechManager;
     private ExoMech exoMechComponet;
-    private EnemyHp exoMechHp;
 
     void Start()
     {
         playerLocation = GameObject.FindGameObjectWithTag("Player").transform;
         exoMechManager = GameObject.FindWithTag("ExoMech");
 
-        spriteRenderer = GetComponent<SpriteRenderer>();
         artemisAnimator = GetComponent<Animator>();
         exoMechComponet = exoMechManager.GetComponent<ExoMech>();
-        exoMechHp = exoMechManager.GetComponent<EnemyHp>();
 
         shootTimer = laserShotDelay;
 

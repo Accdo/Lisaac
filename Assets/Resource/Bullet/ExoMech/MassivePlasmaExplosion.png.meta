@@ -1,0 +1,794 @@
+fileFormatVersion: 2
+guid: 81ae8899fb216dc418652be3ad26a9d9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1528989368690767107
+    second: MassivePlasmaExplosion_0
+  - first:
+      213: -5820777917366683410
+    second: MassivePlasmaExplosion_1
+  - first:
+      213: 1030437046229712717
+    second: MassivePlasmaExplosion_2
+  - first:
+      213: 3920249314347209428
+    second: MassivePlasmaExplosion_3
+  - first:
+      213: -4626491967867398
+    second: MassivePlasmaExplosion_4
+  - first:
+      213: 7153696203662188401
+    second: MassivePlasmaExplosion_5
+  - first:
+      213: -2090038033153246783
+    second: MassivePlasmaExplosion_6
+  - first:
+      213: 4591672420863260271
+    second: MassivePlasmaExplosion_7
+  - first:
+      213: 3626744833564378114
+    second: MassivePlasmaExplosion_8
+  - first:
+      213: 3337099896935975947
+    second: MassivePlasmaExplosion_9
+  - first:
+      213: -7764906447289849807
+    second: MassivePlasmaExplosion_10
+  - first:
+      213: 8527632020164791991
+    second: MassivePlasmaExplosion_11
+  - first:
+      213: 3940385910120846940
+    second: MassivePlasmaExplosion_12
+  - first:
+      213: -2368519553328114835
+    second: MassivePlasmaExplosion_13
+  - first:
+      213: 1641795873737080276
+    second: MassivePlasmaExplosion_14
+  - first:
+      213: 4019756546507817172
+    second: MassivePlasmaExplosion_15
+  - first:
+      213: -2127511735881357498
+    second: MassivePlasmaExplosion_16
+  - first:
+      213: 6658123350787471325
+    second: MassivePlasmaExplosion_17
+  - first:
+      213: 6379458432589120455
+    second: MassivePlasmaExplosion_18
+  - first:
+      213: -8619941341251595587
+    second: MassivePlasmaExplosion_19
+  - first:
+      213: -4548237856989408710
+    second: MassivePlasmaExplosion_20
+  - first:
+      213: -1961110937193813432
+    second: MassivePlasmaExplosion_21
+  - first:
+      213: -3500118513614191622
+    second: MassivePlasmaExplosion_22
+  - first:
+      213: -871767331344439677
+    second: MassivePlasmaExplosion_23
+  - first:
+      213: 7357927171274096678
+    second: MassivePlasmaExplosion_24
+  - first:
+      213: 4472011790364955491
+    second: MassivePlasmaExplosion_25
+  - first:
+      213: -4518770784832949044
+    second: MassivePlasmaExplosion_26
+  - first:
+      213: -434081347522932838
+    second: MassivePlasmaExplosion_27
+  - first:
+      213: -5801663101277217145
+    second: MassivePlasmaExplosion_28
+  - first:
+      213: 5351794317764892215
+    second: MassivePlasmaExplosion_29
+  - first:
+      213: -9017019205311077828
+    second: MassivePlasmaExplosion_30
+  - first:
+      213: -8827350605185210445
+    second: MassivePlasmaExplosion_31
+  - first:
+      213: -2775291017482350889
+    second: MassivePlasmaExplosion_32
+  - first:
+      213: -7481118994330803736
+    second: MassivePlasmaExplosion_33
+  - first:
+      213: 7648402087131486375
+    second: MassivePlasmaExplosion_34
+  - first:
+      213: 928188269949382132
+    second: MassivePlasmaExplosion_35
+  - first:
+      213: -71378898427904899
+    second: MassivePlasmaExplosion_36
+  - first:
+      213: 6455523222870650986
+    second: MassivePlasmaExplosion_37
+  - first:
+      213: 6704115935881428546
+    second: MassivePlasmaExplosion_38
+  - first:
+      213: -3320930949059616163
+    second: MassivePlasmaExplosion_39
+  - first:
+      213: -8348843554594243864
+    second: MassivePlasmaExplosion_40
+  - first:
+      213: -4655085689768587257
+    second: MassivePlasmaExplosion_41
+  - first:
+      213: 1945600326019282594
+    second: MassivePlasmaExplosion_42
+  - first:
+      213: 5011737439992921549
+    second: MassivePlasmaExplosion_43
+  - first:
+      213: -4005722027232174930
+    second: MassivePlasmaExplosion_44
+  - first:
+      213: 982628052849779949
+    second: MassivePlasmaExplosion_45
+  - first:
+      213: -7872705541182795628
+    second: MassivePlasmaExplosion_46
+  - first:
+      213: -4789411031000150536
+    second: MassivePlasmaExplosion_47
+  - first:
+      213: 4408152620461239665
+    second: MassivePlasmaExplosion_48
+  - first:
+      213: -3109471457449508600
+    second: MassivePlasmaExplosion_49
+  - first:
+      213: 3018298932797434179
+    second: MassivePlasmaExplosion_50
+  - first:
+      213: 6125770619891360466
+    second: MassivePlasmaExplosion_51
+  - first:
+      213: 7335403917397701264
+    second: MassivePlasmaExplosion_52
+  - first:
+      213: 2178510461033602631
+    second: MassivePlasmaExplosion_53
+  - first:
+      213: -1381518183205463536
+    second: MassivePlasmaExplosion_54
+  - first:
+      213: 3705985652668135097
+    second: MassivePlasmaExplosion_55
+  - first:
+      213: 1034218488551759696
+    second: MassivePlasmaExplosion_56
+  - first:
+      213: -7450716531064210353
+    second: MassivePlasmaExplosion_57
+  - first:
+      213: 6491879863472095308
+    second: MassivePlasmaExplosion_58
+  - first:
+      213: -6238636202658906168
+    second: MassivePlasmaExplosion_59
+  - first:
+      213: 610461139153862503
+    second: MassivePlasmaExplosion_60
+  - first:
+      213: -3431915065997894002
+    second: MassivePlasmaExplosion_61
+  - first:
+      213: -2221950962127800321
+    second: MassivePlasmaExplosion_62
+  - first:
+      213: -8153011996520800187
+    second: MassivePlasmaExplosion_63
+  - first:
+      213: -2756120063000123423
+    second: MassivePlasmaExplosion_64
+  - first:
+      213: -4599368979944258559
+    second: MassivePlasmaExplosion_65
+  - first:
+      213: 71209009481899874
+    second: MassivePlasmaExplosion_66
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MassivePlasmaExplosion_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1536
+        width: 382
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84609747b170f4846a548960b65676c9
+      internalID: 1890336918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MassivePlasmaExplosion_1
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 1536
+        width: 382
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 455d83597b217f54f93671450cbfadb0
+      internalID: -675731864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MassivePlasmaExplosion_2
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 1536
+        width: 382
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad7e37a174e765d478a63a67bd4abf7d
+      internalID: -834711163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MassivePlasmaExplosion_3
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 1536
+        width: 382
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4806e1ff529f17a4cac97c2f324ff0bf
+      internalID: -1032025058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MassivePlasmaExplosion_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1152
+        width: 382
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81f72488130cf8e40bc1cbdbba3c6629
+      internalID: 1409872810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MassivePlasmaExplosion_5
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 1152
+        width: 382
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c432451aeb09fd4bbe96a0d0ac26529
+      internalID: -1676744337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MassivePlasmaExplosion_6
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 1152
+        width: 382
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 963c7bc2be492f044b85eaef7f409fe7
+      internalID: 88140701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MassivePlasmaExplosion_7
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 1152
+        width: 382
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e76af1f59c9adf54e9187bbc71a3ab43
+      internalID: 1605315662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MassivePlasmaExplosion_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 382
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f9b8b131949a44da0b448a9cb9c95c
+      internalID: 222513752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MassivePlasmaExplosion_9
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 768
+        width: 382
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b4bc1764429ad545aea037d122a7cd0
+      internalID: 1377621292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MassivePlasmaExplosion_10
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 768
+        width: 382
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29784793f25caac41aaff99428e8830e
+      internalID: 913675170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MassivePlasmaExplosion_11
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 768
+        width: 382
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 610227dc9ab975b45994178aaad5f787
+      internalID: 891173740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MassivePlasmaExplosion_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 382
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc182aa85c3f894c8979ba3a3874560
+      internalID: -1497623061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MassivePlasmaExplosion_13
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 384
+        width: 382
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b07cc3fa3ad32b8408e30e2dcfedabea
+      internalID: 1101348080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MassivePlasmaExplosion_14
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 384
+        width: 382
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 865849220b6fbcc4f87440db85bf7790
+      internalID: -756256269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MassivePlasmaExplosion_15
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 384
+        width: 382
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6808fc2c52ff8d849b088e4320b8568e
+      internalID: -1287652132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MassivePlasmaExplosion_16
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 0
+        width: 382
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5606fc63449e3e44abe7bb1de73e4127
+      internalID: 1013485857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MassivePlasmaExplosion_17
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 0
+        width: 382
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41d3ceeaef6d3a34bbc27d6ac0601687
+      internalID: 817969401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MassivePlasmaExplosion_18
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 0
+        width: 382
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdd5eca633dcfb2488733aec99300b49
+      internalID: -1542876218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: eb6efb7e44e674b4da6ae23fdb01662f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MassivePlasmaExplosion_0: 1890336918
+      MassivePlasmaExplosion_1: -675731864
+      MassivePlasmaExplosion_10: 913675170
+      MassivePlasmaExplosion_11: 891173740
+      MassivePlasmaExplosion_12: -1497623061
+      MassivePlasmaExplosion_13: 1101348080
+      MassivePlasmaExplosion_14: -756256269
+      MassivePlasmaExplosion_15: -1287652132
+      MassivePlasmaExplosion_16: 1013485857
+      MassivePlasmaExplosion_17: 817969401
+      MassivePlasmaExplosion_18: -1542876218
+      MassivePlasmaExplosion_2: -834711163
+      MassivePlasmaExplosion_3: -1032025058
+      MassivePlasmaExplosion_4: 1409872810
+      MassivePlasmaExplosion_5: -1676744337
+      MassivePlasmaExplosion_6: 88140701
+      MassivePlasmaExplosion_7: 1605315662
+      MassivePlasmaExplosion_8: 222513752
+      MassivePlasmaExplosion_9: 1377621292
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
