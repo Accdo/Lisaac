@@ -1,0 +1,1404 @@
+fileFormatVersion: 2
+guid: 549f76f90b07ac640bfc3c4795e7f675
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8170751813401018294
+    second: AresTeslaCannon_0
+  - first:
+      213: 5122388076649218391
+    second: AresTeslaCannon_1
+  - first:
+      213: 7151186468312823629
+    second: AresTeslaCannon_2
+  - first:
+      213: -5851357206759343004
+    second: AresTeslaCannon_3
+  - first:
+      213: 7875718511551267562
+    second: AresTeslaCannon_4
+  - first:
+      213: -5500081946149344591
+    second: AresTeslaCannon_5
+  - first:
+      213: -5262449819410764276
+    second: AresTeslaCannon_6
+  - first:
+      213: -6677550694692655215
+    second: AresTeslaCannon_7
+  - first:
+      213: -6356259994234697947
+    second: AresTeslaCannon_8
+  - first:
+      213: -8959876373946733807
+    second: AresTeslaCannon_9
+  - first:
+      213: 1741857442503388738
+    second: AresTeslaCannon_10
+  - first:
+      213: -472233550265525385
+    second: AresTeslaCannon_11
+  - first:
+      213: 417530743890958476
+    second: AresTeslaCannon_12
+  - first:
+      213: 6989539031838577986
+    second: AresTeslaCannon_13
+  - first:
+      213: -7544450603640097083
+    second: AresTeslaCannon_14
+  - first:
+      213: -5504756881904208524
+    second: AresTeslaCannon_15
+  - first:
+      213: -9006802476559946313
+    second: AresTeslaCannon_16
+  - first:
+      213: 5917670578195764563
+    second: AresTeslaCannon_17
+  - first:
+      213: -4008380883544515530
+    second: AresTeslaCannon_18
+  - first:
+      213: -5372112416016954891
+    second: AresTeslaCannon_19
+  - first:
+      213: 658314184471438038
+    second: AresTeslaCannon_20
+  - first:
+      213: -830899631829544230
+    second: AresTeslaCannon_21
+  - first:
+      213: 2219593846398213825
+    second: AresTeslaCannon_22
+  - first:
+      213: -1401594893796133102
+    second: AresTeslaCannon_23
+  - first:
+      213: 8754265543785990937
+    second: AresTeslaCannon_24
+  - first:
+      213: -3336463639251136065
+    second: AresTeslaCannon_25
+  - first:
+      213: -8684445516926482696
+    second: AresTeslaCannon_26
+  - first:
+      213: 4045215318002599212
+    second: AresTeslaCannon_27
+  - first:
+      213: -5883899995162277844
+    second: AresTeslaCannon_28
+  - first:
+      213: 8978546875131235198
+    second: AresTeslaCannon_29
+  - first:
+      213: -3885089665360852460
+    second: AresTeslaCannon_30
+  - first:
+      213: 1156328795163241851
+    second: AresTeslaCannon_31
+  - first:
+      213: 4405829940945990277
+    second: AresTeslaCannon_32
+  - first:
+      213: 4693375329833731494
+    second: AresTeslaCannon_33
+  - first:
+      213: -3692274158114734236
+    second: AresTeslaCannon_34
+  - first:
+      213: 5565810095610204134
+    second: AresTeslaCannon_35
+  - first:
+      213: -2654128301288037352
+    second: AresTeslaCannon_36
+  - first:
+      213: 1104955477256511775
+    second: AresTeslaCannon_37
+  - first:
+      213: -7664458464673594832
+    second: AresTeslaCannon_38
+  - first:
+      213: -7973483434559301878
+    second: AresTeslaCannon_39
+  - first:
+      213: 3461812819430877731
+    second: AresTeslaCannon_40
+  - first:
+      213: 3366715018711085319
+    second: AresTeslaCannon_41
+  - first:
+      213: -327584594604741862
+    second: AresTeslaCannon_42
+  - first:
+      213: 4677414468210066291
+    second: AresTeslaCannon_43
+  - first:
+      213: 4243567395077836776
+    second: AresTeslaCannon_44
+  - first:
+      213: -9090940859665467101
+    second: AresTeslaCannon_45
+  - first:
+      213: -6744908267797064700
+    second: AresTeslaCannon_46
+  - first:
+      213: 5443262636273710349
+    second: AresTeslaCannon_47
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 70
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AresTeslaCannon_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 756
+        width: 172
+        height: 108
+      alignment: 9
+      pivot: {x: 0.3075638, y: 0.430872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce003332c7460e2459ed26114665ae5f
+      internalID: -193292299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresTeslaCannon_1
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 756
+        width: 172
+        height: 108
+      alignment: 9
+      pivot: {x: 0.3075638, y: 0.430872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c12f133d30833db43b9a8533f3c4f04e
+      internalID: -1864620177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresTeslaCannon_2
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 756
+        width: 172
+        height: 108
+      alignment: 9
+      pivot: {x: 0.3075638, y: 0.430872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c0b97e289a7b5d4cb1341d5e2b377fb
+      internalID: 176975578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresTeslaCannon_3
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 756
+        width: 172
+        height: 108
+      alignment: 9
+      pivot: {x: 0.3075638, y: 0.430872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ea7973b23c54c4a951f4e525a29223
+      internalID: -1388998878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresTeslaCannon_4
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 756
+        width: 172
+        height: 108
+      alignment: 9
+      pivot: {x: 0.3075638, y: 0.430872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7471f0e13029ab4aa4eb597a6cda51b
+      internalID: -545138365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresTeslaCannon_5
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 756
+        width: 172
+        height: 108
+      alignment: 9
+      pivot: {x: 0.3075638, y: 0.430872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0997c7ae2e1be844b41019a41eeac22
+      internalID: -524272115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresTeslaCannon_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 648
+        width: 172
+        height: 108
+      alignment: 9
+      pivot: {x: 0.3075638, y: 0.430872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5943b0c04464e14b8c1705f0315c0f5
+      internalID: 2060211964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresTeslaCannon_7
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 648
+        width: 172
+        height: 108
+      alignment: 9
+      pivot: {x: 0.3075638, y: 0.430872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d7d03223107894fbed30deaa4ef6b1
+      internalID: 2080819920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresTeslaCannon_8
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 648
+        width: 172
+        height: 108
+      alignment: 9
+      pivot: {x: 0.3075638, y: 0.430872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ace2799ca55b14c419772bbabf744008
+      internalID: -386424338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresTeslaCannon_9
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 648
+        width: 172
+        height: 108
+      alignment: 9
+      pivot: {x: 0.3075638, y: 0.430872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d52275225627e36418a80b759006797d
+      internalID: -1478483520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresTeslaCannon_10
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 648
+        width: 172
+        height: 108
+      alignment: 9
+      pivot: {x: 0.3075638, y: 0.430872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23f5dd86d5146154696c3f9b391b0647
+      internalID: -179313206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresTeslaCannon_11
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 648
+        width: 172
+        height: 108
+      alignment: 9
+      pivot: {x: 0.3075638, y: 0.430872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78549cdd566456746b7f5f4eea6813f7
+      internalID: -106639106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresTeslaCannon_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 540
+        width: 172
+        height: 108
+      alignment: 9
+      pivot: {x: 0.3075638, y: 0.430872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ee1a5dd7b0384b4ba09a54bf1918c2f
+      internalID: -349888390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresTeslaCannon_13
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 540
+        width: 172
+        height: 108
+      alignment: 9
+      pivot: {x: 0.3075638, y: 0.430872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c1d75d459f811e42ab940a91c99437a
+      internalID: 1465835670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresTeslaCannon_14
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 540
+        width: 172
+        height: 108
+      alignment: 9
+      pivot: {x: 0.3075638, y: 0.430872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9062298fe37c5e747a69f2880f39cf40
+      internalID: 25928376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresTeslaCannon_15
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 540
+        width: 172
+        height: 108
+      alignment: 9
+      pivot: {x: 0.3075638, y: 0.430872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e173e46050e2b6469e3d5c115660c92
+      internalID: -1529193611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresTeslaCannon_16
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 540
+        width: 172
+        height: 108
+      alignment: 9
+      pivot: {x: 0.3075638, y: 0.430872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8500f42d3b1504148b864214902ce391
+      internalID: -922427006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresTeslaCannon_17
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 540
+        width: 172
+        height: 108
+      alignment: 9
+      pivot: {x: 0.3075638, y: 0.430872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2edc42e847da390488bb1a99c8ef6086
+      internalID: -473709910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresTeslaCannon_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 432
+        width: 172
+        height: 108
+      alignment: 9
+      pivot: {x: 0.3075638, y: 0.430872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46557c50c4c437e429f5253f74a0c4b6
+      internalID: 1221197733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresTeslaCannon_19
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 432
+        width: 172
+        height: 108
+      alignment: 9
+      pivot: {x: 0.3075638, y: 0.430872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae94200adfc7c64fbd53a918dba4640
+      internalID: 1934433315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresTeslaCannon_20
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 432
+        width: 172
+        height: 108
+      alignment: 9
+      pivot: {x: 0.3075638, y: 0.430872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf2c2e2269261c4782cba9401d6985a
+      internalID: 1014164135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresTeslaCannon_21
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 432
+        width: 172
+        height: 108
+      alignment: 9
+      pivot: {x: 0.3075638, y: 0.430872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91ebbc739b577b94a8761fd668657daa
+      internalID: 96557960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresTeslaCannon_22
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 432
+        width: 172
+        height: 108
+      alignment: 9
+      pivot: {x: 0.3075638, y: 0.430872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ce80194fb4c26f4ca76e7885f635a10
+      internalID: -607310884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresTeslaCannon_23
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 432
+        width: 172
+        height: 108
+      alignment: 9
+      pivot: {x: 0.3075638, y: 0.430872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13ff7339a4d1fe546b50d9aef6bf423a
+      internalID: -1728247882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresTeslaCannon_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 324
+        width: 172
+        height: 108
+      alignment: 9
+      pivot: {x: 0.3075638, y: 0.430872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 049d6c91cb629f0468c1e41f536616aa
+      internalID: 1152234743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresTeslaCannon_25
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 324
+        width: 172
+        height: 108
+      alignment: 9
+      pivot: {x: 0.3075638, y: 0.430872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf71f3a1d9d7e046a8a8754f2982d95
+      internalID: 640719762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresTeslaCannon_26
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 324
+        width: 172
+        height: 108
+      alignment: 9
+      pivot: {x: 0.3075638, y: 0.430872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58707f5520d217346ab3e5bcd3a1edc3
+      internalID: 1154359024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresTeslaCannon_27
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 324
+        width: 172
+        height: 108
+      alignment: 9
+      pivot: {x: 0.3075638, y: 0.430872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f965ab918102e448aa9ad12ca3dc9a6
+      internalID: 1305831060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresTeslaCannon_28
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 324
+        width: 172
+        height: 108
+      alignment: 9
+      pivot: {x: 0.3075638, y: 0.430872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd663f93c836c4d49bfa426a98dd7449
+      internalID: -1938044161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresTeslaCannon_29
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 324
+        width: 172
+        height: 108
+      alignment: 9
+      pivot: {x: 0.3075638, y: 0.430872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe0982e93038e7d438ba1398d46a4d01
+      internalID: 702624906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresTeslaCannon_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 216
+        width: 172
+        height: 108
+      alignment: 9
+      pivot: {x: 0.3075638, y: 0.430872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 862a75bdc24dbec4494058d2d1f77338
+      internalID: -756766819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresTeslaCannon_31
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 216
+        width: 172
+        height: 108
+      alignment: 9
+      pivot: {x: 0.3075638, y: 0.430872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93624f2dd5f642e43a737892f126af34
+      internalID: 717260960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresTeslaCannon_32
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 216
+        width: 172
+        height: 108
+      alignment: 9
+      pivot: {x: 0.3075638, y: 0.430872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f084fd26daeb0c140bd9ab788a2c6545
+      internalID: -1596044602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresTeslaCannon_33
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 216
+        width: 172
+        height: 108
+      alignment: 9
+      pivot: {x: 0.3075638, y: 0.430872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d8a638f57b93a94caa1a6e937629f29
+      internalID: 1817548959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresTeslaCannon_34
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 216
+        width: 172
+        height: 108
+      alignment: 9
+      pivot: {x: 0.3075638, y: 0.430872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d20028af0dc81a04a845e5f70aca9c9e
+      internalID: 1433375011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresTeslaCannon_35
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 216
+        width: 172
+        height: 108
+      alignment: 9
+      pivot: {x: 0.3075638, y: 0.430872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 258fb20d33faa3c43a9b6e32cbaea4a4
+      internalID: 1636881298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresTeslaCannon_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 108
+        width: 172
+        height: 108
+      alignment: 9
+      pivot: {x: 0.3075638, y: 0.430872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c295f40753ba04a4e81a7794df737e6b
+      internalID: 2077006658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresTeslaCannon_37
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 108
+        width: 172
+        height: 108
+      alignment: 9
+      pivot: {x: 0.3075638, y: 0.430872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80c607f4b13f5d548b71f5cb8f5e3162
+      internalID: -704756389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresTeslaCannon_38
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 108
+        width: 172
+        height: 108
+      alignment: 9
+      pivot: {x: 0.3075638, y: 0.430872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f78548b60511cd4abc56f436ff63bc3
+      internalID: 782064897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresTeslaCannon_39
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 108
+        width: 172
+        height: 108
+      alignment: 9
+      pivot: {x: 0.3075638, y: 0.430872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71300077d2be66c4d9795c4129cecdc4
+      internalID: -1347255515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresTeslaCannon_40
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 108
+        width: 172
+        height: 108
+      alignment: 9
+      pivot: {x: 0.3075638, y: 0.430872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c73723f91ceb34488cd356de4ca6d11
+      internalID: 1939155262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresTeslaCannon_41
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 108
+        width: 172
+        height: 108
+      alignment: 9
+      pivot: {x: 0.3075638, y: 0.430872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba4fa436193da3841ba070193ed88d5c
+      internalID: 1462549576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresTeslaCannon_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 172
+        height: 108
+      alignment: 9
+      pivot: {x: 0.3075638, y: 0.430872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c770b2fe280a94c4aba4e8ea11a49af0
+      internalID: -918689203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresTeslaCannon_43
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 0
+        width: 172
+        height: 108
+      alignment: 9
+      pivot: {x: 0.3075638, y: 0.430872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c26603118c4e71442a860278406485be
+      internalID: -651582198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresTeslaCannon_44
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 0
+        width: 172
+        height: 108
+      alignment: 9
+      pivot: {x: 0.3075638, y: 0.430872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8933675a84e7cae4db0b1990a5c76e4a
+      internalID: 146208499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresTeslaCannon_45
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 0
+        width: 172
+        height: 108
+      alignment: 9
+      pivot: {x: 0.3075638, y: 0.430872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36769bbda0ef40b4ba009186f84e44b5
+      internalID: -434590827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresTeslaCannon_46
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 0
+        width: 172
+        height: 108
+      alignment: 9
+      pivot: {x: 0.3075638, y: 0.430872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed10ed752fcedc14fbb142a064340b96
+      internalID: 1203296281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresTeslaCannon_47
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 0
+        width: 172
+        height: 108
+      alignment: 9
+      pivot: {x: 0.3075638, y: 0.430872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2860096c6d079f4d8002df113553130
+      internalID: -379990334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 75e838c244903a645a4522b30e130d35
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      AresTeslaCannon_0: -193292299
+      AresTeslaCannon_1: -1864620177
+      AresTeslaCannon_10: -179313206
+      AresTeslaCannon_11: -106639106
+      AresTeslaCannon_12: -349888390
+      AresTeslaCannon_13: 1465835670
+      AresTeslaCannon_14: 25928376
+      AresTeslaCannon_15: -1529193611
+      AresTeslaCannon_16: -922427006
+      AresTeslaCannon_17: -473709910
+      AresTeslaCannon_18: 1221197733
+      AresTeslaCannon_19: 1934433315
+      AresTeslaCannon_2: 176975578
+      AresTeslaCannon_20: 1014164135
+      AresTeslaCannon_21: 96557960
+      AresTeslaCannon_22: -607310884
+      AresTeslaCannon_23: -1728247882
+      AresTeslaCannon_24: 1152234743
+      AresTeslaCannon_25: 640719762
+      AresTeslaCannon_26: 1154359024
+      AresTeslaCannon_27: 1305831060
+      AresTeslaCannon_28: -1938044161
+      AresTeslaCannon_29: 702624906
+      AresTeslaCannon_3: -1388998878
+      AresTeslaCannon_30: -756766819
+      AresTeslaCannon_31: 717260960
+      AresTeslaCannon_32: -1596044602
+      AresTeslaCannon_33: 1817548959
+      AresTeslaCannon_34: 1433375011
+      AresTeslaCannon_35: 1636881298
+      AresTeslaCannon_36: 2077006658
+      AresTeslaCannon_37: -704756389
+      AresTeslaCannon_38: 782064897
+      AresTeslaCannon_39: -1347255515
+      AresTeslaCannon_4: -545138365
+      AresTeslaCannon_40: 1939155262
+      AresTeslaCannon_41: 1462549576
+      AresTeslaCannon_42: -918689203
+      AresTeslaCannon_43: -651582198
+      AresTeslaCannon_44: 146208499
+      AresTeslaCannon_45: -434590827
+      AresTeslaCannon_46: 1203296281
+      AresTeslaCannon_47: -379990334
+      AresTeslaCannon_5: -524272115
+      AresTeslaCannon_6: 2060211964
+      AresTeslaCannon_7: 2080819920
+      AresTeslaCannon_8: -386424338
+      AresTeslaCannon_9: -1478483520
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

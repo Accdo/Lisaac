@@ -1,0 +1,1404 @@
+fileFormatVersion: 2
+guid: a8c4ac2442f0fe84885d3706cea195c1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6574687390543386697
+    second: AresPlasmaFlamethrower_0
+  - first:
+      213: 3178391745606968546
+    second: AresPlasmaFlamethrower_1
+  - first:
+      213: 5011874857460067819
+    second: AresPlasmaFlamethrower_2
+  - first:
+      213: -6481329866249465397
+    second: AresPlasmaFlamethrower_3
+  - first:
+      213: 6997852757904952037
+    second: AresPlasmaFlamethrower_4
+  - first:
+      213: 6584009320525759811
+    second: AresPlasmaFlamethrower_5
+  - first:
+      213: -5447675673144999000
+    second: AresPlasmaFlamethrower_6
+  - first:
+      213: 8783781944413176535
+    second: AresPlasmaFlamethrower_7
+  - first:
+      213: -4429761065151273704
+    second: AresPlasmaFlamethrower_8
+  - first:
+      213: 9020747009845339405
+    second: AresPlasmaFlamethrower_9
+  - first:
+      213: 8020813863057617781
+    second: AresPlasmaFlamethrower_10
+  - first:
+      213: -147483187842817857
+    second: AresPlasmaFlamethrower_11
+  - first:
+      213: -2831910253507321044
+    second: AresPlasmaFlamethrower_12
+  - first:
+      213: 2072505576655657743
+    second: AresPlasmaFlamethrower_13
+  - first:
+      213: -285288833125273471
+    second: AresPlasmaFlamethrower_14
+  - first:
+      213: -5959958012775560376
+    second: AresPlasmaFlamethrower_15
+  - first:
+      213: 569810007651709292
+    second: AresPlasmaFlamethrower_16
+  - first:
+      213: -4181162819700825673
+    second: AresPlasmaFlamethrower_17
+  - first:
+      213: -5477514401326568547
+    second: AresPlasmaFlamethrower_18
+  - first:
+      213: 8469271251422830275
+    second: AresPlasmaFlamethrower_19
+  - first:
+      213: 1897288211266024807
+    second: AresPlasmaFlamethrower_20
+  - first:
+      213: -1395977547745964892
+    second: AresPlasmaFlamethrower_21
+  - first:
+      213: -3868700484993983423
+    second: AresPlasmaFlamethrower_22
+  - first:
+      213: 2114818400659961084
+    second: AresPlasmaFlamethrower_23
+  - first:
+      213: 4214588347429829972
+    second: AresPlasmaFlamethrower_24
+  - first:
+      213: -5918574649927707321
+    second: AresPlasmaFlamethrower_25
+  - first:
+      213: 8389855560123226987
+    second: AresPlasmaFlamethrower_26
+  - first:
+      213: 6506177513404859173
+    second: AresPlasmaFlamethrower_27
+  - first:
+      213: 7514375367460716823
+    second: AresPlasmaFlamethrower_28
+  - first:
+      213: 1712045070142588446
+    second: AresPlasmaFlamethrower_29
+  - first:
+      213: 1786853578460571901
+    second: AresPlasmaFlamethrower_30
+  - first:
+      213: -1022716822565181735
+    second: AresPlasmaFlamethrower_31
+  - first:
+      213: -4212805053119634037
+    second: AresPlasmaFlamethrower_32
+  - first:
+      213: 1023693559174176354
+    second: AresPlasmaFlamethrower_33
+  - first:
+      213: -4067467079642059562
+    second: AresPlasmaFlamethrower_34
+  - first:
+      213: 8219514393587894223
+    second: AresPlasmaFlamethrower_35
+  - first:
+      213: 6444386113354561702
+    second: AresPlasmaFlamethrower_36
+  - first:
+      213: 7571121832554523967
+    second: AresPlasmaFlamethrower_37
+  - first:
+      213: 7075904636273005657
+    second: AresPlasmaFlamethrower_38
+  - first:
+      213: -6182811880998675665
+    second: AresPlasmaFlamethrower_39
+  - first:
+      213: 7400128987611952430
+    second: AresPlasmaFlamethrower_40
+  - first:
+      213: 3642094824737593268
+    second: AresPlasmaFlamethrower_41
+  - first:
+      213: -7078553167572893865
+    second: AresPlasmaFlamethrower_42
+  - first:
+      213: -2350468109281020426
+    second: AresPlasmaFlamethrower_43
+  - first:
+      213: 4918467626221486305
+    second: AresPlasmaFlamethrower_44
+  - first:
+      213: 1316136609724985565
+    second: AresPlasmaFlamethrower_45
+  - first:
+      213: -736527286878633791
+    second: AresPlasmaFlamethrower_46
+  - first:
+      213: 4062112056593692090
+    second: AresPlasmaFlamethrower_47
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 70
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AresPlasmaFlamethrower_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 630
+        width: 152
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3491527, y: 0.3289436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9481496f85bfd3b50800000000000000
+      internalID: 6574687390543386697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresPlasmaFlamethrower_1
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 630
+        width: 152
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3491527, y: 0.3289436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e4efe9e37aeb1c20800000000000000
+      internalID: 3178391745606968546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresPlasmaFlamethrower_2
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 630
+        width: 152
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3491527, y: 0.3289436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bed6e99f0a1cd8540800000000000000
+      internalID: 5011874857460067819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresPlasmaFlamethrower_3
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 630
+        width: 152
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3491527, y: 0.3289436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc1121283d0bd06a0800000000000000
+      internalID: -6481329866249465397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresPlasmaFlamethrower_4
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 630
+        width: 152
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3491527, y: 0.3289436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ea8961d10e5d1160800000000000000
+      internalID: 6997852757904952037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresPlasmaFlamethrower_5
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 630
+        width: 152
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3491527, y: 0.3289436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3458ccbe7991f5b50800000000000000
+      internalID: 6584009320525759811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresPlasmaFlamethrower_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 540
+        width: 152
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3491527, y: 0.3289436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a3c7aa96d7f564b0800000000000000
+      internalID: -5447675673144999000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresPlasmaFlamethrower_7
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 540
+        width: 152
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3491527, y: 0.3289436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d2cc35d32346e970800000000000000
+      internalID: 8783781944413176535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresPlasmaFlamethrower_8
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 540
+        width: 152
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3491527, y: 0.3289436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8156dc7f7c35682c0800000000000000
+      internalID: -4429761065151273704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresPlasmaFlamethrower_9
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 540
+        width: 152
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3491527, y: 0.3289436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d05af7a8c91203d70800000000000000
+      internalID: 9020747009845339405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresPlasmaFlamethrower_10
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 540
+        width: 152
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3491527, y: 0.3289436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 573f31d56b7af4f60800000000000000
+      internalID: 8020813863057617781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresPlasmaFlamethrower_11
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 540
+        width: 152
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3491527, y: 0.3289436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb0694272d804fdf0800000000000000
+      internalID: -147483187842817857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresPlasmaFlamethrower_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 450
+        width: 152
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3491527, y: 0.3289436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c23e8e7e0a803b8d0800000000000000
+      internalID: -2831910253507321044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresPlasmaFlamethrower_13
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 450
+        width: 152
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3491527, y: 0.3289436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0b939367d403cc10800000000000000
+      internalID: 2072505576655657743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresPlasmaFlamethrower_14
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 450
+        width: 152
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3491527, y: 0.3289436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 180be2b51537a0cf0800000000000000
+      internalID: -285288833125273471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresPlasmaFlamethrower_15
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 450
+        width: 152
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3491527, y: 0.3289436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84b054cb3c9f94da0800000000000000
+      internalID: -5959958012775560376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresPlasmaFlamethrower_16
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 450
+        width: 152
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3491527, y: 0.3289436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c61fa87de2f58e700800000000000000
+      internalID: 569810007651709292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresPlasmaFlamethrower_17
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 450
+        width: 152
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3491527, y: 0.3289436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b169a7719689f5c0800000000000000
+      internalID: -4181162819700825673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresPlasmaFlamethrower_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 360
+        width: 152
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3491527, y: 0.3289436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9be7d05ca5fbf3b0800000000000000
+      internalID: -5477514401326568547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresPlasmaFlamethrower_19
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 360
+        width: 152
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3491527, y: 0.3289436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ce5c7fb455e88570800000000000000
+      internalID: 8469271251422830275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresPlasmaFlamethrower_20
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 360
+        width: 152
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3491527, y: 0.3289436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7653c0d6395845a10800000000000000
+      internalID: 1897288211266024807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresPlasmaFlamethrower_21
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 360
+        width: 152
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3491527, y: 0.3289436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ac4e2801dd70ace0800000000000000
+      internalID: -1395977547745964892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresPlasmaFlamethrower_22
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 360
+        width: 152
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3491527, y: 0.3289436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14c5d89f76d9f4ac0800000000000000
+      internalID: -3868700484993983423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresPlasmaFlamethrower_23
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 360
+        width: 152
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3491527, y: 0.3289436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf4fbcf6128595d10800000000000000
+      internalID: 2114818400659961084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresPlasmaFlamethrower_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 270
+        width: 152
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3491527, y: 0.3289436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45d3e0ba5c93d7a30800000000000000
+      internalID: 4214588347429829972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresPlasmaFlamethrower_25
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 270
+        width: 152
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3491527, y: 0.3289436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7455d6eb6bffcdda0800000000000000
+      internalID: -5918574649927707321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresPlasmaFlamethrower_26
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 270
+        width: 152
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3491527, y: 0.3289436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6b1bf93e21ce6470800000000000000
+      internalID: 8389855560123226987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresPlasmaFlamethrower_27
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 270
+        width: 152
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3491527, y: 0.3289436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 523812c2af59a4a50800000000000000
+      internalID: 6506177513404859173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresPlasmaFlamethrower_28
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 270
+        width: 152
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3491527, y: 0.3289436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7110176759c684860800000000000000
+      internalID: 7514375367460716823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresPlasmaFlamethrower_29
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 270
+        width: 152
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3491527, y: 0.3289436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e16ce45abe762c710800000000000000
+      internalID: 1712045070142588446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresPlasmaFlamethrower_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 180
+        width: 152
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3491527, y: 0.3289436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df827c9ccdd2cc810800000000000000
+      internalID: 1786853578460571901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresPlasmaFlamethrower_31
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 180
+        width: 152
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3491527, y: 0.3289436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d6af2de7749ec1f0800000000000000
+      internalID: -1022716822565181735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresPlasmaFlamethrower_32
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 180
+        width: 152
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3491527, y: 0.3289436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8565d4ef1c1985c0800000000000000
+      internalID: -4212805053119634037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresPlasmaFlamethrower_33
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 180
+        width: 152
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3491527, y: 0.3289436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26e9e694ed3e43e00800000000000000
+      internalID: 1023693559174176354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresPlasmaFlamethrower_34
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 180
+        width: 152
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3491527, y: 0.3289436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dce65ecd347d87c0800000000000000
+      internalID: -4067467079642059562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresPlasmaFlamethrower_35
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 180
+        width: 152
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3491527, y: 0.3289436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc74408cac4911270800000000000000
+      internalID: 8219514393587894223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresPlasmaFlamethrower_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 90
+        width: 152
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3491527, y: 0.3289436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a875f9b60f0f6950800000000000000
+      internalID: 6444386113354561702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresPlasmaFlamethrower_37
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 90
+        width: 152
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3491527, y: 0.3289436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3ded947137021960800000000000000
+      internalID: 7571121832554523967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresPlasmaFlamethrower_38
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 90
+        width: 152
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3491527, y: 0.3289436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9549795e6c9a23260800000000000000
+      internalID: 7075904636273005657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresPlasmaFlamethrower_39
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 90
+        width: 152
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3491527, y: 0.3289436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2b52082a5d323aa0800000000000000
+      internalID: -6182811880998675665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresPlasmaFlamethrower_40
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 90
+        width: 152
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3491527, y: 0.3289436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e257eae4b1a82b660800000000000000
+      internalID: 7400128987611952430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresPlasmaFlamethrower_41
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 90
+        width: 152
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3491527, y: 0.3289436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b7d5ca42f15b8230800000000000000
+      internalID: 3642094824737593268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresPlasmaFlamethrower_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 152
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3491527, y: 0.3289436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75ff91bd56de3cd90800000000000000
+      internalID: -7078553167572893865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresPlasmaFlamethrower_43
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 0
+        width: 152
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3491527, y: 0.3289436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f5bb6a35b5716fd0800000000000000
+      internalID: -2350468109281020426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresPlasmaFlamethrower_44
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 0
+        width: 152
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3491527, y: 0.3289436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e0c0343f38e14440800000000000000
+      internalID: 4918467626221486305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresPlasmaFlamethrower_45
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 0
+        width: 152
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3491527, y: 0.3289436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd07b8af54bd34210800000000000000
+      internalID: 1316136609724985565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresPlasmaFlamethrower_46
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 0
+        width: 152
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3491527, y: 0.3289436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c0873ab55457c5f0800000000000000
+      internalID: -736527286878633791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresPlasmaFlamethrower_47
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 0
+        width: 152
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3491527, y: 0.3289436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab5391bb4658f5830800000000000000
+      internalID: 4062112056593692090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8535d1d51ea68404abc03bf6729a3007
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      AresPlasmaFlamethrower_0: 6574687390543386697
+      AresPlasmaFlamethrower_1: 3178391745606968546
+      AresPlasmaFlamethrower_10: 8020813863057617781
+      AresPlasmaFlamethrower_11: -147483187842817857
+      AresPlasmaFlamethrower_12: -2831910253507321044
+      AresPlasmaFlamethrower_13: 2072505576655657743
+      AresPlasmaFlamethrower_14: -285288833125273471
+      AresPlasmaFlamethrower_15: -5959958012775560376
+      AresPlasmaFlamethrower_16: 569810007651709292
+      AresPlasmaFlamethrower_17: -4181162819700825673
+      AresPlasmaFlamethrower_18: -5477514401326568547
+      AresPlasmaFlamethrower_19: 8469271251422830275
+      AresPlasmaFlamethrower_2: 5011874857460067819
+      AresPlasmaFlamethrower_20: 1897288211266024807
+      AresPlasmaFlamethrower_21: -1395977547745964892
+      AresPlasmaFlamethrower_22: -3868700484993983423
+      AresPlasmaFlamethrower_23: 2114818400659961084
+      AresPlasmaFlamethrower_24: 4214588347429829972
+      AresPlasmaFlamethrower_25: -5918574649927707321
+      AresPlasmaFlamethrower_26: 8389855560123226987
+      AresPlasmaFlamethrower_27: 6506177513404859173
+      AresPlasmaFlamethrower_28: 7514375367460716823
+      AresPlasmaFlamethrower_29: 1712045070142588446
+      AresPlasmaFlamethrower_3: -6481329866249465397
+      AresPlasmaFlamethrower_30: 1786853578460571901
+      AresPlasmaFlamethrower_31: -1022716822565181735
+      AresPlasmaFlamethrower_32: -4212805053119634037
+      AresPlasmaFlamethrower_33: 1023693559174176354
+      AresPlasmaFlamethrower_34: -4067467079642059562
+      AresPlasmaFlamethrower_35: 8219514393587894223
+      AresPlasmaFlamethrower_36: 6444386113354561702
+      AresPlasmaFlamethrower_37: 7571121832554523967
+      AresPlasmaFlamethrower_38: 7075904636273005657
+      AresPlasmaFlamethrower_39: -6182811880998675665
+      AresPlasmaFlamethrower_4: 6997852757904952037
+      AresPlasmaFlamethrower_40: 7400128987611952430
+      AresPlasmaFlamethrower_41: 3642094824737593268
+      AresPlasmaFlamethrower_42: -7078553167572893865
+      AresPlasmaFlamethrower_43: -2350468109281020426
+      AresPlasmaFlamethrower_44: 4918467626221486305
+      AresPlasmaFlamethrower_45: 1316136609724985565
+      AresPlasmaFlamethrower_46: -736527286878633791
+      AresPlasmaFlamethrower_47: 4062112056593692090
+      AresPlasmaFlamethrower_5: 6584009320525759811
+      AresPlasmaFlamethrower_6: -5447675673144999000
+      AresPlasmaFlamethrower_7: 8783781944413176535
+      AresPlasmaFlamethrower_8: -4429761065151273704
+      AresPlasmaFlamethrower_9: 9020747009845339405
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1404 @@
+fileFormatVersion: 2
+guid: 2d74682027fa7514b98be91e2d05c7c8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7899334966782210463
+    second: AresLaserCannon_0
+  - first:
+      213: 7794057776706105546
+    second: AresLaserCannon_1
+  - first:
+      213: 2305826535913380114
+    second: AresLaserCannon_2
+  - first:
+      213: -1472802558290864282
+    second: AresLaserCannon_3
+  - first:
+      213: -1392610346018025199
+    second: AresLaserCannon_4
+  - first:
+      213: -3520403146628860034
+    second: AresLaserCannon_5
+  - first:
+      213: -3826556021629276776
+    second: AresLaserCannon_6
+  - first:
+      213: -2533527889942038415
+    second: AresLaserCannon_7
+  - first:
+      213: 8615286767562371606
+    second: AresLaserCannon_8
+  - first:
+      213: -2702045266262962682
+    second: AresLaserCannon_9
+  - first:
+      213: 7922545568202057406
+    second: AresLaserCannon_10
+  - first:
+      213: 1814805433599196795
+    second: AresLaserCannon_11
+  - first:
+      213: 1579968322786086223
+    second: AresLaserCannon_12
+  - first:
+      213: -7565016019693805599
+    second: AresLaserCannon_13
+  - first:
+      213: 2810625113475848353
+    second: AresLaserCannon_14
+  - first:
+      213: 1209079251434283153
+    second: AresLaserCannon_15
+  - first:
+      213: -5487740972419239170
+    second: AresLaserCannon_16
+  - first:
+      213: 8902509654532693227
+    second: AresLaserCannon_17
+  - first:
+      213: -7259398590745930828
+    second: AresLaserCannon_18
+  - first:
+      213: -4650765651435624915
+    second: AresLaserCannon_19
+  - first:
+      213: -1812616397221439693
+    second: AresLaserCannon_20
+  - first:
+      213: 7957743929536198551
+    second: AresLaserCannon_21
+  - first:
+      213: 5621563663548665827
+    second: AresLaserCannon_22
+  - first:
+      213: -1240432013567083291
+    second: AresLaserCannon_23
+  - first:
+      213: -328091327166373020
+    second: AresLaserCannon_24
+  - first:
+      213: -3803646964267979414
+    second: AresLaserCannon_25
+  - first:
+      213: 4473926171611566742
+    second: AresLaserCannon_26
+  - first:
+      213: 2876852263042000695
+    second: AresLaserCannon_27
+  - first:
+      213: 111895078148844726
+    second: AresLaserCannon_28
+  - first:
+      213: 839782549073996256
+    second: AresLaserCannon_29
+  - first:
+      213: 4497126322534647040
+    second: AresLaserCannon_30
+  - first:
+      213: 1502355772501878957
+    second: AresLaserCannon_31
+  - first:
+      213: 5528166377781828015
+    second: AresLaserCannon_32
+  - first:
+      213: -700380424138717246
+    second: AresLaserCannon_33
+  - first:
+      213: -1860442400439697919
+    second: AresLaserCannon_34
+  - first:
+      213: 2979704719725638806
+    second: AresLaserCannon_35
+  - first:
+      213: 8363863827485638954
+    second: AresLaserCannon_36
+  - first:
+      213: 5433304561530087272
+    second: AresLaserCannon_37
+  - first:
+      213: 7465301945400333202
+    second: AresLaserCannon_38
+  - first:
+      213: 2542282938419884255
+    second: AresLaserCannon_39
+  - first:
+      213: 4213684330864549872
+    second: AresLaserCannon_40
+  - first:
+      213: -2330895549925765577
+    second: AresLaserCannon_41
+  - first:
+      213: 8678083861521602417
+    second: AresLaserCannon_42
+  - first:
+      213: -7010912254659521474
+    second: AresLaserCannon_43
+  - first:
+      213: -2245399475788302937
+    second: AresLaserCannon_44
+  - first:
+      213: 2451868848479715148
+    second: AresLaserCannon_45
+  - first:
+      213: 6927072647737530935
+    second: AresLaserCannon_46
+  - first:
+      213: -1677258498983477141
+    second: AresLaserCannon_47
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 9
+  spritePivot: {x: 0.3429952, y: 0.3176975}
+  spritePixelsToUnits: 70
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AresLaserCannon_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 630
+        width: 154
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3429952, y: 0.3176975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6900fd950cca42344a5fc917b9a717d3
+      internalID: 1656274273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresLaserCannon_1
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 630
+        width: 154
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3429952, y: 0.3176975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ad47df47f8e23e4eb771a65cbfe1819
+      internalID: 1266834051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresLaserCannon_2
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 630
+        width: 154
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3429952, y: 0.3176975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e054662b3a64aa428a29d31c3bcd639
+      internalID: -5858351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresLaserCannon_3
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 630
+        width: 154
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3429952, y: 0.3176975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09513546622a0f24e9995f90402b4e0f
+      internalID: -681243676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresLaserCannon_4
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 630
+        width: 154
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3429952, y: 0.3176975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c124cc9121f04c04588d40642cbdbf18
+      internalID: -1892318523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresLaserCannon_5
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 630
+        width: 154
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3429952, y: 0.3176975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d47e1cdc76738f45a606bdf330f6242
+      internalID: -998877074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresLaserCannon_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 540
+        width: 154
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3429952, y: 0.3176975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1aa2de3fd92fd24fb765971fb9b4c70
+      internalID: -1285580660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresLaserCannon_7
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 540
+        width: 154
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3429952, y: 0.3176975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53658ecb62db6b1499c34dfa9a8553a1
+      internalID: 222143779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresLaserCannon_8
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 540
+        width: 154
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3429952, y: 0.3176975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a4c78a3eca6b5f4e9f404c4862be36b
+      internalID: -2051736053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresLaserCannon_9
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 540
+        width: 154
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3429952, y: 0.3176975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede0ce50b008c254080d4d4fd96da9a0
+      internalID: -143092536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresLaserCannon_10
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 540
+        width: 154
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3429952, y: 0.3176975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6689eb9e81935334383413d3513ad82a
+      internalID: -713216884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresLaserCannon_11
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 540
+        width: 154
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3429952, y: 0.3176975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a94be2878f255046bffbf37d76ee47b
+      internalID: 1400274179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresLaserCannon_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 450
+        width: 154
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3429952, y: 0.3176975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93da60c7e53bec84f90bf0029fddc277
+      internalID: 684495257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresLaserCannon_13
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 450
+        width: 154
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3429952, y: 0.3176975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfa9e60c5b8379b4aa07b5bd6219b22a
+      internalID: -36378450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresLaserCannon_14
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 450
+        width: 154
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3429952, y: 0.3176975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f6846e37c9c8ba4da57c194d4dc1305
+      internalID: -1153168093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresLaserCannon_15
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 450
+        width: 154
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3429952, y: 0.3176975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d215129eb1a3be43a929b5bd5c85c8e
+      internalID: -926034560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresLaserCannon_16
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 450
+        width: 154
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3429952, y: 0.3176975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db193c8f5a3ba8740bddba42f6fce288
+      internalID: 1542584675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresLaserCannon_17
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 450
+        width: 154
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3429952, y: 0.3176975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 455bce88f27f731488ddde8b84cae504
+      internalID: 974897139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresLaserCannon_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 360
+        width: 154
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3429952, y: 0.3176975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfd89cf9804c3f748a2102c1a82aef5e
+      internalID: 1707434893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresLaserCannon_19
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 360
+        width: 154
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3429952, y: 0.3176975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7f972f9e4a4452408c18ae518891528
+      internalID: -730226748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresLaserCannon_20
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 360
+        width: 154
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3429952, y: 0.3176975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 890472c1d3cb2d6418803810d2d3637f
+      internalID: -168764435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresLaserCannon_21
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 360
+        width: 154
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3429952, y: 0.3176975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b25ee896cf63ad479f9cfc4d7c88aa1
+      internalID: 472340128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresLaserCannon_22
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 360
+        width: 154
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3429952, y: 0.3176975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d37907291fd84c4f87fc66e0b1e4b37
+      internalID: -2001588044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresLaserCannon_23
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 360
+        width: 154
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3429952, y: 0.3176975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9e227ab94066d4459f779a75dec85b4
+      internalID: -1627566389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresLaserCannon_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 270
+        width: 154
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3429952, y: 0.3176975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec73629d21d620a4bb57db45f07660da
+      internalID: 1546957164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresLaserCannon_25
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 270
+        width: 154
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3429952, y: 0.3176975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b01d80948272345a624ee76b7e3eb4
+      internalID: -1127007115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresLaserCannon_26
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 270
+        width: 154
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3429952, y: 0.3176975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4331e0c5c334b104db76f8c83dd207a1
+      internalID: -607997422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresLaserCannon_27
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 270
+        width: 154
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3429952, y: 0.3176975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49fad32d0df85aa45a75c0d952b5364f
+      internalID: -431077944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresLaserCannon_28
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 270
+        width: 154
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3429952, y: 0.3176975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bedf0e79875f1b4b87f5cc0cff7cc2d
+      internalID: 2006479691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresLaserCannon_29
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 270
+        width: 154
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3429952, y: 0.3176975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dae3d23a01d204a4fafb2acb0a6e7a73
+      internalID: -972937470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresLaserCannon_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 180
+        width: 154
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3429952, y: 0.3176975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6acd7c52e274fcb49800a22fce985b0d
+      internalID: 455553369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresLaserCannon_31
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 180
+        width: 154
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3429952, y: 0.3176975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 938696c3eab089b4f9beed0a2455a190
+      internalID: -240499886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresLaserCannon_32
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 180
+        width: 154
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3429952, y: 0.3176975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23fc742213c5181428d738b57708b7d3
+      internalID: -1042939474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresLaserCannon_33
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 180
+        width: 154
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3429952, y: 0.3176975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bd86a431b8096c4cb47893019949c89
+      internalID: -18099772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresLaserCannon_34
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 180
+        width: 154
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3429952, y: 0.3176975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35d123bcc0ea554e872541be7dab463
+      internalID: -1830393610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresLaserCannon_35
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 180
+        width: 154
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3429952, y: 0.3176975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1e11f0b12449104aa411368de2cbc11
+      internalID: 834128564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresLaserCannon_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 90
+        width: 154
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3429952, y: 0.3176975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7da6421b2e69b4a48b2e8bc4b3feb818
+      internalID: 737686482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresLaserCannon_37
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 90
+        width: 154
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3429952, y: 0.3176975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c5689f8b8046df4fb072069e4a62678
+      internalID: 75446743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresLaserCannon_38
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 90
+        width: 154
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3429952, y: 0.3176975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6911e5a9ee0e19644bc6d4ee6cfac3f1
+      internalID: 1770729458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresLaserCannon_39
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 90
+        width: 154
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3429952, y: 0.3176975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e9a18fdf7083d544b1e612cfab9ae12
+      internalID: -1806548123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresLaserCannon_40
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 90
+        width: 154
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3429952, y: 0.3176975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3fb7747aa3f96f42b5afced866b569e
+      internalID: -1318433399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresLaserCannon_41
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 90
+        width: 154
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3429952, y: 0.3176975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6db21cd9d12b9340a0aa205bce9cf65
+      internalID: 1284506043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresLaserCannon_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 154
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3429952, y: 0.3176975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e13acb6504b8aa40bda0ce49b3c5392
+      internalID: -1907342183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresLaserCannon_43
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 0
+        width: 154
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3429952, y: 0.3176975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65c59752a66c48e4a922cbafcac4727f
+      internalID: -1445705334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresLaserCannon_44
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 0
+        width: 154
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3429952, y: 0.3176975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b45a988e72a31d0418ed951dda9cb6db
+      internalID: -498778088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresLaserCannon_45
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 0
+        width: 154
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3429952, y: 0.3176975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d20259890fbbe44c8c01314c9b97c1f
+      internalID: 504836670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresLaserCannon_46
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 0
+        width: 154
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3429952, y: 0.3176975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed0c88072713bc14c973486de822ee8a
+      internalID: -869064106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresLaserCannon_47
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 0
+        width: 154
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3429952, y: 0.3176975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0461b379fcf03944aad43d3fdeb3e4ba
+      internalID: 502813496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 87a278af8fc5c3043982351e943a4fc8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      AresLaserCannon_0: 1656274273
+      AresLaserCannon_1: 1266834051
+      AresLaserCannon_10: -713216884
+      AresLaserCannon_11: 1400274179
+      AresLaserCannon_12: 684495257
+      AresLaserCannon_13: -36378450
+      AresLaserCannon_14: -1153168093
+      AresLaserCannon_15: -926034560
+      AresLaserCannon_16: 1542584675
+      AresLaserCannon_17: 974897139
+      AresLaserCannon_18: 1707434893
+      AresLaserCannon_19: -730226748
+      AresLaserCannon_2: -5858351
+      AresLaserCannon_20: -168764435
+      AresLaserCannon_21: 472340128
+      AresLaserCannon_22: -2001588044
+      AresLaserCannon_23: -1627566389
+      AresLaserCannon_24: 1546957164
+      AresLaserCannon_25: -1127007115
+      AresLaserCannon_26: -607997422
+      AresLaserCannon_27: -431077944
+      AresLaserCannon_28: 2006479691
+      AresLaserCannon_29: -972937470
+      AresLaserCannon_3: -681243676
+      AresLaserCannon_30: 455553369
+      AresLaserCannon_31: -240499886
+      AresLaserCannon_32: -1042939474
+      AresLaserCannon_33: -18099772
+      AresLaserCannon_34: -1830393610
+      AresLaserCannon_35: 834128564
+      AresLaserCannon_36: 737686482
+      AresLaserCannon_37: 75446743
+      AresLaserCannon_38: 1770729458
+      AresLaserCannon_39: -1806548123
+      AresLaserCannon_4: -1892318523
+      AresLaserCannon_40: -1318433399
+      AresLaserCannon_41: 1284506043
+      AresLaserCannon_42: -1907342183
+      AresLaserCannon_43: -1445705334
+      AresLaserCannon_44: -498778088
+      AresLaserCannon_45: 504836670
+      AresLaserCannon_46: -869064106
+      AresLaserCannon_47: 502813496
+      AresLaserCannon_5: -998877074
+      AresLaserCannon_6: -1285580660
+      AresLaserCannon_7: 222143779
+      AresLaserCannon_8: -2051736053
+      AresLaserCannon_9: -143092536
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

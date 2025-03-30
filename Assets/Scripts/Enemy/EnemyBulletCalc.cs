@@ -4,6 +4,7 @@ public class EnemyBulletCalc : MonoBehaviour
 {
     public Transform player;
     public int damage = 1;
+    public bool donDestroy = false;
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player")?.transform;
@@ -13,7 +14,10 @@ public class EnemyBulletCalc : MonoBehaviour
     {
         if (collision.CompareTag("Player") || collision.CompareTag("Wall"))
         {
-            Destroy(gameObject);
+            if (!donDestroy)
+            {
+                Destroy(gameObject);
+            }
             SoundManager.Instance.HitDamage();
         }
 

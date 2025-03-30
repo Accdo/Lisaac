@@ -1,0 +1,2970 @@
+fileFormatVersion: 2
+guid: a2b8fc76517cf3e41a03f900c005b09f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3183053674745718543
+    second: AresGaussNuke_0
+  - first:
+      213: 2164927047540275460
+    second: AresGaussNuke_1
+  - first:
+      213: 4402370499898114920
+    second: AresGaussNuke_2
+  - first:
+      213: 6919378619538699774
+    second: AresGaussNuke_3
+  - first:
+      213: -8932365846101453107
+    second: AresGaussNuke_4
+  - first:
+      213: -9031872040702906605
+    second: AresGaussNuke_5
+  - first:
+      213: -815537908336466956
+    second: AresGaussNuke_6
+  - first:
+      213: -3137288294370286314
+    second: AresGaussNuke_7
+  - first:
+      213: -7129325968498971028
+    second: AresGaussNuke_8
+  - first:
+      213: 7620210335212263202
+    second: AresGaussNuke_9
+  - first:
+      213: 6626804787158893255
+    second: AresGaussNuke_10
+  - first:
+      213: 6978594509213198034
+    second: AresGaussNuke_11
+  - first:
+      213: -8095554543203163315
+    second: AresGaussNuke_12
+  - first:
+      213: -1721305648677991827
+    second: AresGaussNuke_13
+  - first:
+      213: -5011082333027195869
+    second: AresGaussNuke_14
+  - first:
+      213: 7863988093747262139
+    second: AresGaussNuke_15
+  - first:
+      213: 2351965513774458193
+    second: AresGaussNuke_16
+  - first:
+      213: -3056645443051933102
+    second: AresGaussNuke_17
+  - first:
+      213: -8925519255002248280
+    second: AresGaussNuke_18
+  - first:
+      213: -6692252997548155700
+    second: AresGaussNuke_19
+  - first:
+      213: 459127461494579422
+    second: AresGaussNuke_20
+  - first:
+      213: 3675857230017533243
+    second: AresGaussNuke_21
+  - first:
+      213: 7177194935267552978
+    second: AresGaussNuke_22
+  - first:
+      213: 6558096164346463576
+    second: AresGaussNuke_23
+  - first:
+      213: 4880048454517141726
+    second: AresGaussNuke_24
+  - first:
+      213: 6679459856593578782
+    second: AresGaussNuke_25
+  - first:
+      213: -3844350617795088242
+    second: AresGaussNuke_26
+  - first:
+      213: 365789978867435412
+    second: AresGaussNuke_27
+  - first:
+      213: -7344121113344965003
+    second: AresGaussNuke_28
+  - first:
+      213: -8118540369364344541
+    second: AresGaussNuke_29
+  - first:
+      213: 4844681344924439386
+    second: AresGaussNuke_30
+  - first:
+      213: 7355937104028316638
+    second: AresGaussNuke_31
+  - first:
+      213: 5637304086695376131
+    second: AresGaussNuke_32
+  - first:
+      213: -3733735981601747589
+    second: AresGaussNuke_33
+  - first:
+      213: -9129688776002862505
+    second: AresGaussNuke_34
+  - first:
+      213: 7317172662604569208
+    second: AresGaussNuke_35
+  - first:
+      213: 4450712656379704980
+    second: AresGaussNuke_36
+  - first:
+      213: 788717616985134063
+    second: AresGaussNuke_37
+  - first:
+      213: -5204854701149712383
+    second: AresGaussNuke_38
+  - first:
+      213: 6356907489001032658
+    second: AresGaussNuke_39
+  - first:
+      213: 7108922838430368358
+    second: AresGaussNuke_40
+  - first:
+      213: -1414668045733852548
+    second: AresGaussNuke_41
+  - first:
+      213: -9091316372486545290
+    second: AresGaussNuke_42
+  - first:
+      213: 7730210689020960530
+    second: AresGaussNuke_43
+  - first:
+      213: 7928006510100418453
+    second: AresGaussNuke_44
+  - first:
+      213: -757301313563235998
+    second: AresGaussNuke_45
+  - first:
+      213: -8516358699069773055
+    second: AresGaussNuke_46
+  - first:
+      213: -5068871629008630231
+    second: AresGaussNuke_47
+  - first:
+      213: -888016324286042046
+    second: AresGaussNuke_48
+  - first:
+      213: 5995638674605652809
+    second: AresGaussNuke_49
+  - first:
+      213: 240870374647811755
+    second: AresGaussNuke_50
+  - first:
+      213: -2542073843379469800
+    second: AresGaussNuke_51
+  - first:
+      213: 5193646959144973894
+    second: AresGaussNuke_52
+  - first:
+      213: -1098875281388449342
+    second: AresGaussNuke_53
+  - first:
+      213: -8789269778847181193
+    second: AresGaussNuke_54
+  - first:
+      213: -5426587944041828101
+    second: AresGaussNuke_55
+  - first:
+      213: 5642965810828705079
+    second: AresGaussNuke_56
+  - first:
+      213: -782520491852402051
+    second: AresGaussNuke_57
+  - first:
+      213: 4584681511334444664
+    second: AresGaussNuke_58
+  - first:
+      213: 2725894040389502680
+    second: AresGaussNuke_59
+  - first:
+      213: -5776442397444513436
+    second: AresGaussNuke_60
+  - first:
+      213: 87377776357464518
+    second: AresGaussNuke_61
+  - first:
+      213: 1088640338599861853
+    second: AresGaussNuke_62
+  - first:
+      213: 2663221926959246939
+    second: AresGaussNuke_63
+  - first:
+      213: -688829505840795101
+    second: AresGaussNuke_64
+  - first:
+      213: -1742804899287357784
+    second: AresGaussNuke_65
+  - first:
+      213: 5038254264690452035
+    second: AresGaussNuke_66
+  - first:
+      213: -6253137556466071554
+    second: AresGaussNuke_67
+  - first:
+      213: 1833151867871065485
+    second: AresGaussNuke_68
+  - first:
+      213: 2704183451969841457
+    second: AresGaussNuke_69
+  - first:
+      213: -7937545727296143533
+    second: AresGaussNuke_70
+  - first:
+      213: 8150878952042930261
+    second: AresGaussNuke_71
+  - first:
+      213: -8843302966283438375
+    second: AresGaussNuke_72
+  - first:
+      213: -7583060636149763441
+    second: AresGaussNuke_73
+  - first:
+      213: -6086943547148594612
+    second: AresGaussNuke_74
+  - first:
+      213: -7810143385201304291
+    second: AresGaussNuke_75
+  - first:
+      213: 8410464798677857904
+    second: AresGaussNuke_76
+  - first:
+      213: 107423169146836175
+    second: AresGaussNuke_77
+  - first:
+      213: -5501189601652963166
+    second: AresGaussNuke_78
+  - first:
+      213: -4795764605469428711
+    second: AresGaussNuke_79
+  - first:
+      213: 2417086870871498893
+    second: AresGaussNuke_80
+  - first:
+      213: -2101872402214394311
+    second: AresGaussNuke_81
+  - first:
+      213: -187278094701256039
+    second: AresGaussNuke_82
+  - first:
+      213: 6786128878920501027
+    second: AresGaussNuke_83
+  - first:
+      213: 5655258648332630785
+    second: AresGaussNuke_84
+  - first:
+      213: -1351435357279755527
+    second: AresGaussNuke_85
+  - first:
+      213: -1465300726326427726
+    second: AresGaussNuke_86
+  - first:
+      213: -1844115568657317795
+    second: AresGaussNuke_87
+  - first:
+      213: 7626122192372211230
+    second: AresGaussNuke_88
+  - first:
+      213: -729426310532595188
+    second: AresGaussNuke_89
+  - first:
+      213: 7929249029787511135
+    second: AresGaussNuke_90
+  - first:
+      213: 1005875516799095302
+    second: AresGaussNuke_91
+  - first:
+      213: -8938911724753165978
+    second: AresGaussNuke_92
+  - first:
+      213: 829797722292030313
+    second: AresGaussNuke_93
+  - first:
+      213: -2669770482684238901
+    second: AresGaussNuke_94
+  - first:
+      213: -1084268915898258494
+    second: AresGaussNuke_95
+  - first:
+      213: -8480914488384745206
+    second: AresGaussNuke_96
+  - first:
+      213: 7266719483916045345
+    second: AresGaussNuke_97
+  - first:
+      213: -6036454128782347500
+    second: AresGaussNuke_98
+  - first:
+      213: -2831602881301749788
+    second: AresGaussNuke_99
+  - first:
+      213: 8496640373655620134
+    second: AresGaussNuke_100
+  - first:
+      213: 5812722741727694099
+    second: AresGaussNuke_101
+  - first:
+      213: 6475546213899831712
+    second: AresGaussNuke_102
+  - first:
+      213: -2524186207896992815
+    second: AresGaussNuke_103
+  - first:
+      213: -618013012208718084
+    second: AresGaussNuke_104
+  - first:
+      213: 9065273514691533870
+    second: AresGaussNuke_105
+  - first:
+      213: 4575306351825346504
+    second: AresGaussNuke_106
+  - first:
+      213: 9190670977562358551
+    second: AresGaussNuke_107
+  - first:
+      213: 3349324752154961100
+    second: AresGaussNuke_108
+  - first:
+      213: 3815615389046089744
+    second: AresGaussNuke_109
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 70
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AresGaussNuke_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1320
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f897cf1c8583d3d0800000000000000
+      internalID: -3183053674745718543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1320
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 409f541fdad5b0e10800000000000000
+      internalID: 2164927047540275460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_2
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1320
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 863061815ac581d30800000000000000
+      internalID: 4402370499898114920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_3
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1320
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef5790ca132960060800000000000000
+      internalID: 6919378619538699774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_4
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 1320
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc69a43b69cd90480800000000000000
+      internalID: -8932365846101453107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_5
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 1320
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31fee1d5b3858a280800000000000000
+      internalID: -9031872040702906605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_6
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1320
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f36db0e790aea4f0800000000000000
+      internalID: -815537908336466956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_7
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 1320
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61561181bec1674d0800000000000000
+      internalID: -3137288294370286314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_8
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1320
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6ea6afedcb8f0d90800000000000000
+      internalID: -7129325968498971028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1200
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22756102dec60c960800000000000000
+      internalID: 7620210335212263202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_10
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1200
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c2c676f7d327fb50800000000000000
+      internalID: 6626804787158893255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_11
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1200
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d6e4216bb2f8d060800000000000000
+      internalID: 6978594509213198034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_12
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1200
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d436398f800d6af80800000000000000
+      internalID: -8095554543203163315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_13
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 1200
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6acca4e1a1bc18e0800000000000000
+      internalID: -1721305648677991827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_14
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 1200
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 324adaffa2f057ab0800000000000000
+      internalID: -5011082333027195869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_15
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1200
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb2f4bd818f722d60800000000000000
+      internalID: 7863988093747262139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_16
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 1200
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 155ee7c6c2cd3a020800000000000000
+      internalID: 2351965513774458193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_17
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1200
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 252b2921a2d9495d0800000000000000
+      internalID: -3056645443051933102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1080
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ab8ea9e68f222480800000000000000
+      internalID: -8925519255002248280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_19
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1080
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccc59161b575023a0800000000000000
+      internalID: -6692252997548155700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_20
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1080
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed0e2016ef52f5600800000000000000
+      internalID: 459127461494579422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_21
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1080
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b351f38dca4430330800000000000000
+      internalID: 3675857230017533243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_22
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 1080
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2deea5864c48a9360800000000000000
+      internalID: 7177194935267552978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_23
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 1080
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85509b617b9030b50800000000000000
+      internalID: 6558096164346463576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_24
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1080
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed0303ab63a69b340800000000000000
+      internalID: 4880048454517141726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_25
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 1080
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1bedbba95532bc50800000000000000
+      internalID: 6679459856593578782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_26
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1080
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e80354a3b7f16aac0800000000000000
+      internalID: -3844350617795088242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4978ac83c0c831500800000000000000
+      internalID: 365789978867435412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_28
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 960
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57680ab12c0741a90800000000000000
+      internalID: -7344121113344965003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_29
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 960
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 321ae554c86255f80800000000000000
+      internalID: -8118540369364344541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_30
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 960
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a53de26d304cb3340800000000000000
+      internalID: 4844681344924439386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_31
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 960
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed339bb92d9851660800000000000000
+      internalID: 7355937104028316638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_32
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 960
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 305f55af23abb3e40800000000000000
+      internalID: 5637304086695376131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_33
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 960
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7d888b28ea1f2cc0800000000000000
+      internalID: -3733735981601747589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_34
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 960
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7528a7ced64dc4180800000000000000
+      internalID: -9129688776002862505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_35
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 960
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87a9eb2c4c1db8560800000000000000
+      internalID: 7317172662604569208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 840
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 496f8d0849b14cd30800000000000000
+      internalID: 4450712656379704980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_37
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 840
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe3dd7c6e7612fa00800000000000000
+      internalID: 788717616985134063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_38
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 840
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 100137ec934a4c7b0800000000000000
+      internalID: -5204854701149712383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_39
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 840
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2db4def4ea5483850800000000000000
+      internalID: 6356907489001032658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_40
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 840
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 662cd4828a7f7a260800000000000000
+      internalID: 7108922838430368358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_41
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 840
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7a00fa58e61e5ce0800000000000000
+      internalID: -1414668045733852548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_42
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 840
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6702f355de725d180800000000000000
+      internalID: -9091316372486545290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_43
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 840
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21f950e4aa9374b60800000000000000
+      internalID: 7730210689020960530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_44
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 840
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59f0583aaefe50e60800000000000000
+      internalID: 7928006510100418453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 720
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2696029b7768d75f0800000000000000
+      internalID: -757301313563235998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_46
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 720
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10b632282e0dfc980800000000000000
+      internalID: -8516358699069773055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_47
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 720
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92e82e40c10c7a9b0800000000000000
+      internalID: -5068871629008630231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_48
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 720
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 240be24abd12da3f0800000000000000
+      internalID: -888016324286042046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_49
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 720
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94bb679bb99c43350800000000000000
+      internalID: 5995638674605652809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_50
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 720
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bae4ccd545eb75300800000000000000
+      internalID: 240870374647811755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_51
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 720
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8120e84de4db8bcd0800000000000000
+      internalID: -2542073843379469800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_52
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 720
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 646bf98646a831840800000000000000
+      internalID: 5193646959144973894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_53
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 720
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c15260f0c200c0f0800000000000000
+      internalID: -1098875281388449342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 776dcb424bd360680800000000000000
+      internalID: -8789269778847181193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_55
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 600
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf038f42403e0b4b0800000000000000
+      internalID: -5426587944041828101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_56
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 600
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73d7e1ad187df4e40800000000000000
+      internalID: 5642965810828705079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_57
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 600
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d727ca532cde325f0800000000000000
+      internalID: -782520491852402051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_58
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 600
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87ef36b3b8f00af30800000000000000
+      internalID: 4584681511334444664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_59
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 600
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d645c4ff2254d520800000000000000
+      internalID: 2725894040389502680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_60
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 600
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46160d29e34f5dfa0800000000000000
+      internalID: -5776442397444513436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_61
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 600
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c9dc09ef9d663100800000000000000
+      internalID: 87377776357464518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_62
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 600
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5ed76ebe90ab1f00800000000000000
+      internalID: 1088640338599861853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5eef627b3aa5f420800000000000000
+      internalID: 2663221926959246939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_64
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 480
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3223d89c639c076f0800000000000000
+      internalID: -688829505840795101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_65
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 480
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a6aa298d2050d7e0800000000000000
+      internalID: -1742804899287357784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_66
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 480
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 346a8f65f897be540800000000000000
+      internalID: 5038254264690452035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_67
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 480
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef78f2fd5846839a0800000000000000
+      internalID: -6253137556466071554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_68
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 480
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d857ccf49e9a07910800000000000000
+      internalID: 1833151867871065485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_69
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 480
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 139e62ea580378520800000000000000
+      internalID: 2704183451969841457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_70
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 480
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35ff718473c28d190800000000000000
+      internalID: -7937545727296143533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_71
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 480
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5502abfb83dbd1170800000000000000
+      internalID: 8150878952042930261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 360
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d674855ec6464580800000000000000
+      internalID: -8843302966283438375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_73
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 360
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f82bb08378e83c690800000000000000
+      internalID: -7583060636149763441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_74
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 360
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c421a580815d68ba0800000000000000
+      internalID: -6086943547148594612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_75
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 360
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1d953898fbcc9390800000000000000
+      internalID: -7810143385201304291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_76
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 360
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 076fe118c29f7b470800000000000000
+      internalID: 8410464798677857904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_77
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 360
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc4d4ad9dc4ad7100800000000000000
+      internalID: 107423169146836175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_78
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 360
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a8076f2439d7a3b0800000000000000
+      internalID: -5501189601652963166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_79
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 360
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9147a981085027db0800000000000000
+      internalID: -4795764605469428711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_80
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 360
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d806e89e3b73b8120800000000000000
+      internalID: 2417086870871498893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_81
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93660d6bf26a4d2e0800000000000000
+      internalID: -2101872402214394311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_82
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 240
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 992ae1ba097a66df0800000000000000
+      internalID: -187278094701256039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_83
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 240
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 327831cc24c2d2e50800000000000000
+      internalID: 6786128878920501027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_84
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 240
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10b72de17c38b7e40800000000000000
+      internalID: 5655258648332630785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_85
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 240
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f2ef68e3bcbe3de0800000000000000
+      internalID: -1351435357279755527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_86
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 240
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bff03eb0c43aabe0800000000000000
+      internalID: -1465300726326427726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_87
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 240
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d50c96d29a26866e0800000000000000
+      internalID: -1844115568657317795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_88
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 240
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1e9112aabd65d960800000000000000
+      internalID: 7626122192372211230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_89
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 240
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0281ee92ae80e5f0800000000000000
+      internalID: -729426310532595188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 120
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f59681c4bf95a0e60800000000000000
+      internalID: 7929249029787511135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_91
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 120
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6029213047695fd00800000000000000
+      internalID: 1005875516799095302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_92
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 120
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 661638f852b92f380800000000000000
+      internalID: -8938911724753165978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_93
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 120
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96b05a8c1a8048b00800000000000000
+      internalID: 829797722292030313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_94
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 120
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc368cb14e113fad0800000000000000
+      internalID: -2669770482684238901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_95
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 120
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cbe2ea6a27e3f0f0800000000000000
+      internalID: -1084268915898258494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_96
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 120
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a011d55e43dbd4a80800000000000000
+      internalID: -8480914488384745206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_97
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 120
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12cc931bed298d460800000000000000
+      internalID: 7266719483916045345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_98
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 120
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 413fcfec3f43a3ca0800000000000000
+      internalID: -6036454128782347500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_99
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ef59039e2024b8d0800000000000000
+      internalID: -2831602881301749788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_100
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 0
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62a4cf717612ae570800000000000000
+      internalID: 8496640373655620134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_101
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 0
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31d83865980faa050800000000000000
+      internalID: 5812722741727694099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_102
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 0
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a9002ef8f2cdd950800000000000000
+      internalID: 6475546213899831712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_103
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 0
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d30c53840a48fcd0800000000000000
+      internalID: -2524186207896992815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_104
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 0
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfeeab490706c67f0800000000000000
+      internalID: -618013012208718084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_105
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 0
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2c12f25b325ecd70800000000000000
+      internalID: 9065273514691533870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_106
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 0
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cf532fc2e0ce7f30800000000000000
+      internalID: 4575306351825346504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresGaussNuke_107
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 0
+        width: 170
+        height: 120
+      alignment: 9
+      pivot: {x: 0.3122958, y: 0.4907206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 713b8115f82db8f70800000000000000
+      internalID: 9190670977562358551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b8446bd062c6829419fa740f27ff1ff0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      AresGaussNuke_0: -3183053674745718543
+      AresGaussNuke_1: 2164927047540275460
+      AresGaussNuke_10: 6626804787158893255
+      AresGaussNuke_100: 8496640373655620134
+      AresGaussNuke_101: 5812722741727694099
+      AresGaussNuke_102: 6475546213899831712
+      AresGaussNuke_103: -2524186207896992815
+      AresGaussNuke_104: -618013012208718084
+      AresGaussNuke_105: 9065273514691533870
+      AresGaussNuke_106: 4575306351825346504
+      AresGaussNuke_107: 9190670977562358551
+      AresGaussNuke_11: 6978594509213198034
+      AresGaussNuke_12: -8095554543203163315
+      AresGaussNuke_13: -1721305648677991827
+      AresGaussNuke_14: -5011082333027195869
+      AresGaussNuke_15: 7863988093747262139
+      AresGaussNuke_16: 2351965513774458193
+      AresGaussNuke_17: -3056645443051933102
+      AresGaussNuke_18: -8925519255002248280
+      AresGaussNuke_19: -6692252997548155700
+      AresGaussNuke_2: 4402370499898114920
+      AresGaussNuke_20: 459127461494579422
+      AresGaussNuke_21: 3675857230017533243
+      AresGaussNuke_22: 7177194935267552978
+      AresGaussNuke_23: 6558096164346463576
+      AresGaussNuke_24: 4880048454517141726
+      AresGaussNuke_25: 6679459856593578782
+      AresGaussNuke_26: -3844350617795088242
+      AresGaussNuke_27: 365789978867435412
+      AresGaussNuke_28: -7344121113344965003
+      AresGaussNuke_29: -8118540369364344541
+      AresGaussNuke_3: 6919378619538699774
+      AresGaussNuke_30: 4844681344924439386
+      AresGaussNuke_31: 7355937104028316638
+      AresGaussNuke_32: 5637304086695376131
+      AresGaussNuke_33: -3733735981601747589
+      AresGaussNuke_34: -9129688776002862505
+      AresGaussNuke_35: 7317172662604569208
+      AresGaussNuke_36: 4450712656379704980
+      AresGaussNuke_37: 788717616985134063
+      AresGaussNuke_38: -5204854701149712383
+      AresGaussNuke_39: 6356907489001032658
+      AresGaussNuke_4: -8932365846101453107
+      AresGaussNuke_40: 7108922838430368358
+      AresGaussNuke_41: -1414668045733852548
+      AresGaussNuke_42: -9091316372486545290
+      AresGaussNuke_43: 7730210689020960530
+      AresGaussNuke_44: 7928006510100418453
+      AresGaussNuke_45: -757301313563235998
+      AresGaussNuke_46: -8516358699069773055
+      AresGaussNuke_47: -5068871629008630231
+      AresGaussNuke_48: -888016324286042046
+      AresGaussNuke_49: 5995638674605652809
+      AresGaussNuke_5: -9031872040702906605
+      AresGaussNuke_50: 240870374647811755
+      AresGaussNuke_51: -2542073843379469800
+      AresGaussNuke_52: 5193646959144973894
+      AresGaussNuke_53: -1098875281388449342
+      AresGaussNuke_54: -8789269778847181193
+      AresGaussNuke_55: -5426587944041828101
+      AresGaussNuke_56: 5642965810828705079
+      AresGaussNuke_57: -782520491852402051
+      AresGaussNuke_58: 4584681511334444664
+      AresGaussNuke_59: 2725894040389502680
+      AresGaussNuke_6: -815537908336466956
+      AresGaussNuke_60: -5776442397444513436
+      AresGaussNuke_61: 87377776357464518
+      AresGaussNuke_62: 1088640338599861853
+      AresGaussNuke_63: 2663221926959246939
+      AresGaussNuke_64: -688829505840795101
+      AresGaussNuke_65: -1742804899287357784
+      AresGaussNuke_66: 5038254264690452035
+      AresGaussNuke_67: -6253137556466071554
+      AresGaussNuke_68: 1833151867871065485
+      AresGaussNuke_69: 2704183451969841457
+      AresGaussNuke_7: -3137288294370286314
+      AresGaussNuke_70: -7937545727296143533
+      AresGaussNuke_71: 8150878952042930261
+      AresGaussNuke_72: -8843302966283438375
+      AresGaussNuke_73: -7583060636149763441
+      AresGaussNuke_74: -6086943547148594612
+      AresGaussNuke_75: -7810143385201304291
+      AresGaussNuke_76: 8410464798677857904
+      AresGaussNuke_77: 107423169146836175
+      AresGaussNuke_78: -5501189601652963166
+      AresGaussNuke_79: -4795764605469428711
+      AresGaussNuke_8: -7129325968498971028
+      AresGaussNuke_80: 2417086870871498893
+      AresGaussNuke_81: -2101872402214394311
+      AresGaussNuke_82: -187278094701256039
+      AresGaussNuke_83: 6786128878920501027
+      AresGaussNuke_84: 5655258648332630785
+      AresGaussNuke_85: -1351435357279755527
+      AresGaussNuke_86: -1465300726326427726
+      AresGaussNuke_87: -1844115568657317795
+      AresGaussNuke_88: 7626122192372211230
+      AresGaussNuke_89: -729426310532595188
+      AresGaussNuke_9: 7620210335212263202
+      AresGaussNuke_90: 7929249029787511135
+      AresGaussNuke_91: 1005875516799095302
+      AresGaussNuke_92: -8938911724753165978
+      AresGaussNuke_93: 829797722292030313
+      AresGaussNuke_94: -2669770482684238901
+      AresGaussNuke_95: -1084268915898258494
+      AresGaussNuke_96: -8480914488384745206
+      AresGaussNuke_97: 7266719483916045345
+      AresGaussNuke_98: -6036454128782347500
+      AresGaussNuke_99: -2831602881301749788
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -322,6 +322,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3923985343950823995}
+  - {fileID: 2733278147499440735}
   m_Father: {fileID: 7515359528120371813}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -413,11 +414,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   apolloPrefab: {fileID: 7505821824133251241, guid: 32843c090afe00a4f8cdaa6b8a3d7e70, type: 3}
   artemisPrefab: {fileID: 5112643794965079444, guid: 047a0374e1a5bea43b523066129b3db0, type: 3}
+  aresPrefab: {fileID: 7522055683682882332, guid: eaea7035222c5fb43be6e38c99d3281a, type: 3}
   endingPortal: {fileID: 1001312068938778513, guid: c078b884a207faf42954ea0c2dea4026, type: 3}
   enemyHp: {fileID: 0}
   intro: {fileID: 4649805493333694700}
   healthFill: {fileID: 8655263163295724869}
   video: {fileID: 6825375017691692755}
+  video2: {fileID: 5830179175999655492}
   exoMechBgm: {fileID: 8300000, guid: 81cb8b1fd74c63544aafa5e5239f18bf, type: 3}
 --- !u!114 &2188590642324059080
 MonoBehaviour:
@@ -431,7 +434,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f559af2936814a42822b526047b2ec1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHp: 100
+  maxHp: 200
   currentHp: 0
   dorpItems: []
 --- !u!1 &4961978145243805644
@@ -563,6 +566,78 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &7110489075742213566
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2733278147499440735}
+  - component: {fileID: 5830179175999655492}
+  m_Layer: 5
+  m_Name: Video Player2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2733278147499440735
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7110489075742213566}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7663080721336177283}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!328 &5830179175999655492
+VideoPlayer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7110489075742213566}
+  m_Enabled: 1
+  m_VideoClip: {fileID: 32900000, guid: 41e82f92e3aede44db7d624fac12b998, type: 3}
+  m_TargetCameraAlpha: 1
+  m_TargetCamera3DLayout: 0
+  m_TargetCamera: {fileID: 0}
+  m_TargetTexture: {fileID: 8400000, guid: 6b39d08e9ffbf204abe711a4b3cc6597, type: 2}
+  m_TimeReference: 0
+  m_TargetMaterialRenderer: {fileID: 0}
+  m_TargetMaterialProperty: <noninit>
+  m_RenderMode: 2
+  m_AspectRatio: 2
+  m_DataSource: 0
+  m_TimeUpdateMode: 2
+  m_PlaybackSpeed: 1
+  m_AudioOutputMode: 2
+  m_TargetAudioSources:
+  - {fileID: 0}
+  m_DirectAudioVolumes:
+  - 1
+  m_Url: 
+  m_EnabledAudioTracks: 01
+  m_DirectAudioMutes: 00
+  m_ControlledAudioTrackCount: 1
+  m_PlayOnAwake: 0
+  m_SkipOnDrop: 1
+  m_Looping: 0
+  m_WaitForFirstFrame: 1
+  m_FrameReadyEventEnabled: 0
+  m_VideoShaders: []
 --- !u!1 &8376415551226113005
 GameObject:
   m_ObjectHideFlags: 0
@@ -574,7 +649,7 @@ GameObject:
   - component: {fileID: 3923985343950823995}
   - component: {fileID: 6825375017691692755}
   m_Layer: 5
-  m_Name: Video Player
+  m_Name: Video Player1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -607,7 +682,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8376415551226113005}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 41e82f92e3aede44db7d624fac12b998, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: b3d2cfd0c98d8644f9335061c13200c3, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -629,7 +704,7 @@ VideoPlayer:
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_SkipOnDrop: 1
   m_Looping: 0
   m_WaitForFirstFrame: 1
