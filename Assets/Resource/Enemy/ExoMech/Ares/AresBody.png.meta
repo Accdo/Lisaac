@@ -1,0 +1,1404 @@
+fileFormatVersion: 2
+guid: aa80b06392626394ca708df10494fe29
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4097338036844881935
+    second: AresBody_0
+  - first:
+      213: 2059010599131622805
+    second: AresBody_1
+  - first:
+      213: 3179266905122995701
+    second: AresBody_2
+  - first:
+      213: 9158787306471377500
+    second: AresBody_3
+  - first:
+      213: -7239794400358796033
+    second: AresBody_4
+  - first:
+      213: -3087346473714895747
+    second: AresBody_5
+  - first:
+      213: -427515784213260311
+    second: AresBody_6
+  - first:
+      213: 6580042290570803837
+    second: AresBody_7
+  - first:
+      213: -3086503904462869642
+    second: AresBody_8
+  - first:
+      213: 9055487868713571564
+    second: AresBody_9
+  - first:
+      213: 7773853412837100003
+    second: AresBody_10
+  - first:
+      213: 2787654984879954948
+    second: AresBody_11
+  - first:
+      213: -5680520548733735050
+    second: AresBody_12
+  - first:
+      213: 8271412731023387745
+    second: AresBody_13
+  - first:
+      213: 3684154175372036746
+    second: AresBody_14
+  - first:
+      213: -51136373458106127
+    second: AresBody_15
+  - first:
+      213: -1350611216269832745
+    second: AresBody_16
+  - first:
+      213: 8636751776379229633
+    second: AresBody_17
+  - first:
+      213: -9107004262128281282
+    second: AresBody_18
+  - first:
+      213: 3278587858674373270
+    second: AresBody_19
+  - first:
+      213: 6377388144546997324
+    second: AresBody_20
+  - first:
+      213: -3539235789492067143
+    second: AresBody_21
+  - first:
+      213: 3856630697137065859
+    second: AresBody_22
+  - first:
+      213: 4117804300282459319
+    second: AresBody_23
+  - first:
+      213: -7920948048514921729
+    second: AresBody_24
+  - first:
+      213: -327141742522923890
+    second: AresBody_25
+  - first:
+      213: -8422183665495856173
+    second: AresBody_26
+  - first:
+      213: -2442776786251475354
+    second: AresBody_27
+  - first:
+      213: -3599392387210652328
+    second: AresBody_28
+  - first:
+      213: 3855157884430407463
+    second: AresBody_29
+  - first:
+      213: -4701091558767838678
+    second: AresBody_30
+  - first:
+      213: 7870635703846903296
+    second: AresBody_31
+  - first:
+      213: 1686340626914084644
+    second: AresBody_32
+  - first:
+      213: 7884580485766157488
+    second: AresBody_33
+  - first:
+      213: 8007919211454325481
+    second: AresBody_34
+  - first:
+      213: 2541146591164232521
+    second: AresBody_35
+  - first:
+      213: 695070914792123397
+    second: AresBody_36
+  - first:
+      213: 1366146654439152162
+    second: AresBody_37
+  - first:
+      213: -1147630352007459303
+    second: AresBody_38
+  - first:
+      213: -2641010367645011806
+    second: AresBody_39
+  - first:
+      213: 6432474889519213066
+    second: AresBody_40
+  - first:
+      213: -6878186299764112307
+    second: AresBody_41
+  - first:
+      213: -5938761908197810430
+    second: AresBody_42
+  - first:
+      213: 7575162829876044756
+    second: AresBody_43
+  - first:
+      213: 3202916625636849319
+    second: AresBody_44
+  - first:
+      213: -8581923245403763634
+    second: AresBody_45
+  - first:
+      213: 7184187028729958851
+    second: AresBody_46
+  - first:
+      213: -6634754872962821385
+    second: AresBody_47
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 70
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AresBody_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1764
+        width: 220
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a84c8a07141886a499a17e62bd190e07
+      internalID: -1041043779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresBody_1
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 1764
+        width: 220
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a11b75b970c92bc4591a730024d76505
+      internalID: -1975786698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresBody_2
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1764
+        width: 220
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d7e73e47da0e34ea75a4bc32985e51
+      internalID: 1823736808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresBody_3
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1764
+        width: 220
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ceae308ff5415741873ceec68c1e9c3
+      internalID: -189465332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresBody_4
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1764
+        width: 220
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b046a14cddcfb040a5d5a3e3456bdef
+      internalID: 2110304583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresBody_5
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 1764
+        width: 220
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb51ca413848ddc48a0db184831601fa
+      internalID: -1038362995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresBody_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1512
+        width: 220
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f232bfd8309e1c4790f985d06d97170
+      internalID: 1301169598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresBody_7
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 1512
+        width: 220
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbfb2b00386ca2f4eb3ae5c35718b2ce
+      internalID: 701037868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresBody_8
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1512
+        width: 220
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46ba7dc4530083a4db0dd8acc878d15e
+      internalID: -2136651812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresBody_9
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1512
+        width: 220
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fdadeb83807e8949b0dfc3ab045c18b
+      internalID: -615528815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresBody_10
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1512
+        width: 220
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e5c90ec2068b8e4cb82e441c2522f1e
+      internalID: 2107949100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresBody_11
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 1512
+        width: 220
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fd03a4fba502c142bcca39fc700281c
+      internalID: -972206033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresBody_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1260
+        width: 220
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c8f6b0f2690eab4ba6416a6cfcdb8df
+      internalID: 1048205005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresBody_13
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 1260
+        width: 220
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ff598fad1c29b409e89c87d7bcce20
+      internalID: 1459936278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresBody_14
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1260
+        width: 220
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426ee8c005ba70c47a79b462c8f537b4
+      internalID: 1914417659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresBody_15
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1260
+        width: 220
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 949c4f4457bbb6c448171ca324c88ca7
+      internalID: -737610570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresBody_16
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1260
+        width: 220
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30c4cf09fbb73054590a4b166a1f6e9e
+      internalID: -1812459025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresBody_17
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 1260
+        width: 220
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3512b4dd4d2d74d4ebe439f1ac0b84a9
+      internalID: -298417489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresBody_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1008
+        width: 220
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680ac1288b55ca945a0f229fc046bb84
+      internalID: 109437203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresBody_19
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 1008
+        width: 220
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3869ba5b5245f834f8eb30b4272a39d1
+      internalID: -1767636125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresBody_20
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1008
+        width: 220
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12f4077bfd8ade44c9a30ddc646451cf
+      internalID: -711810920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresBody_21
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1008
+        width: 220
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65255ba9133ec3d4ea44ddd064189537
+      internalID: 756660207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresBody_22
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1008
+        width: 220
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a472b5497cefe4d8a2191b1ac7a650
+      internalID: -1917994400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresBody_23
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 1008
+        width: 220
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02fb75d7f6582bd4fa83e96f29feef0e
+      internalID: -724908242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresBody_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 756
+        width: 220
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69894283926b3ce47a48fcfd21807ab1
+      internalID: -2109618066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresBody_25
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 756
+        width: 220
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 665bb1e48080fa245830f6b5ff8fc0c9
+      internalID: -95880432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresBody_26
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 756
+        width: 220
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1af1c2aa1d2204944baea3970e327500
+      internalID: -731877512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresBody_27
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 756
+        width: 220
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f34b43f9a9793a04fbd1bd67100161c5
+      internalID: 2097542435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresBody_28
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 756
+        width: 220
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98e92974a75310042a5c35edc7c7d9df
+      internalID: 472396689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresBody_29
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 756
+        width: 220
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc4f9c05bd68bf46a8c6e9ebfd9921e
+      internalID: 1433833802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresBody_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 504
+        width: 220
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59941ab946da3b44c9a31791c7b39086
+      internalID: 2008739061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresBody_31
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 504
+        width: 220
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82c03fc3dcc9951468466ecc3a9d6c3c
+      internalID: 714371192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresBody_32
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 504
+        width: 220
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eb49a529191bf1428cee2b004547956
+      internalID: -1422335615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresBody_33
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 504
+        width: 220
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c378c5704def8ad4baa1eac21e10f692
+      internalID: 1181519702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresBody_34
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 504
+        width: 220
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b74ef16115592e846bcf2ad261a5a408
+      internalID: 513176118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresBody_35
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 504
+        width: 220
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcacbcf63e50de54f898c29361b00600
+      internalID: 1132265089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresBody_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 252
+        width: 220
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0c01ee84036ed14b9a3bc4a06067aa9
+      internalID: -1839133519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresBody_37
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 252
+        width: 220
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecd54c11976775b40be25b39a9ee61cd
+      internalID: 217420109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresBody_38
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 252
+        width: 220
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d23500626a8957c49930b8f8e95bcc88
+      internalID: -104451348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresBody_39
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 252
+        width: 220
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94a1b249f2801ed4e99dcbe14417aa97
+      internalID: -1156127976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresBody_40
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 252
+        width: 220
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48bedc55ed3dbeb42b578d74431b9115
+      internalID: -181094748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresBody_41
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 252
+        width: 220
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16a8d01cfc079cc4f897407d44b05988
+      internalID: 1649312245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresBody_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 220
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8998e2e2c402e854c894ea8ddd064840
+      internalID: -1938989547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresBody_43
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 0
+        width: 220
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b02f5ba58c2dc9d438f74c53e1d3b2d6
+      internalID: 835599910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresBody_44
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 0
+        width: 220
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ddd8251680c3e4f86ae41083af08b4
+      internalID: -234228532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresBody_45
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 0
+        width: 220
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bcc95c0ce5afb34ebd2eeca90cafb79
+      internalID: 458617158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresBody_46
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 0
+        width: 220
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aa6a86ff0df34d478338922abbf0423
+      internalID: -299026856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AresBody_47
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 0
+        width: 220
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 386c72066f4e89043a4c1e5b419a0df2
+      internalID: 1898136242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: eb0b749ebf782e94caca86ac538ae14f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      AresBody_0: -1041043779
+      AresBody_1: -1975786698
+      AresBody_10: 2107949100
+      AresBody_11: -972206033
+      AresBody_12: 1048205005
+      AresBody_13: 1459936278
+      AresBody_14: 1914417659
+      AresBody_15: -737610570
+      AresBody_16: -1812459025
+      AresBody_17: -298417489
+      AresBody_18: 109437203
+      AresBody_19: -1767636125
+      AresBody_2: 1823736808
+      AresBody_20: -711810920
+      AresBody_21: 756660207
+      AresBody_22: -1917994400
+      AresBody_23: -724908242
+      AresBody_24: -2109618066
+      AresBody_25: -95880432
+      AresBody_26: -731877512
+      AresBody_27: 2097542435
+      AresBody_28: 472396689
+      AresBody_29: 1433833802
+      AresBody_3: -189465332
+      AresBody_30: 2008739061
+      AresBody_31: 714371192
+      AresBody_32: -1422335615
+      AresBody_33: 1181519702
+      AresBody_34: 513176118
+      AresBody_35: 1132265089
+      AresBody_36: -1839133519
+      AresBody_37: 217420109
+      AresBody_38: -104451348
+      AresBody_39: -1156127976
+      AresBody_4: 2110304583
+      AresBody_40: -181094748
+      AresBody_41: 1649312245
+      AresBody_42: -1938989547
+      AresBody_43: 835599910
+      AresBody_44: -234228532
+      AresBody_45: 458617158
+      AresBody_46: -299026856
+      AresBody_47: 1898136242
+      AresBody_5: -1038362995
+      AresBody_6: 1301169598
+      AresBody_7: 701037868
+      AresBody_8: -2136651812
+      AresBody_9: -615528815
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
