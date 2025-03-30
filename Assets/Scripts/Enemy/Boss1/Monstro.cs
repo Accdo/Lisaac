@@ -33,6 +33,7 @@ public class Monstro : MonoBehaviour
     private int currentHP;
     [SerializeField] private float speed = 3f;
     private Vector3 direction;
+    [SerializeField] private AudioClip bossBGM;
 
     void Start()
     {
@@ -156,6 +157,8 @@ public class Monstro : MonoBehaviour
         Time.timeScale = 1;
         yield return new WaitForSeconds(.2f);
         mainCamAudio.enabled = true;
+        mainCamAudio.clip = bossBGM;
+        mainCamAudio.Play();
 
         while (body != null)
         {
