@@ -3,23 +3,22 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-
 public class Fire : Item
 {
-    [Header("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®")]
-    private SpriteRenderer sr;
+    [Header("ÄÄÆ÷³ÍÆ®")]
+    private SpriteRenderer sprite;
     private Animator ani;
 
-    [Header("ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½")]
-    private int color = 0;
+    [Header("³»ºÎ º¯¼ö")]
+    private int fireColor = 0;
     public float coolTime = 10f;
-    public float lifeTime = 60f;
+    public float lifeTime = 120f;
     private bool isBullet = false;
     Vector3 pos;
 
     void Start()
     {
-        sr = GetComponent<SpriteRenderer>();
+        sprite = GetComponent<SpriteRenderer>();
         ani = GetComponent<Animator>();
 
         Destroy(gameObject, lifeTime);
@@ -27,20 +26,28 @@ public class Fire : Item
 
     void Update()
     {
-        pos = transform.position + new Vector3(0, -.8f, 0);
+        pos = GameObject.FindGameObjectsWithTag("Player")
+            .FirstOrDefault(p => p.name == "Head")
+            .transform.position - new Vector3(0f, 0.12f, 0f);
     }
 
     public override void PickUpItem(GameObject player)
     {
         if (!isBullet)
         {
-            // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ È¹ï¿½ï¿½
+            Transform fireTransform = player.transform.Find("Fire");
+            if (fireTransform != null && fireTransform.gameObject.CompareTag("Item"))
+            {
+                Destroy(fireTransform.gameObject);
+            }
+
+            // ¾ÆÀÌÅÛ È¹µæ
             SoundManager.Instance.PickupItem();
             transform.SetParent(player.transform);
             transform.localPosition = new Vector3(0f, 1f, 0f);
             transform.localScale *= .8f;
 
-            color = Random.Range(0, 4) + 1;
+            fireColor = Random.Range(0, 4) + 1;
             StartCoroutine(ChangeFire());
             StartCoroutine(FireAttack());
         }
@@ -48,10 +55,10 @@ public class Fire : Item
 
     IEnumerator ChangeFire()
     {
-        while (color != 5)
+        while (fireColor != 5)
         {
-            color = (color % 4) + 1;
-            ani.SetInteger("Color", color);
+            fireColor = (fireColor % 4) + 1;
+            ani.SetInteger("Color", fireColor);
 
             yield return new WaitForSeconds(1f);
         }
@@ -68,79 +75,73 @@ public class Fire : Item
                 switch (ani.GetInteger("Color"))
                 {
                     case 1:
-                        Debug.Log("ï¿½ï¿½ï¿½ï¿½");
+                        Debug.Log("»¡°­");
                         RedFire();
                         break;
                     case 2:
-                        Debug.Log("ï¿½Ä¶ï¿½");
+                        Debug.Log("ÆÄ¶û");
                         StartCoroutine(BlueFire());
                         break;
                     case 3:
-                        Debug.Log("ï¿½ï¿½ï¿½ï¿½");
+                        Debug.Log("³²»ö");
                         StartCoroutine(NavyFire());
                         break;
                     case 4:
-                        Debug.Log("ï¿½ï¿½ï¿½ï¿½");
+                        Debug.Log("º¸¶ó");
                         StartCoroutine(PurpleFire());
                         break;
                     case 5:
-                        Debug.Log("ï¿½Ï¾ï¿½");
+                        Debug.Log("ÇÏ¾ç");
                         break;
                 }
 
-                // ï¿½Ï½ï¿½ ï¿½ï¿½ï¿½ï¿½
-                int originColor = color;
-                color = 5;
-                ani.SetInteger("Color", color);
-                GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 0.5f);
+                // ÀÏ½Ã Á¤Áö
+                int originColor = fireColor;
+                fireColor = 5;
+                ani.SetInteger("Color", fireColor);
+                sprite.color = new Color(1f, 1f, 1f, 0.7f);
 
                 yield return new WaitForSeconds(coolTime);
 
-                // ï¿½Ù½ï¿½ ï¿½ï¿½ï¿½ï¿½
-                color = originColor;
-                ani.SetInteger("Color", color);
+                // ´Ù½Ã ½ÃÀÛ
+                fireColor = originColor;
+                ani.SetInteger("Color", fireColor);
                 StartCoroutine(ChangeFire());
-                GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 1f);
+                sprite.color = new Color(1f, 1f, 1f, 1f);
             }
 
             yield return null;
         }
     }
 
-    private void ChangeToBullet(GameObject FIRE, int COLOR, int DAMAGE, float SPEED, Vector3 DIRECTION, float LIFE)
+    private void MakeBullet(GameObject FIRE, int COLOR, int DAMAGE, float SPEED, Vector3 DIRECTION, float LIFE)
     {
-        // ï¿½Ò²ï¿½ ï¿½ï¿½ï¿½ï¿½
+        // ºÒ²É ¼³Á¤
         FIRE.GetComponent<Fire>().isBullet = true;
         FIRE.GetComponent<Fire>().enabled = false;
         FIRE.GetComponent<Animator>().SetInteger("Color", COLOR);
 
-        // ï¿½Ñ¾ï¿½ ï¿½ï¿½ï¿½ï¿½
+        // ÃÑ¾Ë ¼³Á¤
         FIRE.tag = "Bullet";
         FIRE.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 1f);
         FIRE.GetComponent<SpriteRenderer>().sortingLayerName = "Bullet";
         FIRE.GetComponent<SpriteRenderer>().sortingOrder = 0;
         FIRE.AddComponent<FireBullet>();
-        FIRE.GetComponent<FireBullet>().damage = DAMAGE;
-        FIRE.GetComponent<FireBullet>().speed = SPEED;
-        FIRE.GetComponent<FireBullet>().life = LIFE;
-        FIRE.GetComponent<FireBullet>().Direction = DIRECTION;
+        FIRE.GetComponent<FireBullet>().Create(DAMAGE, SPEED, DIRECTION, LIFE);
 
-        // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ùµï¿½
+        // ¸®Áöµå ¹Ùµð
         Rigidbody2D rb = FIRE.GetComponent<Rigidbody2D>();
-        if (rb == null)
-        {
-            rb = FIRE.AddComponent<Rigidbody2D>();
-        }
+        if (rb == null) rb = FIRE.AddComponent<Rigidbody2D>();
         rb.gravityScale = 0;
     }
 
     private void RedFire()
     {
-        int damage = 5; // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
-        float speed = 3; // ï¿½Óµï¿½
-        float life = 2; // ï¿½ï¿½ï¿½ï¿½
-        int count = 8; // ï¿½ï¿½ï¿½ï¿½
-        float angleStep = 360 / count; // ï¿½ï¿½ï¿½ï¿½
+        int damage = 5; // µ¥¹ÌÁö
+        float speed = 3; // ¼Óµµ
+        float life = 3; // Áö¼Ó
+        int count = 8; // °³¼ö
+        float angleStep = 360 / count; // °¢µµ
 
         for (int i = 0; i < count; i++)
         {
@@ -148,43 +149,40 @@ public class Fire : Item
             Vector3 direction = new Vector3(Mathf.Cos(angle * Mathf.Deg2Rad), Mathf.Sin(angle * Mathf.Deg2Rad), 0);
 
             GameObject fire = Instantiate(gameObject, pos, Quaternion.identity);
-
-            ChangeToBullet(fire, 1, damage, speed, direction, life);
+            MakeBullet(fire, 1, damage, speed, direction, life);
         }
     }
 
     private IEnumerator BlueFire()
     {
-        int damage = 5; // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
-        float speed = 0; // ï¿½Óµï¿½
-        float life = 10; // ï¿½ï¿½ï¿½ï¿½
-        int count = 10; // ï¿½ï¿½ï¿½ï¿½
+        int damage = 5; // µ¥¹ÌÁö
+        float speed = 0; // ¼Óµµ
+        float life = 8; // Áö¼Ó
+        int count = 10; // °³¼ö
 
         Vector3 direction = pos;
 
-        while (count-- > 0)
+        while (count > 0)
         {
             if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D))
             {
                 GameObject fire = Instantiate(gameObject, pos, Quaternion.identity);
+                MakeBullet(fire, 2, damage, speed, direction, life);
 
-                ChangeToBullet(fire, 2, damage, speed, direction, life);
-
-                pos = transform.position + new Vector3(0, -.8f, 0);
+                count--;
             }
-
             yield return new WaitForSeconds(0.2f);
         }
     }
 
     private IEnumerator NavyFire()
     {
-        int damage = 5; // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
-        float speed = 0; // ï¿½Óµï¿½
-        float life = 6; // ï¿½ï¿½ï¿½ï¿½
-        int count = 8; // ï¿½ï¿½ï¿½ï¿½
-        float angleStep = 360 / count; // ï¿½ï¿½ï¿½ï¿½
-        float distance = .8f; // ï¿½Å¸ï¿½
+        int damage = 5; // µ¥¹ÌÁö
+        float speed = 0; // ¼Óµµ
+        float life = 10; // Áö¼Ó
+        int count = 8; // °³¼ö
+        float angleStep = 360 / count; // °¢µµ
+        float distance = .8f; // °Å¸®
 
         List<GameObject> fires = new List<GameObject>();
 
@@ -194,7 +192,8 @@ public class Fire : Item
             Vector3 direction = new Vector3(Mathf.Cos(angle * Mathf.Deg2Rad), Mathf.Sin(angle * Mathf.Deg2Rad), 0);
 
             GameObject fire = Instantiate(gameObject, pos + direction * distance, Quaternion.identity);
-            ChangeToBullet(fire, 3, damage, speed, direction, life);
+            MakeBullet(fire, 3, damage, speed, direction, life);
+
             foreach (GameObject wall in GameObject.FindGameObjectsWithTag("Wall"))
             {
                 if (wall != null && wall.GetComponent<Collider2D>() != null)
@@ -204,21 +203,20 @@ public class Fire : Item
             }
             fires.Add(fire);
 
-            StartCoroutine(FireMove(fire, direction, distance));
+            StartCoroutine(FireFollow(fire, direction, distance));
 
             yield return new WaitForSeconds(0.2f);
         }
-
-        yield return null;
     }
 
-    private IEnumerator FireMove(GameObject FIRE, Vector3 DIRECTION, float DISTANCE)
+    private IEnumerator FireFollow(GameObject FIRE, Vector3 DIRECTION, float DISTANCE)
     {
         while (FIRE != null)
         {
             FIRE.transform.position = pos + DIRECTION * DISTANCE;
 
             Collider2D[] hits = Physics2D.OverlapCircleAll(FIRE.transform.position, 0.5f);
+
             foreach (Collider2D hit in hits)
             {
                 if (hit.CompareTag("EnemyBullet"))
@@ -235,49 +233,67 @@ public class Fire : Item
 
     private IEnumerator PurpleFire()
     {
-        int damage = 5; // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
-        float speed = 2; // ï¿½Óµï¿½
-        float life = 10; // ï¿½ï¿½ï¿½ï¿½
-        int count = 8; // ï¿½ï¿½ï¿½ï¿½
+        int damage = 5; // µ¥¹ÌÁö
+        float speed = 1; // ¼Óµµ
+        float life = 10; // Áö¼Ó
+        int count = 5; // °³¼ö
 
-        // Rock ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½Ý¶ï¿½ï¿½Ì´ï¿½
-        Collider2D[] rocks = FindObjectsOfType<Collider2D>().Where(c => c.gameObject.name.Contains("Rock")).ToArray();
+        // Å¸°ÙÆÃ
+        GameObject[] targets = GameObject.FindGameObjectsWithTag("Enemy")
+            .Concat(GameObject.FindGameObjectsWithTag("Boss"))
+            .Where(b => b != null && b.GetComponent<EnemyHp>() != null || b.name.Contains("Boss"))
+            .OrderBy(b => Vector3.Distance(pos, b.transform.position))
+            .ToArray();
 
-        // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ß»ï¿½
-        foreach (GameObject enemy in GameObject.FindGameObjectsWithTag("Enemy"))
+        foreach (GameObject target in targets)
         {
-            Vector3 direction = (enemy.transform.position - pos).normalized;
+            if (target == null) continue;
 
-            GameObject fire = Instantiate(gameObject, pos, Quaternion.identity);
-            ChangeToBullet(fire, 4, damage, speed, direction, life);
+            count -= target.CompareTag("Boss") ? 3 : 1;
+            Vector3 direction = (target.transform.position - pos).normalized;
 
-            // Rockï¿½ï¿½ï¿½ï¿½ ï¿½æµ¹ ï¿½ï¿½ï¿½ï¿½
-            foreach (Collider2D rock in rocks)
+            GameObject fire = Instantiate(gameObject, pos + direction * .8f, Quaternion.identity);
+            MakeBullet(fire, 4, target.CompareTag("Boss") ? damage * 3 : damage, 0, direction, life);
+            fire.transform.localScale *= target.CompareTag("Boss") ? 2f : 1f;
+
+            foreach (GameObject wall in GameObject.FindGameObjectsWithTag("Wall").Where(w => !w.name.Contains("Wall")))
             {
-                Physics2D.IgnoreCollision(fire.GetComponent<Collider2D>(), rock, true);
+                if (wall != null && wall.GetComponent<Collider2D>() != null)
+                {
+                    Physics2D.IgnoreCollision(fire.GetComponent<Collider2D>(), wall.GetComponent<Collider2D>(), true);
+                }
             }
 
-            yield return new WaitForSeconds(0.2f);
+            StartCoroutine(FireMove(fire, target, targets, speed));
 
-            if (--count <= 0) break;
+            if (count <= 0) yield break;
+
+            yield return new WaitForSeconds(.1f);
         }
+    }
 
-        // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ß»ï¿½
-        GameObject[] bosses = GameObject.FindGameObjectsWithTag("Boss");
-        if (bosses.Length > 0)
+    private IEnumerator FireMove(GameObject FIRE, GameObject TARGET, GameObject[] TARGETS, float SPEED)
+    {
+        while (FIRE != null)
         {
-            GameObject boss = bosses[0]; // Ã¹ ï¿½ï¿½Â° ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Ã³ï¿½ï¿½
-
-            if (boss != null)
+            if (TARGET == null)
             {
-                Vector3 direction = (boss.transform.position - pos).normalized;
+                TARGET = TARGETS.FirstOrDefault(t => t != null && t.activeInHierarchy);
 
-                GameObject fire = Instantiate(gameObject, pos, Quaternion.identity);
-                ChangeToBullet(fire, 4, damage * 3, speed * 1.5f, direction, life);
-                fire.transform.localScale *= 2f;
+                if (TARGET == null)
+                {
+                    SoundManager.Instance.FireOff();
+                    Destroy(FIRE);
+                    yield break;
+                }
+            }
+            else
+            {
+                Vector3 DIRECTION = (TARGET.transform.position - FIRE.transform.position).normalized;
+                FIRE.transform.position += DIRECTION * SPEED * Time.deltaTime;
             }
 
-            yield return new WaitForSeconds(0.2f);
+            yield return null;
         }
     }
 }

@@ -4092,8 +4092,8 @@ MonoBehaviour:
   bossMove: {fileID: 8300000, guid: 632df67caa9df6b4985d45fb057201fd, type: 3}
   bossAttack: {fileID: 8300000, guid: f607618df28f3ef4bb1432aadbcaabbf, type: 3}
   bossJump: {fileID: 8300000, guid: 13685c1d11d79e04390f8d8eba4cf0f0, type: 3}
-  fireOn: {fileID: 0}
-  fireOff: {fileID: 0}
+  fireOn: {fileID: 8300000, guid: 55515463271995e4ea35a13fdf0d13f4, type: 3}
+  fireOff: {fileID: 8300000, guid: 89871d52feecb944e8e3576724d32ed2, type: 3}
   fly_Buzz: {fileID: 8300000, guid: cbc749d2e74276242b9fb32c3620511f, type: 3}
   slotTouch: {fileID: 8300000, guid: 3ad59216255331847be93d2165fb79a9, type: 3}
   slotSpawn: {fileID: 8300000, guid: 935e7832724991946869f3335c2f7302, type: 3}

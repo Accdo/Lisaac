@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 
@@ -20,12 +21,20 @@ public class FireBullet : PlayerBullet
         SoundManager.Instance.FireOff();
     }
 
-    void Update()
+    public void Create(int DAMAGE, float SPEED, Vector3 DIRECTION, float LIFE)
     {
-        transform.Translate(Direction * (speed * Time.deltaTime));
+        damage = DAMAGE;
+        speed = SPEED;
+        Direction = DIRECTION;
+        life = LIFE;
     }
 
-    protected void OnTriggerEnter2D(Collider2D collision)
+    void Update()
+    {
+        transform.position += Direction * (speed * Time.deltaTime);
+    }
+
+    void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Wall") || collision.CompareTag("Enemy"))
         {
@@ -36,13 +45,12 @@ public class FireBullet : PlayerBullet
             }
         }
 
-        if (collision.CompareTag("Boss"))
+        if (collision.CompareTag("Boss") || collision.CompareTag("ExoMech"))
         {
             SoundManager.Instance.FireOff();
             SoundManager.Instance.HitBoss();
             Destroy(gameObject);
         }
-
     }
 
     void OnBecameInvisible()
