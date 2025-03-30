@@ -101,6 +101,7 @@ public class Apollo : MonoBehaviour
                     {
                         attType = 1;
                         apolloAnimator.SetTrigger("MissileFire");
+                        SoundManager.Instance.ExoMechTargetSelect();
                         shootTimer = fireBallshotDelay * 2;
                         isShot = true;
                     }
@@ -121,6 +122,7 @@ public class Apollo : MonoBehaviour
     void FireBallShot()
     {
         GameObject missile = Instantiate(fireBall, firePoint.position, firePoint.rotation);
+        SoundManager.Instance.ExoPlasmaShoot();
 
         if (isPhase2)
         {
@@ -137,6 +139,7 @@ public class Apollo : MonoBehaviour
 
     void FireMissile()
     {
+        SoundManager.Instance.ApolloMissileLaunch();
         GameObject missile = Instantiate(apolloMissile, firePoint.position, firePoint.rotation);
     }
 

@@ -1,9 +1,9 @@
-using System.Collections;
+ï»¿using System.Collections;
 using UnityEngine;
 
 public class Artemis : MonoBehaviour
 {
-    // º¸½º Á¤º¸
+    // ë³´ìŠ¤ ì •ë³´
     public float laserShotDelay = 1f;    
     public float artemisMoveSpeed = 7f;
     public float laserShotDelayPhase2 = 0.5f;
@@ -11,14 +11,14 @@ public class Artemis : MonoBehaviour
     public GameObject artemisLaser;
     public Transform firePoint;
 
-    // ÇÊ¿ä Á¤º¸
+    // í•„ìš” ì •ë³´
     private Transform playerLocation;
     private SpriteRenderer spriteRenderer;
     private Animator artemisAnimator;
     private LineRenderer[] laserTrajectories;
     private int trajectoryCount = 5;
 
-    // ½ºÅ×ÀÌÅÍ½º
+    // ìŠ¤í…Œì´í„°ìŠ¤
     private bool isShot;
     private bool isPhase2;
     private bool isFreeze;
@@ -29,7 +29,7 @@ public class Artemis : MonoBehaviour
     private Vector2 movePos;
     
 
-    // »óÀ§ °ü¸®ÀÚ
+    // ìƒìœ„ ê´€ë¦¬ì
     private GameObject exoMechManager;
     private ExoMech exoMechComponet;
     private EnemyHp exoMechHp;
@@ -53,7 +53,7 @@ public class Artemis : MonoBehaviour
         normalAttCount = 0;
         startPos = transform.position;
 
-        // ·¹ÀÌÀú ¹ß»ç ±ËÀû 5°³ »ı¼º
+        // ë ˆì´ì € ë°œì‚¬ ê¶¤ì  5ê°œ ìƒì„±
         laserTrajectories = new LineRenderer[trajectoryCount];
         for (int i = 0; i < trajectoryCount; i++)
         {
@@ -87,16 +87,16 @@ public class Artemis : MonoBehaviour
                 {
                     if(attType == 1)
                     {
-                        // ·¹ÀÌÀú ¹ß»ç
+                        // ë ˆì´ì € ë°œì‚¬
                         LaserShotReady();
 
-                        // µô·¹ÀÌÁÖ±â
+                        // ë”œë ˆì´ì£¼ê¸°
                         shootTimer = laserShotDelay;
                         if (isPhase2)
                         {
                             if (normalAttCount >= 4)
                             {
-                                // ÀÏ¹İ°ø°İ 4¹ø ½ÃÀü½Ã Æ¯¼ö°ø°İÀ¸·Î ÀüÈ¯
+                                // ì¼ë°˜ê³µê²© 4ë²ˆ ì‹œì „ì‹œ íŠ¹ìˆ˜ê³µê²©ìœ¼ë¡œ ì „í™˜
                                 attType = 2;
                                 shootTimer = laserShotDelay * 2;
                             }
@@ -110,7 +110,7 @@ public class Artemis : MonoBehaviour
                 }
             }
 
-            // ·¹ÀÌÀú ±ËÀû °ü¸®
+            // ë ˆì´ì € ê¶¤ì  ê´€ë¦¬
             if (isShot)
             {
                 UpdateLaserTrajectories();
@@ -120,10 +120,10 @@ public class Artemis : MonoBehaviour
 
     void PlayerGaze()
     {
-        Vector2 direction = (playerLocation.position - transform.position).normalized; // ÇÃ·¹ÀÌ¾î ¹æÇâ °è»ê
-        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg; // °¢µµ·Î º¯È¯
+        Vector2 direction = (playerLocation.position - transform.position).normalized; // í”Œë ˆì´ì–´ ë°©í–¥ ê³„ì‚°
+        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg; // ê°ë„ë¡œ ë³€í™˜
 
-        // ½Ã¼±ÀÌ À§ÂÊÀÌ¿©¼­ -90µµ¸¦ ÇÏ¿© ÇÃ·¹ÀÌ¾î¸¦ ¹Ù¶óº¸°ÔÇÔ
+        // ì‹œì„ ì´ ìœ„ìª½ì´ì—¬ì„œ -90ë„ë¥¼ í•˜ì—¬ í”Œë ˆì´ì–´ë¥¼ ë°”ë¼ë³´ê²Œí•¨
         transform.rotation = Quaternion.Euler(0, 0, angle - 90);
     }
 
@@ -134,32 +134,34 @@ public class Artemis : MonoBehaviour
 
         float laserLength = 20f;
 
-        // ¹æÇâ º¸Á¤À»À§ÇØ -90µµ È¸Àü
+        // ë°©í–¥ ë³´ì •ì„ìœ„í•´ -90ë„ íšŒì „
         Vector2 fireDirection = (playerLocation.position - firePoint.position).normalized;
         Vector2 endPosition = (Vector2)firePoint.position + fireDirection * laserLength;
 
-        // ±ËÀû Ç¥½Ã
+        // ê¶¤ì  í‘œì‹œ
         SetLaserTrajectory(1, true);
 
-        // ÀÌµ¿ÇÒ »õ·Î¿î À§Ä¡ ¼³Á¤ (ÇöÀç À§Ä¡ ±âÁØ -3.5 ~ +3.5 ·£´ı ÀÌµ¿)
+        // ì´ë™í•  ìƒˆë¡œìš´ ìœ„ì¹˜ ì„¤ì • (í˜„ì¬ ìœ„ì¹˜ ê¸°ì¤€ -3.5 ~ +3.5 ëœë¤ ì´ë™)
         float randomY = Random.Range(-3.5f, 3.5f);
         movePos = new Vector2(startPos.x, startPos.y + randomY);
 
-        // ÀÌµ¿ ½ÃÀÛ
+        // ì´ë™ ì‹œì‘
         StartCoroutine(MoveToPosition(movePos));
     }
 
     void LaserShot()
     {
-        // À§Ä¡ Á¶Á¤
+        // ìœ„ì¹˜ ì¡°ì •
         Vector2 fireDirection = (playerLocation.position - firePoint.position).normalized;
 
-        // ·¹ÀÌÀú ¹ß»ç
+        // ë ˆì´ì € ë°œì‚¬
         float laserAngle = Mathf.Atan2(fireDirection.y, fireDirection.x) * Mathf.Rad2Deg;
-        GameObject missile = Instantiate(artemisLaser, firePoint.position, Quaternion.Euler(0, 0, laserAngle)); // º¸Á¤°¢µµ Ãß°¡
+        GameObject missile = Instantiate(artemisLaser, firePoint.position, Quaternion.Euler(0, 0, laserAngle)); // ë³´ì •ê°ë„ ì¶”ê°€
         missile.GetComponent<ArtemisLaser>().SetDirection(fireDirection);
 
-        // ±ËÀû ¼û±â±â
+        SoundManager.Instance.ExoLaserShoot();
+
+        // ê¶¤ì  ìˆ¨ê¸°ê¸°
         SetLaserTrajectory(1, false);
 
         if (isPhase2)
@@ -179,14 +181,14 @@ public class Artemis : MonoBehaviour
         Debug.Log("HEAR");
         artemisAnimator.SetTrigger("IsContShot");
 
-        // ±ËÀû Ç¥½Ã
+        // ê¶¤ì  í‘œì‹œ
         SetLaserTrajectory(2, true);
 
-        // ÀÌµ¿ÇÒ »õ·Î¿î À§Ä¡ ¼³Á¤ (ÇöÀç À§Ä¡ ±âÁØ -3.5 ~ +3.5 ·£´ı ÀÌµ¿)
+        // ì´ë™í•  ìƒˆë¡œìš´ ìœ„ì¹˜ ì„¤ì • (í˜„ì¬ ìœ„ì¹˜ ê¸°ì¤€ -3.5 ~ +3.5 ëœë¤ ì´ë™)
         float randomY = Random.Range(-3.5f, 3.5f);
         movePos = new Vector2(startPos.x, startPos.y + randomY);
 
-        // ÀÌµ¿ ½ÃÀÛ
+        // ì´ë™ ì‹œì‘
         StartCoroutine(MoveToPosition(movePos));
     }
 
@@ -202,7 +204,9 @@ public class Artemis : MonoBehaviour
             missile.GetComponent<ArtemisLaser>().SetDirection(fireDirection);
         }
 
-        // ±ËÀû ¼û±â±â
+        SoundManager.Instance.ArtemisShotgunLaser();
+
+        // ê¶¤ì  ìˆ¨ê¸°ê¸°
         SetLaserTrajectory(2, false);
     }
 
@@ -236,14 +240,14 @@ public class Artemis : MonoBehaviour
         Vector2 fireDirection = (playerLocation.position - firePoint.position).normalized;
         float baseAngle = Mathf.Atan2(fireDirection.y, fireDirection.x) * Mathf.Rad2Deg;
 
-        // Áß¾Ó ·¹ÀÌÀú °»½Å
+        // ì¤‘ì•™ ë ˆì´ì € ê°±ì‹ 
         UpdateSingleTrajectory(0, fireDirection, baseAngle);
 
-        // ¿ŞÂÊ -15µµ, -30µµ °»½Å
+        // ì™¼ìª½ -15ë„, -30ë„ ê°±ì‹ 
         UpdateSingleTrajectory(1, fireDirection, baseAngle - 15);
         UpdateSingleTrajectory(2, fireDirection, baseAngle - 30);
 
-        // ¿À¸¥ÂÊ +15µµ, +30µµ °»½Å
+        // ì˜¤ë¥¸ìª½ +15ë„, +30ë„ ê°±ì‹ 
         UpdateSingleTrajectory(3, fireDirection, baseAngle + 15);
         UpdateSingleTrajectory(4, fireDirection, baseAngle + 30);
     }

@@ -5,35 +5,38 @@ using UnityEngine.Video;
 
 public class ExoMech : MonoBehaviour
 {
-    // º¸½º ÇÁ¸®ÆÕ
+    // ë³´ìŠ¤ í”„ë¦¬íŒ¹
     public GameObject apolloPrefab;
     public GameObject artemisPrefab;
     /*public GameObject ares;*/
     public GameObject endingPortal;
 
-    // º¸½º ¿ÀºêÁ§Æ®
+    // ë³´ìŠ¤ ì˜¤ë¸Œì íŠ¸
     private GameObject apollo;
     private GameObject artemis;
     /*private GameObject ares;*/
 
-    // º¸½º Á¤º¸
+    // ìŠ¤í…Œì´í„°ìŠ¤
     public EnemyHp enemyHp = null;
     private bool phase2ApolloArtemis;
 
-    // º¸½º »ı¼º °ø¹é
+    // ë³´ìŠ¤ ì†Œí™˜ ì—¬ë°±
     private Vector3 apolloSpacing;
     private Vector3 artemisSpacing;
 
-    [Header("ÇÏÀ§ °´Ã¼")]
+    // ì˜¤ë””ì˜¤ì†ŒìŠ¤
+    private AudioSource mainCamAudio;
+
+    [Header("í•˜ìœ„ ì»´í¬ë„ŒíŠ¸")]
     [SerializeField] private RawImage intro;
     [SerializeField] private Image healthFill;
-
-    private AudioSource mainCamAudio;
     [SerializeField] private VideoPlayer video;
+    [SerializeField] private AudioSource exoMechBgm;
+
 
     void Start()
     {
-        mainCamAudio = Camera.main?.GetComponent<AudioSource>();
+        mainCamAudio = Camera.main.GetComponent<AudioSource>();
         enemyHp = GetComponent<EnemyHp>();
 
         Vector3 camPosition = Camera.main.transform.position;
@@ -41,6 +44,9 @@ public class ExoMech : MonoBehaviour
         artemisSpacing = new Vector3(camPosition.x - 7, Camera.main.transform.position.y, 0);
 
         phase2ApolloArtemis = false;
+
+        // ë°°ê²½ ìŒì•… ì¤‘ì§€
+        mainCamAudio.Stop();
 
         StartCoroutine(SpawnApolloAndArtemis());
     }
@@ -52,13 +58,15 @@ public class ExoMech : MonoBehaviour
 
     IEnumerator SpawnApolloAndArtemis()
     {
-        // ½Ã°£ Á¤Áö ÈÄ ÀÎÆ®·Î Àç»ı
+        // ì‹œê°„ ë©ˆì¶˜í›„ ì—°ì¶œ
         Time.timeScale = 0;
         yield return new WaitForSecondsRealtime(Mathf.Max((float)video.length, 2.3f));
         intro.gameObject.SetActive(false);
         Time.timeScale = 1;
         yield return new WaitForSeconds(.2f);
-        mainCamAudio.enabled = true;
+
+        // ë°°ê²½ìŒì•… ì¬ìƒ
+        exoMechBgm.Play();
 
         apollo = Instantiate(apolloPrefab, apolloSpacing, Quaternion.identity);
         artemis = Instantiate(artemisPrefab, artemisSpacing, Quaternion.identity);
@@ -66,7 +74,6 @@ public class ExoMech : MonoBehaviour
 
     public void ExoMechsOnHit(int damage)
     {
-        
         enemyHp.TakeDamage(damage);
 
         if (enemyHp.currentHp <= enemyHp.maxHp / 2 && !phase2ApolloArtemis)
@@ -81,6 +88,8 @@ public class ExoMech : MonoBehaviour
             Invoke("EndingPortalCreate", 2);
             Destroy(apollo);
             Destroy(artemis);
+            SoundManager.Instance.ExoDeath();
+            exoMechBgm.Stop();
         }
     }
 

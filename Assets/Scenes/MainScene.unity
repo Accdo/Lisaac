@@ -315,6 +315,7 @@ MonoBehaviour:
   - {fileID: 5942908635402571265, guid: 134a49bc4bf5f8240a1ef2b9b0e64715, type: 3}
   - {fileID: 252745540419202163, guid: a8acbe930648d464da122727dcdd5bb6, type: 3}
   - {fileID: 252745540419202163, guid: 0d09d1a64231157458731de434c36dee, type: 3}
+  - {fileID: 5942908635402571265, guid: 12b3aa43eb45bcb4c814f81443feb014, type: 3}
   itemRoomPrefabs:
   - {fileID: 8635685064507765808, guid: 24abefab01af79b47a25c9175f0c4aec, type: 3}
   bossRoomPrefabs:
@@ -4097,6 +4098,12 @@ MonoBehaviour:
   slotTouch: {fileID: 8300000, guid: 3ad59216255331847be93d2165fb79a9, type: 3}
   slotSpawn: {fileID: 8300000, guid: 935e7832724991946869f3335c2f7302, type: 3}
   slotExplosion: {fileID: 8300000, guid: d90bfb119f31e8c49adc571d06d9a82f, type: 3}
+  exoMechTargetSelect: {fileID: 8300000, guid: d72c487ed001f4841972e92ac9dffbbd, type: 3}
+  apolloMissileLaunch: {fileID: 8300000, guid: 46aacdeaf1a4f4045861f61cbf9bb6e8, type: 3}
+  artemisShotgunLaser: {fileID: 8300000, guid: c04e4589f90657d489424053f31e38e7, type: 3}
+  exoLaserShoot: {fileID: 8300000, guid: a9d1000936439bf438f17a6656d54986, type: 3}
+  exoPlasmaShoot: {fileID: 8300000, guid: 0f9579e9410b54a40bf31d7cb0ad6d95, type: 3}
+  exoDeath: {fileID: 8300000, guid: 05ff5b4bad6f2f94d9bbe894cc1a46f7, type: 3}
 --- !u!4 &2077275346
 Transform:
   m_ObjectHideFlags: 0
