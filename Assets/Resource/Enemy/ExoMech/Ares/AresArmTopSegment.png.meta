@@ -373,7 +373,16 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      AresArmTopSegment_0: 1559613490421837598
+      AresArmTopSegment_1: -6348623650181865010
+      AresArmTopSegment_2: -1272471646750734884
+      AresArmTopSegment_3: -2210709662500950520
+      AresArmTopSegment_4: 7929393841552980237
+      AresArmTopSegment_5: -3467073958663772881
+      AresArmTopSegment_6: 2838238458097109092
+      AresArmTopSegment_7: -606894704222491401
+      AresArmTopSegment_8: 1493401186442509645
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      AresBottomArmConnector_0: 3375896066743763484
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
