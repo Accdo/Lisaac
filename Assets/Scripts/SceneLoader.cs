@@ -3,6 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
+    [SerializeField] private string targetSceneName;
 
     void Start()
     {
@@ -12,7 +13,10 @@ public class SceneLoader : MonoBehaviour
 
     void Update()
     {
-
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            OnClickScene(targetSceneName);
+        }
     }
 
     public void OnClickScene(string scene)

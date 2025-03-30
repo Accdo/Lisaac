@@ -3740,6 +3740,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd63f020d64227048a32f4ab5f0307f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  targetSceneName: 
 --- !u!114 &1709070947
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3923,6 +3924,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1889055193}
   - component: {fileID: 1889055194}
+  - component: {fileID: 1889055195}
   m_Layer: 0
   m_Name: TimeLine
   m_TagString: Untagged
@@ -4010,6 +4012,19 @@ PlayableDirector:
     - 4e424516469c50d47b9d1a0e3e576dec: {fileID: 1084864947}
     - 05097a9b12955e14ea1fec8b2310633c: {fileID: 1977742737}
     - 26d6191960b727441839a229c4c41574: {fileID: 0}
+--- !u!114 &1889055195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1889055192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd63f020d64227048a32f4ab5f0307f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetSceneName: MainScene
 --- !u!1 &1924003768
 GameObject:
   m_ObjectHideFlags: 0

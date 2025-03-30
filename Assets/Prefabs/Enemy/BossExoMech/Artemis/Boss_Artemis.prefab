@@ -111,7 +111,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 1747477217, guid: 93aa0b233dea74f4f91f461673b95c94, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -157,9 +157,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45ce04e114ce1eb418a24d48eeda06c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  laserShotDelay: 1
-  artemisMoveDelay: 2
-  artemisMoveSpeed: 3
+  laserShotDelay: 0.5
+  artemisMoveSpeed: 7
+  laserShotDelayPhase2: 0.2
+  artemisMoveSpeedPhase2: 10
   artemisLaser: {fileID: 7949661118708494402, guid: 6e43a6042e724794bb9392fecc05c8d2, type: 3}
   firePoint: {fileID: 6278442687691952305}
 --- !u!61 &8340749023696661147

@@ -3,6 +3,7 @@ using UnityEngine;
 public class ShotItem : MonoBehaviour
 {
     float RandXpos, RandYpos; // Random Position
+    private bool inPlayer;
     
     void Start()
     {
@@ -11,10 +12,26 @@ public class ShotItem : MonoBehaviour
 
         RandXpos += transform.position.x;
         RandYpos += transform.position.y;
+
+        inPlayer = false;
+
+        Destroy(this, 2.5f);
     }
 
     void Update()
     {
-        transform.position = Vector3.Lerp(transform.position, new Vector3(RandXpos, RandYpos, 0), Time.deltaTime);
+        if (!inPlayer)
+        {
+            transform.position = Vector3.Lerp(transform.position, new Vector3(RandXpos, RandYpos, 0), Time.deltaTime);
+        }
+    }
+
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            inPlayer = true;
+            Debug.Log("Collision with Player detected. inPlayer set to true.");
+        }
     }
 }

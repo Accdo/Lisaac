@@ -37,7 +37,7 @@ public class ChargedBullet : PlayerBullet
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Enemy") || collision.CompareTag("Boss"))
+        if (collision.CompareTag("Enemy") || collision.CompareTag("Boss") || collision.CompareTag("ExoMech"))
         {
             if (!isDealingDamage)
             {
@@ -48,7 +48,7 @@ public class ChargedBullet : PlayerBullet
 
     void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.CompareTag("Enemy") || collision.CompareTag("Boss"))
+        if (collision.CompareTag("Enemy") || collision.CompareTag("Boss") || collision.CompareTag("ExoMech"))
         {
             if (damageCoroutine != null)
             {
