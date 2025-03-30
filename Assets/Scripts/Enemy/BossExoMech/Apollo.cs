@@ -15,7 +15,6 @@ public class Apollo : MonoBehaviour
 
     // 필요 정보
     private Transform playerLocation;
-    private SpriteRenderer spriteRenderer;
     private Animator apolloAnimator;
 
     // 스테이터스
@@ -32,7 +31,6 @@ public class Apollo : MonoBehaviour
     // 상위 관리자
     private GameObject exoMechManager;
     private ExoMech exoMechComponet;
-    private EnemyHp exoMechHp;
 
 
 
@@ -41,11 +39,9 @@ public class Apollo : MonoBehaviour
     {
         playerLocation = GameObject.FindGameObjectWithTag("Player").transform;
         exoMechManager = GameObject.FindWithTag("ExoMech");
-
-        spriteRenderer = GetComponent<SpriteRenderer>();
+        
         apolloAnimator = GetComponent<Animator>();
         exoMechComponet = exoMechManager.GetComponent<ExoMech>();
-        exoMechHp = exoMechManager.GetComponent<EnemyHp>();
 
         shootTimer = fireBallshotDelay;
         moveTimer = apolloMoveDelay;

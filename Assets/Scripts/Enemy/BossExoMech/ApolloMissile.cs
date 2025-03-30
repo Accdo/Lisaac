@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class ApolloMissile : MonoBehaviour
 {
-
+    public GameObject boom;
     public float speed = 2f;
     public float lifeTime = 3f;
     public int damage = 1;
@@ -28,6 +28,7 @@ public class ApolloMissile : MonoBehaviour
 
     void SelfDestruct()
     {
+        Instantiate(boom, transform.position, Quaternion.identity);
         Destroy(gameObject);
     }
 }

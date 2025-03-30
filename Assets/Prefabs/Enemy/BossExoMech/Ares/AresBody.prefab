@@ -126,6 +126,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38eabf63a7b6ccc4c95c23b853cc1a90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  shotDelay: 5
+  laserBeam: {fileID: 2110854241826153398, guid: 2db50387aaf41344aadff6769399f5af, type: 3}
   firePoint: {fileID: 7117514696991584784}
 --- !u!61 &3620583785400920079
 BoxCollider2D:
@@ -436,6 +438,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6391bda09cccf784cac03dc3b5c86126, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  shotDelay: 2
+  teslaOrb: {fileID: 1639435499964371090, guid: 88a0f4e661bd39e49b7d611e9d1d6785, type: 3}
   firePoint: {fileID: 5687259799276790428}
 --- !u!61 &6777577150197897620
 BoxCollider2D:
@@ -794,7 +798,7 @@ Transform:
   m_GameObject: {fileID: 2776000668485373225}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.37, y: 0, z: 0}
+  m_LocalPosition: {x: 1.61, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1397,6 +1401,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0fc1656afb0aa2248af41ec1b2944b5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  shotDelay: 7
+  nuke: {fileID: 1478221446022964638, guid: f6bc469088c49194aaa34d7cbe90288a, type: 3}
   firePoint: {fileID: 3850307956082050384}
 --- !u!61 &1540103468224075012
 BoxCollider2D:
@@ -1571,6 +1577,7 @@ GameObject:
   - component: {fileID: 7581500796668071182}
   - component: {fileID: 521888809171932078}
   - component: {fileID: 9056482436654226794}
+  - component: {fileID: 6791621512296068880}
   m_Layer: 0
   m_Name: AresBody
   m_TagString: Boss
@@ -1757,6 +1764,18 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 3.142857, y: 3.6}
   m_EdgeRadius: 0
+--- !u!114 &6791621512296068880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7522055683682882332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 512cc067c51db9142afcf04ae5c10d4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8215345040582417253
 GameObject:
   m_ObjectHideFlags: 0
@@ -1883,7 +1902,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af37a16790ee664693f9069b6d83e57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shotDelay: 1
+  shotDelay: 1.5
   firePoint: {fileID: 8592211111782925983}
   plasmaBall: {fileID: 8195242497275609141, guid: f8a6aba3aef325e4183181908c832f02, type: 3}
 --- !u!61 &6220811410671064288

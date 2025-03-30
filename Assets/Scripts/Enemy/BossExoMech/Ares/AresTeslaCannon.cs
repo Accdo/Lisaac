@@ -2,32 +2,87 @@ using UnityEngine;
 
 public class AresTeslaCannon : MonoBehaviour
 {
+    // 무기 정보
+    public float shotDelay = 1f;
+    public GameObject teslaOrb;
     public Transform firePoint;
 
     // 필요 정보
     private Transform playerLocation;
-    private SpriteRenderer spriteRenderer;
-    private Animator apolloAnimator;
+    private Animator weponeAnimator;
 
     // 상위 관리자
     private GameObject exoMechManager;
     private ExoMech exoMechComponet;
-    private EnemyHp exoMechHp;
+
+    // 스테이터스
+    private bool isShot;
+    private bool isFreeze;
+    private float shootTimer;
 
     void Start()
     {
         playerLocation = GameObject.FindGameObjectWithTag("Player").transform;
         exoMechManager = GameObject.FindWithTag("ExoMech");
 
-        spriteRenderer = GetComponent<SpriteRenderer>();
-        apolloAnimator = GetComponent<Animator>();
-        /*exoMechComponet = exoMechManager.GetComponent<ExoMech>();
-        exoMechHp = exoMechManager.GetComponent<EnemyHp>();*/
+        weponeAnimator = GetComponent<Animator>();
+        exoMechComponet = exoMechManager.GetComponent<ExoMech>();
+
+        isShot = false;
+        isFreeze = false;
+        shootTimer = shotDelay;
     }
 
     void Update()
     {
-        PlayerGaze();
+        if (!isFreeze)
+        {
+            PlayerGaze();
+            if (!isShot)
+            {
+                shootTimer -= Time.deltaTime;
+                if (shootTimer <= 0)
+                {
+                    TeslaCannonFireReady();
+                    shootTimer = shotDelay;
+                }
+            }
+        }
+    }
+
+    void TeslaCannonFireReady()
+    {
+        isShot = true;
+        weponeAnimator.SetTrigger("IsShot");
+    }
+
+    void TeslaCannonFire()
+    {
+        // 위치 조정
+        Vector2 fireDirection = (playerLocation.position - firePoint.position).normalized;
+
+        // 레이저 발사
+        float laserAngle = Mathf.Atan2(fireDirection.y, fireDirection.x) * Mathf.Rad2Deg;
+        GameObject missile = Instantiate(teslaOrb, firePoint.position, Quaternion.Euler(0, 0, laserAngle - 90f)); // 보정각도 추가
+        // SoundManager.Instance.ExoPlasmaShoot();
+        missile.GetComponent<ArtemisLaser>().SetDirection(fireDirection);
+    }
+
+    void TeslaCannonEnd()
+    {
+        isShot = false;
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Bullet"))
+        {
+            if (!isFreeze)
+            {
+                PlayerBullet bullet = collision.GetComponent<PlayerBullet>();
+                exoMechComponet.ExoMechsOnHit(bullet.damage);
+            }
+        }
     }
 
     void PlayerGaze()

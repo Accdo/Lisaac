@@ -9,13 +9,11 @@ public class AresPlasmaCannon : MonoBehaviour
 
     // 필요 정보
     private Transform playerLocation;
-    private SpriteRenderer spriteRenderer;
     private Animator weponeAnimator;
 
     // 상위 관리자
     private GameObject exoMechManager;
     private ExoMech exoMechComponet;
-    private EnemyHp exoMechHp;
 
     // 스테이터스
     private bool isShot;
@@ -27,10 +25,12 @@ public class AresPlasmaCannon : MonoBehaviour
         playerLocation = GameObject.FindGameObjectWithTag("Player").transform;
         exoMechManager = GameObject.FindWithTag("ExoMech");
 
-        spriteRenderer = GetComponent<SpriteRenderer>();
         weponeAnimator = GetComponent<Animator>();
-        /*exoMechComponet = exoMechManager.GetComponent<ExoMech>();
-        exoMechHp = exoMechManager.GetComponent<EnemyHp>();*/
+        exoMechComponet = exoMechManager.GetComponent<ExoMech>();
+
+        isShot = false;
+        isFreeze = false;
+        shootTimer = shotDelay;
     }
 
     void Update()
@@ -64,17 +64,25 @@ public class AresPlasmaCannon : MonoBehaviour
         // 레이저 발사
         float laserAngle = Mathf.Atan2(fireDirection.y, fireDirection.x) * Mathf.Rad2Deg;
         GameObject missile = Instantiate(plasmaBall, firePoint.position, Quaternion.Euler(0, 0, laserAngle - 90f)); // 보정각도 추가
+        missile.GetComponent<ArtemisLaser>().SetDirection(fireDirection);
         SoundManager.Instance.ExoPlasmaShoot();
-
-        /*GameObject missile = Instantiate(plasmaBall, firePoint.position, firePoint.rotation);
-        missile.GetComponent<ArtemisLaser>().SetDirection((playerLocation.position - firePoint.position).normalized);*/
-        // missile.transform.Rotate(0, 90, 0);
-        // missile.GetComponent<ApolloFireBall>().SetDirection((playerLocation.position - firePoint.position).normalized);
     }
 
     void PlasmaCannonEnd()
     {
         isShot = false;
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Bullet"))
+        {
+            if (!isFreeze)
+            {
+                PlayerBullet bullet = collision.GetComponent<PlayerBullet>();
+                exoMechComponet.ExoMechsOnHit(bullet.damage);
+            }
+        }
     }
 
     void PlayerGaze()
