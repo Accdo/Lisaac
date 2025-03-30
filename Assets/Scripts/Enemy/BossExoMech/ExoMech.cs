@@ -1,7 +1,5 @@
-using System;
 using System.Collections;
 using UnityEngine;
-using UnityEngine.PlayerLoop;
 using UnityEngine.UI;
 using UnityEngine.Video;
 
@@ -56,7 +54,7 @@ public class ExoMech : MonoBehaviour
     {
         // 시간 정지 후 인트로 재생
         Time.timeScale = 0;
-        yield return new WaitForSecondsRealtime(Mathf.Max((float)video.length, 0.1f));
+        yield return new WaitForSecondsRealtime(Mathf.Max((float)video.length, 2.3f));
         intro.gameObject.SetActive(false);
         Time.timeScale = 1;
         yield return new WaitForSeconds(.2f);
@@ -74,8 +72,8 @@ public class ExoMech : MonoBehaviour
         if (enemyHp.currentHp <= enemyHp.maxHp / 2 && !phase2ApolloArtemis)
         {
             phase2ApolloArtemis = true;
-            apollo.GetComponent<Apollo>().PhaseChange();
-            artemis.GetComponent<Artemis>().PhaseChange();
+            StartCoroutine(apollo.GetComponent<Apollo>().PhaseChange());
+            StartCoroutine(artemis.GetComponent<Artemis>().PhaseChange());
         }
 
         if (enemyHp.currentHp <= 0)

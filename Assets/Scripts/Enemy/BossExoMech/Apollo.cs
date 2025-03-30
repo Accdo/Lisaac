@@ -21,6 +21,7 @@ public class Apollo : MonoBehaviour
     // 스테이터스
     private bool isShot;
     private bool isPhase2;
+    private bool isFreeze;
     private int attType;
     private int normalAttCount;
     private float shootTimer;
@@ -58,55 +59,63 @@ public class Apollo : MonoBehaviour
 
     void Update()
     {
+        if(!isFreeze)
+        {
+            PlayerGaze();
+
+            moveTimer -= Time.deltaTime;
+
+            if (moveTimer <= 0)
+            {
+                // 이동할 새로운 위치 설정 (현재 위치 기준 -3.5 ~ +3.5 랜덤 이동)
+                float randomY = Random.Range(-3.5f, 3.5f);
+                movePos = new Vector2(startPos.x, startPos.y + randomY);
+
+                // 이동 시작
+                StartCoroutine(MoveToPosition(movePos));
+
+                // 타이머 초기화
+                moveTimer = apolloMoveDelay;
+            }
+
+            if (!isShot)
+            {
+                shootTimer -= Time.deltaTime;
+                if (shootTimer <= 0)
+                {
+                    if (attType == 1)
+                    {
+                        apolloAnimator.SetTrigger("FireballFire");
+                        shootTimer = fireBallshotDelay;
+                        isShot = true;
+                        if (isPhase2)
+                        {
+                            if (normalAttCount >= 4)
+                            {
+                                attType = 2;
+                                shootTimer = fireBallshotDelay * 2;
+                            }
+                        }
+                    }
+                    else if (attType == 2)
+                    {
+                        attType = 1;
+                        apolloAnimator.SetTrigger("MissileFire");
+                        shootTimer = fireBallshotDelay * 2;
+                        isShot = true;
+                    }
+                }
+            }
+        }
+    }
+
+    void PlayerGaze()
+    {
         Vector2 direction = (playerLocation.position - transform.position).normalized; // 플레이어 방향 계산
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg; // 각도로 변환
 
         // 시선이 위쪽이여서 -90도를 하여 플레이어를 바라보게함
         transform.rotation = Quaternion.Euler(0, 0, angle - 90);
-
-        moveTimer -= Time.deltaTime;
-
-        if(moveTimer <= 0)
-        {
-            // 이동할 새로운 위치 설정 (현재 위치 기준 -3.5 ~ +3.5 랜덤 이동)
-            float randomY = Random.Range(-3.5f, 3.5f);
-            movePos = new Vector2(startPos.x, startPos.y + randomY);
-
-            // 이동 시작
-            StartCoroutine(MoveToPosition(movePos));
-
-            // 타이머 초기화
-            moveTimer = apolloMoveDelay;
-        }
-
-        if (!isShot)
-        {
-            shootTimer -= Time.deltaTime;
-            if (shootTimer <= 0)
-            {
-                if (attType == 1)
-                {
-                    apolloAnimator.SetTrigger("FireballFire");
-                    shootTimer = fireBallshotDelay;
-                    isShot = true;
-                    if (isPhase2)
-                    {
-                        if (normalAttCount >= 4)
-                        {
-                            attType = 2;
-                            shootTimer = fireBallshotDelay * 2;
-                        }
-                    }
-                }
-                else if (attType == 2)
-                {
-                    attType = 1;
-                    apolloAnimator.SetTrigger("MissileFire");
-                    shootTimer = fireBallshotDelay * 2;
-                    isShot = true;
-                }
-            }
-        }
     }
 
     void FireBallShot()
@@ -146,30 +155,30 @@ public class Apollo : MonoBehaviour
         }
     }
 
-    public void PhaseChange()
+    public IEnumerator PhaseChange()
     {
         isPhase2 = true;
         isShot = false;
+        isFreeze = true;
         fireBallshotDelay = 0.5f;
         apolloAnimator.SetBool("IsPhase2", true);
+        yield return null;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Bullet"))
         {
-            PlayerBullet bullet = collision.GetComponent<PlayerBullet>();
-            exoMechComponet.ExoMechsOnHit(bullet.damage);
-
-            // Debug.Log(exoMechHp.currentHp);
-
-            /*if (exoMechHp.currentHp <= exoMechHp.maxHp / 2 && !isPhase2)
+            if(!isFreeze)
             {
-                apolloAnimator.SetBool("IsPhase2", true);
-                isPhase2 = true;
-                isShot = false;
-                fireBallshotDelay = 0.5f;
-            }*/
+                PlayerBullet bullet = collision.GetComponent<PlayerBullet>();
+                exoMechComponet.ExoMechsOnHit(bullet.damage);
+            }
         }
+    }
+
+    private void PhaseChangeEnd()
+    {
+        isFreeze = false;
     }
 }
