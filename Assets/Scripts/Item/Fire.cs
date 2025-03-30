@@ -35,6 +35,12 @@ public class Fire : Item
     {
         if (!isBullet)
         {
+            Transform fireTransform = player.transform.Find("Fire");
+            if (fireTransform != null && fireTransform.gameObject.CompareTag("Item"))
+            {
+                Destroy(fireTransform.gameObject);
+            }
+
             // æ∆¿Ã≈€ »πµÊ
             SoundManager.Instance.PickupItem();
             transform.SetParent(player.transform);
