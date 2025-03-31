@@ -64,7 +64,7 @@ public class AresTeslaCannon : MonoBehaviour
         // 레이저 발사
         float laserAngle = Mathf.Atan2(fireDirection.y, fireDirection.x) * Mathf.Rad2Deg;
         GameObject missile = Instantiate(teslaOrb, firePoint.position, Quaternion.Euler(0, 0, laserAngle - 90f)); // 보정각도 추가
-        // SoundManager.Instance.ExoPlasmaShoot();
+        SoundManager.Instance.AresTeslaShot();
         missile.GetComponent<ArtemisLaser>().SetDirection(fireDirection);
     }
 

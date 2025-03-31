@@ -54,12 +54,13 @@ public class AresNukeCannon : MonoBehaviour
     {
         isShot = true;
         weponeAnimator.SetTrigger("IsShot");
+        // SoundManager.Instance.AresNukeCharge();
     }
 
     void NukeCannonFire()
     {
         GameObject missile = Instantiate(nuke, firePoint.position, firePoint.rotation);
-        // SoundManager.Instance.ExoPlasmaShoot();
+        SoundManager.Instance.AresNukeExplosion();
     }
 
     void NukeCannonReGenEnd()
