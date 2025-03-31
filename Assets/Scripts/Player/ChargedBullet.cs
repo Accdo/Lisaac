@@ -41,7 +41,14 @@ public class ChargedBullet : PlayerBullet
         {
             if (!isDealingDamage)
             {
-                damageCoroutine = StartCoroutine(ApplyDotDamage(collision.GetComponent<EnemyHp>()));
+                if(collision.GetComponent<EnemyHp>() == null)
+                {
+                    StartCoroutine(ApplyDotDamage(GameObject.FindGameObjectWithTag("ExoMech").GetComponent<EnemyHp>()));
+                }
+                else
+                {
+                    damageCoroutine = StartCoroutine(ApplyDotDamage(collision.GetComponent<EnemyHp>()));
+                }
             }
         }
     }
