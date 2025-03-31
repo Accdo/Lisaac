@@ -75,8 +75,8 @@ public class AresLaserCannon : MonoBehaviour
 
         // 궤적 표시
         lineRenderer.enabled = true;
-        /*lineRenderer.SetPosition(0, firePoint.position);
-        lineRenderer.SetPosition(1, playerLocation.position);*/
+
+        // SoundManager.Instance.AresLaserCharge();
     }
 
     void LaserCannonFireImminent()
@@ -100,7 +100,7 @@ public class AresLaserCannon : MonoBehaviour
         laserBeamObj = Instantiate(laserBeam, firePoint.position, Quaternion.Euler(0, 0, laserAngle + 90f)); // 보정각도 추가
 
 
-        // SoundManager.Instance.ExoPlasmaShoot();
+        SoundManager.Instance.AresLaserShot();
 
         // 궤적 숨기기
         lineRenderer.enabled = false;

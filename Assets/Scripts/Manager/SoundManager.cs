@@ -32,6 +32,11 @@ public class SoundManager : MonoBehaviour
     [SerializeField] private AudioClip exoMechTargetSelect;
     [SerializeField] private AudioClip apolloMissileLaunch;
     [SerializeField] private AudioClip artemisShotgunLaser;
+    [SerializeField] private AudioClip aresNukeCharge;
+    [SerializeField] private AudioClip aresNukeExplosion;
+    [SerializeField] private AudioClip aresLaserCharge;
+    [SerializeField] private AudioClip aresLaserShot;
+    [SerializeField] private AudioClip aresTeslaShot;
     [SerializeField] private AudioClip exoLaserShoot;
     [SerializeField] private AudioClip exoPlasmaShoot;
     [SerializeField] private AudioClip exoDeath;
@@ -87,6 +92,11 @@ public class SoundManager : MonoBehaviour
     public void ExoMechTargetSelect() { myAudio.PlayOneShot(exoMechTargetSelect); }
     public void ApolloMissileLaunch() { myAudio.PlayOneShot(apolloMissileLaunch); }
     public void ArtemisShotgunLaser() { myAudio.PlayOneShot(artemisShotgunLaser); }
+    public void AresNukeCharge() { myAudio.PlayOneShot(aresNukeCharge); }
+    public void AresNukeExplosion() { myAudio.PlayOneShot(aresNukeExplosion); }
+    public void AresLaserCharge() { myAudio.PlayOneShot(aresLaserCharge); }
+    public void AresLaserShot() { myAudio.PlayOneShot(aresLaserShot); }
+    public void AresTeslaShot() { myAudio.PlayOneShot(aresTeslaShot); }
     public void ExoLaserShoot() { myAudio.PlayOneShot(exoLaserShoot); }
     public void ExoPlasmaShoot() { myAudio.PlayOneShot(exoPlasmaShoot); }
     public void ExoDeath() { myAudio.PlayOneShot(exoDeath); }
