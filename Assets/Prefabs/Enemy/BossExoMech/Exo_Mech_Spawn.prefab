@@ -434,7 +434,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f559af2936814a42822b526047b2ec1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHp: 200
+  maxHp: 500
   currentHp: 0
   dorpItems: []
 --- !u!1 &4961978145243805644
